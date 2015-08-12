@@ -1,0 +1,84 @@
+[roslaunch][INFO] 2015-05-29 08:54:45,924: Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2015-05-29 08:54:45,930: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2015-05-29 08:54:45,930: roslaunch starting with args ['/opt/ros/indigo/bin/roslaunch', 'letter_learning_interaction', 'nao_learning.launch', 'use_sim_nao:=false', 'nao_standing:=true', 'nao_ip:=192.168.1.12', 'use_external_camera:=false', 'language:=french', 'letter_model_dataset_directory:=/home/ferran/CoWriter/shape_learning/share/letter_model_datasets/bad_letters/']
+[roslaunch][INFO] 2015-05-29 08:54:45,930: roslaunch env is {'UPSTART_EVENTS': 'started starting', 'LC_PAPER': 'de_CH.UTF-8', 'SHELL': '/bin/bash', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'COMPIZ_CONFIG_PROFILE': 'ubuntu', 'UPSTART_INSTANCE': '', 'JOB': 'gnome-session', 'TEXTDOMAIN': 'im-config', 'XMODIFIERS': '@im=ibus', 'SELINUX_INIT': 'YES', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_ADDRESS': 'de_CH.UTF-8', 'PYTHONPATH': '/usr/local/lib/python2.7/dist-packages:/home/ferran/home/ferran/catkin_ws/src/naoqi/pynaoqi-python2.7-2.1.2.17-linux64:/home/ferran/naoqi/pynaoqi-python2.7-2.1.2.17-linux64:/home/ferran/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages:/usr/local/lib/python2.7/dist-packages:/home/ferran/home/ferran/catkin_ws/src/naoqi/pynaoqi-python2.7-2.1.2.17-linux64:/home/ferran/naoqi/pynaoqi-python2.7-2.1.2.17-linux64:/home/ferran/dev/lib/python2.7/site-packages:/home/ferran/dev/lib/python2.7/dist-packages:/home/ferran/dev/lib/python2.7/site-packages:/home/ferran/dev/lib/python2.7/dist-packages', 'COMPIZ_BIN_PATH': '/usr/bin/', 'ROS_ROOT': '/opt/ros/indigo/share/ros', 'XDG_SESSION_ID': 'c2', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-8JUFBfcbQt', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'CATKIN_TEST_RESULTS_DIR': '/home/ferran/catkin_ws/build/test_results', 'DESKTOP_SESSION': 'ubuntu', 'GTK_MODULES': 'overlay-scrollbar:unity-gtk-module', 'INSTANCE': 'Unity', 'LC_NAME': 'de_CH.UTF-8', 'XDG_MENU_PREFIX': 'gnome-', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:', 'LC_NUMERIC': 'de_CH.UTF-8', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'CPATH': '/home/ferran/catkin_ws/devel/include:/opt/ros/indigo/include', 'USER': 'ferran', 'XDG_VTNR': '7', 'CMAKE_PREFIX_PATH': '/home/ferran/catkin_ws/devel:/opt/ros/indigo', 'XAUTHORITY': '/home/ferran/.Xauthority', 'LANGUAGE': 'en_US', 'SESSION_MANAGER': 'local/ferran-Inspiron-7537:@/tmp/.ICE-unix/1964,unix/ferran-Inspiron-7537:/tmp/.ICE-unix/1964', 'SHLVL': '1', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'DISPLAY': ':0', 'CLUTTER_IM_MODULE': 'xim', 'WINDOWID': '76323679', 'GPG_AGENT_INFO': '/run/user/1000/keyring-sy1QNC/gpg:0:1', 'GDMSESSION': 'ubuntu', 'UPSTART_JOB': 'unity-settings-daemon', 'PKG_CONFIG_PATH': '/home/ferran/catkin_ws/devel/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/indigo/lib/x86_64-linux-gnu/pkgconfig:/home/ferran/catkin_ws/devel/lib/pkgconfig:/opt/ros/indigo/lib/pkgconfig:/home/ferran/dev/lib/pkgconfig:/home/ferran/dev/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/ferran/catkin_ws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks', 'ROS_TEST_RESULTS_DIR': '/home/ferran/catkin_ws/build/test_results', '_': '/opt/ros/indigo/bin/roslaunch', 'GTK_IM_MODULE': 'ibus', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg', 'ROS_MASTER_URI': 'http://localhost:11311', 'COLORTERM': 'gnome-terminal', 'LC_TIME': 'de_CH.UTF-8', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/ferran', 'QT4_IM_MODULE': 'xim', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'ROS_IP': '192.168.1.6', 'HOME': '/home/ferran', 'LD_LIBRARY_PATH': '/home/ferran/catkin_ws/devel/lib/x86_64-linux-gnu:/opt/ros/indigo/lib/x86_64-linux-gnu:/home/ferran/catkin_ws/devel/lib:/opt/ros/indigo/lib:/home/ferran/dev/lib:/home/ferran/dev/lib', 'LANG': 'en_US.UTF-8', 'ROS_LOG_FILENAME': '/home/ferran/.ros/log/6ce2a22a-05cf-11e5-a34f-b82a729d4b43/roslaunch-ferran-Inspiron-7537-8880.log', 'LC_MONETARY': 'de_CH.UTF-8', 'SESSION': 'ubuntu', 'LC_IDENTIFICATION': 'de_CH.UTF-8', 'VTE_VERSION': '3409', 'ANDROID_HOME': '/home/ferran/Android/Sdk', 'XDG_CURRENT_DESKTOP': 'Unity', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GNOME_KEYRING_PID': '1743', 'WEBOTS_HOME': '/home/ferran/src/webots', 'ROS_ETC_DIR': '/opt/ros/indigo/etc/ros', 'ROS_DISTRO': 'indigo', 'ROS_HOSTNAME': '192.168.1.6', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/ferran/catkin_ws/devel/share/common-lisp', 'QT_IM_MODULE': 'ibus', 'LOGNAME': 'ferran', 'XDG_SEAT': 'seat0', 'PATH': '/home/ferran/android-studio/bin/:/home/ferran/catkin_ws/devel/bin:/opt/ros/indigo/bin:/home/ferran/android-studio/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/ferran/dev/bin:/home/ferran/dev/share:/home/ferran/Android/Sdk/tools:/home/ferran/Android/Sdk/platform-tools:/home/ferran/dev/bin:/home/ferran/dev/share:/home/ferran/Android/Sdk/tools:/home/ferran/Android/Sdk/platform-tools', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring-sy1QNC', 'TERM': 'xterm', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'SESSIONTYPE': 'gnome-session', 'IM_CONFIG_PHASE': '1', 'DEV_PREFIX': '/home/ferran/dev', 'SSH_AUTH_SOCK': '/run/user/1000/keyring-sy1QNC/ssh', 'TEXTDOMAINDIR': '/usr/share/locale/', 'NAO_IP': '192.168.1.12', 'UPSTART_SESSION': 'unix:abstract=/com/ubuntu/upstart-session/1000/1747', 'GDM_LANG': 'en_US', 'LC_TELEPHONE': 'de_CH.UTF-8', 'LC_MEASUREMENT': 'de_CH.UTF-8', 'PWD': '/home/ferran'}
+[roslaunch][INFO] 2015-05-29 08:54:45,930: starting in server mode
+[roslaunch.parent][INFO] 2015-05-29 08:54:45,931: starting roslaunch parent run
+[roslaunch][INFO] 2015-05-29 08:54:45,931: loading roscore config file /opt/ros/indigo/etc/ros/roscore.xml
+[roslaunch][INFO] 2015-05-29 08:54:46,035: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2015-05-29 08:54:46,035: loading config file /home/ferran/catkin_ws/src/cowriter_letter_learning/letter_learning_interaction/launch/nao_learning.launch
+[roslaunch][INFO] 2015-05-29 08:54:46,081: Added node of type [tf/static_transform_publisher] in namespace [/]
+[roslaunch][INFO] 2015-05-29 08:54:46,082: Added node of type [nao_trajectory_following/nao_writer_naoqi.py] in namespace [/]
+[roslaunch][INFO] 2015-05-29 08:54:46,083: Added node of type [nao_trajectory_following/writing_surface_positioner.py] in namespace [/]
+[roslaunch][INFO] 2015-05-29 08:54:46,084: Added node of type [nao_trajectory_following/trajectory_visualizer.py] in namespace [/]
+[roslaunch][INFO] 2015-05-29 08:54:46,085: Added node of type [letter_learning_interaction/activity_manager.py] in namespace [/]
+[roslaunch][INFO] 2015-05-29 08:54:46,086: Added node of type [letter_learning_interaction/drawing_nao.py] in namespace [/]
+[roslaunch][INFO] 2015-05-29 08:54:46,087: Added node of type [letter_learning_interaction/joke_nao.py] in namespace [/]
+[roslaunch][INFO] 2015-05-29 08:54:46,088: Added node of type [letter_learning_interaction/learning_words_nao.py] in namespace [/]
+[roslaunch][INFO] 2015-05-29 08:54:46,089: Added node of type [letter_learning_interaction/display_manager_server.py] in namespace [/]
+[roslaunch][INFO] 2015-05-29 08:54:46,090: Added node of type [letter_learning_interaction/tablet_input_interpreter.py] in namespace [/]
+[roslaunch][INFO] 2015-05-29 08:54:46,091: Added node of type [letter_learning_interaction/log.py] in namespace [/]
+[roslaunch][INFO] 2015-05-29 08:54:46,091: ... selected machine [] for node of type [tf/static_transform_publisher]
+[roslaunch][INFO] 2015-05-29 08:54:46,091: ... selected machine [] for node of type [nao_trajectory_following/nao_writer_naoqi.py]
+[roslaunch][INFO] 2015-05-29 08:54:46,091: ... selected machine [] for node of type [nao_trajectory_following/writing_surface_positioner.py]
+[roslaunch][INFO] 2015-05-29 08:54:46,091: ... selected machine [] for node of type [nao_trajectory_following/trajectory_visualizer.py]
+[roslaunch][INFO] 2015-05-29 08:54:46,091: ... selected machine [] for node of type [letter_learning_interaction/activity_manager.py]
+[roslaunch][INFO] 2015-05-29 08:54:46,091: ... selected machine [] for node of type [letter_learning_interaction/drawing_nao.py]
+[roslaunch][INFO] 2015-05-29 08:54:46,092: ... selected machine [] for node of type [letter_learning_interaction/joke_nao.py]
+[roslaunch][INFO] 2015-05-29 08:54:46,092: ... selected machine [] for node of type [letter_learning_interaction/learning_words_nao.py]
+[roslaunch][INFO] 2015-05-29 08:54:46,092: ... selected machine [] for node of type [letter_learning_interaction/display_manager_server.py]
+[roslaunch][INFO] 2015-05-29 08:54:46,092: ... selected machine [] for node of type [letter_learning_interaction/tablet_input_interpreter.py]
+[roslaunch][INFO] 2015-05-29 08:54:46,092: ... selected machine [] for node of type [letter_learning_interaction/log.py]
+[roslaunch.pmon][INFO] 2015-05-29 08:54:46,092: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2015-05-29 08:54:46,092: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2015-05-29 08:54:46,093: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2015-05-29 08:54:46,093: starting parent XML-RPC server
+[roslaunch.server][INFO] 2015-05-29 08:54:46,093: starting roslaunch XML-RPC server
+[xmlrpc][INFO] 2015-05-29 08:54:46,093: XML-RPC server binding to 0.0.0.0:0
+[roslaunch.server][INFO] 2015-05-29 08:54:46,093: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2015-05-29 08:54:46,093: Started XML-RPC server [http://192.168.1.6:55133/]
+[xmlrpc][INFO] 2015-05-29 08:54:46,093: xml rpc node: starting XML-RPC server
+[roslaunch.pmon][INFO] 2015-05-29 08:54:51,119: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 140395386001152)>
+[roslaunch.pmon][INFO] 2015-05-29 08:54:51,204: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140395386001152)>
+[roslaunch.pmon][INFO] 2015-05-29 08:54:51,204: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140395386001152)>: remaining procs are []
+[roslaunch.pmon][INFO] 2015-05-29 08:54:51,209: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2015-05-29 08:54:51,209: ProcessMonitor exit: pmon has shutdown
+[roslaunch][ERROR] 2015-05-29 08:54:51,209: Unable to contact my own server at [http://192.168.1.6:55133/].
+This usually means that the network is not configured properly.
+
+A common cause is that the machine cannot ping itself.  Please check
+for errors by running:
+
+	ping 192.168.1.6
+
+For more tips, please see
+
+	http://www.ros.org/wiki/ROS/NetworkSetup
+
+[roslaunch][ERROR] 2015-05-29 08:54:51,209: The traceback for the exception was written to the log file
+[roslaunch][ERROR] 2015-05-29 08:54:51,211: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/roslaunch/__init__.py", line 298, in main
+    p.start()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/roslaunch/parent.py", line 260, in start
+    self._start_infrastructure()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/roslaunch/parent.py", line 218, in _start_infrastructure
+    self._start_server()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/roslaunch/parent.py", line 169, in _start_server
+    self.server.start()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/roslaunch/server.py", line 405, in start
+    """%(self.uri, p.hostname))
+RLException: Unable to contact my own server at [http://192.168.1.6:55133/].
+This usually means that the network is not configured properly.
+
+A common cause is that the machine cannot ping itself.  Please check
+for errors by running:
+
+	ping 192.168.1.6
+
+For more tips, please see
+
+	http://www.ros.org/wiki/ROS/NetworkSetup
+
+
+[rospy.core][INFO] 2015-05-29 08:54:51,211: signal_shutdown [atexit]

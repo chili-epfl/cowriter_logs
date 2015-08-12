@@ -1,0 +1,6 @@
+inaoqi-broker: construct at 0.0.0.0:0, parent : 192.168.1.12:9559
+[I] 10318 qimessaging.session: Session listener created on tcp://0.0.0.0:0
+[I] 10318 qimessaging.transportserver: TransportServer will listen on: tcp://128.178.116.95:50512
+[I] 10318 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:50512
+[I] 10318 qimessaging.transportserver: TransportServer will listen on: tcp://192.168.1.13:50512
+[INFO] [WallTime: 1432284053.868881] I will subscribe to the topic current_emotion

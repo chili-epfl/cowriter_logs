@@ -1,0 +1,32 @@
+inaoqi-broker: construct at 0.0.0.0:0, parent : 192.168.1.12:9559
+[I] 14262 qimessaging.session: Session listener created on tcp://0.0.0.0:0
+[I] 14262 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:46378
+[I] 14262 qimessaging.transportserver: TransportServer will listen on: tcp://192.168.1.6:46378
+[W] 14262 qitype.metaobject: Method(113) already defined (and overriden): BIND_PYTHON::(m)
+[W] 14262 qitype.metaobject: Method(114) already defined (and overriden): addParam::(m)
+[W] 14262 qitype.metaobject: Method(115) already defined (and overriden): autoBind::(m)
+[W] 14262 qitype.metaobject: Method(100) already defined (and overriden): exit::()
+[W] 14262 qitype.metaobject: Method(116) already defined (and overriden): functionName::(m)
+[W] 14262 qitype.metaobject: Method(111) already defined (and overriden): getBrokerName::()
+[W] 14262 qitype.metaobject: Method(117) already defined (and overriden): getModule::(m)
+[W] 14262 qitype.metaobject: Method(119) already defined (and overriden): has_fallen::(m)
+[W] 14262 qitype.metaobject: Method(121) already defined (and overriden): pythonChanged::(mmm)
+[W] 14262 qitype.metaobject: Method(121) already defined (and overriden): pythonChanged::(mmm)
+[W] 14262 qitype.metaobject: Method(121) already defined (and overriden): pythonChanged::(mmm)
+[W] 14262 qitype.metaobject: Method(123) already defined (and overriden): setModuleDescription::(m)
+[W] 14262 qitype.metaobject: Method(103) already defined (and overriden): version::()
+[INFO] [WallTime: 1432298079.343329] Subscribed to robotHasFallen event
+[INFO] [WallTime: 1432298132.138985] got traj at 1432298132138886928
+[INFO] [WallTime: 1432298135.127683] executing rest of traj at 1432298135127569913
+[INFO] [WallTime: 1432298145.455699] Time taken for rest of trajectory: 10.327602863
+[INFO] [WallTime: 1432298192.642187] got traj at 1432298192642066955
+[INFO] [WallTime: 1432298195.573814] executing rest of traj at 1432298195573708057
+[INFO] [WallTime: 1432298205.914270] Time taken for rest of trajectory: 10.340048075
+[INFO] [WallTime: 1432298308.021536] got traj at 1432298308021430969
+[INFO] [WallTime: 1432298310.997927] executing rest of traj at 1432298310997845888
+[INFO] [WallTime: 1432298321.348656] Time taken for rest of trajectory: 10.350405216
+[INFO] [WallTime: 1432298392.054573] got traj at 1432298392054466009
+[INFO] [WallTime: 1432298395.026910] executing rest of traj at 1432298395026822090
+[INFO] [WallTime: 1432298405.367348] Time taken for rest of trajectory: 10.34009695
+[I] 14262 behavior.inaoqi: Stop broker myBroker
+[I] 14262 ALBroker: Cannot unregister module fallResponder : Session not connected.

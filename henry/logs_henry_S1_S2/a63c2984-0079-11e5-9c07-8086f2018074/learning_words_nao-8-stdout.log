@@ -1,0 +1,99 @@
+[I] 14317 qimessaging.session: Session listener created on tcp://0.0.0.0:0
+[I] 14317 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:42902
+[I] 14317 qimessaging.transportserver: TransportServer will listen on: tcp://192.168.1.6:42902
+[INFO] [WallTime: 1432298080.697897] Waiting for display manager services to become available
+[INFO] [WallTime: 1432298082.716323] Starting new timer
+[INFO] [WallTime: 1432298082.717352] Nao configuration: writing=True, speaking=True (french), standing=True, handedness=right
+inaoqi-broker: construct at 0.0.0.0:0, parent : 192.168.1.12:9559
+[I] 14317 qimessaging.session: Session listener created on tcp://0.0.0.0:0
+[I] 14317 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:56295
+[I] 14317 qimessaging.transportserver: TransportServer will listen on: tcp://192.168.1.6:56295
+[INFO] [WallTime: 1432298083.117526] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1432298083.249810] Re-connection
+[INFO] [WallTime: 1432298083.868492] STATE: WAITING_FOR_ROBOT_TO_CONNECT
+[INFO] [WallTime: 1432298084.369852] STATE: STARTING_INTERACTION
+[INFO] [WallTime: 1432298097.394031] NAO: J'aimerai m'entrainer à l'écriture... Peux-tu m'aider ?
+[INFO] [WallTime: 1432298097.894881] STATE: WAITING_FOR_WORD
+[INFO] [WallTime: 1432298128.445648] Received word: henry
+[INFO] [WallTime: 1432298129.024862] STATE: RESPONDING_TO_NEW_WORD
+/home/ferran/CoWriter/shape_learning/share/letter_model_datasets/bad_letters//h.dat
+/home/ferran/CoWriter/shape_learning/share/letter_model_datasets/bad_letters//e.dat
+/home/ferran/CoWriter/shape_learning/share/letter_model_datasets/bad_letters//n.dat
+/home/ferran/CoWriter/shape_learning/share/letter_model_datasets/bad_letters//r.dat
+/home/ferran/CoWriter/shape_learning/share/letter_model_datasets/bad_letters//y.dat
+[INFO] [WallTime: 1432298129.546565] NAO: D'accord pour henry
+[INFO] [WallTime: 1432298131.012938] Clearing display
+[INFO] [WallTime: 1432298132.007824] STATE: PUBLISHING_WORD
+[INFO] [WallTime: 1432298132.642268] STATE: WAITING_FOR_LETTER_TO_FINISH
+[INFO] [WallTime: 1432298133.025504] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1432298135.047912] Re-connection
+[INFO] [WallTime: 1432298147.357388] STATE: ASKING_FOR_FEEDBACK
+[INFO] [WallTime: 1432298147.357687] PUBLISHING_WORD
+[INFO] [WallTime: 1432298147.357876] Asking for feedback on word henry
+[INFO] [WallTime: 1432298150.296105] NAO: Bon, qu'est ce que tu en penses ?
+[INFO] [WallTime: 1432298150.932903] STATE: WAITING_FOR_FEEDBACK
+[INFO] [WallTime: 1432298188.030339] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1432298188.685313] Re-connection
+[INFO] [WallTime: 1432298188.844954] Received template demonstration for letters ['h', 'e', 'n', 'r', 'y']
+[INFO] [WallTime: 1432298189.442942] STATE: WAITING_FOR_ROBOT_TO_CONNECT
+[INFO] [WallTime: 1432298189.943899] STATE: RESPONDING_TO_DEMONSTRATION_FULL_WORD
+[INFO] [WallTime: 1432298190.927459] NAO: Ok
+[INFO] [WallTime: 1432298190.928348] Downsampling of h done. Demo received for h
+[INFO] [WallTime: 1432298191.011154] Downsampling of e done. Demo received for e
+[INFO] [WallTime: 1432298191.090501] Downsampling of n done. Demo received for n
+[INFO] [WallTime: 1432298191.178242] Downsampling of r done. Demo received for r
+[INFO] [WallTime: 1432298191.239062] Downsampling of y done. Demo received for y
+[INFO] [WallTime: 1432298191.417475] Clearing display
+[INFO] [WallTime: 1432298192.411010] STATE: PUBLISHING_WORD
+[INFO] [WallTime: 1432298193.094348] STATE: WAITING_FOR_LETTER_TO_FINISH
+[INFO] [WallTime: 1432298193.643869] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1432298195.438123] Re-connection
+[INFO] [WallTime: 1432298207.809824] STATE: ASKING_FOR_FEEDBACK
+[INFO] [WallTime: 1432298207.810246] PUBLISHING_WORD
+[INFO] [WallTime: 1432298207.810483] Asking for feedback on word henry
+[INFO] [WallTime: 1432298209.882550] NAO: Pas facile !
+[INFO] [WallTime: 1432298210.519544] STATE: WAITING_FOR_FEEDBACK
+[INFO] [WallTime: 1432298300.020650] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1432298301.292347] Re-connection
+[INFO] [WallTime: 1432298302.730639] Received template demonstration for letters ['h', 'e', 'n', 'r', 'y']
+[INFO] [WallTime: 1432298303.642934] STATE: WAITING_FOR_ROBOT_TO_CONNECT
+[INFO] [WallTime: 1432298304.143975] STATE: RESPONDING_TO_DEMONSTRATION_FULL_WORD
+[INFO] [WallTime: 1432298306.423073] NAO: D'accord, j'essaye comme ça
+[INFO] [WallTime: 1432298306.424428] Downsampling of h done. Demo received for h
+[INFO] [WallTime: 1432298306.488637] Downsampling of e done. Demo received for e
+[INFO] [WallTime: 1432298306.583419] Downsampling of n done. Demo received for n
+[INFO] [WallTime: 1432298306.654783] Downsampling of r done. Demo received for r
+[INFO] [WallTime: 1432298306.733800] Downsampling of y done. Demo received for y
+[INFO] [WallTime: 1432298306.849211] Clearing display
+[INFO] [WallTime: 1432298307.832376] STATE: PUBLISHING_WORD
+[INFO] [WallTime: 1432298308.515873] STATE: WAITING_FOR_LETTER_TO_FINISH
+[INFO] [WallTime: 1432298308.756632] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1432298308.768149] Re-connection
+[INFO] [WallTime: 1432298309.176230] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1432298310.869713] Re-connection
+[INFO] [WallTime: 1432298323.231344] STATE: ASKING_FOR_FEEDBACK
+[INFO] [WallTime: 1432298323.231772] PUBLISHING_WORD
+[INFO] [WallTime: 1432298323.232040] Asking for feedback on word henry
+[INFO] [WallTime: 1432298325.026700] NAO: Voilà
+[INFO] [WallTime: 1432298325.684434] STATE: WAITING_FOR_FEEDBACK
+[INFO] [WallTime: 1432298362.897360] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1432298362.931228] Re-connection
+[INFO] [WallTime: 1432298386.693471] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1432298386.757789] Re-connection
+[INFO] [WallTime: 1432298386.900675] Received demonstration for n
+[INFO] [WallTime: 1432298387.877822] STATE: WAITING_FOR_ROBOT_TO_CONNECT
+[INFO] [WallTime: 1432298388.378970] STATE: RESPONDING_TO_DEMONSTRATION_FULL_WORD
+[INFO] [WallTime: 1432298390.798725] NAO: Ah, c'est comme ça qu'on écrit n
+[INFO] [WallTime: 1432298390.799733] Downsampling of n done. Demo received for n
+[INFO] [WallTime: 1432298390.935576] Clearing display
+[INFO] [WallTime: 1432298391.943731] STATE: PUBLISHING_WORD
+[INFO] [WallTime: 1432298392.551549] STATE: WAITING_FOR_LETTER_TO_FINISH
+[INFO] [WallTime: 1432298392.756231] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1432298394.966233] Re-connection
+[INFO] [WallTime: 1432298407.266963] STATE: ASKING_FOR_FEEDBACK
+[INFO] [WallTime: 1432298407.267411] PUBLISHING_WORD
+[INFO] [WallTime: 1432298407.267717] Asking for feedback on word henry
+[INFO] [WallTime: 1432298409.541352] NAO: C'est bien comme ça ?
+[INFO] [WallTime: 1432298410.297253] STATE: WAITING_FOR_FEEDBACK
+[INFO] [WallTime: 1432298454.129805] STATE: STOPPING
+[INFO] [WallTime: 1432298457.654004] Stopped

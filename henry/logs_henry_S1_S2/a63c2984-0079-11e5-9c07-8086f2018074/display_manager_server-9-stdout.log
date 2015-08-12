@@ -1,0 +1,13 @@
+[INFO] [WallTime: 1432298079.160535] Ready to clear all shapes.
+[INFO] [WallTime: 1432298079.164378] Ready to display new shapes.
+[INFO] [WallTime: 1432298079.171173] Ready to determine index of location.
+[INFO] [WallTime: 1432298079.179259] Ready to determine shape at location.
+[INFO] [WallTime: 1432298079.181488] Ready to determine closest shape(s) to location.
+[INFO] [WallTime: 1432298079.186785] Ready to display new shapes at specific location.
+[INFO] [WallTime: 1432298079.192784] Ready to determine is shape fits.
+[INFO] [WallTime: 1432298131.015576] Shapes cleared
+[INFO] [WallTime: 1432298191.427802] Shapes cleared
+[INFO] [WallTime: 1432298306.852769] Shapes cleared
+[INFO] [WallTime: 1432298390.939839] Shapes cleared
+[INFO] [WallTime: 1432298408.276161] Shape at location returned: 0_-1
+[INFO] [WallTime: 1432882388.854737] shut down

@@ -1,0 +1,460 @@
+[rospy.client][INFO] 2015-05-22 14:03:42,466: init_node, name[/activity_manager], pid[5875]
+[xmlrpc][INFO] 2015-05-22 14:03:42,466: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2015-05-22 14:03:42,467: Started XML-RPC server [http://192.168.1.6:53512/]
+[rospy.impl.masterslave][INFO] 2015-05-22 14:03:42,467: _ready: http://192.168.1.6:53512/
+[rospy.init][INFO] 2015-05-22 14:03:42,467: ROS Slave URI: [http://192.168.1.6:53512/]
+[xmlrpc][INFO] 2015-05-22 14:03:42,467: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2015-05-22 14:03:42,467: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2015-05-22 14:03:42,567: registered with master
+[rospy.rosout][INFO] 2015-05-22 14:03:42,568: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-22 14:03:42,569: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-22 14:03:42,571: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2015-05-22 14:03:42,596: Starting new timer
+[rosout][INFO] 2015-05-22 14:03:42,597: Waiting for display manager services to become available
+[rospy.internal][INFO] 2015-05-22 14:03:42,638: topic[/activity] adding connection to [http://192.168.1.6:53512/], count 0
+[rospy.internal][INFO] 2015-05-22 14:03:42,640: topic[/activity] adding connection to [/activity_manager], count 0
+[rospy.internal][INFO] 2015-05-22 14:03:42,673: topic[/activity] adding connection to [/log], count 1
+[rospy.internal][INFO] 2015-05-22 14:03:42,706: topic[/activity] adding connection to [http://192.168.1.8:48823/], count 1
+[rospy.internal][INFO] 2015-05-22 14:03:42,724: topic[/watchdog_clear/tablet] adding connection to [http://192.168.1.13:34748/], count 0
+[rospy.internal][INFO] 2015-05-22 14:03:42,765: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2015-05-22 14:03:42,882: topic[/activity] adding connection to [/rosjava_tutorial_pubsub/listener], count 2
+[rospy.internal][INFO] 2015-05-22 14:03:43,352: topic[/activity] adding connection to [/drawing_nao], count 3
+[rospy.internal][INFO] 2015-05-22 14:03:43,453: topic[/activity] adding connection to [http://192.168.1.6:48332/], count 2
+[rospy.internal][INFO] 2015-05-22 14:03:43,455: topic[/activity] adding connection to [/joke_nao], count 4
+[rospy.internal][INFO] 2015-05-22 14:03:43,683: topic[/activity] adding connection to [/learning_words_nao], count 5
+[rosout][INFO] 2015-05-22 14:03:44,598: Nao configuration: writing=True, speaking=True (french), standing=True, handedness=right
+[rosout][INFO] 2015-05-22 14:03:45,234: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:03:45,237: Re-connection
+[rosout][INFO] 2015-05-22 14:03:51,686: STATE: waiting_for_robot_to_connect
+[rosout][INFO] 2015-05-22 14:03:52,188: STATE: STARTING_INTERACTION
+[rospy.internal][INFO] 2015-05-22 14:03:54,528: topic[/activity_time] adding connection to [/emotional_manager], count 0
+[rospy.internal][INFO] 2015-05-22 14:03:54,571: topic[/activity] adding connection to [/action_manager], count 6
+[rospy.internal][INFO] 2015-05-22 14:03:54,654: topic[/activity] adding connection to [http://192.168.1.6:44378/], count 3
+[rosout][INFO] 2015-05-22 14:03:57,587: NAO: Bonjour, je suis Mimi. Je voudrais apprendre à dessiner des chiffres.
+[rosout][INFO] 2015-05-22 14:03:59,088: STATE: ACTIVITY
+[rosout][INFO] 2015-05-22 14:04:12,983: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:04:13,405: Re-connection
+[rosout][INFO] 2015-05-22 14:04:31,124: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:04:33,612: Re-connection
+[rosout][INFO] 2015-05-22 14:05:28,956: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:05:31,417: Re-connection
+[rosout][INFO] 2015-05-22 14:05:59,149: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:06:01,643: Re-connection
+[rosout][INFO] 2015-05-22 14:06:25,921: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:06:26,079: Re-connection
+[rosout][INFO] 2015-05-22 14:06:31,633: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:06:34,202: Re-connection
+[rosout][INFO] 2015-05-22 14:07:05,252: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:07:07,673: Re-connection
+[rosout][INFO] 2015-05-22 14:07:35,125: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:07:37,563: Re-connection
+[rosout][INFO] 2015-05-22 14:07:56,771: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:07:56,793: Re-connection
+[rosout][INFO] 2015-05-22 14:08:02,591: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:08:05,048: Re-connection
+[rosout][INFO] 2015-05-22 14:08:26,460: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:08:26,560: Re-connection
+[rosout][INFO] 2015-05-22 14:08:30,760: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:08:33,098: Re-connection
+[rosout][INFO] 2015-05-22 14:09:01,559: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:09:04,026: Re-connection
+[rosout][INFO] 2015-05-22 14:09:23,920: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:09:24,004: Re-connection
+[rosout][INFO] 2015-05-22 14:09:29,547: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:09:31,978: Re-connection
+[rosout][INFO] 2015-05-22 14:09:52,485: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:09:54,894: Re-connection
+[rosout][INFO] 2015-05-22 14:10:34,086: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:10:34,170: Re-connection
+[rosout][INFO] 2015-05-22 14:10:38,907: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:10:38,966: Re-connection
+[rosout][INFO] 2015-05-22 14:10:39,411: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:10:41,545: Re-connection
+[rosout][INFO] 2015-05-22 14:11:13,166: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:11:13,251: Re-connection
+[rosout][INFO] 2015-05-22 14:11:35,418: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:11:35,478: Re-connection
+[rosout][INFO] 2015-05-22 14:11:40,340: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:11:42,803: Re-connection
+[rosout][INFO] 2015-05-22 14:12:10,326: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:12:12,803: Re-connection
+[rosout][INFO] 2015-05-22 14:12:52,346: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:12:52,455: Re-connection
+[rosout][INFO] 2015-05-22 14:12:58,110: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:13:00,612: Re-connection
+[rosout][INFO] 2015-05-22 14:13:44,321: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:13:46,811: Re-connection
+[rosout][INFO] 2015-05-22 14:14:12,389: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:14:12,449: Re-connection
+[rosout][INFO] 2015-05-22 14:14:27,328: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:14:29,753: Re-connection
+[rosout][INFO] 2015-05-22 14:15:00,131: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:15:02,589: Re-connection
+[rosout][INFO] 2015-05-22 14:15:40,846: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:15:43,284: Re-connection
+[rosout][INFO] 2015-05-22 14:16:19,436: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:16:21,772: Re-connection
+[rosout][INFO] 2015-05-22 14:16:46,397: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:16:46,399: Re-connection
+[rosout][INFO] 2015-05-22 14:16:51,524: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:16:53,954: Re-connection
+[rosout][INFO] 2015-05-22 14:17:08,559: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:17:11,011: Re-connection
+[rosout][INFO] 2015-05-22 14:19:02,702: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:19:02,758: Re-connection
+[rosout][INFO] 2015-05-22 14:19:08,016: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:19:10,471: Re-connection
+[rosout][INFO] 2015-05-22 14:19:26,470: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:19:28,935: Re-connection
+[rosout][INFO] 2015-05-22 14:19:42,188: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:19:44,727: Re-connection
+[rosout][INFO] 2015-05-22 14:20:00,525: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:20:03,017: Re-connection
+[rosout][INFO] 2015-05-22 14:20:12,450: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:20:12,484: Re-connection
+[rosout][INFO] 2015-05-22 14:20:13,048: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:20:13,055: Re-connection
+[rosout][INFO] 2015-05-22 14:20:28,289: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:20:30,720: Re-connection
+[rosout][INFO] 2015-05-22 14:21:05,078: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:21:07,515: Re-connection
+[rosout][INFO] 2015-05-22 14:21:33,839: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:21:36,234: Re-connection
+[rosout][INFO] 2015-05-22 14:22:01,817: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:22:01,860: Re-connection
+[rosout][INFO] 2015-05-22 14:22:07,220: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:22:09,750: Re-connection
+[rosout][INFO] 2015-05-22 14:22:26,078: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:22:28,537: Re-connection
+[rosout][INFO] 2015-05-22 14:22:44,726: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:22:47,249: Re-connection
+[rosout][INFO] 2015-05-22 14:23:30,832: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:23:33,285: Re-connection
+[rosout][INFO] 2015-05-22 14:24:01,614: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:24:03,734: Re-connection
+[rosout][INFO] 2015-05-22 14:24:13,068: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:24:13,080: Re-connection
+[rosout][INFO] 2015-05-22 14:24:33,407: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:24:35,832: Re-connection
+[rospy.internal][ERROR] 2015-05-22 14:26:50,793: Unable to initiate TCP/IP socket to 192.168.1.6:34509 (http://192.168.1.6:48332/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-22 14:26:51,795: Unknown error initiating TCP/IP socket to 192.168.1.6:34509 (http://192.168.1.6:48332/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 14:26:51,795: topic[/activity] removing connection to http://192.168.1.6:48332/
+[rospy.internal][INFO] 2015-05-22 14:28:04,436: topic[/stop_learning] adding connection to [http://192.168.1.6:37776/], count 0
+[rospy.internal][ERROR] 2015-05-22 14:28:04,448: Unable to initiate TCP/IP socket to 192.168.1.6:53152 (http://192.168.1.6:44378/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-22 14:28:05,450: Unknown error initiating TCP/IP socket to 192.168.1.6:53152 (http://192.168.1.6:44378/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 14:28:05,450: topic[/activity] removing connection to http://192.168.1.6:44378/
+[rosout][INFO] 2015-05-22 14:28:06,431: STATE: STOPPING
+[rospy.internal][WARNING] 2015-05-22 14:28:07,353: Unknown error initiating TCP/IP socket to 192.168.1.6:37656 (http://192.168.1.6:37776/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2015-05-22 14:28:07,353: topic[/stop_learning] removing connection to http://192.168.1.6:37776/
+[rosout][INFO] 2015-05-22 14:28:13,049: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:28:13,119: Re-connection
+[rospy.core][INFO] 2015-05-22 14:28:15,939: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2015-05-22 14:28:15,945: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-22 14:28:15,945: topic[/activity] removing connection to /activity_manager
+[rospy.internal][INFO] 2015-05-22 14:28:15,946: topic[/activity] removing connection to /log
+[rospy.internal][ERROR] 2015-05-22 14:28:15,946: Unable to initiate TCP/IP socket to 192.168.1.6:58448 (http://192.168.1.6:53512/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2015-05-22 14:28:15,946: topic[/activity] removing connection to /rosjava_tutorial_pubsub/listener
+[rospy.internal][INFO] 2015-05-22 14:28:15,946: topic[/activity] removing connection to /drawing_nao
+[rospy.internal][INFO] 2015-05-22 14:28:15,946: topic[/activity] removing connection to /joke_nao
+[rospy.internal][INFO] 2015-05-22 14:28:15,946: topic[/activity] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2015-05-22 14:28:15,946: topic[/activity] removing connection to /action_manager
+[rospy.internal][INFO] 2015-05-22 14:28:15,947: topic[/activity_time] removing connection to /emotional_manager
+[rospy.internal][INFO] 2015-05-22 14:28:15,947: topic[/activity] removing connection to http://192.168.1.6:53512/
+[rospy.internal][INFO] 2015-05-22 14:28:15,947: topic[/activity] removing connection to http://192.168.1.8:48823/
+[rospy.internal][INFO] 2015-05-22 14:28:15,947: topic[/watchdog_clear/tablet] removing connection to http://192.168.1.13:34748/
+[rospy.impl.masterslave][INFO] 2015-05-22 14:28:15,947: signal-2
+[rospy.core][INFO] 2015-05-22 14:28:16,095: signal_shutdown [Interaction exited]
+[rosout][INFO] 2015-05-22 14:28:16,096: Stopped
+[rospy.core][INFO] 2015-05-22 14:28:16,122: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-22 14:28:22,707: init_node, name[/activity_manager], pid[406]
+[xmlrpc][INFO] 2015-05-22 14:28:22,707: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2015-05-22 14:28:22,708: Started XML-RPC server [http://192.168.1.6:41420/]
+[rospy.impl.masterslave][INFO] 2015-05-22 14:28:22,708: _ready: http://192.168.1.6:41420/
+[rospy.registration][INFO] 2015-05-22 14:28:22,708: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2015-05-22 14:28:22,708: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2015-05-22 14:28:22,715: ROS Slave URI: [http://192.168.1.6:41420/]
+[rospy.init][INFO] 2015-05-22 14:28:22,715: registered with master
+[rospy.rosout][INFO] 2015-05-22 14:28:22,716: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-22 14:28:22,719: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-22 14:28:22,728: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2015-05-22 14:28:22,783: Starting new timer
+[rosout][INFO] 2015-05-22 14:28:22,784: Waiting for display manager services to become available
+[rospy.internal][INFO] 2015-05-22 14:28:22,822: topic[/activity] adding connection to [/log], count 0
+[rospy.internal][INFO] 2015-05-22 14:28:22,826: topic[/activity] adding connection to [http://192.168.1.6:41420/], count 0
+[rospy.internal][INFO] 2015-05-22 14:28:22,828: topic[/activity] adding connection to [/activity_manager], count 1
+[rospy.internal][INFO] 2015-05-22 14:28:22,866: topic[/watchdog_clear/tablet] adding connection to [http://192.168.1.13:34748/], count 0
+[rospy.internal][INFO] 2015-05-22 14:28:22,866: topic[/activity] adding connection to [http://192.168.1.8:48823/], count 1
+[rospy.internal][INFO] 2015-05-22 14:28:22,878: topic[/activity] adding connection to [/rosjava_tutorial_pubsub/listener], count 2
+[rospy.internal][INFO] 2015-05-22 14:28:22,939: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2015-05-22 14:28:23,610: topic[/activity] adding connection to [/drawing_nao], count 3
+[rospy.internal][INFO] 2015-05-22 14:28:23,744: topic[/activity] adding connection to [http://192.168.1.6:53593/], count 2
+[rospy.internal][INFO] 2015-05-22 14:28:23,835: topic[/activity] adding connection to [/joke_nao], count 4
+[rosout][INFO] 2015-05-22 14:28:24,086: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rospy.internal][INFO] 2015-05-22 14:28:24,096: topic[/activity] adding connection to [/learning_words_nao], count 5
+[rosout][INFO] 2015-05-22 14:28:24,220: Re-connection
+[rosout][INFO] 2015-05-22 14:28:24,785: Nao configuration: writing=True, speaking=True (french), standing=True, handedness=right
+[rosout][INFO] 2015-05-22 14:28:26,239: STATE: waiting_for_robot_to_connect
+[rosout][INFO] 2015-05-22 14:28:26,741: STATE: STARTING_INTERACTION
+[rospy.internal][INFO] 2015-05-22 14:28:32,932: topic[/activity] adding connection to [/action_manager], count 6
+[rospy.internal][INFO] 2015-05-22 14:28:32,949: topic[/activity_time] adding connection to [/emotional_manager], count 0
+[rospy.internal][INFO] 2015-05-22 14:28:33,020: topic[/activity] adding connection to [http://192.168.1.6:41437/], count 3
+[rosout][INFO] 2015-05-22 14:28:34,794: NAO: Bonjour, je suis Mimi. Je voudrais apprendre à dessiner des chiffres.
+[rosout][INFO] 2015-05-22 14:28:36,296: STATE: ACTIVITY
+[rosout][INFO] 2015-05-22 14:29:05,897: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:29:08,399: Re-connection
+[rosout][INFO] 2015-05-22 14:29:26,729: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:29:29,262: Re-connection
+[rosout][INFO] 2015-05-22 14:29:43,385: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:29:45,897: Re-connection
+[rosout][INFO] 2015-05-22 14:30:12,971: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:30:13,005: Re-connection
+[rosout][INFO] 2015-05-22 14:30:56,705: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:30:59,162: Re-connection
+[rosout][INFO] 2015-05-22 14:31:21,672: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:31:24,166: Re-connection
+[rospy.internal][INFO] 2015-05-22 14:31:56,859: topic[/activity] adding connection to [/rosjava_tutorial_pubsub/listener], count 7
+[rospy.internal][INFO] 2015-05-22 14:31:56,859: topic[/activity] removing connection to /rosjava_tutorial_pubsub/listener
+[rosout][INFO] 2015-05-22 14:31:59,966: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:32:02,471: Re-connection
+[rosout][INFO] 2015-05-22 14:32:17,417: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:32:19,958: Re-connection
+[rospy.internal][INFO] 2015-05-22 14:33:19,394: topic[/stop_learning] adding connection to [http://192.168.1.6:37710/], count 0
+[rospy.internal][ERROR] 2015-05-22 14:33:19,396: Unable to initiate TCP/IP socket to 192.168.1.6:49898 (http://192.168.1.6:41437/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rosout][INFO] 2015-05-22 14:33:20,064: STATE: STOPPING
+[rospy.internal][WARNING] 2015-05-22 14:33:20,398: Unknown error initiating TCP/IP socket to 192.168.1.6:49898 (http://192.168.1.6:41437/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 14:33:20,399: topic[/activity] removing connection to http://192.168.1.6:41437/
+[rospy.internal][ERROR] 2015-05-22 14:33:22,344: Unable to initiate TCP/IP socket to 192.168.1.6:38960 (http://192.168.1.6:37710/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-22 14:33:23,347: Unknown error initiating TCP/IP socket to 192.168.1.6:38960 (http://192.168.1.6:37710/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 14:33:23,348: topic[/stop_learning] removing connection to http://192.168.1.6:37710/
+[rosout][WARNING] 2015-05-22 14:33:23,994: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2015-05-22 14:33:23,995: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 365, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.core][INFO] 2015-05-22 14:33:37,303: signal_shutdown [Interaction exited]
+[rospy.internal][INFO] 2015-05-22 14:33:37,314: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-22 14:33:37,315: topic[/activity] removing connection to /log
+[rospy.internal][INFO] 2015-05-22 14:33:37,315: topic[/activity] removing connection to /activity_manager
+[rospy.internal][INFO] 2015-05-22 14:33:37,316: topic[/activity] removing connection to /drawing_nao
+[rospy.internal][ERROR] 2015-05-22 14:33:37,317: Unable to initiate TCP/IP socket to 192.168.1.6:54192 (http://192.168.1.6:41420/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2015-05-22 14:33:37,318: topic[/activity] removing connection to /joke_nao
+[rospy.internal][INFO] 2015-05-22 14:33:37,318: topic[/activity] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2015-05-22 14:33:37,318: topic[/activity] removing connection to /action_manager
+[rospy.internal][INFO] 2015-05-22 14:33:37,318: topic[/activity] removing connection to /rosjava_tutorial_pubsub/listener
+[rospy.internal][INFO] 2015-05-22 14:33:37,319: topic[/activity_time] removing connection to /emotional_manager
+[rospy.internal][INFO] 2015-05-22 14:33:37,319: topic[/activity] removing connection to http://192.168.1.6:41420/
+[rospy.internal][INFO] 2015-05-22 14:33:37,319: topic[/activity] removing connection to http://192.168.1.8:48823/
+[rospy.internal][INFO] 2015-05-22 14:33:37,319: topic[/activity] removing connection to http://192.168.1.6:53593/
+[rospy.internal][INFO] 2015-05-22 14:33:37,320: topic[/watchdog_clear/tablet] removing connection to http://192.168.1.13:34748/
+[rospy.impl.masterslave][INFO] 2015-05-22 14:33:37,320: Interaction exited
+[rosout][INFO] 2015-05-22 14:33:37,452: Stopped
+[rospy.core][INFO] 2015-05-22 14:33:37,476: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-22 14:34:39,434: init_node, name[/activity_manager], pid[14275]
+[xmlrpc][INFO] 2015-05-22 14:34:39,434: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2015-05-22 14:34:39,435: Started XML-RPC server [http://192.168.1.6:43278/]
+[rospy.impl.masterslave][INFO] 2015-05-22 14:34:39,435: _ready: http://192.168.1.6:43278/
+[rospy.init][INFO] 2015-05-22 14:34:39,435: ROS Slave URI: [http://192.168.1.6:43278/]
+[xmlrpc][INFO] 2015-05-22 14:34:39,435: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2015-05-22 14:34:39,436: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2015-05-22 14:34:39,536: registered with master
+[rospy.rosout][INFO] 2015-05-22 14:34:39,536: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-22 14:34:39,538: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-22 14:34:39,540: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2015-05-22 14:34:39,558: Starting new timer
+[rosout][INFO] 2015-05-22 14:34:39,560: Waiting for display manager services to become available
+[rospy.internal][INFO] 2015-05-22 14:34:39,563: topic[/activity] adding connection to [/activity_manager], count 0
+[rospy.internal][INFO] 2015-05-22 14:34:39,563: topic[/activity] adding connection to [http://192.168.1.6:43278/], count 0
+[rospy.internal][INFO] 2015-05-22 14:34:39,578: topic[/activity] adding connection to [http://192.168.1.8:48823/], count 1
+[rospy.internal][INFO] 2015-05-22 14:34:39,593: topic[/watchdog_clear/tablet] adding connection to [http://192.168.1.13:34748/], count 0
+[rospy.internal][INFO] 2015-05-22 14:34:39,681: topic[/activity] adding connection to [/log], count 1
+[rospy.internal][INFO] 2015-05-22 14:34:39,743: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2015-05-22 14:34:39,840: topic[/activity] adding connection to [/rosjava_tutorial_pubsub/listener], count 2
+[rospy.internal][INFO] 2015-05-22 14:34:40,262: topic[/activity] adding connection to [/drawing_nao], count 3
+[rospy.internal][INFO] 2015-05-22 14:34:40,281: topic[/activity] adding connection to [http://192.168.1.6:37787/], count 2
+[rospy.internal][INFO] 2015-05-22 14:34:40,469: topic[/activity] adding connection to [/joke_nao], count 4
+[rospy.internal][INFO] 2015-05-22 14:34:40,710: topic[/activity] adding connection to [/learning_words_nao], count 5
+[rosout][INFO] 2015-05-22 14:34:41,561: Nao configuration: writing=True, speaking=True (french), standing=True, handedness=right
+[rosout][INFO] 2015-05-22 14:34:43,082: STATE: waiting_for_robot_to_connect
+[rosout][INFO] 2015-05-22 14:34:43,584: STATE: STARTING_INTERACTION
+[rospy.internal][INFO] 2015-05-22 14:34:48,981: topic[/activity_time] adding connection to [/emotional_manager], count 0
+[rospy.internal][INFO] 2015-05-22 14:34:49,016: topic[/activity] adding connection to [/action_manager], count 6
+[rospy.internal][INFO] 2015-05-22 14:34:49,046: topic[/activity] adding connection to [http://192.168.1.6:48943/], count 3
+[rosout][INFO] 2015-05-22 14:34:51,625: NAO: Bonjour, je suis Mimi. Je voudrais apprendre à dessiner des chiffres.
+[rosout][INFO] 2015-05-22 14:34:53,127: STATE: ACTIVITY
+[rosout][INFO] 2015-05-22 14:35:33,025: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:35:35,048: Re-connection
+[rospy.internal][INFO] 2015-05-22 14:35:53,669: topic[/activity] adding connection to [/rosjava_tutorial_pubsub/listener], count 7
+[rospy.internal][INFO] 2015-05-22 14:35:53,669: topic[/activity] removing connection to /rosjava_tutorial_pubsub/listener
+[rosout][INFO] 2015-05-22 14:36:28,030: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:36:28,684: Re-connection
+[rosout][INFO] 2015-05-22 14:36:33,642: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:36:35,438: Re-connection
+[rosout][INFO] 2015-05-22 14:38:20,023: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:38:21,292: Re-connection
+[rosout][INFO] 2015-05-22 14:38:28,756: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:38:28,766: Re-connection
+[rosout][INFO] 2015-05-22 14:38:29,170: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:38:30,870: Re-connection
+[rosout][INFO] 2015-05-22 14:39:22,893: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:39:22,931: Re-connection
+[rosout][INFO] 2015-05-22 14:39:46,691: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:39:46,756: Re-connection
+[rosout][INFO] 2015-05-22 14:39:52,755: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:39:54,968: Re-connection
+[rospy.internal][ERROR] 2015-05-22 14:40:53,113: Unable to initiate TCP/IP socket to 192.168.1.6:44420 (http://192.168.1.6:48943/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2015-05-22 14:40:53,126: topic[/stop_learning] adding connection to [http://192.168.1.6:39867/], count 0
+[rospy.internal][WARNING] 2015-05-22 14:40:54,114: Unknown error initiating TCP/IP socket to 192.168.1.6:44420 (http://192.168.1.6:48943/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 14:40:54,115: topic[/activity] removing connection to http://192.168.1.6:48943/
+[rosout][INFO] 2015-05-22 14:40:54,958: STATE: STOPPING
+[rospy.internal][WARNING] 2015-05-22 14:40:56,095: Unknown error initiating TCP/IP socket to 192.168.1.6:48317 (http://192.168.1.6:39867/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2015-05-22 14:40:56,095: topic[/stop_learning] removing connection to http://192.168.1.6:39867/
+[rospy.internal][ERROR] 2015-05-22 14:40:57,534: Unable to initiate TCP/IP socket to 192.168.1.6:34125 (http://192.168.1.6:37787/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rosout][INFO] 2015-05-22 14:40:57,910: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2015-05-22 14:40:58,334: Re-connection
+[rospy.internal][WARNING] 2015-05-22 14:40:58,536: Unknown error initiating TCP/IP socket to 192.168.1.6:34125 (http://192.168.1.6:37787/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 14:40:58,537: topic[/activity] removing connection to http://192.168.1.6:37787/
+[rospy.core][INFO] 2015-05-22 14:41:01,340: signal_shutdown [Interaction exited]
+[rospy.internal][INFO] 2015-05-22 14:41:01,353: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-22 14:41:01,354: topic[/activity] removing connection to /activity_manager
+[rospy.internal][INFO] 2015-05-22 14:41:01,354: topic[/activity] removing connection to /log
+[rospy.internal][ERROR] 2015-05-22 14:41:01,355: Unable to initiate TCP/IP socket to 192.168.1.6:57405 (http://192.168.1.6:43278/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2015-05-22 14:41:01,355: topic[/activity] removing connection to /drawing_nao
+[rospy.internal][INFO] 2015-05-22 14:41:01,356: topic[/activity] removing connection to /joke_nao
+[rospy.internal][INFO] 2015-05-22 14:41:01,356: topic[/activity] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2015-05-22 14:41:01,356: topic[/activity] removing connection to /action_manager
+[rospy.internal][INFO] 2015-05-22 14:41:01,357: topic[/activity] removing connection to /rosjava_tutorial_pubsub/listener
+[rospy.internal][INFO] 2015-05-22 14:41:01,357: topic[/activity_time] removing connection to /emotional_manager
+[rospy.internal][INFO] 2015-05-22 14:41:01,357: topic[/activity] removing connection to http://192.168.1.6:43278/
+[rospy.internal][INFO] 2015-05-22 14:41:01,357: topic[/activity] removing connection to http://192.168.1.8:48823/
+[rospy.internal][INFO] 2015-05-22 14:41:01,358: topic[/watchdog_clear/tablet] removing connection to http://192.168.1.13:34748/
+[rospy.impl.masterslave][INFO] 2015-05-22 14:41:01,358: Interaction exited
+[rosout][INFO] 2015-05-22 14:41:01,474: Stopped
+[rospy.core][INFO] 2015-05-22 14:41:01,500: signal_shutdown [atexit]

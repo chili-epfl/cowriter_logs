@@ -1,0 +1,398 @@
+[rospy.client][INFO] 2015-05-29 11:02:45,940: init_node, name[/valence_arousal_map], pid[12136]
+[xmlrpc][INFO] 2015-05-29 11:02:45,941: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2015-05-29 11:02:45,941: Started XML-RPC server [http://192.168.1.13:59442/]
+[rospy.impl.masterslave][INFO] 2015-05-29 11:02:45,941: _ready: http://192.168.1.13:59442/
+[rospy.init][INFO] 2015-05-29 11:02:45,942: ROS Slave URI: [http://192.168.1.13:59442/]
+[rospy.registration][INFO] 2015-05-29 11:02:45,942: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2015-05-29 11:02:45,942: Registering publisher topic [/current_emotion] type [geometry_msgs/PointStamped] with master
+[xmlrpc][INFO] 2015-05-29 11:02:45,943: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2015-05-29 11:02:45,944: registering subscriber topic [/level_engagement] type [geometry_msgs/Point] with master
+[rospy.registration][INFO] 2015-05-29 11:02:45,945: registering subscriber topic [/stop_learning] type [std_msgs/Empty] with master
+[rospy.init][INFO] 2015-05-29 11:02:46,042: registered with master
+[rospy.rosout][INFO] 2015-05-29 11:02:46,042: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-29 11:02:46,045: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-29 11:02:46,047: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2015-05-29 11:02:46,054: I will publish to the topic current_emotion
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:02:46,058: [Atlas       ] Load </usr/lib/python2.7/dist-packages/kivy/data/../data/images/defaulttheme.atlas>
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:02:46,059: [Atlas       ] Need to load 1 images
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:02:46,059: [Atlas       ] Load </usr/lib/python2.7/dist-packages/kivy/data/../data/images/defaulttheme-0.png>
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:02:46,060: [ImagePygame ] Load </usr/lib/python2.7/dist-packages/kivy/data/../data/images/defaulttheme-0.png>
+[kivy][[1;32mINFO[0m] 2015-05-29 11:02:46,098: [OSC         ] using <multiprocessing> for socket
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:02:46,101: [Base        ] Create provider from mouse
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:02:46,101: [Base        ] Create provider from probesysfs
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:02:46,102: [ProbeSysfs  ] using probsysfs!
+[rospy.internal][INFO] 2015-05-29 11:02:46,152: topic[/update_position] adding connection to [http://192.168.1.13:50312/], count 0
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:02:46,188: [ProbeSysfs  ] found device: SynPS/2 Synaptics TouchPad at /dev/input/event5
+[kivy][[1;32mINFO[0m] 2015-05-29 11:02:46,188: [ProbeSysfs  ] device match: /dev/input/event5
+[kivy][[1;32mINFO[0m] 2015-05-29 11:02:46,189: [MTD         ] Read event from </dev/input/event5>
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:02:46,189: [ProbeSysfs  ] found device: ELAN Touchscreen at /dev/input/event6
+[kivy][[1;32mINFO[0m] 2015-05-29 11:02:46,189: [ProbeSysfs  ] device match: /dev/input/event6
+[kivy][[1;32mINFO[0m] 2015-05-29 11:02:46,190: [MTD         ] Read event from </dev/input/event6>
+[kivy][[1;32mINFO[0m] 2015-05-29 11:02:46,196: [Base        ] Start application main loop
+[kivy][WARNING] 2015-05-29 11:02:46,198: stderr: Exception in thread Thread-9:
+[kivy][WARNING] 2015-05-29 11:02:46,201: stderr: Traceback (most recent call last):
+[kivy][WARNING] 2015-05-29 11:02:46,201: stderr:   File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+[rospy.internal][INFO] 2015-05-29 11:02:46,205: topic[/current_emotion] adding connection to [/action_manager], count 0
+[kivy][WARNING] 2015-05-29 11:02:46,202: stderr:     self.run()
+[kivy][WARNING] 2015-05-29 11:02:46,205: stderr: Exception in thread Thread-10:
+[kivy][WARNING] 2015-05-29 11:02:46,207: stderr:   File "/usr/lib/python2.7/threading.py", line 763, in run
+[kivy][[1;32mINFO[0m] 2015-05-29 11:02:46,207: [GL          ] NPOT texture support is available
+[kivy][WARNING] 2015-05-29 11:02:46,207: stderr: Traceback (most recent call last):
+[kivy][WARNING] 2015-05-29 11:02:46,207: stderr:     self.__target(*self.__args, **self.__kwargs)
+[kivy][WARNING] 2015-05-29 11:02:46,212: stderr:   File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+[kivy][WARNING] 2015-05-29 11:02:46,212: stderr:   File "/usr/lib/python2.7/dist-packages/kivy/input/providers/mtdev.py", line 192, in _thread_run
+[kivy][WARNING] 2015-05-29 11:02:46,214: stderr:     _device = Device(_fn)
+[kivy][WARNING] 2015-05-29 11:02:46,213: stderr:     self.run()
+[kivy][WARNING] 2015-05-29 11:02:46,219: stderr:   File "/usr/lib/python2.7/dist-packages/kivy/lib/mtdev.py", line 131, in __init__
+[kivy][WARNING] 2015-05-29 11:02:46,220: stderr:     self._fd = os.open(filename, os.O_NONBLOCK | os.O_RDONLY)
+[kivy][WARNING] 2015-05-29 11:02:46,220: stderr:   File "/usr/lib/python2.7/threading.py", line 763, in run
+[kivy][WARNING] 2015-05-29 11:02:46,220: stderr:     self.__target(*self.__args, **self.__kwargs)
+[kivy][WARNING] 2015-05-29 11:02:46,229: stderr:   File "/usr/lib/python2.7/dist-packages/kivy/input/providers/mtdev.py", line 192, in _thread_run
+[kivy][WARNING] 2015-05-29 11:02:46,229: stderr:     _device = Device(_fn)
+[kivy][WARNING] 2015-05-29 11:02:46,229: stderr:   File "/usr/lib/python2.7/dist-packages/kivy/lib/mtdev.py", line 131, in __init__
+[kivy][WARNING] 2015-05-29 11:02:46,229: stderr:     self._fd = os.open(filename, os.O_NONBLOCK | os.O_RDONLY)
+[kivy][WARNING] 2015-05-29 11:02:46,229: stderr: OSError: [Errno 13] Permission denied: '/dev/input/event6'
+[kivy][WARNING] 2015-05-29 11:02:46,229: stderr: 
+[kivy][WARNING] 2015-05-29 11:02:46,220: stderr: OSError: [Errno 13] Permission denied: '/dev/input/event5'
+[rospy.internal][INFO] 2015-05-29 11:02:46,231: topic[/rosout] adding connection to [/rosout], count 0
+[kivy][WARNING] 2015-05-29 11:02:46,231: stderr: 
+[rospy.internal][INFO] 2015-05-29 11:02:46,233: topic[/level_engagement] adding connection to [http://192.168.1.13:50312/], count 0
+[rospy.internal][INFO] 2015-05-29 11:17:33,680: topic[/stop_learning] adding connection to [http://192.168.1.13:58114/], count 0
+[rospy.core][INFO] 2015-05-29 11:17:33,682: signal_shutdown [Interaction exited]
+[rospy.internal][INFO] 2015-05-29 11:17:33,686: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-29 11:17:33,686: topic[/current_emotion] removing connection to /action_manager
+[rospy.internal][INFO] 2015-05-29 11:17:33,686: topic[/level_engagement] removing connection to http://192.168.1.13:50312/
+[rospy.internal][INFO] 2015-05-29 11:17:33,687: topic[/update_position] removing connection to http://192.168.1.13:50312/
+[rospy.internal][INFO] 2015-05-29 11:17:33,687: topic[/stop_learning] removing connection to http://192.168.1.13:58114/
+[rospy.impl.masterslave][INFO] 2015-05-29 11:17:33,687: Interaction exited
+[kivy][[1;32mINFO[0m] 2015-05-29 11:17:34,302: [Base        ] Leaving application in progress...
+[rospy.core][INFO] 2015-05-29 11:17:34,306: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-29 11:18:00,498: init_node, name[/valence_arousal_map], pid[17275]
+[xmlrpc][INFO] 2015-05-29 11:18:00,499: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2015-05-29 11:18:00,499: Started XML-RPC server [http://192.168.1.13:46048/]
+[rospy.init][INFO] 2015-05-29 11:18:00,499: ROS Slave URI: [http://192.168.1.13:46048/]
+[rospy.impl.masterslave][INFO] 2015-05-29 11:18:00,499: _ready: http://192.168.1.13:46048/
+[xmlrpc][INFO] 2015-05-29 11:18:00,500: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2015-05-29 11:18:00,500: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2015-05-29 11:18:00,500: Registering publisher topic [/current_emotion] type [geometry_msgs/PointStamped] with master
+[rospy.registration][INFO] 2015-05-29 11:18:00,505: registering subscriber topic [/level_engagement] type [geometry_msgs/Point] with master
+[rospy.registration][INFO] 2015-05-29 11:18:00,507: registering subscriber topic [/stop_learning] type [std_msgs/Empty] with master
+[rospy.internal][INFO] 2015-05-29 11:18:00,572: topic[/current_emotion] adding connection to [/action_manager], count 0
+[rospy.init][INFO] 2015-05-29 11:18:00,599: registered with master
+[rospy.rosout][INFO] 2015-05-29 11:18:00,600: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-29 11:18:00,602: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-29 11:18:00,604: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2015-05-29 11:18:00,610: I will publish to the topic current_emotion
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:18:00,612: [Atlas       ] Load </usr/lib/python2.7/dist-packages/kivy/data/../data/images/defaulttheme.atlas>
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:18:00,613: [Atlas       ] Need to load 1 images
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:18:00,613: [Atlas       ] Load </usr/lib/python2.7/dist-packages/kivy/data/../data/images/defaulttheme-0.png>
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:18:00,613: [ImagePygame ] Load </usr/lib/python2.7/dist-packages/kivy/data/../data/images/defaulttheme-0.png>
+[kivy][[1;32mINFO[0m] 2015-05-29 11:18:00,641: [OSC         ] using <multiprocessing> for socket
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:18:00,646: [Base        ] Create provider from mouse
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:18:00,646: [Base        ] Create provider from probesysfs
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:18:00,647: [ProbeSysfs  ] using probsysfs!
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:18:00,728: [ProbeSysfs  ] found device: SynPS/2 Synaptics TouchPad at /dev/input/event5
+[kivy][[1;32mINFO[0m] 2015-05-29 11:18:00,729: [ProbeSysfs  ] device match: /dev/input/event5
+[kivy][[1;32mINFO[0m] 2015-05-29 11:18:00,729: [MTD         ] Read event from </dev/input/event5>
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:18:00,729: [ProbeSysfs  ] found device: ELAN Touchscreen at /dev/input/event6
+[kivy][[1;32mINFO[0m] 2015-05-29 11:18:00,729: [ProbeSysfs  ] device match: /dev/input/event6
+[kivy][[1;32mINFO[0m] 2015-05-29 11:18:00,729: [MTD         ] Read event from </dev/input/event6>
+[kivy][[1;32mINFO[0m] 2015-05-29 11:18:00,729: [Base        ] Start application main loop
+[kivy][[1;32mINFO[0m] 2015-05-29 11:18:00,731: [GL          ] NPOT texture support is available
+[kivy][WARNING] 2015-05-29 11:18:00,734: stderr: Exception in thread Thread-7:
+[kivy][WARNING] 2015-05-29 11:18:00,735: stderr: Traceback (most recent call last):
+[kivy][WARNING] 2015-05-29 11:18:00,735: stderr:   File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+[kivy][WARNING] 2015-05-29 11:18:00,735: stderr:     self.run()
+[kivy][WARNING] 2015-05-29 11:18:00,736: stderr:   File "/usr/lib/python2.7/threading.py", line 763, in run
+[kivy][WARNING] 2015-05-29 11:18:00,736: stderr:     self.__target(*self.__args, **self.__kwargs)
+[kivy][WARNING] 2015-05-29 11:18:00,736: stderr:   File "/usr/lib/python2.7/dist-packages/kivy/input/providers/mtdev.py", line 192, in _thread_run
+[kivy][WARNING] 2015-05-29 11:18:00,736: stderr:     _device = Device(_fn)
+[kivy][WARNING] 2015-05-29 11:18:00,736: stderr:   File "/usr/lib/python2.7/dist-packages/kivy/lib/mtdev.py", line 131, in __init__
+[kivy][WARNING] 2015-05-29 11:18:00,736: stderr:     self._fd = os.open(filename, os.O_NONBLOCK | os.O_RDONLY)
+[kivy][WARNING] 2015-05-29 11:18:00,736: stderr: OSError: [Errno 13] Permission denied: '/dev/input/event5'
+[kivy][WARNING] 2015-05-29 11:18:00,737: stderr: 
+[kivy][WARNING] 2015-05-29 11:18:00,735: stderr: Exception in thread Thread-8:
+[kivy][WARNING] 2015-05-29 11:18:00,737: stderr: Traceback (most recent call last):
+[kivy][WARNING] 2015-05-29 11:18:00,737: stderr:   File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+[kivy][WARNING] 2015-05-29 11:18:00,737: stderr:     self.run()
+[kivy][WARNING] 2015-05-29 11:18:00,737: stderr:   File "/usr/lib/python2.7/threading.py", line 763, in run
+[kivy][WARNING] 2015-05-29 11:18:00,737: stderr:     self.__target(*self.__args, **self.__kwargs)
+[kivy][WARNING] 2015-05-29 11:18:00,737: stderr:   File "/usr/lib/python2.7/dist-packages/kivy/input/providers/mtdev.py", line 192, in _thread_run
+[kivy][WARNING] 2015-05-29 11:18:00,737: stderr:     _device = Device(_fn)
+[kivy][WARNING] 2015-05-29 11:18:00,738: stderr:   File "/usr/lib/python2.7/dist-packages/kivy/lib/mtdev.py", line 131, in __init__
+[kivy][WARNING] 2015-05-29 11:18:00,738: stderr:     self._fd = os.open(filename, os.O_NONBLOCK | os.O_RDONLY)
+[kivy][WARNING] 2015-05-29 11:18:00,738: stderr: OSError: [Errno 13] Permission denied: '/dev/input/event6'
+[kivy][WARNING] 2015-05-29 11:18:00,738: stderr: 
+[rospy.internal][INFO] 2015-05-29 11:18:00,827: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2015-05-29 11:18:00,844: topic[/level_engagement] adding connection to [http://192.168.1.13:51364/], count 0
+[rospy.internal][INFO] 2015-05-29 11:18:00,845: topic[/update_position] adding connection to [http://192.168.1.13:51364/], count 0
+[rosout][INFO] 2015-05-29 11:18:26,626: The update state reached the border. So, no update is possible
+[rosout][INFO] 2015-05-29 11:18:26,789: The update state reached the border. So, no update is possible
+[rosout][INFO] 2015-05-29 11:18:26,953: The update state reached the border. So, no update is possible
+[rospy.internal][ERROR] 2015-05-29 11:29:26,655: Unable to initiate TCP/IP socket to 192.168.1.13:34080 (http://192.168.1.13:51364/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-29 11:29:26,655: Unable to initiate TCP/IP socket to 192.168.1.13:34080 (http://192.168.1.13:51364/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2015-05-29 11:29:26,664: topic[/stop_learning] adding connection to [http://192.168.1.13:54453/], count 0
+[rospy.core][INFO] 2015-05-29 11:29:26,666: signal_shutdown [Interaction exited]
+[rospy.internal][INFO] 2015-05-29 11:29:26,671: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-29 11:29:26,671: topic[/current_emotion] removing connection to /action_manager
+[rospy.internal][INFO] 2015-05-29 11:29:26,671: topic[/level_engagement] removing connection to http://192.168.1.13:51364/
+[rospy.internal][INFO] 2015-05-29 11:29:26,672: topic[/update_position] removing connection to http://192.168.1.13:51364/
+[rospy.internal][INFO] 2015-05-29 11:29:26,672: topic[/stop_learning] removing connection to http://192.168.1.13:54453/
+[rospy.impl.masterslave][INFO] 2015-05-29 11:29:26,672: Interaction exited
+[kivy][[1;32mINFO[0m] 2015-05-29 11:29:27,287: [Base        ] Leaving application in progress...
+[rospy.core][INFO] 2015-05-29 11:29:27,295: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-29 11:32:11,382: init_node, name[/valence_arousal_map], pid[9331]
+[xmlrpc][INFO] 2015-05-29 11:32:11,382: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2015-05-29 11:32:11,383: Started XML-RPC server [http://192.168.1.13:40892/]
+[rospy.impl.masterslave][INFO] 2015-05-29 11:32:11,383: _ready: http://192.168.1.13:40892/
+[rospy.init][INFO] 2015-05-29 11:32:11,383: ROS Slave URI: [http://192.168.1.13:40892/]
+[rospy.registration][INFO] 2015-05-29 11:32:11,384: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2015-05-29 11:32:11,384: Registering publisher topic [/current_emotion] type [geometry_msgs/PointStamped] with master
+[xmlrpc][INFO] 2015-05-29 11:32:11,384: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2015-05-29 11:32:11,385: registering subscriber topic [/level_engagement] type [geometry_msgs/Point] with master
+[rospy.registration][INFO] 2015-05-29 11:32:11,387: registering subscriber topic [/stop_learning] type [std_msgs/Empty] with master
+[rospy.init][INFO] 2015-05-29 11:32:11,484: registered with master
+[rospy.rosout][INFO] 2015-05-29 11:32:11,484: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-29 11:32:11,486: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-29 11:32:11,487: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2015-05-29 11:32:11,490: I will publish to the topic current_emotion
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:32:11,491: [Atlas       ] Load </usr/lib/python2.7/dist-packages/kivy/data/../data/images/defaulttheme.atlas>
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:32:11,492: [Atlas       ] Need to load 1 images
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:32:11,492: [Atlas       ] Load </usr/lib/python2.7/dist-packages/kivy/data/../data/images/defaulttheme-0.png>
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:32:11,492: [ImagePygame ] Load </usr/lib/python2.7/dist-packages/kivy/data/../data/images/defaulttheme-0.png>
+[kivy][[1;32mINFO[0m] 2015-05-29 11:32:11,514: [OSC         ] using <multiprocessing> for socket
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:32:11,517: [Base        ] Create provider from mouse
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:32:11,517: [Base        ] Create provider from probesysfs
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:32:11,517: [ProbeSysfs  ] using probsysfs!
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:32:11,610: [ProbeSysfs  ] found device: SynPS/2 Synaptics TouchPad at /dev/input/event5
+[kivy][[1;32mINFO[0m] 2015-05-29 11:32:11,610: [ProbeSysfs  ] device match: /dev/input/event5
+[kivy][[1;32mINFO[0m] 2015-05-29 11:32:11,610: [MTD         ] Read event from </dev/input/event5>
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:32:11,611: [ProbeSysfs  ] found device: ELAN Touchscreen at /dev/input/event6
+[kivy][[1;32mINFO[0m] 2015-05-29 11:32:11,611: [ProbeSysfs  ] device match: /dev/input/event6
+[kivy][[1;32mINFO[0m] 2015-05-29 11:32:11,612: [MTD         ] Read event from </dev/input/event6>
+[kivy][[1;32mINFO[0m] 2015-05-29 11:32:11,612: [Base        ] Start application main loop
+[kivy][[1;32mINFO[0m] 2015-05-29 11:32:11,613: [GL          ] NPOT texture support is available
+[kivy][WARNING] 2015-05-29 11:32:11,619: stderr: Exception in thread Thread-6:
+[kivy][WARNING] 2015-05-29 11:32:11,620: stderr: Traceback (most recent call last):
+[kivy][WARNING] 2015-05-29 11:32:11,620: stderr:   File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+[kivy][WARNING] 2015-05-29 11:32:11,620: stderr:     self.run()
+[kivy][WARNING] 2015-05-29 11:32:11,620: stderr:   File "/usr/lib/python2.7/threading.py", line 763, in run
+[kivy][WARNING] 2015-05-29 11:32:11,620: stderr:     self.__target(*self.__args, **self.__kwargs)
+[kivy][WARNING] 2015-05-29 11:32:11,620: stderr:   File "/usr/lib/python2.7/dist-packages/kivy/input/providers/mtdev.py", line 192, in _thread_run
+[kivy][WARNING] 2015-05-29 11:32:11,620: stderr:     _device = Device(_fn)
+[kivy][WARNING] 2015-05-29 11:32:11,621: stderr:   File "/usr/lib/python2.7/dist-packages/kivy/lib/mtdev.py", line 131, in __init__
+[kivy][WARNING] 2015-05-29 11:32:11,621: stderr:     self._fd = os.open(filename, os.O_NONBLOCK | os.O_RDONLY)
+[kivy][WARNING] 2015-05-29 11:32:11,621: stderr: OSError: [Errno 13] Permission denied: '/dev/input/event6'
+[kivy][WARNING] 2015-05-29 11:32:11,621: stderr: 
+[kivy][WARNING] 2015-05-29 11:32:11,619: stderr: Exception in thread Thread-5:
+[kivy][WARNING] 2015-05-29 11:32:11,633: stderr: Traceback (most recent call last):
+[kivy][WARNING] 2015-05-29 11:32:11,633: stderr:   File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+[rospy.internal][INFO] 2015-05-29 11:32:11,637: topic[/rosout] adding connection to [/rosout], count 0
+[kivy][WARNING] 2015-05-29 11:32:11,636: stderr:     self.run()
+[kivy][WARNING] 2015-05-29 11:32:11,641: stderr:   File "/usr/lib/python2.7/threading.py", line 763, in run
+[kivy][WARNING] 2015-05-29 11:32:11,643: stderr:     self.__target(*self.__args, **self.__kwargs)
+[kivy][WARNING] 2015-05-29 11:32:11,643: stderr:   File "/usr/lib/python2.7/dist-packages/kivy/input/providers/mtdev.py", line 192, in _thread_run
+[kivy][WARNING] 2015-05-29 11:32:11,643: stderr:     _device = Device(_fn)
+[kivy][WARNING] 2015-05-29 11:32:11,643: stderr:   File "/usr/lib/python2.7/dist-packages/kivy/lib/mtdev.py", line 131, in __init__
+[kivy][WARNING] 2015-05-29 11:32:11,643: stderr:     self._fd = os.open(filename, os.O_NONBLOCK | os.O_RDONLY)
+[kivy][WARNING] 2015-05-29 11:32:11,643: stderr: OSError: [Errno 13] Permission denied: '/dev/input/event5'
+[kivy][WARNING] 2015-05-29 11:32:11,644: stderr: 
+[rospy.internal][INFO] 2015-05-29 11:32:11,672: topic[/update_position] adding connection to [http://192.168.1.13:40199/], count 0
+[rospy.internal][INFO] 2015-05-29 11:32:11,674: topic[/level_engagement] adding connection to [http://192.168.1.13:40199/], count 0
+[rospy.internal][INFO] 2015-05-29 11:32:11,726: topic[/current_emotion] adding connection to [/action_manager], count 0
+[rospy.internal][ERROR] 2015-05-29 11:41:28,605: Unable to initiate TCP/IP socket to 192.168.1.13:59046 (http://192.168.1.13:40199/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-29 11:41:28,605: Unable to initiate TCP/IP socket to 192.168.1.13:59046 (http://192.168.1.13:40199/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2015-05-29 11:41:28,609: topic[/stop_learning] adding connection to [http://192.168.1.13:52311/], count 0
+[rospy.core][INFO] 2015-05-29 11:41:28,610: signal_shutdown [Interaction exited]
+[rospy.internal][INFO] 2015-05-29 11:41:28,615: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-29 11:41:28,616: topic[/current_emotion] removing connection to /action_manager
+[rospy.internal][INFO] 2015-05-29 11:41:28,617: topic[/level_engagement] removing connection to http://192.168.1.13:40199/
+[rospy.internal][INFO] 2015-05-29 11:41:28,617: topic[/update_position] removing connection to http://192.168.1.13:40199/
+[rospy.internal][INFO] 2015-05-29 11:41:28,617: topic[/stop_learning] removing connection to http://192.168.1.13:52311/
+[rospy.impl.masterslave][INFO] 2015-05-29 11:41:28,617: Interaction exited
+[kivy][[1;32mINFO[0m] 2015-05-29 11:41:29,232: [Base        ] Leaving application in progress...
+[rospy.core][INFO] 2015-05-29 11:41:29,242: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-29 11:53:07,442: init_node, name[/valence_arousal_map], pid[29764]
+[xmlrpc][INFO] 2015-05-29 11:53:07,443: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2015-05-29 11:53:07,443: Started XML-RPC server [http://192.168.1.13:33193/]
+[rospy.init][INFO] 2015-05-29 11:53:07,443: ROS Slave URI: [http://192.168.1.13:33193/]
+[rospy.impl.masterslave][INFO] 2015-05-29 11:53:07,443: _ready: http://192.168.1.13:33193/
+[rospy.registration][INFO] 2015-05-29 11:53:07,444: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2015-05-29 11:53:07,444: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2015-05-29 11:53:07,444: Registering publisher topic [/current_emotion] type [geometry_msgs/PointStamped] with master
+[rospy.registration][INFO] 2015-05-29 11:53:07,447: registering subscriber topic [/level_engagement] type [geometry_msgs/Point] with master
+[rospy.registration][INFO] 2015-05-29 11:53:07,449: registering subscriber topic [/stop_learning] type [std_msgs/Empty] with master
+[rospy.internal][INFO] 2015-05-29 11:53:07,515: topic[/current_emotion] adding connection to [/action_manager], count 0
+[rospy.init][INFO] 2015-05-29 11:53:07,544: registered with master
+[rospy.rosout][INFO] 2015-05-29 11:53:07,544: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-29 11:53:07,546: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-29 11:53:07,547: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2015-05-29 11:53:07,550: I will publish to the topic current_emotion
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:53:07,551: [Atlas       ] Load </usr/lib/python2.7/dist-packages/kivy/data/../data/images/defaulttheme.atlas>
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:53:07,552: [Atlas       ] Need to load 1 images
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:53:07,552: [Atlas       ] Load </usr/lib/python2.7/dist-packages/kivy/data/../data/images/defaulttheme-0.png>
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:53:07,552: [ImagePygame ] Load </usr/lib/python2.7/dist-packages/kivy/data/../data/images/defaulttheme-0.png>
+[kivy][[1;32mINFO[0m] 2015-05-29 11:53:07,572: [OSC         ] using <multiprocessing> for socket
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:53:07,575: [Base        ] Create provider from mouse
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:53:07,576: [Base        ] Create provider from probesysfs
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:53:07,576: [ProbeSysfs  ] using probsysfs!
+[rospy.internal][INFO] 2015-05-29 11:53:07,648: topic[/update_position] adding connection to [http://192.168.1.13:54139/], count 0
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:53:07,674: [ProbeSysfs  ] found device: SynPS/2 Synaptics TouchPad at /dev/input/event5
+[kivy][[1;32mINFO[0m] 2015-05-29 11:53:07,674: [ProbeSysfs  ] device match: /dev/input/event5
+[kivy][[1;32mINFO[0m] 2015-05-29 11:53:07,674: [MTD         ] Read event from </dev/input/event5>
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:53:07,675: [ProbeSysfs  ] found device: ELAN Touchscreen at /dev/input/event6
+[kivy][[1;32mINFO[0m] 2015-05-29 11:53:07,675: [ProbeSysfs  ] device match: /dev/input/event6
+[kivy][[1;32mINFO[0m] 2015-05-29 11:53:07,675: [MTD         ] Read event from </dev/input/event6>
+[kivy][[1;32mINFO[0m] 2015-05-29 11:53:07,675: [Base        ] Start application main loop
+[kivy][WARNING] 2015-05-29 11:53:07,676: stderr: Exception in thread Thread-9:
+[kivy][WARNING] 2015-05-29 11:53:07,676: stderr: Traceback (most recent call last):
+[kivy][WARNING] 2015-05-29 11:53:07,677: stderr:   File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+[kivy][WARNING] 2015-05-29 11:53:07,677: stderr:     self.run()
+[kivy][WARNING] 2015-05-29 11:53:07,677: stderr:   File "/usr/lib/python2.7/threading.py", line 763, in run
+[kivy][WARNING] 2015-05-29 11:53:07,677: stderr:     self.__target(*self.__args, **self.__kwargs)
+[kivy][WARNING] 2015-05-29 11:53:07,677: stderr:   File "/usr/lib/python2.7/dist-packages/kivy/input/providers/mtdev.py", line 192, in _thread_run
+[kivy][WARNING] 2015-05-29 11:53:07,677: stderr:     _device = Device(_fn)
+[kivy][WARNING] 2015-05-29 11:53:07,677: stderr:   File "/usr/lib/python2.7/dist-packages/kivy/lib/mtdev.py", line 131, in __init__
+[kivy][WARNING] 2015-05-29 11:53:07,677: stderr:     self._fd = os.open(filename, os.O_NONBLOCK | os.O_RDONLY)
+[kivy][WARNING] 2015-05-29 11:53:07,677: stderr: OSError: [Errno 13] Permission denied: '/dev/input/event5'
+[kivy][WARNING] 2015-05-29 11:53:07,677: stderr: 
+[kivy][WARNING] 2015-05-29 11:53:07,678: stderr: Exception in thread Thread-10:
+[kivy][WARNING] 2015-05-29 11:53:07,678: stderr: Traceback (most recent call last):
+[kivy][WARNING] 2015-05-29 11:53:07,678: stderr:   File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+[kivy][[1;32mINFO[0m] 2015-05-29 11:53:07,678: [GL          ] NPOT texture support is available
+[kivy][WARNING] 2015-05-29 11:53:07,679: stderr:     self.run()
+[kivy][WARNING] 2015-05-29 11:53:07,682: stderr:   File "/usr/lib/python2.7/threading.py", line 763, in run
+[kivy][WARNING] 2015-05-29 11:53:07,682: stderr:     self.__target(*self.__args, **self.__kwargs)
+[kivy][WARNING] 2015-05-29 11:53:07,687: stderr:   File "/usr/lib/python2.7/dist-packages/kivy/input/providers/mtdev.py", line 192, in _thread_run
+[kivy][WARNING] 2015-05-29 11:53:07,687: stderr:     _device = Device(_fn)
+[kivy][WARNING] 2015-05-29 11:53:07,687: stderr:   File "/usr/lib/python2.7/dist-packages/kivy/lib/mtdev.py", line 131, in __init__
+[kivy][WARNING] 2015-05-29 11:53:07,687: stderr:     self._fd = os.open(filename, os.O_NONBLOCK | os.O_RDONLY)
+[kivy][WARNING] 2015-05-29 11:53:07,687: stderr: OSError: [Errno 13] Permission denied: '/dev/input/event6'
+[kivy][WARNING] 2015-05-29 11:53:07,687: stderr: 
+[rospy.internal][INFO] 2015-05-29 11:53:07,723: topic[/level_engagement] adding connection to [http://192.168.1.13:54139/], count 0
+[rospy.internal][INFO] 2015-05-29 11:53:07,811: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2015-05-29 11:56:14,401: topic[/stop_learning] adding connection to [http://192.168.1.13:33186/], count 0
+[rospy.core][INFO] 2015-05-29 11:56:14,406: signal_shutdown [Interaction exited]
+[rospy.internal][INFO] 2015-05-29 11:56:14,414: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-29 11:56:14,415: topic[/current_emotion] removing connection to /action_manager
+[rospy.internal][INFO] 2015-05-29 11:56:14,415: topic[/level_engagement] removing connection to http://192.168.1.13:54139/
+[rospy.internal][INFO] 2015-05-29 11:56:14,417: topic[/update_position] removing connection to http://192.168.1.13:54139/
+[rospy.internal][INFO] 2015-05-29 11:56:14,418: topic[/stop_learning] removing connection to http://192.168.1.13:33186/
+[rospy.impl.masterslave][INFO] 2015-05-29 11:56:14,418: Interaction exited
+[rospy.internal][ERROR] 2015-05-29 11:56:14,419: Unable to initiate TCP/IP socket to 192.168.1.13:37944 (http://192.168.1.13:54139/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[kivy][[1;32mINFO[0m] 2015-05-29 11:56:15,033: [Base        ] Leaving application in progress...
+[rospy.core][INFO] 2015-05-29 11:56:15,041: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-29 11:58:00,746: init_node, name[/valence_arousal_map], pid[6990]
+[xmlrpc][INFO] 2015-05-29 11:58:00,747: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2015-05-29 11:58:00,747: ROS Slave URI: [http://192.168.1.13:38600/]
+[xmlrpc][INFO] 2015-05-29 11:58:00,747: Started XML-RPC server [http://192.168.1.13:38600/]
+[rospy.impl.masterslave][INFO] 2015-05-29 11:58:00,747: _ready: http://192.168.1.13:38600/
+[xmlrpc][INFO] 2015-05-29 11:58:00,747: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2015-05-29 11:58:00,748: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2015-05-29 11:58:00,748: Registering publisher topic [/current_emotion] type [geometry_msgs/PointStamped] with master
+[rospy.registration][INFO] 2015-05-29 11:58:00,750: registering subscriber topic [/level_engagement] type [geometry_msgs/Point] with master
+[rospy.registration][INFO] 2015-05-29 11:58:00,752: registering subscriber topic [/stop_learning] type [std_msgs/Empty] with master
+[rospy.internal][INFO] 2015-05-29 11:58:00,797: topic[/current_emotion] adding connection to [/action_manager], count 0
+[rospy.init][INFO] 2015-05-29 11:58:00,847: registered with master
+[rospy.rosout][INFO] 2015-05-29 11:58:00,848: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-29 11:58:00,850: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-29 11:58:00,851: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2015-05-29 11:58:00,854: I will publish to the topic current_emotion
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:58:00,855: [Atlas       ] Load </usr/lib/python2.7/dist-packages/kivy/data/../data/images/defaulttheme.atlas>
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:58:00,856: [Atlas       ] Need to load 1 images
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:58:00,856: [Atlas       ] Load </usr/lib/python2.7/dist-packages/kivy/data/../data/images/defaulttheme-0.png>
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:58:00,856: [ImagePygame ] Load </usr/lib/python2.7/dist-packages/kivy/data/../data/images/defaulttheme-0.png>
+[kivy][[1;32mINFO[0m] 2015-05-29 11:58:00,881: [OSC         ] using <multiprocessing> for socket
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:58:00,885: [Base        ] Create provider from mouse
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:58:00,885: [Base        ] Create provider from probesysfs
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:58:00,886: [ProbeSysfs  ] using probsysfs!
+[rospy.internal][INFO] 2015-05-29 11:58:00,915: topic[/update_position] adding connection to [http://192.168.1.13:52245/], count 0
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:58:00,978: [ProbeSysfs  ] found device: SynPS/2 Synaptics TouchPad at /dev/input/event5
+[kivy][[1;32mINFO[0m] 2015-05-29 11:58:00,978: [ProbeSysfs  ] device match: /dev/input/event5
+[kivy][[1;32mINFO[0m] 2015-05-29 11:58:00,979: [MTD         ] Read event from </dev/input/event5>
+[kivy][[1;36mDEBUG[0m] 2015-05-29 11:58:00,979: [ProbeSysfs  ] found device: ELAN Touchscreen at /dev/input/event6
+[kivy][[1;32mINFO[0m] 2015-05-29 11:58:00,979: [ProbeSysfs  ] device match: /dev/input/event6
+[kivy][[1;32mINFO[0m] 2015-05-29 11:58:00,979: [MTD         ] Read event from </dev/input/event6>
+[kivy][[1;32mINFO[0m] 2015-05-29 11:58:00,979: [Base        ] Start application main loop
+[kivy][[1;32mINFO[0m] 2015-05-29 11:58:00,981: [GL          ] NPOT texture support is available
+[kivy][WARNING] 2015-05-29 11:58:00,981: stderr: Exception in thread Thread-9:
+[kivy][WARNING] 2015-05-29 11:58:00,982: stderr: Exception in thread Thread-10:
+[kivy][WARNING] 2015-05-29 11:58:00,988: stderr: Traceback (most recent call last):
+[kivy][WARNING] 2015-05-29 11:58:00,991: stderr:   File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+[kivy][WARNING] 2015-05-29 11:58:00,992: stderr:     self.run()
+[kivy][WARNING] 2015-05-29 11:58:00,993: stderr:   File "/usr/lib/python2.7/threading.py", line 763, in run
+[kivy][WARNING] 2015-05-29 11:58:00,994: stderr:     self.__target(*self.__args, **self.__kwargs)
+[kivy][WARNING] 2015-05-29 11:58:00,994: stderr:   File "/usr/lib/python2.7/dist-packages/kivy/input/providers/mtdev.py", line 192, in _thread_run
+[kivy][WARNING] 2015-05-29 11:58:00,994: stderr:     _device = Device(_fn)
+[kivy][WARNING] 2015-05-29 11:58:00,994: stderr:   File "/usr/lib/python2.7/dist-packages/kivy/lib/mtdev.py", line 131, in __init__
+[kivy][WARNING] 2015-05-29 11:58:00,994: stderr:     self._fd = os.open(filename, os.O_NONBLOCK | os.O_RDONLY)
+[kivy][WARNING] 2015-05-29 11:58:00,994: stderr: OSError: [Errno 13] Permission denied: '/dev/input/event5'
+[kivy][WARNING] 2015-05-29 11:58:00,994: stderr: 
+[kivy][WARNING] 2015-05-29 11:58:00,988: stderr: Traceback (most recent call last):
+[kivy][WARNING] 2015-05-29 11:58:00,995: stderr:   File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+[kivy][WARNING] 2015-05-29 11:58:00,995: stderr:     self.run()
+[kivy][WARNING] 2015-05-29 11:58:00,996: stderr:   File "/usr/lib/python2.7/threading.py", line 763, in run
+[kivy][WARNING] 2015-05-29 11:58:01,004: stderr:     self.__target(*self.__args, **self.__kwargs)
+[kivy][WARNING] 2015-05-29 11:58:01,004: stderr:   File "/usr/lib/python2.7/dist-packages/kivy/input/providers/mtdev.py", line 192, in _thread_run
+[kivy][WARNING] 2015-05-29 11:58:01,004: stderr:     _device = Device(_fn)
+[kivy][WARNING] 2015-05-29 11:58:01,004: stderr:   File "/usr/lib/python2.7/dist-packages/kivy/lib/mtdev.py", line 131, in __init__
+[rospy.internal][INFO] 2015-05-29 11:58:00,997: topic[/rosout] adding connection to [/rosout], count 0
+[kivy][WARNING] 2015-05-29 11:58:01,004: stderr:     self._fd = os.open(filename, os.O_NONBLOCK | os.O_RDONLY)
+[kivy][WARNING] 2015-05-29 11:58:01,005: stderr: OSError: [Errno 13] Permission denied: '/dev/input/event6'
+[kivy][WARNING] 2015-05-29 11:58:01,005: stderr: 
+[rospy.internal][INFO] 2015-05-29 11:58:01,028: topic[/level_engagement] adding connection to [http://192.168.1.13:52245/], count 0
+[rospy.internal][INFO] 2015-05-29 11:58:47,408: topic[/stop_learning] adding connection to [http://192.168.1.13:60454/], count 0
+[rospy.core][INFO] 2015-05-29 11:58:47,409: signal_shutdown [Interaction exited]
+[rospy.internal][INFO] 2015-05-29 11:58:47,413: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-29 11:58:47,413: topic[/current_emotion] removing connection to /action_manager
+[rospy.internal][INFO] 2015-05-29 11:58:47,414: topic[/level_engagement] removing connection to http://192.168.1.13:52245/
+[rospy.internal][INFO] 2015-05-29 11:58:47,414: topic[/update_position] removing connection to http://192.168.1.13:52245/
+[rospy.internal][INFO] 2015-05-29 11:58:47,414: topic[/stop_learning] removing connection to http://192.168.1.13:60454/
+[rospy.impl.masterslave][INFO] 2015-05-29 11:58:47,414: Interaction exited
+[rospy.internal][WARNING] 2015-05-29 11:58:47,415: Unknown error initiating TCP/IP socket to 192.168.1.13:42931 (http://192.168.1.13:52245/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[kivy][[1;32mINFO[0m] 2015-05-29 11:58:48,031: [Base        ] Leaving application in progress...
+[rospy.core][INFO] 2015-05-29 11:58:48,034: signal_shutdown [atexit]

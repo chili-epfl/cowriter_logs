@@ -1,0 +1,126 @@
+[rospy.client][INFO] 2015-05-22 14:03:42,315: init_node, name[/display_manager_server], pid[5928]
+[xmlrpc][INFO] 2015-05-22 14:03:42,315: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2015-05-22 14:03:42,316: Started XML-RPC server [http://192.168.1.6:49668/]
+[rospy.impl.masterslave][INFO] 2015-05-22 14:03:42,316: _ready: http://192.168.1.6:49668/
+[rospy.init][INFO] 2015-05-22 14:03:42,320: ROS Slave URI: [http://192.168.1.6:49668/]
+[rospy.registration][INFO] 2015-05-22 14:03:42,321: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2015-05-22 14:03:42,321: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2015-05-22 14:03:42,420: registered with master
+[rospy.rosout][INFO] 2015-05-22 14:03:42,421: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-22 14:03:42,423: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-22 14:03:42,425: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2015-05-22 14:03:42,438: Ready to clear all shapes.
+[rosout][INFO] 2015-05-22 14:03:42,442: Ready to display new shapes.
+[rosout][INFO] 2015-05-22 14:03:42,447: Ready to determine index of location.
+[rosout][INFO] 2015-05-22 14:03:42,454: Ready to determine shape at location.
+[rosout][INFO] 2015-05-22 14:03:42,458: Ready to determine closest shape(s) to location.
+[rosout][INFO] 2015-05-22 14:03:42,463: Ready to display new shapes at specific location.
+[rosout][INFO] 2015-05-22 14:03:42,468: Ready to determine is shape fits.
+[rospy.internal][INFO] 2015-05-22 14:03:42,664: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2015-05-22 14:04:29,564: Shapes cleared
+[rosout][INFO] 2015-05-22 14:04:57,949: Shape at location returned: 0_-1
+[rosout][INFO] 2015-05-22 14:05:00,764: Shape at location returned: 0_-1
+[rosout][INFO] 2015-05-22 14:05:27,383: Shapes cleared
+[rosout][INFO] 2015-05-22 14:05:57,651: Shapes cleared
+[rosout][INFO] 2015-05-22 14:06:30,134: Shapes cleared
+[rosout][INFO] 2015-05-22 14:07:03,601: Shapes cleared
+[rosout][INFO] 2015-05-22 14:07:33,519: Shapes cleared
+[rosout][INFO] 2015-05-22 14:08:01,001: Shapes cleared
+[rosout][INFO] 2015-05-22 14:08:29,076: Shapes cleared
+[rosout][INFO] 2015-05-22 14:08:59,994: Shapes cleared
+[rosout][INFO] 2015-05-22 14:09:27,912: Shapes cleared
+[rosout][INFO] 2015-05-22 14:09:50,863: Shapes cleared
+[rosout][INFO] 2015-05-22 14:10:37,517: Shapes cleared
+[rosout][INFO] 2015-05-22 14:11:38,827: Shapes cleared
+[rosout][INFO] 2015-05-22 14:12:08,773: Shapes cleared
+[rosout][INFO] 2015-05-22 14:12:56,564: Shapes cleared
+[rosout][INFO] 2015-05-22 14:13:42,801: Shapes cleared
+[rosout][INFO] 2015-05-22 14:14:00,064: Shape at location returned: 0_-1
+[rosout][INFO] 2015-05-22 14:14:25,756: Shapes cleared
+[rosout][INFO] 2015-05-22 14:14:58,580: Shapes cleared
+[rosout][INFO] 2015-05-22 14:15:39,247: Shapes cleared
+[rosout][INFO] 2015-05-22 14:16:17,704: Shapes cleared
+[rosout][INFO] 2015-05-22 14:16:49,939: Shapes cleared
+[rosout][INFO] 2015-05-22 14:17:06,957: Shapes cleared
+[rosout][INFO] 2015-05-22 14:18:53,984: Shape at location returned: 0_-1
+[rosout][INFO] 2015-05-22 14:19:06,408: Shapes cleared
+[rosout][INFO] 2015-05-22 14:19:24,873: Shapes cleared
+[rosout][INFO] 2015-05-22 14:19:40,689: Shapes cleared
+[rosout][INFO] 2015-05-22 14:19:58,972: Shapes cleared
+[rosout][INFO] 2015-05-22 14:20:26,689: Shapes cleared
+[rosout][INFO] 2015-05-22 14:21:03,455: Shapes cleared
+[rosout][INFO] 2015-05-22 14:21:32,234: Shapes cleared
+[rosout][INFO] 2015-05-22 14:22:05,745: Shapes cleared
+[rosout][INFO] 2015-05-22 14:22:24,518: Shapes cleared
+[rosout][INFO] 2015-05-22 14:22:43,234: Shapes cleared
+[rosout][INFO] 2015-05-22 14:23:29,241: Shapes cleared
+[rosout][INFO] 2015-05-22 14:23:59,542: Shapes cleared
+[rosout][INFO] 2015-05-22 14:24:31,752: Shapes cleared
+[rosout][INFO] 2015-05-22 14:24:47,574: Shape at location returned: 0_-1
+[rosout][INFO] 2015-05-22 14:25:00,274: Shapes cleared
+[rospy.core][INFO] 2015-05-22 14:28:12,749: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2015-05-22 14:28:12,781: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2015-05-22 14:28:12,782: signal-2
+[rosout][INFO] 2015-05-22 14:28:13,397: shut down
+[rospy.core][INFO] 2015-05-22 14:28:13,398: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-22 14:28:22,593: init_node, name[/display_manager_server], pid[462]
+[xmlrpc][INFO] 2015-05-22 14:28:22,593: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2015-05-22 14:28:22,593: Started XML-RPC server [http://192.168.1.6:37638/]
+[rospy.impl.masterslave][INFO] 2015-05-22 14:28:22,594: _ready: http://192.168.1.6:37638/
+[rospy.init][INFO] 2015-05-22 14:28:22,597: ROS Slave URI: [http://192.168.1.6:37638/]
+[rospy.registration][INFO] 2015-05-22 14:28:22,598: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2015-05-22 14:28:22,599: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2015-05-22 14:28:22,698: registered with master
+[rospy.rosout][INFO] 2015-05-22 14:28:22,698: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-22 14:28:22,708: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-22 14:28:22,712: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2015-05-22 14:28:22,722: Ready to clear all shapes.
+[rosout][INFO] 2015-05-22 14:28:22,731: Ready to display new shapes.
+[rosout][INFO] 2015-05-22 14:28:22,739: Ready to determine index of location.
+[rosout][INFO] 2015-05-22 14:28:22,744: Ready to determine shape at location.
+[rosout][INFO] 2015-05-22 14:28:22,748: Ready to determine closest shape(s) to location.
+[rosout][INFO] 2015-05-22 14:28:22,758: Ready to display new shapes at specific location.
+[rosout][INFO] 2015-05-22 14:28:22,760: Ready to determine is shape fits.
+[rospy.internal][INFO] 2015-05-22 14:28:22,939: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2015-05-22 14:29:04,318: Shapes cleared
+[rosout][INFO] 2015-05-22 14:29:25,205: Shapes cleared
+[rosout][INFO] 2015-05-22 14:29:41,870: Shapes cleared
+[rosout][INFO] 2015-05-22 14:30:55,092: Shapes cleared
+[rosout][INFO] 2015-05-22 14:31:20,067: Shapes cleared
+[rosout][INFO] 2015-05-22 14:31:58,443: Shapes cleared
+[rosout][INFO] 2015-05-22 14:32:15,957: Shapes cleared
+[rosout][INFO] 2015-05-22 14:32:44,023: Shapes cleared
+[rospy.core][INFO] 2015-05-22 14:33:39,264: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2015-05-22 14:33:39,299: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2015-05-22 14:33:39,299: signal-2
+[rosout][INFO] 2015-05-22 14:33:39,915: shut down
+[rospy.core][INFO] 2015-05-22 14:33:39,915: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-22 14:34:39,140: init_node, name[/display_manager_server], pid[14329]
+[xmlrpc][INFO] 2015-05-22 14:34:39,141: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2015-05-22 14:34:39,141: Started XML-RPC server [http://192.168.1.6:35120/]
+[rospy.impl.masterslave][INFO] 2015-05-22 14:34:39,141: _ready: http://192.168.1.6:35120/
+[xmlrpc][INFO] 2015-05-22 14:34:39,142: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2015-05-22 14:34:39,142: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2015-05-22 14:34:39,145: ROS Slave URI: [http://192.168.1.6:35120/]
+[rospy.init][INFO] 2015-05-22 14:34:39,145: registered with master
+[rospy.rosout][INFO] 2015-05-22 14:34:39,146: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-22 14:34:39,148: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-22 14:34:39,151: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2015-05-22 14:34:39,160: Ready to clear all shapes.
+[rosout][INFO] 2015-05-22 14:34:39,164: Ready to display new shapes.
+[rosout][INFO] 2015-05-22 14:34:39,171: Ready to determine index of location.
+[rosout][INFO] 2015-05-22 14:34:39,179: Ready to determine shape at location.
+[rosout][INFO] 2015-05-22 14:34:39,181: Ready to determine closest shape(s) to location.
+[rosout][INFO] 2015-05-22 14:34:39,186: Ready to display new shapes at specific location.
+[rosout][INFO] 2015-05-22 14:34:39,192: Ready to determine is shape fits.
+[rospy.internal][INFO] 2015-05-22 14:34:39,390: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2015-05-22 14:35:31,015: Shapes cleared
+[rosout][INFO] 2015-05-22 14:36:31,427: Shapes cleared
+[rosout][INFO] 2015-05-22 14:38:26,852: Shapes cleared
+[rosout][INFO] 2015-05-22 14:39:50,939: Shapes cleared
+[rosout][INFO] 2015-05-22 14:40:08,276: Shape at location returned: 0_-1
+[rospy.core][INFO] 2015-05-29 08:53:08,709: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2015-05-29 08:53:08,722: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2015-05-29 08:53:08,722: signal-2
+[rosout][INFO] 2015-05-29 08:53:08,854: shut down
+[rospy.core][INFO] 2015-05-29 08:53:08,855: signal_shutdown [atexit]

@@ -1,0 +1,26 @@
+inaoqi-broker: construct at 0.0.0.0:0, parent : 192.168.1.12:9559
+[I] 6029 qimessaging.session: Session listener created on tcp://0.0.0.0:0
+[I] 6029 qimessaging.transportserver: TransportServer will listen on: tcp://128.178.116.244:36595
+[I] 6029 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:36595
+[I] 6029 qimessaging.transportserver: TransportServer will listen on: tcp://192.168.1.13:36595
+[W] 6029 qitype.metaobject: Method(113) already defined (and overriden): BIND_PYTHON::(m)
+[W] 6029 qitype.metaobject: Method(114) already defined (and overriden): addParam::(m)
+[W] 6029 qitype.metaobject: Method(115) already defined (and overriden): autoBind::(m)
+[W] 6029 qitype.metaobject: Method(100) already defined (and overriden): exit::()
+[W] 6029 qitype.metaobject: Method(116) already defined (and overriden): functionName::(m)
+[W] 6029 qitype.metaobject: Method(111) already defined (and overriden): getBrokerName::()
+[W] 6029 qitype.metaobject: Method(117) already defined (and overriden): getModule::(m)
+[W] 6029 qitype.metaobject: Method(119) already defined (and overriden): has_fallen::(m)
+[W] 6029 qitype.metaobject: Method(121) already defined (and overriden): pythonChanged::(mmm)
+[W] 6029 qitype.metaobject: Method(121) already defined (and overriden): pythonChanged::(mmm)
+[W] 6029 qitype.metaobject: Method(121) already defined (and overriden): pythonChanged::(mmm)
+[W] 6029 qitype.metaobject: Method(123) already defined (and overriden): setModuleDescription::(m)
+[W] 6029 qitype.metaobject: Method(103) already defined (and overriden): version::()
+[INFO] [WallTime: 1432893469.054594] Subscribed to robotHasFallen event
+[INFO] [WallTime: 1432893489.852653] got traj at 1432893489852552890
+[INFO] [WallTime: 1432893492.747066] executing rest of traj at 1432893492746973991
+[INFO] [WallTime: 1432893497.131712] Time taken for rest of trajectory: 4.384095908
+[INFO] [WallTime: 1432893510.220195] got traj at 1432893510220104932
+[INFO] [WallTime: 1432893513.199283] executing rest of traj at 1432893513199055910
+[INFO] [WallTime: 1432893517.710685] Time taken for rest of trajectory: 4.510686874
+[I] 6029 behavior.inaoqi: Stop broker myBroker

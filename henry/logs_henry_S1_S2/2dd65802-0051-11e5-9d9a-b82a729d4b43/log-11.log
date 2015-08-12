@@ -1,0 +1,1969 @@
+[rospy.client][INFO] 2015-05-22 09:08:54,316: init_node, name[/log], pid[26232]
+[xmlrpc][INFO] 2015-05-22 09:08:54,323: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2015-05-22 09:08:54,323: ROS Slave URI: [http://192.168.1.13:35836/]
+[xmlrpc][INFO] 2015-05-22 09:08:54,324: Started XML-RPC server [http://192.168.1.13:35836/]
+[rospy.impl.masterslave][INFO] 2015-05-22 09:08:54,324: _ready: http://192.168.1.13:35836/
+[xmlrpc][INFO] 2015-05-22 09:08:54,324: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2015-05-22 09:08:54,324: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2015-05-22 09:08:54,324: registering subscriber topic [/words_to_write] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 09:08:54,329: registering subscriber topic [/novelty] type [std_msgs/Float32] with master
+[rospy.registration][INFO] 2015-05-22 09:08:54,332: registering subscriber topic [/activity] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 09:08:54,336: registering subscriber topic [/current_learn] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 09:08:54,337: registering subscriber topic [/sizeHead] type [std_msgs/Int16] with master
+[rospy.registration][INFO] 2015-05-22 09:08:54,347: registering subscriber topic [/nb_repetitions] type [std_msgs/Int16] with master
+[rospy.registration][INFO] 2015-05-22 09:08:54,349: registering subscriber topic [/lookAt] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 09:08:54,351: registering subscriber topic [/time_writing] type [std_msgs/Float32] with master
+[rospy.registration][INFO] 2015-05-22 09:08:54,353: registering subscriber topic [/current_demo] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 09:08:54,354: registering subscriber topic [/time_response] type [std_msgs/Float32] with master
+[rospy.registration][INFO] 2015-05-22 09:08:54,356: registering subscriber topic [/movement] type [std_msgs/Int16] with master
+[rospy.registration][INFO] 2015-05-22 09:08:54,359: registering subscriber topic [/smile] type [std_msgs/Empty] with master
+[rospy.registration][INFO] 2015-05-22 09:08:54,363: registering subscriber topic [/new_child] type [std_msgs/String] with master
+[rospy.internal][INFO] 2015-05-22 09:08:54,409: topic[/activity] adding connection to [http://192.168.1.13:35457/], count 0
+[rospy.init][INFO] 2015-05-22 09:08:54,424: registered with master
+[rospy.rosout][INFO] 2015-05-22 09:08:54,424: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-22 09:08:54,426: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-22 09:08:54,428: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2015-05-22 09:08:54,705: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2015-05-22 09:08:55,721: topic[/activity] adding connection to [http://192.168.1.13:33383/], count 1
+[rospy.internal][INFO] 2015-05-22 09:08:55,734: topic[/nb_repetitions] adding connection to [http://192.168.1.13:42068/], count 0
+[rospy.internal][INFO] 2015-05-22 09:08:55,737: topic[/current_demo] adding connection to [http://192.168.1.13:42068/], count 0
+[rospy.internal][INFO] 2015-05-22 09:08:55,745: topic[/current_learn] adding connection to [http://192.168.1.13:42068/], count 0
+[rospy.internal][INFO] 2015-05-22 09:10:03,573: topic[/sizeHead] adding connection to [http://192.168.1.13:45393/], count 0
+[rospy.internal][INFO] 2015-05-22 09:10:03,574: topic[/novelty] adding connection to [http://192.168.1.13:45393/], count 0
+[rospy.internal][INFO] 2015-05-22 09:10:03,576: topic[/movement] adding connection to [http://192.168.1.13:45393/], count 0
+[rospy.internal][INFO] 2015-05-22 09:10:03,576: topic[/smile] adding connection to [http://192.168.1.13:45393/], count 0
+[rospy.internal][INFO] 2015-05-22 09:10:03,578: topic[/lookAt] adding connection to [http://192.168.1.13:45393/], count 0
+[rospy.internal][INFO] 2015-05-22 09:10:04,993: topic[/activity] adding connection to [http://192.168.1.13:60214/], count 2
+[rospy.internal][ERROR] 2015-05-22 09:11:12,001: Unable to initiate TCP/IP socket to 192.168.1.13:34075 (http://192.168.1.13:60214/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-22 09:11:12,073: Unknown error initiating TCP/IP socket to 192.168.1.13:35866 (http://192.168.1.13:45393/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2015-05-22 09:11:12,073: topic[/lookAt] removing connection to http://192.168.1.13:45393/
+[rospy.internal][WARNING] 2015-05-22 09:11:12,073: Unknown error initiating TCP/IP socket to 192.168.1.13:35866 (http://192.168.1.13:45393/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2015-05-22 09:11:12,073: topic[/movement] removing connection to http://192.168.1.13:45393/
+[rospy.internal][WARNING] 2015-05-22 09:11:12,074: Unknown error initiating TCP/IP socket to 192.168.1.13:35866 (http://192.168.1.13:45393/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2015-05-22 09:11:12,074: topic[/sizeHead] removing connection to http://192.168.1.13:45393/
+[rospy.internal][WARNING] 2015-05-22 09:11:12,074: Unknown error initiating TCP/IP socket to 192.168.1.13:35866 (http://192.168.1.13:45393/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2015-05-22 09:11:12,074: topic[/novelty] removing connection to http://192.168.1.13:45393/
+[rospy.internal][WARNING] 2015-05-22 09:11:12,074: Unknown error initiating TCP/IP socket to 192.168.1.13:35866 (http://192.168.1.13:45393/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2015-05-22 09:11:12,074: topic[/smile] removing connection to http://192.168.1.13:45393/
+[rospy.internal][WARNING] 2015-05-22 09:11:13,003: Unknown error initiating TCP/IP socket to 192.168.1.13:34075 (http://192.168.1.13:60214/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 09:11:13,003: topic[/activity] removing connection to http://192.168.1.13:60214/
+[rospy.internal][ERROR] 2015-05-22 09:12:00,607: Unable to initiate TCP/IP socket to 192.168.1.13:56066 (http://192.168.1.13:33383/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-22 09:12:00,614: Unable to initiate TCP/IP socket to 192.168.1.13:45691 (http://192.168.1.13:42068/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-22 09:12:00,615: Unable to initiate TCP/IP socket to 192.168.1.13:45691 (http://192.168.1.13:42068/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-22 09:12:00,615: Unable to initiate TCP/IP socket to 192.168.1.13:45691 (http://192.168.1.13:42068/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-22 09:12:01,609: Unknown error initiating TCP/IP socket to 192.168.1.13:56066 (http://192.168.1.13:33383/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 09:12:01,610: topic[/activity] removing connection to http://192.168.1.13:33383/
+[rospy.internal][WARNING] 2015-05-22 09:12:01,616: Unknown error initiating TCP/IP socket to 192.168.1.13:45691 (http://192.168.1.13:42068/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 09:12:01,616: topic[/nb_repetitions] removing connection to http://192.168.1.13:42068/
+[rospy.internal][WARNING] 2015-05-22 09:12:01,617: Unknown error initiating TCP/IP socket to 192.168.1.13:45691 (http://192.168.1.13:42068/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2015-05-22 09:12:01,618: Unknown error initiating TCP/IP socket to 192.168.1.13:45691 (http://192.168.1.13:42068/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 09:12:01,618: topic[/current_demo] removing connection to http://192.168.1.13:42068/
+[rospy.internal][INFO] 2015-05-22 09:12:01,619: topic[/current_learn] removing connection to http://192.168.1.13:42068/
+[rospy.internal][ERROR] 2015-05-22 09:12:03,337: Unable to initiate TCP/IP socket to 192.168.1.13:41008 (http://192.168.1.13:35457/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-22 09:12:04,339: Unknown error initiating TCP/IP socket to 192.168.1.13:41008 (http://192.168.1.13:35457/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 09:12:04,340: topic[/activity] removing connection to http://192.168.1.13:35457/
+[rospy.core][INFO] 2015-05-22 09:13:01,508: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2015-05-22 09:13:01,540: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2015-05-22 09:13:01,541: signal-2
+[rospy.core][INFO] 2015-05-22 09:13:02,156: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-22 09:13:08,869: init_node, name[/log], pid[27497]
+[xmlrpc][INFO] 2015-05-22 09:13:08,869: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2015-05-22 09:13:08,870: Started XML-RPC server [http://192.168.1.13:34738/]
+[rospy.impl.masterslave][INFO] 2015-05-22 09:13:08,870: _ready: http://192.168.1.13:34738/
+[xmlrpc][INFO] 2015-05-22 09:13:08,870: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2015-05-22 09:13:08,871: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2015-05-22 09:13:08,871: registering subscriber topic [/words_to_write] type [std_msgs/String] with master
+[rospy.init][INFO] 2015-05-22 09:13:08,876: ROS Slave URI: [http://192.168.1.13:34738/]
+[rospy.registration][INFO] 2015-05-22 09:13:08,876: registering subscriber topic [/novelty] type [std_msgs/Float32] with master
+[rospy.registration][INFO] 2015-05-22 09:13:08,880: registering subscriber topic [/activity] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 09:13:08,886: registering subscriber topic [/current_learn] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 09:13:08,888: registering subscriber topic [/sizeHead] type [std_msgs/Int16] with master
+[rospy.registration][INFO] 2015-05-22 09:13:08,889: registering subscriber topic [/nb_repetitions] type [std_msgs/Int16] with master
+[rospy.registration][INFO] 2015-05-22 09:13:08,891: registering subscriber topic [/lookAt] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 09:13:08,892: registering subscriber topic [/time_writing] type [std_msgs/Float32] with master
+[rospy.registration][INFO] 2015-05-22 09:13:08,894: registering subscriber topic [/current_demo] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 09:13:08,896: registering subscriber topic [/time_response] type [std_msgs/Float32] with master
+[rospy.registration][INFO] 2015-05-22 09:13:08,898: registering subscriber topic [/movement] type [std_msgs/Int16] with master
+[rospy.registration][INFO] 2015-05-22 09:13:08,900: registering subscriber topic [/smile] type [std_msgs/Empty] with master
+[rospy.registration][INFO] 2015-05-22 09:13:08,902: registering subscriber topic [/new_child] type [std_msgs/String] with master
+[rospy.init][INFO] 2015-05-22 09:13:08,976: registered with master
+[rospy.rosout][INFO] 2015-05-22 09:13:08,977: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-22 09:13:08,980: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-22 09:13:08,982: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2015-05-22 09:13:09,220: topic[/activity] adding connection to [http://192.168.1.13:54665/], count 0
+[rospy.internal][INFO] 2015-05-22 09:13:09,289: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2015-05-22 09:13:09,937: topic[/activity] adding connection to [http://192.168.1.13:52480/], count 1
+[rospy.internal][INFO] 2015-05-22 09:13:10,154: topic[/current_learn] adding connection to [http://192.168.1.13:32974/], count 0
+[rospy.internal][INFO] 2015-05-22 09:13:10,156: topic[/nb_repetitions] adding connection to [http://192.168.1.13:32974/], count 0
+[rospy.internal][INFO] 2015-05-22 09:13:10,156: topic[/current_demo] adding connection to [http://192.168.1.13:32974/], count 0
+[rospy.internal][INFO] 2015-05-22 09:13:30,162: topic[/novelty] adding connection to [http://192.168.1.13:52848/], count 0
+[rospy.internal][INFO] 2015-05-22 09:13:30,162: topic[/sizeHead] adding connection to [http://192.168.1.13:52848/], count 0
+[rospy.internal][INFO] 2015-05-22 09:13:30,166: topic[/movement] adding connection to [http://192.168.1.13:52848/], count 0
+[rospy.internal][INFO] 2015-05-22 09:13:30,169: topic[/smile] adding connection to [http://192.168.1.13:52848/], count 0
+[rospy.internal][INFO] 2015-05-22 09:13:30,172: topic[/lookAt] adding connection to [http://192.168.1.13:52848/], count 0
+[rospy.internal][INFO] 2015-05-22 09:13:30,674: topic[/activity] adding connection to [http://192.168.1.13:33859/], count 2
+[rospy.internal][ERROR] 2015-05-22 09:15:25,484: Unable to initiate TCP/IP socket to 192.168.1.13:51672 (http://192.168.1.13:33859/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-22 09:15:25,852: Unable to initiate TCP/IP socket to 192.168.1.13:52490 (http://192.168.1.13:52848/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/smile] from [TCPROS connection on port 52490 to [192.168.1.13:47252 on socket 23]] [/log].
+
+[rospy.internal][ERROR] 2015-05-22 09:15:25,852: Unable to initiate TCP/IP socket to 192.168.1.13:52490 (http://192.168.1.13:52848/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/lookAt] from [TCPROS connection on port 52490 to [192.168.1.13:47249 on socket 20]] [/log].
+
+[rospy.internal][ERROR] 2015-05-22 09:15:25,852: Unable to initiate TCP/IP socket to 192.168.1.13:52490 (http://192.168.1.13:52848/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/movement] from [TCPROS connection on port 52490 to [192.168.1.13:47253 on socket 20]] [/log].
+
+[rospy.internal][ERROR] 2015-05-22 09:15:25,853: Unable to initiate TCP/IP socket to 192.168.1.13:52490 (http://192.168.1.13:52848/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/sizeHead] from [TCPROS connection on port 52490 to [192.168.1.13:47256 on socket 23]] [/log].
+
+[rospy.internal][ERROR] 2015-05-22 09:15:25,854: Unable to initiate TCP/IP socket to 192.168.1.13:52490 (http://192.168.1.13:52848/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/novelty] from [TCPROS connection on port 52490 to [192.168.1.13:47259 on socket 20]] [/log].
+
+[rospy.internal][WARNING] 2015-05-22 09:15:26,486: Unknown error initiating TCP/IP socket to 192.168.1.13:51672 (http://192.168.1.13:33859/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 09:15:26,486: topic[/activity] removing connection to http://192.168.1.13:33859/
+[rospy.internal][WARNING] 2015-05-22 09:15:26,855: Unknown error initiating TCP/IP socket to 192.168.1.13:52490 (http://192.168.1.13:52848/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 09:15:26,855: topic[/lookAt] removing connection to http://192.168.1.13:52848/
+[rospy.internal][WARNING] 2015-05-22 09:15:26,857: Unknown error initiating TCP/IP socket to 192.168.1.13:52490 (http://192.168.1.13:52848/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2015-05-22 09:15:26,856: Unknown error initiating TCP/IP socket to 192.168.1.13:52490 (http://192.168.1.13:52848/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2015-05-22 09:15:26,857: Unknown error initiating TCP/IP socket to 192.168.1.13:52490 (http://192.168.1.13:52848/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2015-05-22 09:15:26,858: Unknown error initiating TCP/IP socket to 192.168.1.13:52490 (http://192.168.1.13:52848/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 09:15:26,858: topic[/smile] removing connection to http://192.168.1.13:52848/
+[rospy.internal][INFO] 2015-05-22 09:15:26,858: topic[/movement] removing connection to http://192.168.1.13:52848/
+[rospy.internal][INFO] 2015-05-22 09:15:26,859: topic[/sizeHead] removing connection to http://192.168.1.13:52848/
+[rospy.internal][INFO] 2015-05-22 09:15:26,859: topic[/novelty] removing connection to http://192.168.1.13:52848/
+[rospy.internal][ERROR] 2015-05-22 09:15:30,074: Unable to initiate TCP/IP socket to 192.168.1.13:34424 (http://192.168.1.13:52480/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-22 09:15:30,088: Unable to initiate TCP/IP socket to 192.168.1.13:50772 (http://192.168.1.13:32974/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-22 09:15:30,090: Unable to initiate TCP/IP socket to 192.168.1.13:50772 (http://192.168.1.13:32974/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-22 09:15:30,090: Unable to initiate TCP/IP socket to 192.168.1.13:50772 (http://192.168.1.13:32974/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-22 09:15:31,076: Unknown error initiating TCP/IP socket to 192.168.1.13:34424 (http://192.168.1.13:52480/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 09:15:31,076: topic[/activity] removing connection to http://192.168.1.13:52480/
+[rospy.internal][WARNING] 2015-05-22 09:15:31,090: Unknown error initiating TCP/IP socket to 192.168.1.13:50772 (http://192.168.1.13:32974/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 09:15:31,090: topic[/nb_repetitions] removing connection to http://192.168.1.13:32974/
+[rospy.internal][WARNING] 2015-05-22 09:15:31,091: Unknown error initiating TCP/IP socket to 192.168.1.13:50772 (http://192.168.1.13:32974/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 09:15:31,092: topic[/current_demo] removing connection to http://192.168.1.13:32974/
+[rospy.internal][WARNING] 2015-05-22 09:15:31,092: Unknown error initiating TCP/IP socket to 192.168.1.13:50772 (http://192.168.1.13:32974/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 09:15:31,093: topic[/current_learn] removing connection to http://192.168.1.13:32974/
+[rospy.internal][ERROR] 2015-05-22 09:15:31,746: Unable to initiate TCP/IP socket to 192.168.1.13:48374 (http://192.168.1.13:54665/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-22 09:15:32,747: Unknown error initiating TCP/IP socket to 192.168.1.13:48374 (http://192.168.1.13:54665/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 09:15:32,747: topic[/activity] removing connection to http://192.168.1.13:54665/
+[rospy.internal][INFO] 2015-05-22 09:16:53,036: topic[/time_writing] adding connection to [http://192.168.1.3:55238/], count 0
+[rospy.internal][INFO] 2015-05-22 09:16:53,036: topic[/time_response] adding connection to [http://192.168.1.3:55238/], count 0
+[rospy.internal][INFO] 2015-05-22 09:17:15,206: topic[/words_to_write] adding connection to [http://192.168.1.16:53703/], count 0
+[rospy.internal][INFO] 2015-05-22 09:17:15,225: topic[/activity] adding connection to [http://192.168.1.16:53703/], count 0
+[rospy.core][INFO] 2015-05-22 09:17:50,655: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2015-05-22 09:17:50,671: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-22 09:17:50,671: topic[/words_to_write] removing connection to http://192.168.1.16:53703/
+[rospy.internal][INFO] 2015-05-22 09:17:50,672: topic[/activity] removing connection to http://192.168.1.16:53703/
+[rospy.internal][INFO] 2015-05-22 09:17:50,672: topic[/time_writing] removing connection to http://192.168.1.3:55238/
+[rospy.internal][INFO] 2015-05-22 09:17:50,673: topic[/time_response] removing connection to http://192.168.1.3:55238/
+[rospy.impl.masterslave][INFO] 2015-05-22 09:17:50,673: signal-2
+[rospy.internal][WARNING] 2015-05-22 09:17:50,765: Unknown error initiating TCP/IP socket to 192.168.1.3:39113 (http://192.168.1.3:55238/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][WARNING] 2015-05-22 09:17:50,766: Unknown error initiating TCP/IP socket to 192.168.1.16:50035 (http://192.168.1.16:53703/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2015-05-22 09:17:50,781: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-22 09:17:55,272: init_node, name[/log], pid[29068]
+[xmlrpc][INFO] 2015-05-22 09:17:55,273: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2015-05-22 09:17:55,273: ROS Slave URI: [http://192.168.1.13:37718/]
+[xmlrpc][INFO] 2015-05-22 09:17:55,273: Started XML-RPC server [http://192.168.1.13:37718/]
+[rospy.impl.masterslave][INFO] 2015-05-22 09:17:55,274: _ready: http://192.168.1.13:37718/
+[xmlrpc][INFO] 2015-05-22 09:17:55,274: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2015-05-22 09:17:55,274: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2015-05-22 09:17:55,274: registering subscriber topic [/words_to_write] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 09:17:55,278: registering subscriber topic [/novelty] type [std_msgs/Float32] with master
+[rospy.registration][INFO] 2015-05-22 09:17:55,280: registering subscriber topic [/activity] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 09:17:55,282: registering subscriber topic [/current_learn] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 09:17:55,283: registering subscriber topic [/sizeHead] type [std_msgs/Int16] with master
+[rospy.registration][INFO] 2015-05-22 09:17:55,285: registering subscriber topic [/nb_repetitions] type [std_msgs/Int16] with master
+[rospy.registration][INFO] 2015-05-22 09:17:55,287: registering subscriber topic [/lookAt] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 09:17:55,290: registering subscriber topic [/time_writing] type [std_msgs/Float32] with master
+[rospy.registration][INFO] 2015-05-22 09:17:55,293: registering subscriber topic [/current_demo] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 09:17:55,295: registering subscriber topic [/time_response] type [std_msgs/Float32] with master
+[rospy.registration][INFO] 2015-05-22 09:17:55,296: registering subscriber topic [/movement] type [std_msgs/Int16] with master
+[rospy.registration][INFO] 2015-05-22 09:17:55,298: registering subscriber topic [/smile] type [std_msgs/Empty] with master
+[rospy.registration][INFO] 2015-05-22 09:17:55,300: registering subscriber topic [/new_child] type [std_msgs/String] with master
+[rospy.internal][INFO] 2015-05-22 09:17:55,305: topic[/activity] adding connection to [http://192.168.1.13:33785/], count 0
+[rospy.internal][INFO] 2015-05-22 09:17:55,359: topic[/time_response] adding connection to [http://192.168.1.3:55238/], count 0
+[rospy.init][INFO] 2015-05-22 09:17:55,374: registered with master
+[rospy.rosout][INFO] 2015-05-22 09:17:55,374: initializing /rosout core topic
+[rospy.internal][INFO] 2015-05-22 09:17:55,376: topic[/activity] adding connection to [http://192.168.1.16:53703/], count 1
+[rospy.rosout][INFO] 2015-05-22 09:17:55,376: connected to core topic /rosout
+[rospy.internal][INFO] 2015-05-22 09:17:55,379: topic[/time_writing] adding connection to [http://192.168.1.3:55238/], count 0
+[rospy.internal][INFO] 2015-05-22 09:17:55,379: topic[/words_to_write] adding connection to [http://192.168.1.16:53703/], count 0
+[rospy.simtime][INFO] 2015-05-22 09:17:55,381: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2015-05-22 09:17:55,634: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2015-05-22 09:17:56,370: topic[/activity] adding connection to [http://192.168.1.13:56476/], count 2
+[rospy.internal][INFO] 2015-05-22 09:17:56,586: topic[/nb_repetitions] adding connection to [http://192.168.1.13:59074/], count 0
+[rospy.internal][INFO] 2015-05-22 09:17:56,591: topic[/current_demo] adding connection to [http://192.168.1.13:59074/], count 0
+[rospy.internal][INFO] 2015-05-22 09:17:56,594: topic[/current_learn] adding connection to [http://192.168.1.13:59074/], count 0
+[rospy.internal][ERROR] 2015-05-22 09:18:17,842: Unable to initiate TCP/IP socket to 192.168.1.13:56326 (http://192.168.1.13:59074/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-22 09:18:17,842: Unable to initiate TCP/IP socket to 192.168.1.13:56326 (http://192.168.1.13:59074/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-22 09:18:17,842: Unable to initiate TCP/IP socket to 192.168.1.13:56326 (http://192.168.1.13:59074/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-22 09:18:18,844: Unknown error initiating TCP/IP socket to 192.168.1.13:56326 (http://192.168.1.13:59074/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 09:18:18,845: topic[/current_learn] removing connection to http://192.168.1.13:59074/
+[rospy.internal][WARNING] 2015-05-22 09:18:18,845: Unknown error initiating TCP/IP socket to 192.168.1.13:56326 (http://192.168.1.13:59074/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2015-05-22 09:18:18,846: Unknown error initiating TCP/IP socket to 192.168.1.13:56326 (http://192.168.1.13:59074/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 09:18:18,846: topic[/nb_repetitions] removing connection to http://192.168.1.13:59074/
+[rospy.internal][INFO] 2015-05-22 09:18:18,847: topic[/current_demo] removing connection to http://192.168.1.13:59074/
+[rospy.internal][ERROR] 2015-05-22 09:27:36,810: Unable to initiate TCP/IP socket to 192.168.1.13:43846 (http://192.168.1.13:56476/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-22 09:27:37,812: Unknown error initiating TCP/IP socket to 192.168.1.13:43846 (http://192.168.1.13:56476/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 09:27:37,812: topic[/activity] removing connection to http://192.168.1.13:56476/
+[rospy.internal][ERROR] 2015-05-22 09:27:41,276: Unable to initiate TCP/IP socket to 192.168.1.13:39860 (http://192.168.1.13:33785/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-22 09:27:42,278: Unknown error initiating TCP/IP socket to 192.168.1.13:39860 (http://192.168.1.13:33785/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 09:27:42,279: topic[/activity] removing connection to http://192.168.1.13:33785/
+[rospy.core][INFO] 2015-05-22 09:28:01,872: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2015-05-22 09:28:01,897: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-22 09:28:01,897: topic[/words_to_write] removing connection to http://192.168.1.16:53703/
+[rospy.internal][INFO] 2015-05-22 09:28:01,897: topic[/activity] removing connection to http://192.168.1.16:53703/
+[rospy.internal][INFO] 2015-05-22 09:28:01,898: topic[/time_writing] removing connection to http://192.168.1.3:55238/
+[rospy.internal][INFO] 2015-05-22 09:28:01,898: topic[/time_response] removing connection to http://192.168.1.3:55238/
+[rospy.impl.masterslave][INFO] 2015-05-22 09:28:01,899: signal-2
+[rospy.internal][WARNING] 2015-05-22 09:28:02,000: Unknown error initiating TCP/IP socket to 192.168.1.16:50035 (http://192.168.1.16:53703/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2015-05-22 09:28:02,515: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-22 09:28:07,229: init_node, name[/log], pid[15458]
+[xmlrpc][INFO] 2015-05-22 09:28:07,229: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2015-05-22 09:28:07,230: Started XML-RPC server [http://192.168.1.13:54991/]
+[rospy.impl.masterslave][INFO] 2015-05-22 09:28:07,230: _ready: http://192.168.1.13:54991/
+[xmlrpc][INFO] 2015-05-22 09:28:07,230: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2015-05-22 09:28:07,231: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2015-05-22 09:28:07,231: registering subscriber topic [/words_to_write] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 09:28:07,232: registering subscriber topic [/novelty] type [std_msgs/Float32] with master
+[rospy.registration][INFO] 2015-05-22 09:28:07,234: registering subscriber topic [/activity] type [std_msgs/String] with master
+[rospy.init][INFO] 2015-05-22 09:28:07,235: ROS Slave URI: [http://192.168.1.13:54991/]
+[rospy.registration][INFO] 2015-05-22 09:28:07,236: registering subscriber topic [/current_learn] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 09:28:07,237: registering subscriber topic [/sizeHead] type [std_msgs/Int16] with master
+[rospy.registration][INFO] 2015-05-22 09:28:07,239: registering subscriber topic [/nb_repetitions] type [std_msgs/Int16] with master
+[rospy.registration][INFO] 2015-05-22 09:28:07,242: registering subscriber topic [/lookAt] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 09:28:07,244: registering subscriber topic [/time_writing] type [std_msgs/Float32] with master
+[rospy.registration][INFO] 2015-05-22 09:28:07,248: registering subscriber topic [/current_demo] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 09:28:07,251: registering subscriber topic [/time_response] type [std_msgs/Float32] with master
+[rospy.registration][INFO] 2015-05-22 09:28:07,252: registering subscriber topic [/movement] type [std_msgs/Int16] with master
+[rospy.registration][INFO] 2015-05-22 09:28:07,259: registering subscriber topic [/smile] type [std_msgs/Empty] with master
+[rospy.registration][INFO] 2015-05-22 09:28:07,261: registering subscriber topic [/new_child] type [std_msgs/String] with master
+[rospy.internal][INFO] 2015-05-22 09:28:07,327: topic[/activity] adding connection to [http://192.168.1.16:53703/], count 0
+[rospy.internal][INFO] 2015-05-22 09:28:07,329: topic[/time_response] adding connection to [http://192.168.1.3:55238/], count 0
+[rospy.internal][INFO] 2015-05-22 09:28:07,330: topic[/time_writing] adding connection to [http://192.168.1.3:55238/], count 0
+[rospy.internal][INFO] 2015-05-22 09:28:07,335: topic[/words_to_write] adding connection to [http://192.168.1.16:53703/], count 0
+[rospy.init][INFO] 2015-05-22 09:28:07,335: registered with master
+[rospy.rosout][INFO] 2015-05-22 09:28:07,336: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-22 09:28:07,337: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-22 09:28:07,339: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2015-05-22 09:28:07,510: topic[/activity] adding connection to [http://192.168.1.13:39754/], count 1
+[rospy.internal][INFO] 2015-05-22 09:28:07,563: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2015-05-22 09:28:08,625: topic[/activity] adding connection to [http://192.168.1.13:49664/], count 2
+[rospy.internal][INFO] 2015-05-22 09:28:08,689: topic[/current_demo] adding connection to [http://192.168.1.13:54207/], count 0
+[rospy.internal][INFO] 2015-05-22 09:28:08,692: topic[/nb_repetitions] adding connection to [http://192.168.1.13:54207/], count 0
+[rospy.internal][INFO] 2015-05-22 09:28:08,696: topic[/current_learn] adding connection to [http://192.168.1.13:54207/], count 0
+[rospy.internal][INFO] 2015-05-22 09:28:17,407: topic[/movement] adding connection to [http://192.168.1.13:56316/], count 0
+[rospy.internal][INFO] 2015-05-22 09:28:17,408: topic[/sizeHead] adding connection to [http://192.168.1.13:56316/], count 0
+[rospy.internal][INFO] 2015-05-22 09:28:17,409: topic[/novelty] adding connection to [http://192.168.1.13:56316/], count 0
+[rospy.internal][INFO] 2015-05-22 09:28:17,410: topic[/smile] adding connection to [http://192.168.1.13:56316/], count 0
+[rospy.internal][INFO] 2015-05-22 09:28:17,412: topic[/lookAt] adding connection to [http://192.168.1.13:56316/], count 0
+[rospy.internal][INFO] 2015-05-22 09:28:18,181: topic[/activity] adding connection to [http://192.168.1.13:60095/], count 3
+[rospy.internal][ERROR] 2015-05-22 09:29:19,401: Unable to initiate TCP/IP socket to 192.168.1.13:38402 (http://192.168.1.13:54207/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-22 09:29:19,404: Unable to initiate TCP/IP socket to 192.168.1.13:38402 (http://192.168.1.13:54207/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-22 09:29:19,405: Unable to initiate TCP/IP socket to 192.168.1.13:38402 (http://192.168.1.13:54207/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-22 09:29:20,402: Unknown error initiating TCP/IP socket to 192.168.1.13:38402 (http://192.168.1.13:54207/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 09:29:20,402: topic[/nb_repetitions] removing connection to http://192.168.1.13:54207/
+[rospy.internal][WARNING] 2015-05-22 09:29:20,405: Unknown error initiating TCP/IP socket to 192.168.1.13:38402 (http://192.168.1.13:54207/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 09:29:20,405: topic[/current_demo] removing connection to http://192.168.1.13:54207/
+[rospy.internal][WARNING] 2015-05-22 09:29:20,406: Unknown error initiating TCP/IP socket to 192.168.1.13:38402 (http://192.168.1.13:54207/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 09:29:20,406: topic[/current_learn] removing connection to http://192.168.1.13:54207/
+[rospy.internal][ERROR] 2015-05-22 09:30:09,677: Unable to initiate TCP/IP socket to 192.168.1.13:59765 (http://192.168.1.13:60095/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-22 09:30:10,060: Unable to initiate TCP/IP socket to 192.168.1.13:42963 (http://192.168.1.13:56316/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/lookAt] from [TCPROS connection on port 42963 to [192.168.1.13:51803 on socket 22]] [/log].
+
+[rospy.internal][ERROR] 2015-05-22 09:30:10,061: Unable to initiate TCP/IP socket to 192.168.1.13:42963 (http://192.168.1.13:56316/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/smile] from [TCPROS connection on port 42963 to [192.168.1.13:51805 on socket 21]] [/log].
+
+[rospy.internal][ERROR] 2015-05-22 09:30:10,061: Unable to initiate TCP/IP socket to 192.168.1.13:42963 (http://192.168.1.13:56316/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/movement] from [TCPROS connection on port 42963 to [192.168.1.13:51806 on socket 22]] [/log].
+
+[rospy.internal][ERROR] 2015-05-22 09:30:10,061: Unable to initiate TCP/IP socket to 192.168.1.13:42963 (http://192.168.1.13:56316/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/sizeHead] from [TCPROS connection on port 42963 to [192.168.1.13:51810 on socket 21]] [/log].
+
+[rospy.internal][ERROR] 2015-05-22 09:30:10,062: Unable to initiate TCP/IP socket to 192.168.1.13:42963 (http://192.168.1.13:56316/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/novelty] from [TCPROS connection on port 42963 to [192.168.1.13:51812 on socket 22]] [/log].
+
+[rospy.internal][WARNING] 2015-05-22 09:30:10,679: Unknown error initiating TCP/IP socket to 192.168.1.13:59765 (http://192.168.1.13:60095/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 09:30:10,679: topic[/activity] removing connection to http://192.168.1.13:60095/
+[rospy.internal][WARNING] 2015-05-22 09:30:11,061: Unknown error initiating TCP/IP socket to 192.168.1.13:42963 (http://192.168.1.13:56316/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 09:30:11,062: topic[/lookAt] removing connection to http://192.168.1.13:56316/
+[rospy.internal][WARNING] 2015-05-22 09:30:11,062: Unknown error initiating TCP/IP socket to 192.168.1.13:42963 (http://192.168.1.13:56316/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2015-05-22 09:30:11,062: Unknown error initiating TCP/IP socket to 192.168.1.13:42963 (http://192.168.1.13:56316/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 09:30:11,062: topic[/smile] removing connection to http://192.168.1.13:56316/
+[rospy.internal][INFO] 2015-05-22 09:30:11,063: topic[/movement] removing connection to http://192.168.1.13:56316/
+[rospy.internal][WARNING] 2015-05-22 09:30:11,064: Unknown error initiating TCP/IP socket to 192.168.1.13:42963 (http://192.168.1.13:56316/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 09:30:11,064: topic[/novelty] removing connection to http://192.168.1.13:56316/
+[rospy.internal][WARNING] 2015-05-22 09:30:11,065: Unknown error initiating TCP/IP socket to 192.168.1.13:42963 (http://192.168.1.13:56316/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 09:30:11,065: topic[/sizeHead] removing connection to http://192.168.1.13:56316/
+[rospy.internal][ERROR] 2015-05-22 09:30:14,044: Unable to initiate TCP/IP socket to 192.168.1.13:34907 (http://192.168.1.13:49664/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-22 09:30:15,046: Unknown error initiating TCP/IP socket to 192.168.1.13:34907 (http://192.168.1.13:49664/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 09:30:15,046: topic[/activity] removing connection to http://192.168.1.13:49664/
+[rospy.internal][ERROR] 2015-05-22 09:30:16,405: Unable to initiate TCP/IP socket to 192.168.1.13:57139 (http://192.168.1.13:39754/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-22 09:30:17,407: Unknown error initiating TCP/IP socket to 192.168.1.13:57139 (http://192.168.1.13:39754/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 09:30:17,408: topic[/activity] removing connection to http://192.168.1.13:39754/
+[rospy.core][INFO] 2015-05-22 09:45:01,440: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2015-05-22 09:45:01,473: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-22 09:45:01,473: topic[/words_to_write] removing connection to http://192.168.1.16:53703/
+[rospy.internal][INFO] 2015-05-22 09:45:01,474: topic[/activity] removing connection to http://192.168.1.16:53703/
+[rospy.internal][INFO] 2015-05-22 09:45:01,474: topic[/time_writing] removing connection to http://192.168.1.3:55238/
+[rospy.internal][INFO] 2015-05-22 09:45:01,474: topic[/time_response] removing connection to http://192.168.1.3:55238/
+[rospy.impl.masterslave][INFO] 2015-05-22 09:45:01,475: signal-2
+[rospy.core][INFO] 2015-05-22 09:45:02,090: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-22 09:45:27,630: init_node, name[/log], pid[21223]
+[xmlrpc][INFO] 2015-05-22 09:45:27,631: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2015-05-22 09:45:27,631: Started XML-RPC server [http://192.168.1.13:56244/]
+[rospy.impl.masterslave][INFO] 2015-05-22 09:45:27,631: _ready: http://192.168.1.13:56244/
+[xmlrpc][INFO] 2015-05-22 09:45:27,634: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2015-05-22 09:45:27,634: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2015-05-22 09:45:27,634: registering subscriber topic [/words_to_write] type [std_msgs/String] with master
+[rospy.init][INFO] 2015-05-22 09:45:27,634: ROS Slave URI: [http://192.168.1.13:56244/]
+[rospy.registration][INFO] 2015-05-22 09:45:27,636: registering subscriber topic [/novelty] type [std_msgs/Float32] with master
+[rospy.registration][INFO] 2015-05-22 09:45:27,637: registering subscriber topic [/activity] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 09:45:27,639: registering subscriber topic [/current_learn] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 09:45:27,641: registering subscriber topic [/sizeHead] type [std_msgs/Int16] with master
+[rospy.registration][INFO] 2015-05-22 09:45:27,646: registering subscriber topic [/nb_repetitions] type [std_msgs/Int16] with master
+[rospy.registration][INFO] 2015-05-22 09:45:27,652: registering subscriber topic [/lookAt] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 09:45:27,656: registering subscriber topic [/time_writing] type [std_msgs/Float32] with master
+[rospy.registration][INFO] 2015-05-22 09:45:27,666: registering subscriber topic [/current_demo] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 09:45:27,677: registering subscriber topic [/time_response] type [std_msgs/Float32] with master
+[rospy.registration][INFO] 2015-05-22 09:45:27,678: registering subscriber topic [/movement] type [std_msgs/Int16] with master
+[rospy.registration][INFO] 2015-05-22 09:45:27,680: registering subscriber topic [/smile] type [std_msgs/Empty] with master
+[rospy.registration][INFO] 2015-05-22 09:45:27,682: registering subscriber topic [/new_child] type [std_msgs/String] with master
+[rospy.init][INFO] 2015-05-22 09:45:27,736: registered with master
+[rospy.rosout][INFO] 2015-05-22 09:45:27,736: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-22 09:45:27,738: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-22 09:45:27,740: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2015-05-22 09:45:27,862: topic[/time_writing] adding connection to [http://192.168.1.3:55238/], count 0
+[rospy.internal][INFO] 2015-05-22 09:45:27,862: topic[/time_response] adding connection to [http://192.168.1.3:55238/], count 0
+[rospy.internal][INFO] 2015-05-22 09:45:27,867: topic[/activity] adding connection to [http://192.168.1.16:53703/], count 0
+[rospy.internal][INFO] 2015-05-22 09:45:27,871: topic[/words_to_write] adding connection to [http://192.168.1.16:53703/], count 0
+[rospy.internal][INFO] 2015-05-22 09:45:28,020: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2015-05-22 09:45:28,226: topic[/activity] adding connection to [http://192.168.1.13:50638/], count 1
+[rospy.internal][INFO] 2015-05-22 09:45:28,744: topic[/activity] adding connection to [http://192.168.1.13:54529/], count 2
+[rospy.internal][INFO] 2015-05-22 09:45:29,361: topic[/current_learn] adding connection to [http://192.168.1.13:52401/], count 0
+[rospy.internal][INFO] 2015-05-22 09:45:29,362: topic[/current_demo] adding connection to [http://192.168.1.13:52401/], count 0
+[rospy.internal][INFO] 2015-05-22 09:45:29,365: topic[/nb_repetitions] adding connection to [http://192.168.1.13:52401/], count 0
+[rospy.internal][INFO] 2015-05-22 09:45:53,093: topic[/smile] adding connection to [http://192.168.1.13:44196/], count 0
+[rospy.internal][INFO] 2015-05-22 09:45:53,095: topic[/lookAt] adding connection to [http://192.168.1.13:44196/], count 0
+[rospy.internal][INFO] 2015-05-22 09:45:53,098: topic[/movement] adding connection to [http://192.168.1.13:44196/], count 0
+[rospy.internal][INFO] 2015-05-22 09:45:53,098: topic[/sizeHead] adding connection to [http://192.168.1.13:44196/], count 0
+[rospy.internal][INFO] 2015-05-22 09:45:53,099: topic[/novelty] adding connection to [http://192.168.1.13:44196/], count 0
+[rospy.internal][INFO] 2015-05-22 09:45:53,952: topic[/activity] adding connection to [http://192.168.1.13:41917/], count 3
+[rospy.internal][ERROR] 2015-05-22 10:04:29,575: Unable to initiate TCP/IP socket to 192.168.1.13:39494 (http://192.168.1.13:41917/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-22 10:04:29,932: Unable to initiate TCP/IP socket to 192.168.1.13:48339 (http://192.168.1.13:44196/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/lookAt] from [TCPROS connection on port 48339 to [192.168.1.13:47269 on socket 20]] [/log].
+
+[rospy.internal][ERROR] 2015-05-22 10:04:29,933: Unable to initiate TCP/IP socket to 192.168.1.13:48339 (http://192.168.1.13:44196/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/smile] from [TCPROS connection on port 48339 to [192.168.1.13:47271 on socket 22]] [/log].
+
+[rospy.internal][ERROR] 2015-05-22 10:04:29,933: Unable to initiate TCP/IP socket to 192.168.1.13:48339 (http://192.168.1.13:44196/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/movement] from [TCPROS connection on port 48339 to [192.168.1.13:47275 on socket 20]] [/log].
+
+[rospy.internal][ERROR] 2015-05-22 10:04:29,933: Unable to initiate TCP/IP socket to 192.168.1.13:48339 (http://192.168.1.13:44196/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/sizeHead] from [TCPROS connection on port 48339 to [192.168.1.13:47277 on socket 22]] [/log].
+
+[rospy.internal][ERROR] 2015-05-22 10:04:29,934: Unable to initiate TCP/IP socket to 192.168.1.13:48339 (http://192.168.1.13:44196/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/novelty] from [TCPROS connection on port 48339 to [192.168.1.13:47279 on socket 20]] [/log].
+
+[rospy.internal][WARNING] 2015-05-22 10:04:30,578: Unknown error initiating TCP/IP socket to 192.168.1.13:39494 (http://192.168.1.13:41917/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 10:04:30,579: topic[/activity] removing connection to http://192.168.1.13:41917/
+[rospy.internal][WARNING] 2015-05-22 10:04:30,934: Unknown error initiating TCP/IP socket to 192.168.1.13:48339 (http://192.168.1.13:44196/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 10:04:30,935: topic[/lookAt] removing connection to http://192.168.1.13:44196/
+[rospy.internal][WARNING] 2015-05-22 10:04:30,936: Unknown error initiating TCP/IP socket to 192.168.1.13:48339 (http://192.168.1.13:44196/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 10:04:30,936: topic[/smile] removing connection to http://192.168.1.13:44196/
+[rospy.internal][WARNING] 2015-05-22 10:04:30,937: Unknown error initiating TCP/IP socket to 192.168.1.13:48339 (http://192.168.1.13:44196/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2015-05-22 10:04:30,938: Unknown error initiating TCP/IP socket to 192.168.1.13:48339 (http://192.168.1.13:44196/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2015-05-22 10:04:30,938: Unknown error initiating TCP/IP socket to 192.168.1.13:48339 (http://192.168.1.13:44196/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 10:04:30,938: topic[/movement] removing connection to http://192.168.1.13:44196/
+[rospy.internal][INFO] 2015-05-22 10:04:30,939: topic[/novelty] removing connection to http://192.168.1.13:44196/
+[rospy.internal][INFO] 2015-05-22 10:04:30,939: topic[/sizeHead] removing connection to http://192.168.1.13:44196/
+[rospy.internal][ERROR] 2015-05-22 10:04:33,632: Unable to initiate TCP/IP socket to 192.168.1.13:33451 (http://192.168.1.13:54529/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-22 10:04:33,639: Unable to initiate TCP/IP socket to 192.168.1.13:42567 (http://192.168.1.13:52401/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-22 10:04:33,639: Unable to initiate TCP/IP socket to 192.168.1.13:42567 (http://192.168.1.13:52401/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-22 10:04:33,640: Unable to initiate TCP/IP socket to 192.168.1.13:42567 (http://192.168.1.13:52401/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-22 10:04:34,634: Unknown error initiating TCP/IP socket to 192.168.1.13:33451 (http://192.168.1.13:54529/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 10:04:34,634: topic[/activity] removing connection to http://192.168.1.13:54529/
+[rospy.internal][WARNING] 2015-05-22 10:04:34,640: Unknown error initiating TCP/IP socket to 192.168.1.13:42567 (http://192.168.1.13:52401/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 10:04:34,640: topic[/nb_repetitions] removing connection to http://192.168.1.13:52401/
+[rospy.internal][WARNING] 2015-05-22 10:04:34,641: Unknown error initiating TCP/IP socket to 192.168.1.13:42567 (http://192.168.1.13:52401/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 10:04:34,641: topic[/current_demo] removing connection to http://192.168.1.13:52401/
+[rospy.internal][WARNING] 2015-05-22 10:04:34,642: Unknown error initiating TCP/IP socket to 192.168.1.13:42567 (http://192.168.1.13:52401/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 10:04:34,642: topic[/current_learn] removing connection to http://192.168.1.13:52401/
+[rospy.internal][ERROR] 2015-05-22 10:04:38,988: Unable to initiate TCP/IP socket to 192.168.1.13:50692 (http://192.168.1.13:50638/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-22 10:04:39,990: Unknown error initiating TCP/IP socket to 192.168.1.13:50692 (http://192.168.1.13:50638/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 10:04:39,991: topic[/activity] removing connection to http://192.168.1.13:50638/
+[rospy.core][INFO] 2015-05-22 10:04:42,109: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2015-05-22 10:04:42,131: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-22 10:04:42,131: topic[/words_to_write] removing connection to http://192.168.1.16:53703/
+[rospy.internal][INFO] 2015-05-22 10:04:42,132: topic[/activity] removing connection to http://192.168.1.16:53703/
+[rospy.internal][INFO] 2015-05-22 10:04:42,132: topic[/time_writing] removing connection to http://192.168.1.3:55238/
+[rospy.internal][INFO] 2015-05-22 10:04:42,132: topic[/time_response] removing connection to http://192.168.1.3:55238/
+[rospy.impl.masterslave][INFO] 2015-05-22 10:04:42,133: signal-2
+[rospy.internal][WARNING] 2015-05-22 10:04:42,275: Unknown error initiating TCP/IP socket to 192.168.1.16:50035 (http://192.168.1.16:53703/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][WARNING] 2015-05-22 10:04:42,276: Unknown error initiating TCP/IP socket to 192.168.1.3:39113 (http://192.168.1.3:55238/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][WARNING] 2015-05-22 10:04:42,276: Unknown error initiating TCP/IP socket to 192.168.1.16:50035 (http://192.168.1.16:53703/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2015-05-22 10:04:42,749: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-22 10:31:20,946: init_node, name[/log], pid[5992]
+[xmlrpc][INFO] 2015-05-22 10:31:20,947: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2015-05-22 10:31:20,947: ROS Slave URI: [http://192.168.1.13:50934/]
+[xmlrpc][INFO] 2015-05-22 10:31:20,947: Started XML-RPC server [http://192.168.1.13:50934/]
+[rospy.impl.masterslave][INFO] 2015-05-22 10:31:20,947: _ready: http://192.168.1.13:50934/
+[xmlrpc][INFO] 2015-05-22 10:31:20,948: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2015-05-22 10:31:20,948: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2015-05-22 10:31:20,948: registering subscriber topic [/words_to_write] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 10:31:20,950: registering subscriber topic [/novelty] type [std_msgs/Float32] with master
+[rospy.registration][INFO] 2015-05-22 10:31:20,951: registering subscriber topic [/activity] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 10:31:20,953: registering subscriber topic [/current_learn] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 10:31:20,954: registering subscriber topic [/sizeHead] type [std_msgs/Int16] with master
+[rospy.registration][INFO] 2015-05-22 10:31:20,956: registering subscriber topic [/nb_repetitions] type [std_msgs/Int16] with master
+[rospy.registration][INFO] 2015-05-22 10:31:20,957: registering subscriber topic [/lookAt] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 10:31:20,959: registering subscriber topic [/time_writing] type [std_msgs/Float32] with master
+[rospy.registration][INFO] 2015-05-22 10:31:20,961: registering subscriber topic [/current_demo] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 10:31:20,962: registering subscriber topic [/time_response] type [std_msgs/Float32] with master
+[rospy.registration][INFO] 2015-05-22 10:31:20,964: registering subscriber topic [/movement] type [std_msgs/Int16] with master
+[rospy.registration][INFO] 2015-05-22 10:31:20,965: registering subscriber topic [/smile] type [std_msgs/Empty] with master
+[rospy.registration][INFO] 2015-05-22 10:31:20,967: registering subscriber topic [/new_child] type [std_msgs/String] with master
+[rospy.init][INFO] 2015-05-22 10:31:21,048: registered with master
+[rospy.rosout][INFO] 2015-05-22 10:31:21,048: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-22 10:31:21,054: connected to core topic /rosout
+[rospy.internal][INFO] 2015-05-22 10:31:21,055: topic[/activity] adding connection to [http://192.168.1.16:51061/], count 0
+[rospy.internal][INFO] 2015-05-22 10:31:21,056: topic[/words_to_write] adding connection to [http://192.168.1.16:51061/], count 0
+[rospy.internal][INFO] 2015-05-22 10:31:21,059: topic[/time_response] adding connection to [http://192.168.1.3:55238/], count 0
+[rospy.simtime][INFO] 2015-05-22 10:31:21,060: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2015-05-22 10:31:21,063: topic[/time_writing] adding connection to [http://192.168.1.3:55238/], count 0
+[rospy.internal][INFO] 2015-05-22 10:31:21,335: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2015-05-22 10:31:21,453: topic[/activity] adding connection to [http://192.168.1.13:39948/], count 1
+[rospy.internal][INFO] 2015-05-22 10:31:22,226: topic[/activity] adding connection to [http://192.168.1.13:41045/], count 2
+[rospy.internal][INFO] 2015-05-22 10:31:22,341: topic[/current_learn] adding connection to [http://192.168.1.13:42817/], count 0
+[rospy.internal][INFO] 2015-05-22 10:31:22,342: topic[/current_demo] adding connection to [http://192.168.1.13:42817/], count 0
+[rospy.internal][INFO] 2015-05-22 10:31:22,346: topic[/nb_repetitions] adding connection to [http://192.168.1.13:42817/], count 0
+[rospy.internal][INFO] 2015-05-22 10:31:32,760: topic[/novelty] adding connection to [http://192.168.1.13:34891/], count 0
+[rospy.internal][INFO] 2015-05-22 10:31:32,762: topic[/sizeHead] adding connection to [http://192.168.1.13:34891/], count 0
+[rospy.internal][INFO] 2015-05-22 10:31:32,762: topic[/smile] adding connection to [http://192.168.1.13:34891/], count 0
+[rospy.internal][INFO] 2015-05-22 10:31:32,762: topic[/lookAt] adding connection to [http://192.168.1.13:34891/], count 0
+[rospy.internal][INFO] 2015-05-22 10:31:32,765: topic[/movement] adding connection to [http://192.168.1.13:34891/], count 0
+[rospy.internal][INFO] 2015-05-22 10:31:33,579: topic[/activity] adding connection to [http://192.168.1.13:44461/], count 3
+[rospy.internal][ERROR] 2015-05-22 10:32:09,236: Unable to initiate TCP/IP socket to 192.168.1.13:38196 (http://192.168.1.13:44461/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-22 10:32:09,621: Unable to initiate TCP/IP socket to 192.168.1.13:49053 (http://192.168.1.13:34891/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/movement] from [TCPROS connection on port 49053 to [192.168.1.13:33215 on socket 21]] [/log].
+
+[rospy.internal][ERROR] 2015-05-22 10:32:09,621: Unable to initiate TCP/IP socket to 192.168.1.13:49053 (http://192.168.1.13:34891/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/smile] from [TCPROS connection on port 49053 to [192.168.1.13:33212 on socket 23]] [/log].
+
+[rospy.internal][ERROR] 2015-05-22 10:32:09,622: Unable to initiate TCP/IP socket to 192.168.1.13:49053 (http://192.168.1.13:34891/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/lookAt] from [TCPROS connection on port 49053 to [192.168.1.13:33208 on socket 21]] [/log].
+
+[rospy.internal][ERROR] 2015-05-22 10:32:09,624: Unable to initiate TCP/IP socket to 192.168.1.13:49053 (http://192.168.1.13:34891/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/sizeHead] from [TCPROS connection on port 49053 to [192.168.1.13:33217 on socket 23]] [/log].
+
+[rospy.internal][ERROR] 2015-05-22 10:32:09,624: Unable to initiate TCP/IP socket to 192.168.1.13:49053 (http://192.168.1.13:34891/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/novelty] from [TCPROS connection on port 49053 to [192.168.1.13:33219 on socket 21]] [/log].
+
+[rospy.internal][WARNING] 2015-05-22 10:32:10,238: Unknown error initiating TCP/IP socket to 192.168.1.13:38196 (http://192.168.1.13:44461/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 10:32:10,238: topic[/activity] removing connection to http://192.168.1.13:44461/
+[rospy.internal][WARNING] 2015-05-22 10:32:10,623: Unknown error initiating TCP/IP socket to 192.168.1.13:49053 (http://192.168.1.13:34891/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2015-05-22 10:32:10,624: Unknown error initiating TCP/IP socket to 192.168.1.13:49053 (http://192.168.1.13:34891/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2015-05-22 10:32:10,624: Unknown error initiating TCP/IP socket to 192.168.1.13:49053 (http://192.168.1.13:34891/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 10:32:10,624: topic[/lookAt] removing connection to http://192.168.1.13:34891/
+[rospy.internal][INFO] 2015-05-22 10:32:10,625: topic[/movement] removing connection to http://192.168.1.13:34891/
+[rospy.internal][INFO] 2015-05-22 10:32:10,625: topic[/smile] removing connection to http://192.168.1.13:34891/
+[rospy.internal][WARNING] 2015-05-22 10:32:10,626: Unknown error initiating TCP/IP socket to 192.168.1.13:49053 (http://192.168.1.13:34891/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2015-05-22 10:32:10,626: Unknown error initiating TCP/IP socket to 192.168.1.13:49053 (http://192.168.1.13:34891/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 10:32:10,627: topic[/novelty] removing connection to http://192.168.1.13:34891/
+[rospy.internal][INFO] 2015-05-22 10:32:10,628: topic[/sizeHead] removing connection to http://192.168.1.13:34891/
+[rospy.internal][ERROR] 2015-05-22 10:32:13,425: Unable to initiate TCP/IP socket to 192.168.1.13:40488 (http://192.168.1.13:41045/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-22 10:32:13,432: Unable to initiate TCP/IP socket to 192.168.1.13:51657 (http://192.168.1.13:42817/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-22 10:32:13,433: Unable to initiate TCP/IP socket to 192.168.1.13:51657 (http://192.168.1.13:42817/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-22 10:32:13,434: Unable to initiate TCP/IP socket to 192.168.1.13:51657 (http://192.168.1.13:42817/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-22 10:32:14,427: Unknown error initiating TCP/IP socket to 192.168.1.13:40488 (http://192.168.1.13:41045/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 10:32:14,427: topic[/activity] removing connection to http://192.168.1.13:41045/
+[rospy.internal][WARNING] 2015-05-22 10:32:14,434: Unknown error initiating TCP/IP socket to 192.168.1.13:51657 (http://192.168.1.13:42817/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 10:32:14,434: topic[/nb_repetitions] removing connection to http://192.168.1.13:42817/
+[rospy.internal][WARNING] 2015-05-22 10:32:14,435: Unknown error initiating TCP/IP socket to 192.168.1.13:51657 (http://192.168.1.13:42817/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 10:32:14,435: topic[/current_demo] removing connection to http://192.168.1.13:42817/
+[rospy.internal][WARNING] 2015-05-22 10:32:14,436: Unknown error initiating TCP/IP socket to 192.168.1.13:51657 (http://192.168.1.13:42817/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 10:32:14,436: topic[/current_learn] removing connection to http://192.168.1.13:42817/
+[rospy.internal][ERROR] 2015-05-22 10:32:16,669: Unable to initiate TCP/IP socket to 192.168.1.13:59437 (http://192.168.1.13:39948/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-22 10:32:17,670: Unknown error initiating TCP/IP socket to 192.168.1.13:59437 (http://192.168.1.13:39948/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 10:32:17,671: topic[/activity] removing connection to http://192.168.1.13:39948/
+[rospy.core][INFO] 2015-05-22 10:38:58,240: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2015-05-22 10:38:58,283: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-22 10:38:58,283: topic[/words_to_write] removing connection to http://192.168.1.16:51061/
+[rospy.internal][INFO] 2015-05-22 10:38:58,284: topic[/activity] removing connection to http://192.168.1.16:51061/
+[rospy.internal][INFO] 2015-05-22 10:38:58,284: topic[/time_writing] removing connection to http://192.168.1.3:55238/
+[rospy.internal][INFO] 2015-05-22 10:38:58,285: topic[/time_response] removing connection to http://192.168.1.3:55238/
+[rospy.impl.masterslave][INFO] 2015-05-22 10:38:58,285: signal-2
+[rospy.core][INFO] 2015-05-22 10:38:58,900: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-22 10:40:33,947: init_node, name[/log], pid[9186]
+[xmlrpc][INFO] 2015-05-22 10:40:33,948: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2015-05-22 10:40:33,948: Started XML-RPC server [http://192.168.1.13:54426/]
+[rospy.impl.masterslave][INFO] 2015-05-22 10:40:33,948: _ready: http://192.168.1.13:54426/
+[rospy.init][INFO] 2015-05-22 10:40:33,949: ROS Slave URI: [http://192.168.1.13:54426/]
+[xmlrpc][INFO] 2015-05-22 10:40:33,953: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2015-05-22 10:40:33,953: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2015-05-22 10:40:33,954: registering subscriber topic [/words_to_write] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 10:40:33,957: registering subscriber topic [/novelty] type [std_msgs/Float32] with master
+[rospy.registration][INFO] 2015-05-22 10:40:33,962: registering subscriber topic [/activity] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 10:40:33,966: registering subscriber topic [/current_learn] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 10:40:33,970: registering subscriber topic [/sizeHead] type [std_msgs/Int16] with master
+[rospy.registration][INFO] 2015-05-22 10:40:33,975: registering subscriber topic [/nb_repetitions] type [std_msgs/Int16] with master
+[rospy.registration][INFO] 2015-05-22 10:40:33,977: registering subscriber topic [/lookAt] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 10:40:33,979: registering subscriber topic [/time_writing] type [std_msgs/Float32] with master
+[rospy.registration][INFO] 2015-05-22 10:40:33,981: registering subscriber topic [/current_demo] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 10:40:33,982: registering subscriber topic [/time_response] type [std_msgs/Float32] with master
+[rospy.registration][INFO] 2015-05-22 10:40:33,985: registering subscriber topic [/movement] type [std_msgs/Int16] with master
+[rospy.registration][INFO] 2015-05-22 10:40:33,987: registering subscriber topic [/smile] type [std_msgs/Empty] with master
+[rospy.registration][INFO] 2015-05-22 10:40:33,988: registering subscriber topic [/new_child] type [std_msgs/String] with master
+[rospy.internal][INFO] 2015-05-22 10:40:33,997: topic[/activity] adding connection to [http://192.168.1.13:45475/], count 0
+[rospy.internal][INFO] 2015-05-22 10:40:34,046: topic[/words_to_write] adding connection to [http://192.168.1.16:51061/], count 0
+[rospy.init][INFO] 2015-05-22 10:40:34,050: registered with master
+[rospy.rosout][INFO] 2015-05-22 10:40:34,050: initializing /rosout core topic
+[rospy.internal][INFO] 2015-05-22 10:40:34,051: topic[/activity] adding connection to [http://192.168.1.16:51061/], count 1
+[rospy.rosout][INFO] 2015-05-22 10:40:34,054: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-22 10:40:34,056: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2015-05-22 10:40:34,158: topic[/time_response] adding connection to [http://192.168.1.3:55238/], count 0
+[rospy.internal][INFO] 2015-05-22 10:40:34,160: topic[/time_writing] adding connection to [http://192.168.1.3:55238/], count 0
+[rospy.internal][INFO] 2015-05-22 10:40:34,255: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2015-05-22 10:40:34,966: topic[/activity] adding connection to [http://192.168.1.13:34018/], count 2
+[rospy.internal][INFO] 2015-05-22 10:40:35,330: topic[/current_learn] adding connection to [http://192.168.1.13:43994/], count 0
+[rospy.internal][INFO] 2015-05-22 10:40:35,332: topic[/current_demo] adding connection to [http://192.168.1.13:43994/], count 0
+[rospy.internal][INFO] 2015-05-22 10:40:35,334: topic[/nb_repetitions] adding connection to [http://192.168.1.13:43994/], count 0
+[rospy.internal][INFO] 2015-05-22 10:40:53,151: topic[/novelty] adding connection to [http://192.168.1.13:51113/], count 0
+[rospy.internal][INFO] 2015-05-22 10:40:53,155: topic[/movement] adding connection to [http://192.168.1.13:51113/], count 0
+[rospy.internal][INFO] 2015-05-22 10:40:53,155: topic[/sizeHead] adding connection to [http://192.168.1.13:51113/], count 0
+[rospy.internal][INFO] 2015-05-22 10:40:53,155: topic[/smile] adding connection to [http://192.168.1.13:51113/], count 0
+[rospy.internal][INFO] 2015-05-22 10:40:53,156: topic[/lookAt] adding connection to [http://192.168.1.13:51113/], count 0
+[rospy.internal][INFO] 2015-05-22 10:40:54,072: topic[/activity] adding connection to [http://192.168.1.13:48821/], count 3
+[rospy.internal][ERROR] 2015-05-22 11:05:10,951: Unable to initiate TCP/IP socket to 192.168.1.13:46021 (http://192.168.1.13:48821/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-22 11:05:11,340: Unable to initiate TCP/IP socket to 192.168.1.13:48368 (http://192.168.1.13:51113/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/lookAt] from [TCPROS connection on port 48368 to [192.168.1.13:50415 on socket 20]] [/log].
+
+[rospy.internal][ERROR] 2015-05-22 11:05:11,340: Unable to initiate TCP/IP socket to 192.168.1.13:48368 (http://192.168.1.13:51113/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/movement] from [TCPROS connection on port 48368 to [192.168.1.13:50419 on socket 20]] [/log].
+
+[rospy.internal][ERROR] 2015-05-22 11:05:11,340: Unable to initiate TCP/IP socket to 192.168.1.13:48368 (http://192.168.1.13:51113/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/novelty] from [TCPROS connection on port 48368 to [192.168.1.13:50422 on socket 20]] [/log].
+
+[rospy.internal][ERROR] 2015-05-22 11:05:11,341: Unable to initiate TCP/IP socket to 192.168.1.13:48368 (http://192.168.1.13:51113/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/sizeHead] from [TCPROS connection on port 48368 to [192.168.1.13:50420 on socket 21]] [/log].
+
+[rospy.internal][ERROR] 2015-05-22 11:05:11,341: Unable to initiate TCP/IP socket to 192.168.1.13:48368 (http://192.168.1.13:51113/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/smile] from [TCPROS connection on port 48368 to [192.168.1.13:50417 on socket 21]] [/log].
+
+[rospy.internal][WARNING] 2015-05-22 11:05:11,953: Unknown error initiating TCP/IP socket to 192.168.1.13:46021 (http://192.168.1.13:48821/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 11:05:11,953: topic[/activity] removing connection to http://192.168.1.13:48821/
+[rospy.internal][WARNING] 2015-05-22 11:05:12,342: Unknown error initiating TCP/IP socket to 192.168.1.13:48368 (http://192.168.1.13:51113/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 11:05:12,343: topic[/lookAt] removing connection to http://192.168.1.13:51113/
+[rospy.internal][WARNING] 2015-05-22 11:05:12,343: Unknown error initiating TCP/IP socket to 192.168.1.13:48368 (http://192.168.1.13:51113/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2015-05-22 11:05:12,344: Unknown error initiating TCP/IP socket to 192.168.1.13:48368 (http://192.168.1.13:51113/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2015-05-22 11:05:12,344: Unknown error initiating TCP/IP socket to 192.168.1.13:48368 (http://192.168.1.13:51113/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2015-05-22 11:05:12,344: Unknown error initiating TCP/IP socket to 192.168.1.13:48368 (http://192.168.1.13:51113/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 11:05:12,345: topic[/smile] removing connection to http://192.168.1.13:51113/
+[rospy.internal][INFO] 2015-05-22 11:05:12,345: topic[/movement] removing connection to http://192.168.1.13:51113/
+[rospy.internal][INFO] 2015-05-22 11:05:12,346: topic[/sizeHead] removing connection to http://192.168.1.13:51113/
+[rospy.internal][INFO] 2015-05-22 11:05:12,346: topic[/novelty] removing connection to http://192.168.1.13:51113/
+[rospy.internal][ERROR] 2015-05-22 11:05:14,876: Unable to initiate TCP/IP socket to 192.168.1.13:46967 (http://192.168.1.13:34018/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-22 11:05:14,884: Unable to initiate TCP/IP socket to 192.168.1.13:36017 (http://192.168.1.13:43994/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-22 11:05:14,885: Unable to initiate TCP/IP socket to 192.168.1.13:36017 (http://192.168.1.13:43994/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-22 11:05:14,885: Unable to initiate TCP/IP socket to 192.168.1.13:36017 (http://192.168.1.13:43994/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-22 11:05:15,877: Unknown error initiating TCP/IP socket to 192.168.1.13:46967 (http://192.168.1.13:34018/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 11:05:15,877: topic[/activity] removing connection to http://192.168.1.13:34018/
+[rospy.internal][WARNING] 2015-05-22 11:05:15,885: Unknown error initiating TCP/IP socket to 192.168.1.13:36017 (http://192.168.1.13:43994/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 11:05:15,885: topic[/nb_repetitions] removing connection to http://192.168.1.13:43994/
+[rospy.internal][WARNING] 2015-05-22 11:05:15,886: Unknown error initiating TCP/IP socket to 192.168.1.13:36017 (http://192.168.1.13:43994/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2015-05-22 11:05:15,887: Unknown error initiating TCP/IP socket to 192.168.1.13:36017 (http://192.168.1.13:43994/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 11:05:15,887: topic[/current_learn] removing connection to http://192.168.1.13:43994/
+[rospy.internal][INFO] 2015-05-22 11:05:15,887: topic[/current_demo] removing connection to http://192.168.1.13:43994/
+[rospy.internal][ERROR] 2015-05-22 11:05:22,508: Unable to initiate TCP/IP socket to 192.168.1.13:55859 (http://192.168.1.13:45475/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-22 11:05:23,510: Unknown error initiating TCP/IP socket to 192.168.1.13:55859 (http://192.168.1.13:45475/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 11:05:23,511: topic[/activity] removing connection to http://192.168.1.13:45475/
+[rospy.internal][WARNING] 2015-05-22 11:16:47,807: Unknown error initiating TCP/IP socket to 192.168.1.16:50384 (http://192.168.1.16:51061/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 11:16:47,808: topic[/activity] removing connection to http://192.168.1.16:51061/
+[rospy.internal][WARNING] 2015-05-22 11:16:47,809: Unknown error initiating TCP/IP socket to 192.168.1.16:50384 (http://192.168.1.16:51061/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 11:16:47,809: topic[/words_to_write] removing connection to http://192.168.1.16:51061/
+[rospy.internal][INFO] 2015-05-22 11:16:56,394: topic[/words_to_write] adding connection to [http://192.168.1.16:37488/], count 0
+[rospy.internal][INFO] 2015-05-22 11:16:56,395: topic[/activity] adding connection to [http://192.168.1.16:37488/], count 0
+[rospy.internal][WARNING] 2015-05-22 11:35:34,893: Unknown error initiating TCP/IP socket to 192.168.1.16:39881 (http://192.168.1.16:37488/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 11:35:34,893: topic[/activity] removing connection to http://192.168.1.16:37488/
+[rospy.internal][WARNING] 2015-05-22 11:35:34,894: Unknown error initiating TCP/IP socket to 192.168.1.16:39881 (http://192.168.1.16:37488/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 11:35:34,894: topic[/words_to_write] removing connection to http://192.168.1.16:37488/
+[rospy.internal][INFO] 2015-05-22 11:35:42,825: topic[/words_to_write] adding connection to [http://192.168.1.16:57437/], count 0
+[rospy.internal][INFO] 2015-05-22 11:35:42,883: topic[/activity] adding connection to [http://192.168.1.16:57437/], count 0
+[rospy.internal][WARNING] 2015-05-22 11:36:42,429: Unknown error initiating TCP/IP socket to 192.168.1.16:57110 (http://192.168.1.16:57437/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2015-05-22 11:36:42,430: Unknown error initiating TCP/IP socket to 192.168.1.16:57110 (http://192.168.1.16:57437/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 11:36:42,431: topic[/activity] removing connection to http://192.168.1.16:57437/
+[rospy.internal][INFO] 2015-05-22 11:36:42,430: topic[/words_to_write] removing connection to http://192.168.1.16:57437/
+[rospy.internal][INFO] 2015-05-22 11:36:49,484: topic[/words_to_write] adding connection to [http://192.168.1.16:46917/], count 0
+[rospy.internal][INFO] 2015-05-22 11:36:49,515: topic[/activity] adding connection to [http://192.168.1.16:46917/], count 0
+[rospy.internal][WARNING] 2015-05-22 11:42:29,634: Unknown error initiating TCP/IP socket to 192.168.1.16:49513 (http://192.168.1.16:46917/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 11:42:29,634: topic[/activity] removing connection to http://192.168.1.16:46917/
+[rospy.internal][WARNING] 2015-05-22 11:42:29,639: Unknown error initiating TCP/IP socket to 192.168.1.16:49513 (http://192.168.1.16:46917/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 11:42:29,639: topic[/words_to_write] removing connection to http://192.168.1.16:46917/
+[rospy.internal][INFO] 2015-05-22 11:42:35,904: topic[/activity] adding connection to [http://192.168.1.16:47147/], count 0
+[rospy.internal][INFO] 2015-05-22 11:42:35,906: topic[/words_to_write] adding connection to [http://192.168.1.16:47147/], count 0
+[rospy.internal][WARNING] 2015-05-22 11:45:58,559: Unknown error initiating TCP/IP socket to 192.168.1.16:36274 (http://192.168.1.16:47147/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 11:45:58,559: topic[/activity] removing connection to http://192.168.1.16:47147/
+[rospy.internal][WARNING] 2015-05-22 11:45:58,560: Unknown error initiating TCP/IP socket to 192.168.1.16:36274 (http://192.168.1.16:47147/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 11:45:58,560: topic[/words_to_write] removing connection to http://192.168.1.16:47147/
+[rospy.internal][INFO] 2015-05-22 11:46:03,524: topic[/words_to_write] adding connection to [http://192.168.1.16:33046/], count 0
+[rospy.internal][INFO] 2015-05-22 11:46:03,527: topic[/activity] adding connection to [http://192.168.1.16:33046/], count 0
+[rospy.internal][WARNING] 2015-05-22 11:51:39,737: Unknown error initiating TCP/IP socket to 192.168.1.16:60099 (http://192.168.1.16:33046/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2015-05-22 11:51:39,737: Unknown error initiating TCP/IP socket to 192.168.1.16:60099 (http://192.168.1.16:33046/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 11:51:39,738: topic[/words_to_write] removing connection to http://192.168.1.16:33046/
+[rospy.internal][INFO] 2015-05-22 11:51:39,738: topic[/activity] removing connection to http://192.168.1.16:33046/
+[rospy.internal][INFO] 2015-05-22 11:51:45,046: topic[/words_to_write] adding connection to [http://192.168.1.16:40767/], count 0
+[rospy.internal][INFO] 2015-05-22 11:51:45,046: topic[/activity] adding connection to [http://192.168.1.16:40767/], count 0
+[rospy.core][INFO] 2015-05-22 12:02:57,981: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2015-05-22 12:02:57,990: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-22 12:02:57,991: topic[/words_to_write] removing connection to http://192.168.1.16:40767/
+[rospy.internal][INFO] 2015-05-22 12:02:57,991: topic[/activity] removing connection to http://192.168.1.16:40767/
+[rospy.internal][INFO] 2015-05-22 12:02:57,991: topic[/time_writing] removing connection to http://192.168.1.3:55238/
+[rospy.internal][INFO] 2015-05-22 12:02:57,992: topic[/time_response] removing connection to http://192.168.1.3:55238/
+[rospy.impl.masterslave][INFO] 2015-05-22 12:02:57,992: signal-2
+[rospy.internal][WARNING] 2015-05-22 12:02:58,039: Unknown error initiating TCP/IP socket to 192.168.1.16:39807 (http://192.168.1.16:40767/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2015-05-22 12:02:58,096: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-22 12:03:02,545: init_node, name[/log], pid[8381]
+[xmlrpc][INFO] 2015-05-22 12:03:02,546: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2015-05-22 12:03:02,546: ROS Slave URI: [http://192.168.1.13:45960/]
+[xmlrpc][INFO] 2015-05-22 12:03:02,546: Started XML-RPC server [http://192.168.1.13:45960/]
+[rospy.impl.masterslave][INFO] 2015-05-22 12:03:02,547: _ready: http://192.168.1.13:45960/
+[xmlrpc][INFO] 2015-05-22 12:03:02,547: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2015-05-22 12:03:02,548: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2015-05-22 12:03:02,548: registering subscriber topic [/words_to_write] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 12:03:02,551: registering subscriber topic [/novelty] type [std_msgs/Float32] with master
+[rospy.registration][INFO] 2015-05-22 12:03:02,556: registering subscriber topic [/activity] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 12:03:02,559: registering subscriber topic [/current_learn] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 12:03:02,570: registering subscriber topic [/sizeHead] type [std_msgs/Int16] with master
+[rospy.registration][INFO] 2015-05-22 12:03:02,572: registering subscriber topic [/nb_repetitions] type [std_msgs/Int16] with master
+[rospy.registration][INFO] 2015-05-22 12:03:02,575: registering subscriber topic [/lookAt] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 12:03:02,580: registering subscriber topic [/time_writing] type [std_msgs/Float32] with master
+[rospy.registration][INFO] 2015-05-22 12:03:02,582: registering subscriber topic [/current_demo] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 12:03:02,586: registering subscriber topic [/time_response] type [std_msgs/Float32] with master
+[rospy.registration][INFO] 2015-05-22 12:03:02,588: registering subscriber topic [/movement] type [std_msgs/Int16] with master
+[rospy.registration][INFO] 2015-05-22 12:03:02,592: registering subscriber topic [/smile] type [std_msgs/Empty] with master
+[rospy.registration][INFO] 2015-05-22 12:03:02,596: registering subscriber topic [/new_child] type [std_msgs/String] with master
+[rospy.init][INFO] 2015-05-22 12:03:02,647: registered with master
+[rospy.rosout][INFO] 2015-05-22 12:03:02,647: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-22 12:03:02,649: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-22 12:03:02,651: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2015-05-22 12:03:02,680: topic[/activity] adding connection to [http://192.168.1.16:40767/], count 0
+[rospy.internal][INFO] 2015-05-22 12:03:02,687: topic[/words_to_write] adding connection to [http://192.168.1.16:40767/], count 0
+[rospy.internal][INFO] 2015-05-22 12:03:02,746: topic[/time_writing] adding connection to [http://192.168.1.3:55238/], count 0
+[rospy.internal][INFO] 2015-05-22 12:03:02,766: topic[/time_response] adding connection to [http://192.168.1.3:55238/], count 0
+[rospy.internal][INFO] 2015-05-22 12:03:02,826: topic[/activity] adding connection to [http://192.168.1.13:38449/], count 1
+[rospy.internal][INFO] 2015-05-22 12:03:02,917: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2015-05-22 12:03:03,942: topic[/current_learn] adding connection to [http://192.168.1.13:36979/], count 0
+[rospy.internal][INFO] 2015-05-22 12:03:03,945: topic[/current_demo] adding connection to [http://192.168.1.13:36979/], count 0
+[rospy.internal][INFO] 2015-05-22 12:03:03,948: topic[/nb_repetitions] adding connection to [http://192.168.1.13:36979/], count 0
+[rospy.internal][INFO] 2015-05-22 12:03:04,160: topic[/activity] adding connection to [http://192.168.1.13:34856/], count 2
+[rospy.internal][ERROR] 2015-05-22 12:06:10,795: Unable to initiate TCP/IP socket to 192.168.1.13:36097 (http://192.168.1.13:34856/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-22 12:06:10,810: Unable to initiate TCP/IP socket to 192.168.1.13:41571 (http://192.168.1.13:36979/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-22 12:06:10,811: Unable to initiate TCP/IP socket to 192.168.1.13:41571 (http://192.168.1.13:36979/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-22 12:06:10,812: Unable to initiate TCP/IP socket to 192.168.1.13:41571 (http://192.168.1.13:36979/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-22 12:06:11,798: Unknown error initiating TCP/IP socket to 192.168.1.13:36097 (http://192.168.1.13:34856/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 12:06:11,798: topic[/activity] removing connection to http://192.168.1.13:34856/
+[rospy.internal][WARNING] 2015-05-22 12:06:11,812: Unknown error initiating TCP/IP socket to 192.168.1.13:41571 (http://192.168.1.13:36979/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 12:06:11,812: topic[/nb_repetitions] removing connection to http://192.168.1.13:36979/
+[rospy.internal][WARNING] 2015-05-22 12:06:11,813: Unknown error initiating TCP/IP socket to 192.168.1.13:41571 (http://192.168.1.13:36979/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2015-05-22 12:06:11,814: Unknown error initiating TCP/IP socket to 192.168.1.13:41571 (http://192.168.1.13:36979/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 12:06:11,814: topic[/current_demo] removing connection to http://192.168.1.13:36979/
+[rospy.internal][INFO] 2015-05-22 12:06:11,815: topic[/current_learn] removing connection to http://192.168.1.13:36979/
+[rospy.internal][ERROR] 2015-05-22 12:06:12,534: Unable to initiate TCP/IP socket to 192.168.1.13:47503 (http://192.168.1.13:38449/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-22 12:06:13,536: Unknown error initiating TCP/IP socket to 192.168.1.13:47503 (http://192.168.1.13:38449/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 12:06:13,536: topic[/activity] removing connection to http://192.168.1.13:38449/
+[rospy.core][INFO] 2015-05-22 12:06:19,928: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2015-05-22 12:06:19,965: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-22 12:06:19,965: topic[/words_to_write] removing connection to http://192.168.1.16:40767/
+[rospy.internal][INFO] 2015-05-22 12:06:19,966: topic[/activity] removing connection to http://192.168.1.16:40767/
+[rospy.internal][INFO] 2015-05-22 12:06:19,966: topic[/time_writing] removing connection to http://192.168.1.3:55238/
+[rospy.internal][INFO] 2015-05-22 12:06:19,967: topic[/time_response] removing connection to http://192.168.1.3:55238/
+[rospy.impl.masterslave][INFO] 2015-05-22 12:06:19,967: signal-2
+[rospy.core][INFO] 2015-05-22 12:06:20,075: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-22 12:06:25,318: init_node, name[/log], pid[16618]
+[xmlrpc][INFO] 2015-05-22 12:06:25,319: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2015-05-22 12:06:25,319: ROS Slave URI: [http://192.168.1.13:54791/]
+[xmlrpc][INFO] 2015-05-22 12:06:25,319: Started XML-RPC server [http://192.168.1.13:54791/]
+[rospy.impl.masterslave][INFO] 2015-05-22 12:06:25,319: _ready: http://192.168.1.13:54791/
+[xmlrpc][INFO] 2015-05-22 12:06:25,320: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2015-05-22 12:06:25,320: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2015-05-22 12:06:25,320: registering subscriber topic [/words_to_write] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 12:06:25,322: registering subscriber topic [/novelty] type [std_msgs/Float32] with master
+[rospy.registration][INFO] 2015-05-22 12:06:25,324: registering subscriber topic [/activity] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 12:06:25,325: registering subscriber topic [/current_learn] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 12:06:25,327: registering subscriber topic [/sizeHead] type [std_msgs/Int16] with master
+[rospy.registration][INFO] 2015-05-22 12:06:25,329: registering subscriber topic [/nb_repetitions] type [std_msgs/Int16] with master
+[rospy.registration][INFO] 2015-05-22 12:06:25,330: registering subscriber topic [/lookAt] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 12:06:25,332: registering subscriber topic [/time_writing] type [std_msgs/Float32] with master
+[rospy.registration][INFO] 2015-05-22 12:06:25,334: registering subscriber topic [/current_demo] type [std_msgs/String] with master
+[rospy.registration][INFO] 2015-05-22 12:06:25,335: registering subscriber topic [/time_response] type [std_msgs/Float32] with master
+[rospy.registration][INFO] 2015-05-22 12:06:25,337: registering subscriber topic [/movement] type [std_msgs/Int16] with master
+[rospy.registration][INFO] 2015-05-22 12:06:25,338: registering subscriber topic [/smile] type [std_msgs/Empty] with master
+[rospy.registration][INFO] 2015-05-22 12:06:25,340: registering subscriber topic [/new_child] type [std_msgs/String] with master
+[rospy.init][INFO] 2015-05-22 12:06:25,420: registered with master
+[rospy.rosout][INFO] 2015-05-22 12:06:25,420: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-22 12:06:25,422: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-22 12:06:25,424: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2015-05-22 12:06:25,433: topic[/activity] adding connection to [http://192.168.1.16:40767/], count 0
+[rospy.internal][INFO] 2015-05-22 12:06:25,450: topic[/words_to_write] adding connection to [http://192.168.1.16:40767/], count 0
+[rospy.internal][INFO] 2015-05-22 12:06:25,465: topic[/time_writing] adding connection to [http://192.168.1.3:55238/], count 0
+[rospy.internal][INFO] 2015-05-22 12:06:25,465: topic[/time_response] adding connection to [http://192.168.1.3:55238/], count 0
+[rospy.internal][INFO] 2015-05-22 12:06:25,627: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2015-05-22 12:06:25,665: topic[/activity] adding connection to [http://192.168.1.13:51304/], count 1
+[rospy.internal][INFO] 2015-05-22 12:06:26,582: topic[/activity] adding connection to [http://192.168.1.13:56267/], count 2
+[rospy.internal][INFO] 2015-05-22 12:06:26,753: topic[/current_learn] adding connection to [http://192.168.1.13:60558/], count 0
+[rospy.internal][INFO] 2015-05-22 12:06:26,754: topic[/nb_repetitions] adding connection to [http://192.168.1.13:60558/], count 0
+[rospy.internal][INFO] 2015-05-22 12:06:26,755: topic[/current_demo] adding connection to [http://192.168.1.13:60558/], count 0
+[rospy.internal][WARNING] 2015-05-22 12:13:32,226: Unknown error initiating TCP/IP socket to 192.168.1.16:39807 (http://192.168.1.16:40767/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 12:13:32,227: topic[/activity] removing connection to http://192.168.1.16:40767/
+[rospy.internal][WARNING] 2015-05-22 12:13:32,228: Unknown error initiating TCP/IP socket to 192.168.1.16:39807 (http://192.168.1.16:40767/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 12:13:32,229: topic[/words_to_write] removing connection to http://192.168.1.16:40767/
+[rospy.internal][INFO] 2015-05-22 12:13:32,314: topic[/words_to_write] adding connection to [http://192.168.1.16:33279/], count 0
+[rospy.internal][INFO] 2015-05-22 12:13:32,322: topic[/activity] adding connection to [http://192.168.1.16:33279/], count 2
+[rospy.internal][ERROR] 2015-05-22 12:13:50,682: Unable to initiate TCP/IP socket to 192.168.1.13:38163 (http://192.168.1.13:60558/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-22 12:13:50,683: Unable to initiate TCP/IP socket to 192.168.1.13:38163 (http://192.168.1.13:60558/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2015-05-22 12:13:50,683: Unable to initiate TCP/IP socket to 192.168.1.13:38163 (http://192.168.1.13:60558/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-22 12:13:51,684: Unknown error initiating TCP/IP socket to 192.168.1.13:38163 (http://192.168.1.13:60558/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2015-05-22 12:13:51,685: Unknown error initiating TCP/IP socket to 192.168.1.13:38163 (http://192.168.1.13:60558/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 12:13:51,686: topic[/current_demo] removing connection to http://192.168.1.13:60558/
+[rospy.internal][INFO] 2015-05-22 12:13:51,685: topic[/nb_repetitions] removing connection to http://192.168.1.13:60558/
+[rospy.internal][WARNING] 2015-05-22 12:13:51,685: Unknown error initiating TCP/IP socket to 192.168.1.13:38163 (http://192.168.1.13:60558/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-22 12:13:51,687: topic[/current_learn] removing connection to http://192.168.1.13:60558/
+[rospy.internal][ERROR] 2015-05-22 12:15:56,783: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 698, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 103, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 110] Connection timed out
+
+[rospy.internal][ERROR] 2015-05-22 12:15:56,784: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 698, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 103, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 110] Connection timed out
+
+[rospy.internal][WARNING] 2015-05-22 12:15:58,759: Unknown error initiating TCP/IP socket to 192.168.1.3:39113 (http://192.168.1.3:55238/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 113] No route to host
+
+[rospy.internal][INFO] 2015-05-22 12:15:58,760: topic[/time_response] removing connection to http://192.168.1.3:55238/
+[rospy.internal][WARNING] 2015-05-22 12:15:58,760: Unknown error initiating TCP/IP socket to 192.168.1.3:39113 (http://192.168.1.3:55238/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 113] No route to host
+
+[rospy.internal][INFO] 2015-05-22 12:15:58,761: topic[/time_writing] removing connection to http://192.168.1.3:55238/
+[rospy.internal][ERROR] 2015-05-22 12:16:02,672: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 698, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 103, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 110] Connection timed out
+
+[rospy.internal][ERROR] 2015-05-22 12:16:02,673: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 698, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 103, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 110] Connection timed out
+
+[rospy.internal][WARNING] 2015-05-22 12:16:05,671: Unknown error initiating TCP/IP socket to 192.168.1.16:55484 (http://192.168.1.16:33279/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 113] No route to host
+
+[rospy.internal][INFO] 2015-05-22 12:16:05,672: topic[/activity] removing connection to http://192.168.1.16:33279/
+[rospy.internal][WARNING] 2015-05-22 12:16:05,673: Unknown error initiating TCP/IP socket to 192.168.1.16:55484 (http://192.168.1.16:33279/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 113] No route to host
+
+[rospy.internal][INFO] 2015-05-22 12:16:05,673: topic[/words_to_write] removing connection to http://192.168.1.16:33279/
+[rospy.internal][ERROR] 2015-05-22 12:17:58,383: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 698, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 103, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 110] Connection timed out
+
+[rospy.internal][ERROR] 2015-05-22 12:18:09,903: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 698, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 103, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 110] Connection timed out
+
+[rospy.core][INFO] 2015-05-22 12:18:15,783: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2015-05-22 12:18:15,800: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-22 12:18:15,801: topic[/activity] removing connection to http://192.168.1.13:51304/
+[rospy.internal][WARNING] 2015-05-22 12:18:15,802: Unknown error initiating TCP/IP socket to 192.168.1.13:51984 (http://192.168.1.13:56267/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2015-05-22 12:18:15,803: topic[/activity] removing connection to http://192.168.1.13:56267/
+[rospy.internal][INFO] 2015-05-22 12:18:15,803: topic[/activity] removing connection to http://192.168.1.13:56267/
+[rospy.topics][ERROR] 2015-05-22 12:18:15,803: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 307, in close
+    c.close()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 807, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2015-05-22 12:18:15,804: signal-2
+[rospy.internal][WARNING] 2015-05-22 12:18:15,805: Unknown error initiating TCP/IP socket to 192.168.1.13:34611 (http://192.168.1.13:51304/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 104] Connection reset by peer
+
+[rospy.core][INFO] 2015-05-22 12:18:15,935: signal_shutdown [atexit]

@@ -1,0 +1,56 @@
+[I] 6079 qimessaging.session: Session listener created on tcp://0.0.0.0:0
+[I] 6079 qimessaging.transportserver: TransportServer will listen on: tcp://128.178.116.244:55343
+[I] 6079 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:55343
+[I] 6079 qimessaging.transportserver: TransportServer will listen on: tcp://192.168.1.13:55343
+[INFO] [WallTime: 1432893470.114492] Waiting for display manager services to become available
+[INFO] [WallTime: 1432893472.127916] Starting new timer
+[INFO] [WallTime: 1432893472.129185] Nao configuration: writing=True, speaking=True (french), standing=True, handedness=right
+inaoqi-broker: construct at 0.0.0.0:0, parent : 192.168.1.12:9559
+[I] 6079 qimessaging.session: Session listener created on tcp://0.0.0.0:0
+[I] 6079 qimessaging.transportserver: TransportServer will listen on: tcp://128.178.116.244:54045
+[I] 6079 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:54045
+[I] 6079 qimessaging.transportserver: TransportServer will listen on: tcp://192.168.1.13:54045
+[INFO] [WallTime: 1432893473.029877] STATE: WAITING_FOR_ROBOT_TO_CONNECT
+[INFO] [WallTime: 1432893473.530428] STATE: STARTING_INTERACTION
+[INFO] [WallTime: 1432893474.068058] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1432893474.820395] Re-connection
+[INFO] [WallTime: 1432893481.787845] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1432893481.858682] Re-connection
+[INFO] [WallTime: 1432893484.808582] Received word: 0
+[INFO] [WallTime: 1432893485.908834] NAO: J'aimerai m'entrainer à l'écriture... Peux-tu m'aider ?
+[INFO] [WallTime: 1432893486.410256] STATE: WAITING_FOR_WORD
+[INFO] [WallTime: 1432893486.911896] STATE: RESPONDING_TO_NEW_WORD
+0
+/home/ferran/Desktop/shape_learner_multi_stroke/shape_learning/share/letter_model_datasets/bad_letters//0.dat
+[INFO] [WallTime: 1432893487.231209] NAO: D'accord pour 0
+[INFO] [WallTime: 1432893488.753170] Clearing display
+[INFO] [WallTime: 1432893489.412191] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1432893489.710578] STATE: PUBLISHING_WORD
+[INFO] [WallTime: 1432893489.821350] Re-connection
+[INFO] [WallTime: 1432893490.322578] STATE: WAITING_FOR_LETTER_TO_FINISH
+[INFO] [WallTime: 1432893490.412746] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1432893492.780871] Re-connection
+[INFO] [WallTime: 1432893498.233481] STATE: ASKING_FOR_FEEDBACK
+[INFO] [WallTime: 1432893498.234529] PUBLISHING_WORD
+[INFO] [WallTime: 1432893498.235191] Asking for feedback on word 0
+[INFO] [WallTime: 1432893501.082120] NAO: Bon, qu'est ce que tu en penses ?
+[INFO] [WallTime: 1432893501.814269] STATE: WAITING_FOR_FEEDBACK
+[INFO] [WallTime: 1432893506.611657] Received template demonstration for letters ['0']
+[INFO] [WallTime: 1432893507.580449] STATE: WAITING_FOR_ROBOT_TO_CONNECT
+[INFO] [WallTime: 1432893508.082030] STATE: RESPONDING_TO_DEMONSTRATION_FULL_WORD
+[INFO] [WallTime: 1432893508.247364] Received demo for 0
+[INFO] [WallTime: 1432893509.170110] NAO: Ok
+[INFO] [WallTime: 1432893509.223867] Clearing display
+[INFO] [WallTime: 1432893510.178523] STATE: PUBLISHING_WORD
+[INFO] [WallTime: 1432893510.662925] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1432893510.705821] STATE: WAITING_FOR_LETTER_TO_FINISH
+[INFO] [WallTime: 1432893513.200342] Re-connection
+[INFO] [WallTime: 1432893514.927256] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1432893515.117954] Re-connection
+[INFO] [WallTime: 1432893518.616790] STATE: ASKING_FOR_FEEDBACK
+[INFO] [WallTime: 1432893518.617828] PUBLISHING_WORD
+[INFO] [WallTime: 1432893518.618453] Asking for feedback on word 0
+[INFO] [WallTime: 1432893520.838227] NAO: Pas facile !
+[INFO] [WallTime: 1432893521.517238] STATE: WAITING_FOR_FEEDBACK
+[INFO] [WallTime: 1432893528.112942] STATE: STOPPING
+[INFO] [WallTime: 1432893531.946226] Stopped

@@ -1,0 +1,950 @@
+[rospy.client][INFO] 2015-05-29 08:55:24,235: init_node, name[/nao_writer], pid[8984]
+[xmlrpc][INFO] 2015-05-29 08:55:24,235: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2015-05-29 08:55:24,236: ROS Slave URI: [http://192.168.1.13:57828/]
+[xmlrpc][INFO] 2015-05-29 08:55:24,236: Started XML-RPC server [http://192.168.1.13:57828/]
+[rospy.impl.masterslave][INFO] 2015-05-29 08:55:24,236: _ready: http://192.168.1.13:57828/
+[xmlrpc][INFO] 2015-05-29 08:55:24,236: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2015-05-29 08:55:24,237: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2015-05-29 08:55:24,336: registered with master
+[rospy.rosout][INFO] 2015-05-29 08:55:24,336: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-29 08:55:24,339: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-29 08:55:24,341: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2015-05-29 08:55:25,305: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2015-05-29 08:55:25,369: Subscribed to robotHasFallen event
+[rospy.internal][INFO] 2015-05-29 08:55:26,417: topic[/write_traj_downsampled] adding connection to [http://192.168.1.13:49586/], count 0
+[rospy.internal][INFO] 2015-05-29 08:55:31,837: topic[/tf] adding connection to [http://192.168.1.13:46282/], count 0
+[rospy.internal][INFO] 2015-05-29 08:55:31,840: topic[/tf] adding connection to [http://192.168.1.13:39742/], count 1
+[rospy.internal][ERROR] 2015-05-29 08:55:51,284: Unable to initiate TCP/IP socket to 192.168.1.13:52995 (http://192.168.1.13:49586/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-29 08:55:52,286: Unknown error initiating TCP/IP socket to 192.168.1.13:52995 (http://192.168.1.13:49586/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-29 08:55:52,287: topic[/write_traj_downsampled] removing connection to http://192.168.1.13:49586/
+[rospy.core][INFO] 2015-05-29 09:16:48,649: signal_shutdown [signal-2]
+[rospy.internal][WARNING] 2015-05-29 09:16:48,651: Unknown error initiating TCP/IP socket to 192.168.1.13:50844 (http://192.168.1.13:39742/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2015-05-29 09:16:48,652: topic[/tf] removing connection to http://192.168.1.13:39742/
+[rospy.internal][INFO] 2015-05-29 09:16:48,662: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-29 09:16:48,663: topic[/tf] removing connection to http://192.168.1.13:46282/
+[rospy.impl.masterslave][INFO] 2015-05-29 09:16:48,663: signal-2
+[rospy.core][INFO] 2015-05-29 09:16:49,311: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-29 09:16:52,367: init_node, name[/nao_writer], pid[9805]
+[xmlrpc][INFO] 2015-05-29 09:16:52,367: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2015-05-29 09:16:52,368: ROS Slave URI: [http://192.168.1.13:38107/]
+[xmlrpc][INFO] 2015-05-29 09:16:52,368: Started XML-RPC server [http://192.168.1.13:38107/]
+[rospy.impl.masterslave][INFO] 2015-05-29 09:16:52,368: _ready: http://192.168.1.13:38107/
+[xmlrpc][INFO] 2015-05-29 09:16:52,368: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2015-05-29 09:16:52,369: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2015-05-29 09:16:52,468: registered with master
+[rospy.rosout][INFO] 2015-05-29 09:16:52,468: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-29 09:16:52,471: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-29 09:16:52,472: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2015-05-29 09:16:53,139: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2015-05-29 09:16:53,143: Subscribed to robotHasFallen event
+[rospy.internal][INFO] 2015-05-29 09:16:54,615: topic[/write_traj_downsampled] adding connection to [http://192.168.1.13:58054/], count 0
+[rospy.internal][INFO] 2015-05-29 09:16:59,543: topic[/tf] adding connection to [http://192.168.1.13:58006/], count 0
+[rospy.internal][INFO] 2015-05-29 09:16:59,547: topic[/tf] adding connection to [http://192.168.1.13:40039/], count 1
+[rosout][INFO] 2015-05-29 09:33:03,451: got traj at 1432884783451841115
+[rosout][INFO] 2015-05-29 09:33:06,319: executing rest of traj at 1432884786319529056
+[rosout][INFO] 2015-05-29 09:33:10,681: Time taken for rest of trajectory: 4.360757113
+[rospy.internal][ERROR] 2015-05-29 09:33:57,290: Unable to initiate TCP/IP socket to 192.168.1.13:59893 (http://192.168.1.13:58054/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-29 09:33:58,292: Unknown error initiating TCP/IP socket to 192.168.1.13:59893 (http://192.168.1.13:58054/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-29 09:33:58,293: topic[/write_traj_downsampled] removing connection to http://192.168.1.13:58054/
+[rospy.core][INFO] 2015-05-29 09:34:03,629: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2015-05-29 09:34:03,653: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-29 09:34:03,653: topic[/tf] removing connection to http://192.168.1.13:58006/
+[rospy.internal][INFO] 2015-05-29 09:34:03,653: topic[/tf] removing connection to http://192.168.1.13:40039/
+[rospy.impl.masterslave][INFO] 2015-05-29 09:34:03,654: signal-2
+[rospy.core][INFO] 2015-05-29 09:34:04,353: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-29 09:34:07,027: init_node, name[/nao_writer], pid[13656]
+[xmlrpc][INFO] 2015-05-29 09:34:07,027: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2015-05-29 09:34:07,028: ROS Slave URI: [http://192.168.1.13:35315/]
+[xmlrpc][INFO] 2015-05-29 09:34:07,028: Started XML-RPC server [http://192.168.1.13:35315/]
+[rospy.impl.masterslave][INFO] 2015-05-29 09:34:07,028: _ready: http://192.168.1.13:35315/
+[xmlrpc][INFO] 2015-05-29 09:34:07,028: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2015-05-29 09:34:07,029: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2015-05-29 09:34:07,128: registered with master
+[rospy.rosout][INFO] 2015-05-29 09:34:07,128: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-29 09:34:07,131: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-29 09:34:07,132: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2015-05-29 09:34:07,580: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2015-05-29 09:34:07,587: Subscribed to robotHasFallen event
+[rospy.internal][INFO] 2015-05-29 09:34:09,170: topic[/write_traj_downsampled] adding connection to [http://192.168.1.13:57621/], count 0
+[rospy.internal][INFO] 2015-05-29 09:34:13,980: topic[/tf] adding connection to [http://192.168.1.13:39548/], count 0
+[rospy.internal][INFO] 2015-05-29 09:34:13,983: topic[/tf] adding connection to [http://192.168.1.13:36075/], count 1
+[rosout][INFO] 2015-05-29 09:34:31,303: got traj at 1432884871303555011
+[rosout][INFO] 2015-05-29 09:34:34,204: executing rest of traj at 1432884874204293966
+[rosout][INFO] 2015-05-29 09:34:38,673: Time taken for rest of trajectory: 4.468044043
+[rospy.internal][ERROR] 2015-05-29 09:34:54,998: Unable to initiate TCP/IP socket to 192.168.1.13:57890 (http://192.168.1.13:57621/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-29 09:34:56,002: Unknown error initiating TCP/IP socket to 192.168.1.13:57890 (http://192.168.1.13:57621/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-29 09:34:56,002: topic[/write_traj_downsampled] removing connection to http://192.168.1.13:57621/
+[rospy.core][INFO] 2015-05-29 09:57:50,383: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2015-05-29 09:57:50,399: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-29 09:57:50,400: topic[/tf] removing connection to http://192.168.1.13:39548/
+[rospy.internal][INFO] 2015-05-29 09:57:50,400: topic[/tf] removing connection to http://192.168.1.13:36075/
+[rospy.impl.masterslave][INFO] 2015-05-29 09:57:50,400: signal-2
+[rospy.core][INFO] 2015-05-29 09:57:50,578: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-29 09:57:59,491: init_node, name[/nao_writer], pid[26251]
+[xmlrpc][INFO] 2015-05-29 09:57:59,491: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2015-05-29 09:57:59,492: Started XML-RPC server [http://192.168.1.13:34641/]
+[rospy.impl.masterslave][INFO] 2015-05-29 09:57:59,492: _ready: http://192.168.1.13:34641/
+[rospy.init][INFO] 2015-05-29 09:57:59,494: ROS Slave URI: [http://192.168.1.13:34641/]
+[rospy.registration][INFO] 2015-05-29 09:57:59,495: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2015-05-29 09:57:59,495: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2015-05-29 09:57:59,594: registered with master
+[rospy.rosout][INFO] 2015-05-29 09:57:59,594: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-29 09:57:59,597: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-29 09:57:59,599: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2015-05-29 09:58:00,095: Subscribed to robotHasFallen event
+[rospy.internal][INFO] 2015-05-29 09:58:00,171: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2015-05-29 09:58:01,569: topic[/write_traj_downsampled] adding connection to [http://192.168.1.13:46602/], count 0
+[rospy.internal][INFO] 2015-05-29 09:58:06,485: topic[/tf] adding connection to [http://192.168.1.13:40265/], count 0
+[rospy.internal][INFO] 2015-05-29 09:58:06,487: topic[/tf] adding connection to [http://192.168.1.13:53215/], count 1
+[rosout][INFO] 2015-05-29 09:58:25,815: got traj at 1432886305815577983
+[rosout][INFO] 2015-05-29 09:58:28,698: executing rest of traj at 1432886308698410987
+[rosout][INFO] 2015-05-29 09:58:33,013: Time taken for rest of trajectory: 4.313545943
+[rosout][INFO] 2015-05-29 09:58:43,833: got traj at 1432886323833830118
+[rosout][INFO] 2015-05-29 09:58:46,817: executing rest of traj at 1432886326817423105
+[rosout][INFO] 2015-05-29 09:58:51,292: Time taken for rest of trajectory: 4.474406004
+[rosout][INFO] 2015-05-29 09:59:04,951: got traj at 1432886344951266050
+[rosout][INFO] 2015-05-29 09:59:07,805: executing rest of traj at 1432886347804946899
+[rosout][INFO] 2015-05-29 09:59:12,112: Time taken for rest of trajectory: 4.306480169
+[rospy.internal][ERROR] 2015-05-29 10:05:56,490: Unable to initiate TCP/IP socket to 192.168.1.13:39234 (http://192.168.1.13:46602/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-29 10:05:57,493: Unknown error initiating TCP/IP socket to 192.168.1.13:39234 (http://192.168.1.13:46602/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-29 10:05:57,493: topic[/write_traj_downsampled] removing connection to http://192.168.1.13:46602/
+[rospy.core][INFO] 2015-05-29 10:06:01,003: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2015-05-29 10:06:01,023: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-29 10:06:01,023: topic[/tf] removing connection to http://192.168.1.13:40265/
+[rospy.internal][INFO] 2015-05-29 10:06:01,025: topic[/tf] removing connection to http://192.168.1.13:53215/
+[rospy.impl.masterslave][INFO] 2015-05-29 10:06:01,025: signal-2
+[rospy.core][INFO] 2015-05-29 10:06:01,169: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-29 10:06:04,869: init_node, name[/nao_writer], pid[14024]
+[xmlrpc][INFO] 2015-05-29 10:06:04,870: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2015-05-29 10:06:04,870: Started XML-RPC server [http://192.168.1.13:59562/]
+[rospy.impl.masterslave][INFO] 2015-05-29 10:06:04,870: _ready: http://192.168.1.13:59562/
+[rospy.registration][INFO] 2015-05-29 10:06:04,871: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2015-05-29 10:06:04,871: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2015-05-29 10:06:04,874: ROS Slave URI: [http://192.168.1.13:59562/]
+[rospy.init][INFO] 2015-05-29 10:06:04,874: registered with master
+[rospy.rosout][INFO] 2015-05-29 10:06:04,874: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-29 10:06:04,880: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-29 10:06:04,884: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2015-05-29 10:06:05,407: Subscribed to robotHasFallen event
+[rospy.internal][INFO] 2015-05-29 10:06:05,506: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2015-05-29 10:06:07,185: topic[/write_traj_downsampled] adding connection to [http://192.168.1.13:53737/], count 0
+[rospy.internal][INFO] 2015-05-29 10:06:11,750: topic[/tf] adding connection to [http://192.168.1.13:45642/], count 0
+[rospy.internal][INFO] 2015-05-29 10:06:11,754: topic[/tf] adding connection to [http://192.168.1.13:58305/], count 1
+[rosout][INFO] 2015-05-29 10:06:28,553: got traj at 1432886788553003072
+[rosout][INFO] 2015-05-29 10:06:31,469: executing rest of traj at 1432886791469187974
+[rosout][INFO] 2015-05-29 10:06:35,877: Time taken for rest of trajectory: 4.407764197
+[rospy.internal][ERROR] 2015-05-29 10:06:46,307: Unable to initiate TCP/IP socket to 192.168.1.13:38088 (http://192.168.1.13:53737/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-29 10:06:47,309: Unknown error initiating TCP/IP socket to 192.168.1.13:38088 (http://192.168.1.13:53737/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-29 10:06:47,309: topic[/write_traj_downsampled] removing connection to http://192.168.1.13:53737/
+[rospy.core][INFO] 2015-05-29 10:12:26,585: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2015-05-29 10:12:26,602: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-29 10:12:26,602: topic[/tf] removing connection to http://192.168.1.13:45642/
+[rospy.internal][INFO] 2015-05-29 10:12:26,603: topic[/tf] removing connection to http://192.168.1.13:58305/
+[rospy.impl.masterslave][INFO] 2015-05-29 10:12:26,603: signal-2
+[rospy.core][INFO] 2015-05-29 10:12:26,735: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-29 10:12:30,026: init_node, name[/nao_writer], pid[26446]
+[xmlrpc][INFO] 2015-05-29 10:12:30,027: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2015-05-29 10:12:30,027: Started XML-RPC server [http://192.168.1.13:38042/]
+[rospy.impl.masterslave][INFO] 2015-05-29 10:12:30,028: _ready: http://192.168.1.13:38042/
+[xmlrpc][INFO] 2015-05-29 10:12:30,028: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2015-05-29 10:12:30,028: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2015-05-29 10:12:30,029: ROS Slave URI: [http://192.168.1.13:38042/]
+[rospy.init][INFO] 2015-05-29 10:12:30,029: registered with master
+[rospy.rosout][INFO] 2015-05-29 10:12:30,029: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-29 10:12:30,033: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-29 10:12:30,035: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2015-05-29 10:12:30,555: Subscribed to robotHasFallen event
+[rospy.internal][INFO] 2015-05-29 10:12:30,652: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2015-05-29 10:12:31,731: topic[/write_traj_downsampled] adding connection to [http://192.168.1.13:58764/], count 0
+[rospy.internal][INFO] 2015-05-29 10:12:36,949: topic[/tf] adding connection to [http://192.168.1.13:57716/], count 0
+[rospy.internal][INFO] 2015-05-29 10:12:36,951: topic[/tf] adding connection to [http://192.168.1.13:39338/], count 1
+[rosout][INFO] 2015-05-29 10:12:53,764: got traj at 1432887173764334917
+[rosout][INFO] 2015-05-29 10:12:56,643: executing rest of traj at 1432887176643070936
+[rosout][INFO] 2015-05-29 10:13:01,007: Time taken for rest of trajectory: 4.363385915
+[rosout][INFO] 2015-05-29 10:13:17,233: got traj at 1432887197233437061
+[rosout][INFO] 2015-05-29 10:13:20,168: executing rest of traj at 1432887200168565988
+[rosout][INFO] 2015-05-29 10:13:24,545: Time taken for rest of trajectory: 4.375905991
+[rosout][INFO] 2015-05-29 10:13:35,552: got traj at 1432887215552350997
+[rosout][INFO] 2015-05-29 10:13:38,427: executing rest of traj at 1432887218427242994
+[rosout][INFO] 2015-05-29 10:13:42,885: Time taken for rest of trajectory: 4.457479953
+[rospy.internal][ERROR] 2015-05-29 10:13:55,086: Unable to initiate TCP/IP socket to 192.168.1.13:54929 (http://192.168.1.13:58764/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-29 10:13:56,087: Unknown error initiating TCP/IP socket to 192.168.1.13:54929 (http://192.168.1.13:58764/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-29 10:13:56,088: topic[/write_traj_downsampled] removing connection to http://192.168.1.13:58764/
+[rospy.core][INFO] 2015-05-29 10:17:41,419: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2015-05-29 10:17:41,442: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-29 10:17:41,443: topic[/tf] removing connection to http://192.168.1.13:57716/
+[rospy.internal][INFO] 2015-05-29 10:17:41,444: topic[/tf] removing connection to http://192.168.1.13:39338/
+[rospy.impl.masterslave][INFO] 2015-05-29 10:17:41,444: signal-2
+[rospy.internal][WARNING] 2015-05-29 10:17:41,445: Unknown error initiating TCP/IP socket to 192.168.1.13:35638 (http://192.168.1.13:39338/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 365, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.core][INFO] 2015-05-29 10:17:42,095: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-29 10:17:54,231: init_node, name[/nao_writer], pid[5036]
+[xmlrpc][INFO] 2015-05-29 10:17:54,232: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2015-05-29 10:17:54,232: Started XML-RPC server [http://192.168.1.13:37154/]
+[rospy.impl.masterslave][INFO] 2015-05-29 10:17:54,232: _ready: http://192.168.1.13:37154/
+[rospy.init][INFO] 2015-05-29 10:17:54,268: ROS Slave URI: [http://192.168.1.13:37154/]
+[rospy.registration][INFO] 2015-05-29 10:17:54,269: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2015-05-29 10:17:54,273: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2015-05-29 10:17:54,368: registered with master
+[rospy.rosout][INFO] 2015-05-29 10:17:54,369: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-29 10:17:54,371: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-29 10:17:54,373: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2015-05-29 10:17:54,913: Subscribed to robotHasFallen event
+[rospy.internal][INFO] 2015-05-29 10:17:55,078: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2015-05-29 10:17:55,992: topic[/write_traj_downsampled] adding connection to [http://192.168.1.13:60037/], count 0
+[rospy.internal][INFO] 2015-05-29 10:18:01,303: topic[/tf] adding connection to [http://192.168.1.13:46630/], count 0
+[rospy.internal][INFO] 2015-05-29 10:18:01,306: topic[/tf] adding connection to [http://192.168.1.13:54831/], count 1
+[rosout][INFO] 2015-05-29 10:18:17,968: got traj at 1432887497968156099
+[rosout][INFO] 2015-05-29 10:18:20,935: executing rest of traj at 1432887500934952974
+[rosout][INFO] 2015-05-29 10:18:25,296: Time taken for rest of trajectory: 4.360670805
+[rosout][INFO] 2015-05-29 10:18:42,036: got traj at 1432887522036362886
+[rosout][INFO] 2015-05-29 10:18:45,005: executing rest of traj at 1432887525005310058
+[rosout][INFO] 2015-05-29 10:18:49,377: Time taken for rest of trajectory: 4.37045288
+[rosout][INFO] 2015-05-29 10:19:02,904: got traj at 1432887542904797077
+[rosout][INFO] 2015-05-29 10:19:05,791: executing rest of traj at 1432887545791038036
+[rosout][INFO] 2015-05-29 10:19:10,153: Time taken for rest of trajectory: 4.361409903
+[rosout][INFO] 2015-05-29 10:19:25,624: got traj at 1432887565624624967
+[rosout][INFO] 2015-05-29 10:19:28,518: executing rest of traj at 1432887568518234968
+[rosout][INFO] 2015-05-29 10:19:32,814: Time taken for rest of trajectory: 4.295335054
+[rosout][INFO] 2015-05-29 10:19:44,091: got traj at 1432887584091856956
+[rosout][INFO] 2015-05-29 10:19:47,010: executing rest of traj at 1432887587010484933
+[rosout][INFO] 2015-05-29 10:19:51,330: Time taken for rest of trajectory: 4.318382025
+[rosout][INFO] 2015-05-29 10:20:12,461: got traj at 1432887612461272954
+[rosout][INFO] 2015-05-29 10:20:15,389: executing rest of traj at 1432887615389247894
+[rosout][INFO] 2015-05-29 10:20:19,793: Time taken for rest of trajectory: 4.402724982
+[rospy.internal][ERROR] 2015-05-29 10:21:04,167: Unable to initiate TCP/IP socket to 192.168.1.13:56679 (http://192.168.1.13:60037/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-29 10:21:05,169: Unknown error initiating TCP/IP socket to 192.168.1.13:56679 (http://192.168.1.13:60037/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-29 10:21:05,170: topic[/write_traj_downsampled] removing connection to http://192.168.1.13:60037/
+[rospy.core][INFO] 2015-05-29 10:27:47,595: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2015-05-29 10:27:47,618: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-29 10:27:47,619: topic[/tf] removing connection to http://192.168.1.13:46630/
+[rospy.internal][WARNING] 2015-05-29 10:27:47,620: Unknown error initiating TCP/IP socket to 192.168.1.13:53684 (http://192.168.1.13:54831/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 365, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2015-05-29 10:27:47,621: topic[/tf] removing connection to http://192.168.1.13:54831/
+[rospy.internal][INFO] 2015-05-29 10:27:47,621: topic[/tf] removing connection to http://192.168.1.13:54831/
+[rospy.topics][ERROR] 2015-05-29 10:27:47,622: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 307, in close
+    c.close()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 807, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2015-05-29 10:27:47,622: signal-2
+[rospy.core][INFO] 2015-05-29 10:27:48,315: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-29 10:28:05,455: init_node, name[/nao_writer], pid[13922]
+[xmlrpc][INFO] 2015-05-29 10:28:05,456: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2015-05-29 10:28:05,456: ROS Slave URI: [http://192.168.1.13:36464/]
+[xmlrpc][INFO] 2015-05-29 10:28:05,456: Started XML-RPC server [http://192.168.1.13:36464/]
+[rospy.impl.masterslave][INFO] 2015-05-29 10:28:05,457: _ready: http://192.168.1.13:36464/
+[xmlrpc][INFO] 2015-05-29 10:28:05,457: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2015-05-29 10:28:05,457: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2015-05-29 10:28:05,557: registered with master
+[rospy.rosout][INFO] 2015-05-29 10:28:05,557: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-29 10:28:05,559: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-29 10:28:05,561: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2015-05-29 10:28:06,052: Subscribed to robotHasFallen event
+[rospy.internal][INFO] 2015-05-29 10:28:06,096: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2015-05-29 10:28:07,382: topic[/write_traj_downsampled] adding connection to [http://192.168.1.13:59897/], count 0
+[rospy.internal][INFO] 2015-05-29 10:28:12,498: topic[/tf] adding connection to [http://192.168.1.13:55235/], count 0
+[rospy.internal][INFO] 2015-05-29 10:28:12,501: topic[/tf] adding connection to [http://192.168.1.13:58316/], count 1
+[rosout][INFO] 2015-05-29 10:28:30,901: got traj at 1432888110901845932
+[rosout][INFO] 2015-05-29 10:28:33,858: executing rest of traj at 1432888113858783006
+[rosout][INFO] 2015-05-29 10:28:38,156: Time taken for rest of trajectory: 4.297085047
+[rosout][INFO] 2015-05-29 10:28:56,421: got traj at 1432888136420967102
+[rosout][INFO] 2015-05-29 10:28:59,309: executing rest of traj at 1432888139309748888
+[rosout][INFO] 2015-05-29 10:29:03,616: Time taken for rest of trajectory: 4.305721998
+[rosout][INFO] 2015-05-29 10:29:18,638: got traj at 1432888158638911008
+[rosout][INFO] 2015-05-29 10:29:21,423: executing rest of traj at 1432888161423599958
+[rosout][INFO] 2015-05-29 10:29:25,797: Time taken for rest of trajectory: 4.372828007
+[rosout][INFO] 2015-05-29 10:29:42,458: got traj at 1432888182458280086
+[rosout][INFO] 2015-05-29 10:29:45,412: executing rest of traj at 1432888185412713050
+[rosout][INFO] 2015-05-29 10:29:49,735: Time taken for rest of trajectory: 4.32158184
+[rosout][INFO] 2015-05-29 10:29:58,279: got traj at 1432888198279606103
+[rosout][INFO] 2015-05-29 10:30:01,149: executing rest of traj at 1432888201148940086
+[rosout][INFO] 2015-05-29 10:30:05,515: Time taken for rest of trajectory: 4.365800142
+[rosout][INFO] 2015-05-29 10:30:28,499: got traj at 1432888228499877929
+[rosout][INFO] 2015-05-29 10:30:31,384: executing rest of traj at 1432888231384582996
+[rosout][INFO] 2015-05-29 10:30:35,714: Time taken for rest of trajectory: 4.328916073
+[rosout][INFO] 2015-05-29 10:30:49,468: got traj at 1432888249468759059
+[rosout][INFO] 2015-05-29 10:30:52,353: executing rest of traj at 1432888252353621006
+[rosout][INFO] 2015-05-29 10:30:56,663: Time taken for rest of trajectory: 4.308606148
+[rospy.internal][ERROR] 2015-05-29 10:31:47,425: Unable to initiate TCP/IP socket to 192.168.1.13:54436 (http://192.168.1.13:59897/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-29 10:31:48,427: Unknown error initiating TCP/IP socket to 192.168.1.13:54436 (http://192.168.1.13:59897/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-29 10:31:48,427: topic[/write_traj_downsampled] removing connection to http://192.168.1.13:59897/
+[rospy.core][INFO] 2015-05-29 10:31:50,847: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2015-05-29 10:31:50,860: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-29 10:31:50,860: topic[/tf] removing connection to http://192.168.1.13:55235/
+[rospy.internal][INFO] 2015-05-29 10:31:50,861: topic[/tf] removing connection to http://192.168.1.13:58316/
+[rospy.impl.masterslave][INFO] 2015-05-29 10:31:50,862: signal-2
+[rospy.internal][WARNING] 2015-05-29 10:31:50,861: Unknown error initiating TCP/IP socket to 192.168.1.13:47388 (http://192.168.1.13:58316/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.core][INFO] 2015-05-29 10:31:51,501: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-29 10:33:18,577: init_node, name[/nao_writer], pid[23972]
+[xmlrpc][INFO] 2015-05-29 10:33:18,579: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2015-05-29 10:33:18,580: Started XML-RPC server [http://192.168.1.13:33595/]
+[rospy.impl.masterslave][INFO] 2015-05-29 10:33:18,580: _ready: http://192.168.1.13:33595/
+[rospy.init][INFO] 2015-05-29 10:33:18,580: ROS Slave URI: [http://192.168.1.13:33595/]
+[xmlrpc][INFO] 2015-05-29 10:33:18,580: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2015-05-29 10:33:18,581: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2015-05-29 10:33:18,680: registered with master
+[rospy.rosout][INFO] 2015-05-29 10:33:18,681: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-29 10:33:18,684: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-29 10:33:18,687: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2015-05-29 10:33:19,508: Subscribed to robotHasFallen event
+[rospy.internal][INFO] 2015-05-29 10:33:19,602: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2015-05-29 10:33:20,498: topic[/write_traj_downsampled] adding connection to [http://192.168.1.13:42141/], count 0
+[rospy.internal][INFO] 2015-05-29 10:33:25,866: topic[/tf] adding connection to [http://192.168.1.13:40377/], count 0
+[rospy.internal][INFO] 2015-05-29 10:33:25,869: topic[/tf] adding connection to [http://192.168.1.13:56540/], count 1
+[rosout][INFO] 2015-05-29 10:33:41,096: got traj at 1432888421096725940
+[rosout][INFO] 2015-05-29 10:33:44,044: executing rest of traj at 1432888424044084072
+[rosout][INFO] 2015-05-29 10:33:48,426: Time taken for rest of trajectory: 4.382411004
+[rosout][INFO] 2015-05-29 10:34:08,215: got traj at 1432888448215487003
+[rosout][INFO] 2015-05-29 10:34:11,105: executing rest of traj at 1432888451105006933
+[rosout][INFO] 2015-05-29 10:34:15,566: Time taken for rest of trajectory: 4.460891962
+[rosout][INFO] 2015-05-29 10:34:28,383: got traj at 1432888468383934020
+[rosout][INFO] 2015-05-29 10:34:31,277: executing rest of traj at 1432888471277508020
+[rosout][INFO] 2015-05-29 10:34:35,585: Time taken for rest of trajectory: 4.30678606
+[rosout][INFO] 2015-05-29 10:35:31,560: got traj at 1432888531560058116
+[rosout][INFO] 2015-05-29 10:35:34,456: executing rest of traj at 1432888534455907106
+[rosout][INFO] 2015-05-29 10:35:38,829: Time taken for rest of trajectory: 4.372554779
+[rosout][INFO] 2015-05-29 10:35:56,979: got traj at 1432888556979732036
+[rosout][INFO] 2015-05-29 10:35:59,851: executing rest of traj at 1432888559851898908
+[rosout][INFO] 2015-05-29 10:36:04,325: Time taken for rest of trajectory: 4.472271919
+[rosout][INFO] 2015-05-29 10:36:19,298: got traj at 1432888579298558950
+[rosout][INFO] 2015-05-29 10:36:22,279: executing rest of traj at 1432888582279213905
+[rosout][INFO] 2015-05-29 10:36:26,645: Time taken for rest of trajectory: 4.365484953
+[rosout][INFO] 2015-05-29 10:36:41,818: got traj at 1432888601818058967
+[rosout][INFO] 2015-05-29 10:36:44,810: executing rest of traj at 1432888604810277938
+[rosout][INFO] 2015-05-29 10:36:49,182: Time taken for rest of trajectory: 4.371446848
+[rosout][INFO] 2015-05-29 10:39:12,061: got traj at 1432888752061851024
+[rosout][INFO] 2015-05-29 10:39:14,924: executing rest of traj at 1432888754924122095
+[rosout][INFO] 2015-05-29 10:39:19,298: Time taken for rest of trajectory: 4.373474837
+[rosout][INFO] 2015-05-29 10:39:29,032: got traj at 1432888769032715082
+[rosout][INFO] 2015-05-29 10:39:31,960: executing rest of traj at 1432888771959975957
+[rosout][INFO] 2015-05-29 10:39:36,277: Time taken for rest of trajectory: 4.316837072
+[rosout][INFO] 2015-05-29 10:39:47,601: got traj at 1432888787601910114
+[rosout][INFO] 2015-05-29 10:39:50,490: executing rest of traj at 1432888790490569114
+[rosout][INFO] 2015-05-29 10:39:54,818: Time taken for rest of trajectory: 4.326708078
+[rosout][INFO] 2015-05-29 10:40:05,720: got traj at 1432888805720350027
+[rosout][INFO] 2015-05-29 10:40:08,669: executing rest of traj at 1432888808669518947
+[rosout][INFO] 2015-05-29 10:40:13,057: Time taken for rest of trajectory: 4.387397051
+[rosout][INFO] 2015-05-29 10:40:26,692: got traj at 1432888826692199945
+[rosout][INFO] 2015-05-29 10:40:29,590: executing rest of traj at 1432888829590406894
+[rosout][INFO] 2015-05-29 10:40:33,895: Time taken for rest of trajectory: 4.304430962
+[rosout][INFO] 2015-05-29 10:40:46,361: got traj at 1432888846361392974
+[rosout][INFO] 2015-05-29 10:40:49,231: executing rest of traj at 1432888849231213092
+[rosout][INFO] 2015-05-29 10:40:53,695: Time taken for rest of trajectory: 4.463395119
+[rosout][INFO] 2015-05-29 10:41:06,835: got traj at 1432888866835624933
+[rosout][INFO] 2015-05-29 10:41:09,735: executing rest of traj at 1432888869735399007
+[rosout][INFO] 2015-05-29 10:41:14,034: Time taken for rest of trajectory: 4.298049927
+[rosout][INFO] 2015-05-29 10:41:31,607: got traj at 1432888891607455968
+[rosout][INFO] 2015-05-29 10:41:34,492: executing rest of traj at 1432888894492878913
+[rosout][INFO] 2015-05-29 10:41:38,854: Time taken for rest of trajectory: 4.360228062
+[rosout][INFO] 2015-05-29 10:41:51,577: got traj at 1432888911577578067
+[rosout][INFO] 2015-05-29 10:41:54,568: executing rest of traj at 1432888914568305015
+[rosout][INFO] 2015-05-29 10:41:58,936: Time taken for rest of trajectory: 4.366805077
+[rosout][INFO] 2015-05-29 10:42:09,398: got traj at 1432888929398539066
+[rosout][INFO] 2015-05-29 10:42:12,283: executing rest of traj at 1432888932283318996
+[rosout][INFO] 2015-05-29 10:42:16,751: Time taken for rest of trajectory: 4.466987133
+[rosout][INFO] 2015-05-29 10:42:29,816: got traj at 1432888949816024065
+[rosout][INFO] 2015-05-29 10:42:32,765: executing rest of traj at 1432888952764998912
+[rosout][INFO] 2015-05-29 10:42:37,132: Time taken for rest of trajectory: 4.366904974
+[rosout][INFO] 2015-05-29 10:42:47,283: got traj at 1432888967283512115
+[rosout][INFO] 2015-05-29 10:42:50,174: executing rest of traj at 1432888970174783945
+[rosout][INFO] 2015-05-29 10:42:54,470: Time taken for rest of trajectory: 4.294192075
+[rosout][INFO] 2015-05-29 10:43:06,656: got traj at 1432888986656305074
+[rosout][INFO] 2015-05-29 10:43:09,523: executing rest of traj at 1432888989522933959
+[rosout][INFO] 2015-05-29 10:43:13,902: Time taken for rest of trajectory: 4.378916979
+[rosout][INFO] 2015-05-29 10:43:26,225: got traj at 1432889006225577116
+[rosout][INFO] 2015-05-29 10:43:29,155: executing rest of traj at 1432889009155847072
+[rosout][INFO] 2015-05-29 10:43:33,551: Time taken for rest of trajectory: 4.39458704
+[rosout][INFO] 2015-05-29 10:43:43,843: got traj at 1432889023843933105
+[rosout][INFO] 2015-05-29 10:43:46,805: executing rest of traj at 1432889026805391073
+[rosout][INFO] 2015-05-29 10:43:51,110: Time taken for rest of trajectory: 4.303925991
+[rosout][INFO] 2015-05-29 10:44:13,215: got traj at 1432889053215759038
+[rosout][INFO] 2015-05-29 10:44:16,086: executing rest of traj at 1432889056086247920
+[rosout][INFO] 2015-05-29 10:44:20,452: Time taken for rest of trajectory: 4.365602017
+[rosout][INFO] 2015-05-29 10:44:37,886: got traj at 1432889077886657953
+[rosout][INFO] 2015-05-29 10:44:40,818: executing rest of traj at 1432889080818427085
+[rosout][INFO] 2015-05-29 10:44:45,128: Time taken for rest of trajectory: 4.309156895
+[rosout][INFO] 2015-05-29 10:45:02,356: got traj at 1432889102356559991
+[rosout][INFO] 2015-05-29 10:45:05,239: executing rest of traj at 1432889105238887071
+[rosout][INFO] 2015-05-29 10:45:09,546: Time taken for rest of trajectory: 4.306758166
+[rosout][INFO] 2015-05-29 10:45:19,334: got traj at 1432889119334506988
+[rosout][INFO] 2015-05-29 10:45:22,240: executing rest of traj at 1432889122240529060
+[rosout][INFO] 2015-05-29 10:45:26,609: Time taken for rest of trajectory: 4.367955923
+[rosout][INFO] 2015-05-29 10:45:41,902: got traj at 1432889141902925968
+[rosout][INFO] 2015-05-29 10:45:44,767: executing rest of traj at 1432889144767054080
+[rosout][INFO] 2015-05-29 10:45:49,231: Time taken for rest of trajectory: 4.463330985
+[rosout][INFO] 2015-05-29 10:46:00,019: got traj at 1432889160019732952
+[rosout][INFO] 2015-05-29 10:46:02,887: executing rest of traj at 1432889162887830018
+[rosout][INFO] 2015-05-29 10:46:07,245: Time taken for rest of trajectory: 4.356426954
+[rosout][INFO] 2015-05-29 10:46:19,687: got traj at 1432889179687644004
+[rosout][INFO] 2015-05-29 10:46:22,562: executing rest of traj at 1432889182562398910
+[rosout][INFO] 2015-05-29 10:46:26,905: Time taken for rest of trajectory: 4.34166193
+[rosout][INFO] 2015-05-29 10:46:40,456: got traj at 1432889200456813097
+[rosout][INFO] 2015-05-29 10:46:43,337: executing rest of traj at 1432889203337599992
+[rosout][INFO] 2015-05-29 10:46:47,704: Time taken for rest of trajectory: 4.365976095
+[rosout][INFO] 2015-05-29 10:47:03,380: got traj at 1432889223380029916
+[rosout][INFO] 2015-05-29 10:47:06,353: executing rest of traj at 1432889226353255033
+[rosout][INFO] 2015-05-29 10:47:10,842: Time taken for rest of trajectory: 4.488739968
+[rosout][INFO] 2015-05-29 10:47:21,415: got traj at 1432889241415352106
+[rosout][INFO] 2015-05-29 10:47:24,354: executing rest of traj at 1432889244353956937
+[rosout][INFO] 2015-05-29 10:47:28,766: Time taken for rest of trajectory: 4.411451817
+[rosout][INFO] 2015-05-29 10:47:46,733: got traj at 1432889266733200073
+[rosout][INFO] 2015-05-29 10:47:49,590: executing rest of traj at 1432889269590256929
+[rosout][INFO] 2015-05-29 10:47:53,941: Time taken for rest of trajectory: 4.350543976
+[rosout][INFO] 2015-05-29 10:48:07,907: got traj at 1432889287907526016
+[rosout][INFO] 2015-05-29 10:48:10,782: executing rest of traj at 1432889290782260894
+[rosout][INFO] 2015-05-29 10:48:15,172: Time taken for rest of trajectory: 4.389225006
+[rosout][INFO] 2015-05-29 10:48:30,828: got traj at 1432889310828270912
+[rosout][INFO] 2015-05-29 10:48:33,731: executing rest of traj at 1432889313731277942
+[rosout][INFO] 2015-05-29 10:48:38,302: Time taken for rest of trajectory: 4.570540905
+[rosout][INFO] 2015-05-29 10:49:00,348: got traj at 1432889340348843097
+[rosout][INFO] 2015-05-29 10:49:03,316: executing rest of traj at 1432889343316744089
+[rosout][INFO] 2015-05-29 10:49:07,681: Time taken for rest of trajectory: 4.362988949
+[rospy.internal][ERROR] 2015-05-29 10:49:20,859: Unable to initiate TCP/IP socket to 192.168.1.13:48913 (http://192.168.1.13:42141/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-29 10:49:21,861: Unknown error initiating TCP/IP socket to 192.168.1.13:48913 (http://192.168.1.13:42141/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-29 10:49:21,861: topic[/write_traj_downsampled] removing connection to http://192.168.1.13:42141/
+[rospy.core][INFO] 2015-05-29 10:54:05,477: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2015-05-29 10:54:05,498: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-29 10:54:05,499: topic[/tf] removing connection to http://192.168.1.13:40377/
+[rospy.internal][INFO] 2015-05-29 10:54:05,499: topic[/tf] removing connection to http://192.168.1.13:56540/
+[rospy.impl.masterslave][INFO] 2015-05-29 10:54:05,500: signal-2
+[rospy.core][INFO] 2015-05-29 10:54:05,670: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-29 10:54:08,616: init_node, name[/nao_writer], pid[31262]
+[xmlrpc][INFO] 2015-05-29 10:54:08,616: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2015-05-29 10:54:08,616: Started XML-RPC server [http://192.168.1.13:34785/]
+[rospy.impl.masterslave][INFO] 2015-05-29 10:54:08,616: _ready: http://192.168.1.13:34785/
+[rospy.registration][INFO] 2015-05-29 10:54:08,617: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2015-05-29 10:54:08,617: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2015-05-29 10:54:08,622: ROS Slave URI: [http://192.168.1.13:34785/]
+[rospy.init][INFO] 2015-05-29 10:54:08,622: registered with master
+[rospy.rosout][INFO] 2015-05-29 10:54:08,622: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-29 10:54:08,629: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-29 10:54:08,631: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2015-05-29 10:54:09,061: Subscribed to robotHasFallen event
+[rospy.internal][INFO] 2015-05-29 10:54:09,159: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2015-05-29 10:54:10,586: topic[/write_traj_downsampled] adding connection to [http://192.168.1.13:41958/], count 0
+[rospy.internal][INFO] 2015-05-29 10:54:15,451: topic[/tf] adding connection to [http://192.168.1.13:45564/], count 0
+[rospy.internal][INFO] 2015-05-29 10:54:15,452: topic[/tf] adding connection to [http://192.168.1.13:46668/], count 1
+[rosout][INFO] 2015-05-29 10:54:33,466: got traj at 1432889673466377019
+[rosout][INFO] 2015-05-29 10:54:36,317: executing rest of traj at 1432889676317883014
+[rosout][INFO] 2015-05-29 10:54:40,691: Time taken for rest of trajectory: 4.372711182
+[rosout][INFO] 2015-05-29 10:54:59,036: got traj at 1432889699035995006
+[rosout][INFO] 2015-05-29 10:55:01,945: executing rest of traj at 1432889701945120096
+[rosout][INFO] 2015-05-29 10:55:06,288: Time taken for rest of trajectory: 4.342315197
+[rosout][INFO] 2015-05-29 10:55:35,607: got traj at 1432889735607323884
+[rosout][INFO] 2015-05-29 10:55:38,474: executing rest of traj at 1432889738474639892
+[rosout][INFO] 2015-05-29 10:55:42,849: Time taken for rest of trajectory: 4.374238014
+[rosout][INFO] 2015-05-29 10:55:53,824: got traj at 1432889753824867963
+[rosout][INFO] 2015-05-29 10:55:56,706: executing rest of traj at 1432889756706727027
+[rosout][INFO] 2015-05-29 10:56:01,009: Time taken for rest of trajectory: 4.301826
+[rosout][INFO] 2015-05-29 10:56:12,543: got traj at 1432889772543220996
+[rosout][INFO] 2015-05-29 10:56:15,472: executing rest of traj at 1432889775472002029
+[rosout][INFO] 2015-05-29 10:56:19,808: Time taken for rest of trajectory: 4.335312844
+[rosout][INFO] 2015-05-29 10:56:30,993: got traj at 1432889790993480920
+[rosout][INFO] 2015-05-29 10:56:33,876: executing rest of traj at 1432889793876535892
+[rosout][INFO] 2015-05-29 10:56:38,246: Time taken for rest of trajectory: 4.368970871
+[rosout][INFO] 2015-05-29 10:56:53,062: got traj at 1432889813062455892
+[rosout][INFO] 2015-05-29 10:56:56,058: executing rest of traj at 1432889816058374881
+[rosout][INFO] 2015-05-29 10:57:00,467: Time taken for rest of trajectory: 4.408096075
+[rosout][INFO] 2015-05-29 10:57:16,182: got traj at 1432889836182300090
+[rosout][INFO] 2015-05-29 10:57:19,133: executing rest of traj at 1432889839133675098
+[rosout][INFO] 2015-05-29 10:57:23,605: Time taken for rest of trajectory: 4.470824003
+[rosout][INFO] 2015-05-29 10:57:36,356: got traj at 1432889856356111049
+[rosout][INFO] 2015-05-29 10:57:39,209: executing rest of traj at 1432889859209278106
+[rosout][INFO] 2015-05-29 10:57:43,672: Time taken for rest of trajectory: 4.462125063
+[rospy.internal][ERROR] 2015-05-29 10:58:22,314: Unable to initiate TCP/IP socket to 192.168.1.13:53190 (http://192.168.1.13:41958/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-29 10:58:23,316: Unknown error initiating TCP/IP socket to 192.168.1.13:53190 (http://192.168.1.13:41958/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-29 10:58:23,316: topic[/write_traj_downsampled] removing connection to http://192.168.1.13:41958/
+[rospy.core][INFO] 2015-05-29 11:01:57,954: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2015-05-29 11:01:57,970: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-29 11:01:57,970: topic[/tf] removing connection to http://192.168.1.13:45564/
+[rospy.internal][INFO] 2015-05-29 11:01:57,971: topic[/tf] removing connection to http://192.168.1.13:46668/
+[rospy.impl.masterslave][INFO] 2015-05-29 11:01:57,971: signal-2
+[rospy.core][INFO] 2015-05-29 11:01:58,655: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-29 11:02:01,121: init_node, name[/nao_writer], pid[9895]
+[xmlrpc][INFO] 2015-05-29 11:02:01,130: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2015-05-29 11:02:01,131: ROS Slave URI: [http://192.168.1.13:43634/]
+[xmlrpc][INFO] 2015-05-29 11:02:01,131: Started XML-RPC server [http://192.168.1.13:43634/]
+[rospy.impl.masterslave][INFO] 2015-05-29 11:02:01,131: _ready: http://192.168.1.13:43634/
+[rospy.registration][INFO] 2015-05-29 11:02:01,132: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2015-05-29 11:02:01,132: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2015-05-29 11:02:01,231: registered with master
+[rospy.rosout][INFO] 2015-05-29 11:02:01,232: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-29 11:02:01,234: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-29 11:02:01,236: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2015-05-29 11:02:01,628: Subscribed to robotHasFallen event
+[rospy.internal][INFO] 2015-05-29 11:02:01,727: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2015-05-29 11:02:03,050: topic[/write_traj_downsampled] adding connection to [http://192.168.1.13:50991/], count 0
+[rospy.internal][INFO] 2015-05-29 11:02:08,018: topic[/tf] adding connection to [http://192.168.1.13:40118/], count 0
+[rospy.internal][INFO] 2015-05-29 11:02:08,020: topic[/tf] adding connection to [http://192.168.1.13:45524/], count 1
+[rosout][INFO] 2015-05-29 11:03:09,220: got traj at 1432890189220669031
+[rosout][INFO] 2015-05-29 11:03:12,194: executing rest of traj at 1432890192194469928
+[rosout][INFO] 2015-05-29 11:03:16,493: Time taken for rest of trajectory: 4.298826933
+[rosout][INFO] 2015-05-29 11:03:34,395: got traj at 1432890214395457029
+[rosout][INFO] 2015-05-29 11:03:37,349: executing rest of traj at 1432890217349361896
+[rosout][INFO] 2015-05-29 11:03:41,652: Time taken for rest of trajectory: 4.301952123
+[rosout][INFO] 2015-05-29 11:04:04,364: got traj at 1432890244364048957
+[rosout][INFO] 2015-05-29 11:04:07,346: executing rest of traj at 1432890247346338033
+[rosout][INFO] 2015-05-29 11:04:11,652: Time taken for rest of trajectory: 4.305270911
+[rosout][INFO] 2015-05-29 11:04:24,286: got traj at 1432890264286078929
+[rosout][INFO] 2015-05-29 11:04:27,233: executing rest of traj at 1432890267233762025
+[rosout][INFO] 2015-05-29 11:04:31,531: Time taken for rest of trajectory: 4.297594786
+[rosout][INFO] 2015-05-29 11:04:53,853: got traj at 1432890293853710889
+[rosout][INFO] 2015-05-29 11:04:56,802: executing rest of traj at 1432890296802571058
+[rosout][INFO] 2015-05-29 11:05:01,111: Time taken for rest of trajectory: 4.308079005
+[rosout][INFO] 2015-05-29 11:05:12,423: got traj at 1432890312423149108
+[rosout][INFO] 2015-05-29 11:05:15,374: executing rest of traj at 1432890315374344110
+[rosout][INFO] 2015-05-29 11:05:19,669: Time taken for rest of trajectory: 4.29442811
+[rosout][INFO] 2015-05-29 11:05:50,092: got traj at 1432890350092156887
+[rosout][INFO] 2015-05-29 11:05:53,054: executing rest of traj at 1432890353054008960
+[rosout][INFO] 2015-05-29 11:05:57,348: Time taken for rest of trajectory: 4.293817997
+[rosout][INFO] 2015-05-29 11:06:24,063: got traj at 1432890384063400030
+[rosout][INFO] 2015-05-29 11:06:27,010: executing rest of traj at 1432890387010348081
+[rosout][INFO] 2015-05-29 11:06:31,309: Time taken for rest of trajectory: 4.298345089
+[rosout][INFO] 2015-05-29 11:06:41,101: got traj at 1432890401101221084
+[rosout][INFO] 2015-05-29 11:06:44,083: executing rest of traj at 1432890404083164930
+[rosout][INFO] 2015-05-29 11:06:48,407: Time taken for rest of trajectory: 4.324379921
+[rosout][INFO] 2015-05-29 11:07:30,672: got traj at 1432890450671973943
+[rosout][INFO] 2015-05-29 11:07:33,631: executing rest of traj at 1432890453631673097
+[rosout][INFO] 2015-05-29 11:07:37,927: Time taken for rest of trajectory: 4.295749187
+[rosout][INFO] 2015-05-29 11:07:53,291: got traj at 1432890473290985107
+[rosout][INFO] 2015-05-29 11:07:56,262: executing rest of traj at 1432890476262842893
+[rosout][INFO] 2015-05-29 11:08:00,567: Time taken for rest of trajectory: 4.304524183
+[rosout][INFO] 2015-05-29 11:08:16,208: got traj at 1432890496208477020
+[rosout][INFO] 2015-05-29 11:08:19,161: executing rest of traj at 1432890499161633014
+[rosout][INFO] 2015-05-29 11:08:23,466: Time taken for rest of trajectory: 4.304047108
+[rosout][INFO] 2015-05-29 11:08:53,261: got traj at 1432890533261106967
+[rosout][INFO] 2015-05-29 11:08:56,250: executing rest of traj at 1432890536250339984
+[rosout][INFO] 2015-05-29 11:09:00,543: Time taken for rest of trajectory: 4.292654038
+[rosout][INFO] 2015-05-29 11:09:10,028: got traj at 1432890550028887033
+[rosout][INFO] 2015-05-29 11:09:12,978: executing rest of traj at 1432890552977972984
+[rosout][INFO] 2015-05-29 11:09:17,281: Time taken for rest of trajectory: 4.303157091
+[rosout][INFO] 2015-05-29 11:09:26,945: got traj at 1432890566945936918
+[rosout][INFO] 2015-05-29 11:09:29,912: executing rest of traj at 1432890569912354946
+[rosout][INFO] 2015-05-29 11:09:34,201: Time taken for rest of trajectory: 4.288393021
+[rosout][INFO] 2015-05-29 11:09:46,812: got traj at 1432890586812803983
+[rosout][INFO] 2015-05-29 11:09:49,759: executing rest of traj at 1432890589759469032
+[rosout][INFO] 2015-05-29 11:09:54,062: Time taken for rest of trajectory: 4.302723885
+[rosout][INFO] 2015-05-29 11:10:03,179: got traj at 1432890603179804086
+[rosout][INFO] 2015-05-29 11:10:06,126: executing rest of traj at 1432890606126590013
+[rosout][INFO] 2015-05-29 11:10:10,425: Time taken for rest of trajectory: 4.298496962
+[rosout][INFO] 2015-05-29 11:10:20,396: got traj at 1432890620396739959
+[rosout][INFO] 2015-05-29 11:10:23,377: executing rest of traj at 1432890623377850055
+[rosout][INFO] 2015-05-29 11:10:27,686: Time taken for rest of trajectory: 4.30784297
+[rosout][INFO] 2015-05-29 11:10:39,869: got traj at 1432890639869575023
+[rosout][INFO] 2015-05-29 11:10:42,832: executing rest of traj at 1432890642832905054
+[rosout][INFO] 2015-05-29 11:10:47,138: Time taken for rest of trajectory: 4.305557013
+[rosout][INFO] 2015-05-29 11:11:02,136: got traj at 1432890662136069059
+[rosout][INFO] 2015-05-29 11:11:05,086: executing rest of traj at 1432890665086695909
+[rosout][INFO] 2015-05-29 11:11:09,379: Time taken for rest of trajectory: 4.292366028
+[rosout][INFO] 2015-05-29 11:11:18,451: got traj at 1432890678451385021
+[rosout][INFO] 2015-05-29 11:11:21,420: executing rest of traj at 1432890681420329093
+[rosout][INFO] 2015-05-29 11:11:25,719: Time taken for rest of trajectory: 4.298918963
+[rosout][INFO] 2015-05-29 11:11:36,419: got traj at 1432890696419836997
+[rosout][INFO] 2015-05-29 11:11:39,374: executing rest of traj at 1432890699374042034
+[rosout][INFO] 2015-05-29 11:11:43,679: Time taken for rest of trajectory: 4.304564953
+[rosout][INFO] 2015-05-29 11:11:51,236: got traj at 1432890711236463069
+[rosout][INFO] 2015-05-29 11:11:54,229: executing rest of traj at 1432890714228986978
+[rosout][INFO] 2015-05-29 11:11:58,538: Time taken for rest of trajectory: 4.308927774
+[rosout][INFO] 2015-05-29 11:12:08,451: got traj at 1432890728451618909
+[rosout][INFO] 2015-05-29 11:12:11,418: executing rest of traj at 1432890731418031930
+[rosout][INFO] 2015-05-29 11:12:15,715: Time taken for rest of trajectory: 4.297513008
+[rosout][INFO] 2015-05-29 11:12:21,120: got traj at 1432890741120754957
+[rosout][INFO] 2015-05-29 11:12:24,107: executing rest of traj at 1432890744107604026
+[rosout][INFO] 2015-05-29 11:12:28,401: Time taken for rest of trajectory: 4.293086052
+[rosout][INFO] 2015-05-29 11:12:43,640: got traj at 1432890763640604019
+[rosout][INFO] 2015-05-29 11:12:46,595: executing rest of traj at 1432890766595873117
+[rosout][INFO] 2015-05-29 11:12:50,895: Time taken for rest of trajectory: 4.299004078
+[rosout][INFO] 2015-05-29 11:13:01,606: got traj at 1432890781606914997
+[rosout][INFO] 2015-05-29 11:13:04,571: executing rest of traj at 1432890784571244001
+[rosout][INFO] 2015-05-29 11:13:08,877: Time taken for rest of trajectory: 4.305314064
+[rosout][INFO] 2015-05-29 11:13:21,973: got traj at 1432890801973534107
+[rosout][INFO] 2015-05-29 11:13:24,966: executing rest of traj at 1432890804966236114
+[rosout][INFO] 2015-05-29 11:13:29,255: Time taken for rest of trajectory: 4.289139032
+[rosout][INFO] 2015-05-29 11:13:45,641: got traj at 1432890825641027927
+[rosout][INFO] 2015-05-29 11:13:48,592: executing rest of traj at 1432890828592894077
+[rosout][INFO] 2015-05-29 11:13:52,893: Time taken for rest of trajectory: 4.299741984
+[rospy.internal][ERROR] 2015-05-29 11:17:37,728: Unable to initiate TCP/IP socket to 192.168.1.13:33860 (http://192.168.1.13:50991/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-29 11:17:38,730: Unknown error initiating TCP/IP socket to 192.168.1.13:33860 (http://192.168.1.13:50991/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-29 11:17:38,730: topic[/write_traj_downsampled] removing connection to http://192.168.1.13:50991/
+[rospy.core][INFO] 2015-05-29 11:17:48,307: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2015-05-29 11:17:48,336: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-29 11:17:48,336: topic[/tf] removing connection to http://192.168.1.13:40118/
+[rospy.internal][INFO] 2015-05-29 11:17:48,337: topic[/tf] removing connection to http://192.168.1.13:45524/
+[rospy.impl.masterslave][INFO] 2015-05-29 11:17:48,337: signal-2
+[rospy.core][INFO] 2015-05-29 11:17:48,515: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-29 11:17:52,040: init_node, name[/nao_writer], pid[16470]
+[xmlrpc][INFO] 2015-05-29 11:17:52,041: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2015-05-29 11:17:52,041: ROS Slave URI: [http://192.168.1.13:40490/]
+[xmlrpc][INFO] 2015-05-29 11:17:52,041: Started XML-RPC server [http://192.168.1.13:40490/]
+[rospy.impl.masterslave][INFO] 2015-05-29 11:17:52,041: _ready: http://192.168.1.13:40490/
+[xmlrpc][INFO] 2015-05-29 11:17:52,041: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2015-05-29 11:17:52,042: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2015-05-29 11:17:52,141: registered with master
+[rospy.rosout][INFO] 2015-05-29 11:17:52,141: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-29 11:17:52,144: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-29 11:17:52,146: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2015-05-29 11:17:52,555: Subscribed to robotHasFallen event
+[rospy.internal][INFO] 2015-05-29 11:17:52,647: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2015-05-29 11:17:53,732: topic[/write_traj_downsampled] adding connection to [http://192.168.1.13:59152/], count 0
+[rospy.internal][INFO] 2015-05-29 11:17:58,901: topic[/tf] adding connection to [http://192.168.1.13:37449/], count 0
+[rospy.internal][INFO] 2015-05-29 11:17:58,904: topic[/tf] adding connection to [http://192.168.1.13:39625/], count 1
+[rosout][INFO] 2015-05-29 11:21:16,416: got traj at 1432891276416820049
+[rosout][INFO] 2015-05-29 11:21:19,404: executing rest of traj at 1432891279404488086
+[rosout][INFO] 2015-05-29 11:21:23,700: Time taken for rest of trajectory: 4.295914173
+[rospy.internal][ERROR] 2015-05-29 11:29:31,081: Unable to initiate TCP/IP socket to 192.168.1.13:46672 (http://192.168.1.13:59152/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-29 11:29:32,083: Unknown error initiating TCP/IP socket to 192.168.1.13:46672 (http://192.168.1.13:59152/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-29 11:29:32,083: topic[/write_traj_downsampled] removing connection to http://192.168.1.13:59152/
+[rospy.core][INFO] 2015-05-29 11:31:58,390: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2015-05-29 11:31:58,411: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-29 11:31:58,412: topic[/tf] removing connection to http://192.168.1.13:37449/
+[rospy.internal][INFO] 2015-05-29 11:31:58,412: topic[/tf] removing connection to http://192.168.1.13:39625/
+[rospy.impl.masterslave][INFO] 2015-05-29 11:31:58,413: signal-2
+[rospy.internal][ERROR] 2015-05-29 11:31:58,413: Unable to initiate TCP/IP socket to 192.168.1.13:51393 (http://192.168.1.13:39625/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.core][INFO] 2015-05-29 11:31:58,637: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-29 11:32:01,566: init_node, name[/nao_writer], pid[8500]
+[xmlrpc][INFO] 2015-05-29 11:32:01,566: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2015-05-29 11:32:01,567: Started XML-RPC server [http://192.168.1.13:35491/]
+[rospy.impl.masterslave][INFO] 2015-05-29 11:32:01,567: _ready: http://192.168.1.13:35491/
+[rospy.init][INFO] 2015-05-29 11:32:01,578: ROS Slave URI: [http://192.168.1.13:35491/]
+[rospy.registration][INFO] 2015-05-29 11:32:01,581: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2015-05-29 11:32:01,582: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2015-05-29 11:32:01,680: registered with master
+[rospy.rosout][INFO] 2015-05-29 11:32:01,681: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-29 11:32:01,683: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-29 11:32:01,684: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2015-05-29 11:32:02,610: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2015-05-29 11:32:02,616: Subscribed to robotHasFallen event
+[rospy.internal][INFO] 2015-05-29 11:32:03,910: topic[/write_traj_downsampled] adding connection to [http://192.168.1.13:34850/], count 0
+[rospy.internal][INFO] 2015-05-29 11:32:09,025: topic[/tf] adding connection to [http://192.168.1.13:33108/], count 0
+[rospy.internal][INFO] 2015-05-29 11:32:09,027: topic[/tf] adding connection to [http://192.168.1.13:34367/], count 1
+[rosout][INFO] 2015-05-29 11:34:28,093: got traj at 1432892068093672990
+[rosout][INFO] 2015-05-29 11:34:31,048: executing rest of traj at 1432892071048468112
+[rosout][INFO] 2015-05-29 11:34:35,355: Time taken for rest of trajectory: 4.306627988
+[rosout][INFO] 2015-05-29 11:40:51,810: Stopped task
+[rospy.internal][ERROR] 2015-05-29 11:41:31,582: Unable to initiate TCP/IP socket to 192.168.1.13:46346 (http://192.168.1.13:34850/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-29 11:41:32,584: Unknown error initiating TCP/IP socket to 192.168.1.13:46346 (http://192.168.1.13:34850/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-29 11:41:32,585: topic[/write_traj_downsampled] removing connection to http://192.168.1.13:34850/
+[rospy.core][INFO] 2015-05-29 11:41:46,791: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2015-05-29 11:41:46,811: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-29 11:41:46,811: topic[/tf] removing connection to http://192.168.1.13:33108/
+[rospy.internal][INFO] 2015-05-29 11:41:46,812: topic[/tf] removing connection to http://192.168.1.13:34367/
+[rospy.impl.masterslave][INFO] 2015-05-29 11:41:46,812: signal-2
+[rospy.core][INFO] 2015-05-29 11:41:46,929: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-29 11:52:43,363: init_node, name[/nao_writer], pid[28320]
+[xmlrpc][INFO] 2015-05-29 11:52:43,363: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2015-05-29 11:52:43,364: ROS Slave URI: [http://192.168.1.13:60286/]
+[xmlrpc][INFO] 2015-05-29 11:52:43,364: Started XML-RPC server [http://192.168.1.13:60286/]
+[rospy.impl.masterslave][INFO] 2015-05-29 11:52:43,364: _ready: http://192.168.1.13:60286/
+[xmlrpc][INFO] 2015-05-29 11:52:43,364: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2015-05-29 11:52:43,370: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2015-05-29 11:52:43,464: registered with master
+[rospy.rosout][INFO] 2015-05-29 11:52:43,464: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-29 11:52:43,467: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-29 11:52:43,468: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2015-05-29 11:52:44,037: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2015-05-29 11:52:44,041: Subscribed to robotHasFallen event
+[rospy.internal][INFO] 2015-05-29 11:52:45,265: topic[/write_traj_downsampled] adding connection to [http://192.168.1.13:57813/], count 0
+[rospy.internal][INFO] 2015-05-29 11:52:50,982: topic[/tf] adding connection to [http://192.168.1.13:56110/], count 0
+[rospy.internal][INFO] 2015-05-29 11:52:50,984: topic[/tf] adding connection to [http://192.168.1.13:42072/], count 1
+[rosout][INFO] 2015-05-29 11:53:33,190: got traj at 1432893213190618038
+[rosout][INFO] 2015-05-29 11:53:35,969: executing rest of traj at 1432893215969890117
+[rosout][INFO] 2015-05-29 11:53:40,340: Time taken for rest of trajectory: 4.369921923
+[rospy.internal][ERROR] 2015-05-29 11:56:18,809: Unable to initiate TCP/IP socket to 192.168.1.13:45974 (http://192.168.1.13:57813/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-29 11:56:19,811: Unknown error initiating TCP/IP socket to 192.168.1.13:45974 (http://192.168.1.13:57813/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-29 11:56:19,811: topic[/write_traj_downsampled] removing connection to http://192.168.1.13:57813/
+[rospy.core][INFO] 2015-05-29 11:57:44,606: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2015-05-29 11:57:44,615: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-29 11:57:44,615: topic[/tf] removing connection to http://192.168.1.13:56110/
+[rospy.internal][WARNING] 2015-05-29 11:57:44,616: Unknown error initiating TCP/IP socket to 192.168.1.13:33688 (http://192.168.1.13:42072/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 365, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2015-05-29 11:57:44,617: topic[/tf] removing connection to http://192.168.1.13:42072/
+[rospy.impl.masterslave][INFO] 2015-05-29 11:57:44,617: signal-2
+[rospy.core][INFO] 2015-05-29 11:57:45,280: signal_shutdown [atexit]
+[rospy.client][INFO] 2015-05-29 11:57:48,488: init_node, name[/nao_writer], pid[6029]
+[xmlrpc][INFO] 2015-05-29 11:57:48,488: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2015-05-29 11:57:48,489: Started XML-RPC server [http://192.168.1.13:59244/]
+[rospy.impl.masterslave][INFO] 2015-05-29 11:57:48,489: _ready: http://192.168.1.13:59244/
+[xmlrpc][INFO] 2015-05-29 11:57:48,489: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2015-05-29 11:57:48,490: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2015-05-29 11:57:48,494: ROS Slave URI: [http://192.168.1.13:59244/]
+[rospy.init][INFO] 2015-05-29 11:57:48,494: registered with master
+[rospy.rosout][INFO] 2015-05-29 11:57:48,494: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-05-29 11:57:48,497: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-05-29 11:57:48,506: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2015-05-29 11:57:49,037: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2015-05-29 11:57:49,054: Subscribed to robotHasFallen event
+[rospy.internal][INFO] 2015-05-29 11:57:50,175: topic[/write_traj_downsampled] adding connection to [http://192.168.1.13:35078/], count 0
+[rospy.internal][INFO] 2015-05-29 11:57:55,444: topic[/tf] adding connection to [http://192.168.1.13:55724/], count 0
+[rospy.internal][INFO] 2015-05-29 11:57:55,447: topic[/tf] adding connection to [http://192.168.1.13:58485/], count 1
+[rosout][INFO] 2015-05-29 11:58:09,852: got traj at 1432893489852552890
+[rosout][INFO] 2015-05-29 11:58:12,747: executing rest of traj at 1432893492746973991
+[rosout][INFO] 2015-05-29 11:58:17,131: Time taken for rest of trajectory: 4.384095908
+[rosout][INFO] 2015-05-29 11:58:30,220: got traj at 1432893510220104932
+[rosout][INFO] 2015-05-29 11:58:33,199: executing rest of traj at 1432893513199055910
+[rosout][INFO] 2015-05-29 11:58:37,710: Time taken for rest of trajectory: 4.510686874
+[rospy.internal][ERROR] 2015-05-29 11:58:51,837: Unable to initiate TCP/IP socket to 192.168.1.13:46113 (http://192.168.1.13:35078/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2015-05-29 11:58:52,839: Unknown error initiating TCP/IP socket to 192.168.1.13:46113 (http://192.168.1.13:35078/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2015-05-29 11:58:52,839: topic[/write_traj_downsampled] removing connection to http://192.168.1.13:35078/
+[rospy.core][INFO] 2015-05-29 13:48:51,220: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2015-05-29 13:48:51,235: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-05-29 13:48:51,236: topic[/tf] removing connection to http://192.168.1.13:55724/
+[rospy.internal][INFO] 2015-05-29 13:48:51,236: topic[/tf] removing connection to http://192.168.1.13:58485/
+[rospy.impl.masterslave][INFO] 2015-05-29 13:48:51,236: signal-2

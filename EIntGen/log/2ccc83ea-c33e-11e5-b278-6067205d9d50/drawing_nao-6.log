@@ -1,0 +1,1234 @@
+[rospy.client][INFO] 2016-01-25 09:40:58,438: init_node, name[/drawing_nao], pid[8012]
+[xmlrpc][INFO] 2016-01-25 09:40:58,439: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 09:40:58,439: Started XML-RPC server [http://10.0.0.11:37126/]
+[rospy.init][INFO] 2016-01-25 09:40:58,439: ROS Slave URI: [http://10.0.0.11:37126/]
+[rospy.impl.masterslave][INFO] 2016-01-25 09:40:58,440: _ready: http://10.0.0.11:37126/
+[rospy.registration][INFO] 2016-01-25 09:40:58,440: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-25 09:40:58,440: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2016-01-25 09:40:58,540: registered with master
+[rospy.rosout][INFO] 2016-01-25 09:40:58,540: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 09:40:58,542: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 09:40:58,543: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2016-01-25 09:40:58,558: Waiting for display manager services to become available
+[rospy.internal][INFO] 2016-01-25 09:40:58,560: topic[/activity] adding connection to [http://10.0.0.11:46234/], count 0
+[rospy.internal][INFO] 2016-01-25 09:40:58,560: topic[/activity] adding connection to [http://10.0.0.11:37126/], count 0
+[rospy.internal][INFO] 2016-01-25 09:40:58,563: topic[/activity] adding connection to [/drawing_nao], count 0
+[rospy.internal][INFO] 2016-01-25 09:40:58,605: topic[/activity] adding connection to [/activity_manager], count 1
+[rospy.internal][INFO] 2016-01-25 09:40:58,619: topic[/clear_screen] adding connection to [/trajectory_visualizer], count 0
+[rospy.internal][INFO] 2016-01-25 09:40:58,633: topic[/activity] adding connection to [/learning_words_nao], count 2
+[rospy.internal][INFO] 2016-01-25 09:40:58,633: topic[/clear_screen] adding connection to [/learning_words_nao], count 1
+[rospy.internal][INFO] 2016-01-25 09:40:58,644: topic[/clear_screen] adding connection to [/log], count 2
+[rospy.internal][INFO] 2016-01-25 09:40:58,651: topic[/activity] adding connection to [/log], count 3
+[rospy.internal][INFO] 2016-01-25 09:40:58,794: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2016-01-25 09:41:00,567: Starting new timer
+[rosout][INFO] 2016-01-25 09:41:00,568: Nao configuration: writing=True, speaking=True (english), standing=False, handedness=right
+[rosout][INFO] 2016-01-25 09:41:00,968: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 09:41:02,522: STATE: waiting_for_robot_to_connect
+[rosout][INFO] 2016-01-25 09:41:03,024: STATE: STARTING_INTERACTION
+[rospy.internal][INFO] 2016-01-25 09:42:07,358: topic[/stop_learning] adding connection to [http://10.0.0.11:60794/], count 0
+[rosout][INFO] 2016-01-25 09:42:08,093: STATE: STOPPING
+[rospy.core][INFO] 2016-01-25 09:42:08,115: signal_shutdown [Interaction exited]
+[rospy.internal][INFO] 2016-01-25 09:42:08,124: topic[/clear_screen] removing connection to /trajectory_visualizer
+[rospy.internal][INFO] 2016-01-25 09:42:08,124: topic[/clear_screen] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2016-01-25 09:42:08,125: topic[/clear_screen] removing connection to /log
+[rospy.internal][INFO] 2016-01-25 09:42:08,127: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-25 09:42:08,127: topic[/activity] removing connection to /drawing_nao
+[rospy.internal][INFO] 2016-01-25 09:42:08,128: topic[/activity] removing connection to /activity_manager
+[rospy.internal][INFO] 2016-01-25 09:42:08,129: topic[/activity] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2016-01-25 09:42:08,129: topic[/activity] removing connection to /log
+[rospy.internal][INFO] 2016-01-25 09:42:08,130: topic[/activity] removing connection to http://10.0.0.11:46234/
+[rospy.internal][INFO] 2016-01-25 09:42:08,130: topic[/activity] removing connection to http://10.0.0.11:37126/
+[rospy.internal][INFO] 2016-01-25 09:42:08,130: topic[/stop_learning] removing connection to http://10.0.0.11:60794/
+[rospy.impl.masterslave][INFO] 2016-01-25 09:42:08,131: Interaction exited
+[rospy.internal][ERROR] 2016-01-25 09:42:08,132: Unable to initiate TCP/IP socket to 10.0.0.11:36135 (http://10.0.0.11:37126/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rosout][INFO] 2016-01-25 09:42:08,746: Stopped
+[rospy.core][INFO] 2016-01-25 09:42:08,747: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-25 09:48:25,951: init_node, name[/drawing_nao], pid[9909]
+[xmlrpc][INFO] 2016-01-25 09:48:25,951: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 09:48:25,951: Started XML-RPC server [http://10.0.0.11:36637/]
+[rospy.init][INFO] 2016-01-25 09:48:25,951: ROS Slave URI: [http://10.0.0.11:36637/]
+[rospy.impl.masterslave][INFO] 2016-01-25 09:48:25,952: _ready: http://10.0.0.11:36637/
+[rospy.registration][INFO] 2016-01-25 09:48:25,952: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-25 09:48:25,952: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2016-01-25 09:48:26,052: registered with master
+[rospy.rosout][INFO] 2016-01-25 09:48:26,052: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 09:48:26,054: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 09:48:26,055: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2016-01-25 09:48:26,083: Waiting for display manager services to become available
+[rospy.internal][INFO] 2016-01-25 09:48:26,091: topic[/activity] adding connection to [/log], count 0
+[rospy.internal][INFO] 2016-01-25 09:48:26,092: topic[/clear_screen] adding connection to [/log], count 0
+[rospy.internal][INFO] 2016-01-25 09:48:26,097: topic[/activity] adding connection to [/activity_manager], count 1
+[rospy.internal][INFO] 2016-01-25 09:48:26,107: topic[/clear_screen] adding connection to [/learning_words_nao], count 1
+[rospy.internal][INFO] 2016-01-25 09:48:26,108: topic[/activity] adding connection to [/learning_words_nao], count 2
+[rospy.internal][INFO] 2016-01-25 09:48:26,114: topic[/clear_screen] adding connection to [/trajectory_visualizer], count 2
+[rospy.internal][INFO] 2016-01-25 09:48:26,118: topic[/activity] adding connection to [http://10.0.0.11:58538/], count 0
+[rospy.internal][INFO] 2016-01-25 09:48:26,118: topic[/activity] adding connection to [http://10.0.0.11:36637/], count 0
+[rospy.internal][INFO] 2016-01-25 09:48:26,120: topic[/activity] adding connection to [/drawing_nao], count 3
+[rospy.internal][INFO] 2016-01-25 09:48:26,265: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2016-01-25 09:48:28,098: Starting new timer
+[rosout][INFO] 2016-01-25 09:48:28,099: Nao configuration: writing=True, speaking=True (english), standing=False, handedness=right
+[rosout][INFO] 2016-01-25 09:48:28,499: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 09:48:31,030: STATE: waiting_for_robot_to_connect
+[rosout][INFO] 2016-01-25 09:48:31,532: STATE: STARTING_INTERACTION
+[rospy.internal][INFO] 2016-01-25 09:49:35,036: topic[/clear_screen] adding connection to [/android_gingerbread/boxes_drawer], count 3
+[rospy.internal][INFO] 2016-01-25 09:49:35,157: topic[/clear_screen] adding connection to [/android_gingerbread/display_manager], count 4
+[rospy.internal][INFO] 2016-01-25 09:49:35,291: topic[/watchdog_clear/tablet] adding connection to [http://10.0.0.3:54476/], count 0
+[rosout][INFO] 2016-01-25 09:49:35,380: Re-connection
+[rospy.internal][INFO] 2016-01-25 09:51:03,432: topic[/stop_learning] adding connection to [http://10.0.0.11:42355/], count 0
+[rosout][INFO] 2016-01-25 09:51:04,196: STATE: STOPPING
+[rospy.core][INFO] 2016-01-25 09:51:04,206: signal_shutdown [Interaction exited]
+[rospy.internal][INFO] 2016-01-25 09:51:04,212: topic[/clear_screen] removing connection to /log
+[rospy.internal][INFO] 2016-01-25 09:51:04,213: topic[/clear_screen] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2016-01-25 09:51:04,213: topic[/clear_screen] removing connection to /trajectory_visualizer
+[rospy.internal][INFO] 2016-01-25 09:51:04,214: topic[/clear_screen] removing connection to /android_gingerbread/boxes_drawer
+[rospy.internal][INFO] 2016-01-25 09:51:04,214: topic[/clear_screen] removing connection to /android_gingerbread/display_manager
+[rospy.internal][INFO] 2016-01-25 09:51:04,215: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-25 09:51:04,215: topic[/activity] removing connection to /log
+[rospy.internal][INFO] 2016-01-25 09:51:04,215: topic[/activity] removing connection to /activity_manager
+[rospy.internal][INFO] 2016-01-25 09:51:04,216: topic[/activity] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2016-01-25 09:51:04,216: topic[/activity] removing connection to /drawing_nao
+[rospy.internal][ERROR] 2016-01-25 09:51:04,218: Unable to initiate TCP/IP socket to 10.0.0.11:43154 (http://10.0.0.11:36637/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2016-01-25 09:51:04,220: topic[/activity] removing connection to http://10.0.0.11:58538/
+[rospy.internal][WARNING] 2016-01-25 09:51:04,220: Unknown error initiating TCP/IP socket to 10.0.0.11:37143 (http://10.0.0.11:58538/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][INFO] 2016-01-25 09:51:04,220: topic[/activity] removing connection to http://10.0.0.11:36637/
+[rospy.internal][INFO] 2016-01-25 09:51:04,221: topic[/stop_learning] removing connection to http://10.0.0.11:42355/
+[rospy.internal][INFO] 2016-01-25 09:51:04,221: topic[/watchdog_clear/tablet] removing connection to http://10.0.0.3:54476/
+[rospy.impl.masterslave][INFO] 2016-01-25 09:51:04,222: Interaction exited
+[rosout][INFO] 2016-01-25 09:51:04,354: Stopped
+[rospy.core][INFO] 2016-01-25 09:51:04,355: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-25 09:51:22,931: init_node, name[/drawing_nao], pid[13814]
+[xmlrpc][INFO] 2016-01-25 09:51:22,932: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 09:51:22,932: Started XML-RPC server [http://10.0.0.11:56513/]
+[rospy.impl.masterslave][INFO] 2016-01-25 09:51:22,932: _ready: http://10.0.0.11:56513/
+[rospy.init][INFO] 2016-01-25 09:51:22,932: ROS Slave URI: [http://10.0.0.11:56513/]
+[rospy.registration][INFO] 2016-01-25 09:51:22,933: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-25 09:51:22,933: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2016-01-25 09:51:23,033: registered with master
+[rospy.rosout][INFO] 2016-01-25 09:51:23,033: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 09:51:23,035: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 09:51:23,037: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2016-01-25 09:51:23,054: Waiting for display manager services to become available
+[rospy.internal][INFO] 2016-01-25 09:51:23,086: topic[/clear_screen] adding connection to [/trajectory_visualizer], count 0
+[rospy.internal][INFO] 2016-01-25 09:51:23,089: topic[/clear_screen] adding connection to [/log], count 1
+[rospy.internal][INFO] 2016-01-25 09:51:23,097: topic[/activity] adding connection to [/learning_words_nao], count 0
+[rospy.internal][INFO] 2016-01-25 09:51:23,097: topic[/activity] adding connection to [/log], count 1
+[rospy.internal][INFO] 2016-01-25 09:51:23,100: topic[/activity] adding connection to [http://10.0.0.11:56513/], count 0
+[rospy.internal][INFO] 2016-01-25 09:51:23,100: topic[/activity] adding connection to [http://10.0.0.11:48951/], count 0
+[rospy.internal][INFO] 2016-01-25 09:51:23,100: topic[/clear_screen] adding connection to [/learning_words_nao], count 2
+[rospy.internal][INFO] 2016-01-25 09:51:23,102: topic[/activity] adding connection to [/drawing_nao], count 2
+[rospy.internal][INFO] 2016-01-25 09:51:23,134: topic[/activity] adding connection to [/activity_manager], count 3
+[rospy.internal][INFO] 2016-01-25 09:51:23,253: topic[/clear_screen] adding connection to [/android_gingerbread/boxes_drawer], count 3
+[rospy.internal][INFO] 2016-01-25 09:51:23,263: topic[/clear_screen] adding connection to [/android_gingerbread/display_manager], count 4
+[rospy.internal][INFO] 2016-01-25 09:51:23,279: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2016-01-25 09:51:25,066: Starting new timer
+[rosout][INFO] 2016-01-25 09:51:25,067: Nao configuration: writing=True, speaking=True (english), standing=False, handedness=right
+[rospy.internal][INFO] 2016-01-25 09:51:25,198: topic[/watchdog_clear/tablet] adding connection to [http://10.0.0.3:54476/], count 0
+[rosout][INFO] 2016-01-25 09:51:27,694: STATE: waiting_for_robot_to_connect
+[rosout][INFO] 2016-01-25 09:51:28,195: STATE: STARTING_INTERACTION
+[rosout][INFO] 2016-01-25 09:52:05,995: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 09:52:08,381: Re-connection
+[rosout][INFO] 2016-01-25 09:52:41,998: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 09:52:44,482: Re-connection
+[rosout][INFO] 2016-01-25 09:53:09,790: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 09:53:12,217: Re-connection
+[rosout][INFO] 2016-01-25 09:53:45,521: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 09:53:47,999: Re-connection
+[rospy.internal][INFO] 2016-01-25 09:54:49,507: topic[/stop_learning] adding connection to [http://10.0.0.11:37205/], count 0
+[rosout][INFO] 2016-01-25 09:54:50,408: STATE: STOPPING
+[rospy.core][INFO] 2016-01-25 09:54:50,543: signal_shutdown [Interaction exited]
+[rospy.internal][INFO] 2016-01-25 09:54:50,546: topic[/clear_screen] removing connection to /trajectory_visualizer
+[rospy.internal][INFO] 2016-01-25 09:54:50,546: topic[/clear_screen] removing connection to /log
+[rospy.internal][INFO] 2016-01-25 09:54:50,547: topic[/clear_screen] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2016-01-25 09:54:50,548: topic[/clear_screen] removing connection to /android_gingerbread/boxes_drawer
+[rospy.internal][INFO] 2016-01-25 09:54:50,548: topic[/clear_screen] removing connection to /android_gingerbread/display_manager
+[rospy.internal][INFO] 2016-01-25 09:54:50,548: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-25 09:54:50,549: topic[/activity] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2016-01-25 09:54:50,549: topic[/activity] removing connection to /log
+[rospy.internal][INFO] 2016-01-25 09:54:50,550: topic[/activity] removing connection to /drawing_nao
+[rospy.internal][INFO] 2016-01-25 09:54:50,550: topic[/activity] removing connection to /activity_manager
+[rospy.internal][INFO] 2016-01-25 09:54:50,550: topic[/activity] removing connection to http://10.0.0.11:56513/
+[rospy.internal][WARNING] 2016-01-25 09:54:50,551: Unknown error initiating TCP/IP socket to 10.0.0.11:57253 (http://10.0.0.11:56513/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 365, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2016-01-25 09:54:50,551: topic[/activity] removing connection to http://10.0.0.11:48951/
+[rospy.internal][WARNING] 2016-01-25 09:54:50,552: Unknown error initiating TCP/IP socket to 10.0.0.11:53937 (http://10.0.0.11:48951/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][INFO] 2016-01-25 09:54:50,552: topic[/stop_learning] removing connection to http://10.0.0.11:37205/
+[rospy.internal][WARNING] 2016-01-25 09:54:50,552: Unknown error initiating TCP/IP socket to 10.0.0.11:60937 (http://10.0.0.11:37205/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2016-01-25 09:54:50,552: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 307, in close
+    c.close()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 807, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2016-01-25 09:54:50,552: topic[/watchdog_clear/tablet] removing connection to http://10.0.0.3:54476/
+[rospy.impl.masterslave][INFO] 2016-01-25 09:54:50,553: Interaction exited
+[rosout][INFO] 2016-01-25 09:54:50,684: Stopped
+[rospy.core][INFO] 2016-01-25 09:54:50,685: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-25 09:55:32,789: init_node, name[/drawing_nao], pid[20831]
+[xmlrpc][INFO] 2016-01-25 09:55:32,790: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 09:55:32,790: Started XML-RPC server [http://10.0.0.11:58182/]
+[rospy.init][INFO] 2016-01-25 09:55:32,790: ROS Slave URI: [http://10.0.0.11:58182/]
+[rospy.impl.masterslave][INFO] 2016-01-25 09:55:32,790: _ready: http://10.0.0.11:58182/
+[rospy.registration][INFO] 2016-01-25 09:55:32,791: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-25 09:55:32,791: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2016-01-25 09:55:32,890: registered with master
+[rospy.rosout][INFO] 2016-01-25 09:55:32,891: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 09:55:32,892: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 09:55:32,893: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2016-01-25 09:55:32,904: Waiting for display manager services to become available
+[rospy.internal][INFO] 2016-01-25 09:55:32,907: topic[/activity] adding connection to [http://10.0.0.11:33414/], count 0
+[rospy.internal][INFO] 2016-01-25 09:55:32,909: topic[/activity] adding connection to [http://10.0.0.11:58182/], count 1
+[rospy.internal][INFO] 2016-01-25 09:55:32,912: topic[/activity] adding connection to [/drawing_nao], count 0
+[rospy.internal][INFO] 2016-01-25 09:55:32,932: topic[/activity] adding connection to [/activity_manager], count 1
+[rospy.internal][INFO] 2016-01-25 09:55:32,945: topic[/activity] adding connection to [/learning_words_nao], count 2
+[rospy.internal][INFO] 2016-01-25 09:55:32,946: topic[/activity] adding connection to [/log], count 3
+[rospy.internal][INFO] 2016-01-25 09:55:32,946: topic[/clear_screen] adding connection to [/learning_words_nao], count 0
+[rospy.internal][INFO] 2016-01-25 09:55:32,947: topic[/clear_screen] adding connection to [/log], count 1
+[rospy.internal][INFO] 2016-01-25 09:55:32,954: topic[/clear_screen] adding connection to [/trajectory_visualizer], count 2
+[rospy.internal][INFO] 2016-01-25 09:55:33,138: topic[/clear_screen] adding connection to [/android_gingerbread/display_manager], count 3
+[rospy.internal][INFO] 2016-01-25 09:55:33,139: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2016-01-25 09:55:33,140: topic[/clear_screen] adding connection to [/android_gingerbread/boxes_drawer], count 4
+[rosout][INFO] 2016-01-25 09:55:34,913: Starting new timer
+[rosout][INFO] 2016-01-25 09:55:34,915: Nao configuration: writing=True, speaking=True (english), standing=False, handedness=right
+[rospy.internal][INFO] 2016-01-25 09:55:35,049: topic[/watchdog_clear/tablet] adding connection to [http://10.0.0.3:54476/], count 0
+[rosout][INFO] 2016-01-25 09:55:37,005: STATE: waiting_for_robot_to_connect
+[rosout][INFO] 2016-01-25 09:55:37,506: STATE: STARTING_INTERACTION
+[rosout][INFO] 2016-01-25 09:56:04,800: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 09:56:07,267: Re-connection
+[rosout][INFO] 2016-01-25 09:56:29,877: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 09:56:32,327: Re-connection
+[rospy.internal][INFO] 2016-01-25 10:00:02,729: topic[/stop_learning] adding connection to [http://10.0.0.11:49851/], count 0
+[rosout][INFO] 2016-01-25 10:00:03,300: STATE: STOPPING
+[rospy.core][INFO] 2016-01-25 10:00:03,320: signal_shutdown [Interaction exited]
+[rospy.internal][INFO] 2016-01-25 10:00:03,327: topic[/clear_screen] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2016-01-25 10:00:03,329: topic[/clear_screen] removing connection to /log
+[rospy.internal][INFO] 2016-01-25 10:00:03,329: topic[/clear_screen] removing connection to /trajectory_visualizer
+[rospy.internal][INFO] 2016-01-25 10:00:03,330: topic[/clear_screen] removing connection to /android_gingerbread/display_manager
+[rospy.internal][INFO] 2016-01-25 10:00:03,330: topic[/clear_screen] removing connection to /android_gingerbread/boxes_drawer
+[rospy.internal][INFO] 2016-01-25 10:00:03,331: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-25 10:00:03,332: topic[/activity] removing connection to /drawing_nao
+[rospy.internal][ERROR] 2016-01-25 10:00:03,333: Unable to initiate TCP/IP socket to 10.0.0.11:45543 (http://10.0.0.11:58182/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2016-01-25 10:00:03,334: topic[/activity] removing connection to /activity_manager
+[rospy.internal][INFO] 2016-01-25 10:00:03,334: topic[/activity] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2016-01-25 10:00:03,334: topic[/activity] removing connection to /log
+[rospy.internal][INFO] 2016-01-25 10:00:03,336: topic[/activity] removing connection to http://10.0.0.11:33414/
+[rospy.internal][INFO] 2016-01-25 10:00:03,336: topic[/activity] removing connection to http://10.0.0.11:58182/
+[rospy.internal][INFO] 2016-01-25 10:00:03,336: topic[/stop_learning] removing connection to http://10.0.0.11:49851/
+[rospy.internal][INFO] 2016-01-25 10:00:03,336: topic[/watchdog_clear/tablet] removing connection to http://10.0.0.3:54476/
+[rospy.impl.masterslave][INFO] 2016-01-25 10:00:03,337: Interaction exited
+[rospy.internal][WARNING] 2016-01-25 10:00:03,337: Unknown error initiating TCP/IP socket to 10.0.0.11:40451 (http://10.0.0.11:33414/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rosout][INFO] 2016-01-25 10:00:03,444: Stopped
+[rospy.core][INFO] 2016-01-25 10:00:03,445: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-25 10:00:31,952: init_node, name[/drawing_nao], pid[29776]
+[xmlrpc][INFO] 2016-01-25 10:00:31,953: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 10:00:31,953: Started XML-RPC server [http://10.0.0.11:43929/]
+[rospy.init][INFO] 2016-01-25 10:00:31,953: ROS Slave URI: [http://10.0.0.11:43929/]
+[rospy.impl.masterslave][INFO] 2016-01-25 10:00:31,953: _ready: http://10.0.0.11:43929/
+[rospy.registration][INFO] 2016-01-25 10:00:31,954: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-25 10:00:31,954: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2016-01-25 10:00:32,054: registered with master
+[rospy.rosout][INFO] 2016-01-25 10:00:32,054: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 10:00:32,056: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 10:00:32,057: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2016-01-25 10:00:32,071: Waiting for display manager services to become available
+[rospy.internal][INFO] 2016-01-25 10:00:32,073: topic[/activity] adding connection to [http://10.0.0.11:40190/], count 0
+[rospy.internal][INFO] 2016-01-25 10:00:32,073: topic[/activity] adding connection to [http://10.0.0.11:43929/], count 0
+[rospy.internal][INFO] 2016-01-25 10:00:32,076: topic[/activity] adding connection to [/drawing_nao], count 0
+[rospy.internal][INFO] 2016-01-25 10:00:32,094: topic[/clear_screen] adding connection to [/trajectory_visualizer], count 0
+[rospy.internal][INFO] 2016-01-25 10:00:32,109: topic[/activity] adding connection to [/activity_manager], count 1
+[rospy.internal][INFO] 2016-01-25 10:00:32,124: topic[/activity] adding connection to [/log], count 2
+[rospy.internal][INFO] 2016-01-25 10:00:32,125: topic[/clear_screen] adding connection to [/log], count 1
+[rospy.internal][INFO] 2016-01-25 10:00:32,130: topic[/activity] adding connection to [/learning_words_nao], count 3
+[rospy.internal][INFO] 2016-01-25 10:00:32,130: topic[/clear_screen] adding connection to [/learning_words_nao], count 2
+[rospy.internal][INFO] 2016-01-25 10:00:32,188: topic[/clear_screen] adding connection to [/android_gingerbread/display_manager], count 3
+[rospy.internal][INFO] 2016-01-25 10:00:32,190: topic[/clear_screen] adding connection to [/android_gingerbread/boxes_drawer], count 4
+[rospy.internal][INFO] 2016-01-25 10:00:32,291: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2016-01-25 10:00:34,082: Starting new timer
+[rosout][INFO] 2016-01-25 10:00:34,083: Nao configuration: writing=True, speaking=True (english), standing=False, handedness=right
+[rospy.internal][INFO] 2016-01-25 10:00:34,225: topic[/watchdog_clear/tablet] adding connection to [http://10.0.0.3:54476/], count 0
+[rosout][INFO] 2016-01-25 10:00:36,105: STATE: waiting_for_robot_to_connect
+[rosout][INFO] 2016-01-25 10:00:36,606: STATE: STARTING_INTERACTION
+[rosout][INFO] 2016-01-25 10:00:47,901: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:00:50,308: Re-connection
+[rosout][INFO] 2016-01-25 10:01:08,869: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:01:11,209: Re-connection
+[rosout][INFO] 2016-01-25 10:01:29,838: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:01:32,312: Re-connection
+[rosout][INFO] 2016-01-25 10:01:48,897: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:01:51,264: Re-connection
+[rosout][INFO] 2016-01-25 10:02:16,276: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:02:18,628: Re-connection
+[rospy.internal][INFO] 2016-01-25 10:03:39,570: topic[/stop_learning] adding connection to [http://10.0.0.11:38228/], count 0
+[rosout][INFO] 2016-01-25 10:03:40,302: STATE: STOPPING
+[rospy.core][INFO] 2016-01-25 10:03:40,316: signal_shutdown [Interaction exited]
+[rospy.internal][INFO] 2016-01-25 10:03:40,324: topic[/clear_screen] removing connection to /trajectory_visualizer
+[rospy.internal][INFO] 2016-01-25 10:03:40,325: topic[/clear_screen] removing connection to /log
+[rospy.internal][INFO] 2016-01-25 10:03:40,325: topic[/clear_screen] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2016-01-25 10:03:40,326: topic[/clear_screen] removing connection to /android_gingerbread/display_manager
+[rospy.internal][INFO] 2016-01-25 10:03:40,326: topic[/clear_screen] removing connection to /android_gingerbread/boxes_drawer
+[rospy.internal][INFO] 2016-01-25 10:03:40,327: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-25 10:03:40,327: topic[/activity] removing connection to /drawing_nao
+[rospy.internal][INFO] 2016-01-25 10:03:40,328: topic[/activity] removing connection to /activity_manager
+[rospy.internal][INFO] 2016-01-25 10:03:40,328: topic[/activity] removing connection to /log
+[rospy.internal][ERROR] 2016-01-25 10:03:40,329: Unable to initiate TCP/IP socket to 10.0.0.11:50927 (http://10.0.0.11:43929/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2016-01-25 10:03:40,330: topic[/activity] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2016-01-25 10:03:40,330: topic[/activity] removing connection to http://10.0.0.11:40190/
+[rospy.internal][WARNING] 2016-01-25 10:03:40,331: Unknown error initiating TCP/IP socket to 10.0.0.11:39621 (http://10.0.0.11:40190/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2016-01-25 10:03:40,332: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 307, in close
+    c.close()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 807, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2016-01-25 10:03:40,332: topic[/activity] removing connection to http://10.0.0.11:43929/
+[rospy.internal][INFO] 2016-01-25 10:03:40,332: topic[/stop_learning] removing connection to http://10.0.0.11:38228/
+[rospy.internal][INFO] 2016-01-25 10:03:40,332: topic[/watchdog_clear/tablet] removing connection to http://10.0.0.3:54476/
+[rospy.impl.masterslave][INFO] 2016-01-25 10:03:40,332: Interaction exited
+[rosout][INFO] 2016-01-25 10:03:40,434: Stopped
+[rospy.core][INFO] 2016-01-25 10:03:40,435: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-25 10:03:54,052: init_node, name[/drawing_nao], pid[4722]
+[xmlrpc][INFO] 2016-01-25 10:03:54,053: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 10:03:54,053: Started XML-RPC server [http://10.0.0.11:48344/]
+[rospy.init][INFO] 2016-01-25 10:03:54,053: ROS Slave URI: [http://10.0.0.11:48344/]
+[rospy.impl.masterslave][INFO] 2016-01-25 10:03:54,053: _ready: http://10.0.0.11:48344/
+[rospy.registration][INFO] 2016-01-25 10:03:54,054: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-25 10:03:54,054: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2016-01-25 10:03:54,154: registered with master
+[rospy.rosout][INFO] 2016-01-25 10:03:54,154: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 10:03:54,155: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 10:03:54,156: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2016-01-25 10:03:54,166: Waiting for display manager services to become available
+[rospy.internal][INFO] 2016-01-25 10:03:54,169: topic[/activity] adding connection to [http://10.0.0.11:33741/], count 0
+[rospy.internal][INFO] 2016-01-25 10:03:54,170: topic[/activity] adding connection to [http://10.0.0.11:48344/], count 0
+[rospy.internal][INFO] 2016-01-25 10:03:54,171: topic[/activity] adding connection to [/drawing_nao], count 0
+[rospy.internal][INFO] 2016-01-25 10:03:54,224: topic[/clear_screen] adding connection to [/trajectory_visualizer], count 0
+[rospy.internal][INFO] 2016-01-25 10:03:54,233: topic[/activity] adding connection to [/activity_manager], count 1
+[rospy.internal][INFO] 2016-01-25 10:03:54,251: topic[/activity] adding connection to [/log], count 2
+[rospy.internal][INFO] 2016-01-25 10:03:54,251: topic[/clear_screen] adding connection to [/log], count 1
+[rospy.internal][INFO] 2016-01-25 10:03:54,266: topic[/clear_screen] adding connection to [/android_gingerbread/display_manager], count 2
+[rospy.internal][INFO] 2016-01-25 10:03:54,267: topic[/activity] adding connection to [/learning_words_nao], count 3
+[rospy.internal][INFO] 2016-01-25 10:03:54,268: topic[/clear_screen] adding connection to [/learning_words_nao], count 3
+[rospy.internal][INFO] 2016-01-25 10:03:54,323: topic[/clear_screen] adding connection to [/android_gingerbread/boxes_drawer], count 4
+[rospy.internal][INFO] 2016-01-25 10:03:54,410: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2016-01-25 10:03:56,176: Starting new timer
+[rosout][INFO] 2016-01-25 10:03:56,178: Nao configuration: writing=True, speaking=True (english), standing=False, handedness=right
+[rospy.internal][INFO] 2016-01-25 10:03:56,284: topic[/watchdog_clear/tablet] adding connection to [http://10.0.0.3:54476/], count 0
+[rosout][INFO] 2016-01-25 10:03:58,927: STATE: waiting_for_robot_to_connect
+[rosout][INFO] 2016-01-25 10:03:59,428: STATE: STARTING_INTERACTION
+[rosout][INFO] 2016-01-25 10:04:17,843: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:04:20,184: Re-connection
+[rosout][INFO] 2016-01-25 10:04:48,536: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:04:49,732: Re-connection
+[rosout][INFO] 2016-01-25 10:05:12,116: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:05:14,426: Re-connection
+[rosout][INFO] 2016-01-25 10:05:36,384: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:05:38,706: Re-connection
+[rosout][INFO] 2016-01-25 10:06:03,668: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:06:05,906: Re-connection
+[rospy.internal][INFO] 2016-01-25 10:07:03,244: topic[/stop_learning] adding connection to [http://10.0.0.11:32883/], count 0
+[rosout][INFO] 2016-01-25 10:07:04,127: STATE: STOPPING
+[rospy.core][INFO] 2016-01-25 10:07:04,153: signal_shutdown [Interaction exited]
+[rospy.internal][INFO] 2016-01-25 10:07:04,160: topic[/clear_screen] removing connection to /trajectory_visualizer
+[rospy.internal][INFO] 2016-01-25 10:07:04,160: topic[/clear_screen] removing connection to /log
+[rospy.internal][INFO] 2016-01-25 10:07:04,161: topic[/clear_screen] removing connection to /android_gingerbread/display_manager
+[rospy.internal][INFO] 2016-01-25 10:07:04,161: topic[/clear_screen] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2016-01-25 10:07:04,162: topic[/clear_screen] removing connection to /android_gingerbread/boxes_drawer
+[rospy.internal][INFO] 2016-01-25 10:07:04,162: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-25 10:07:04,163: topic[/activity] removing connection to /drawing_nao
+[rospy.internal][INFO] 2016-01-25 10:07:04,164: topic[/activity] removing connection to /activity_manager
+[rospy.internal][INFO] 2016-01-25 10:07:04,164: topic[/activity] removing connection to /log
+[rospy.internal][INFO] 2016-01-25 10:07:04,165: topic[/activity] removing connection to /learning_words_nao
+[rospy.internal][ERROR] 2016-01-25 10:07:04,165: Unable to initiate TCP/IP socket to 10.0.0.11:43378 (http://10.0.0.11:48344/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2016-01-25 10:07:04,166: topic[/activity] removing connection to http://10.0.0.11:33741/
+[rospy.internal][INFO] 2016-01-25 10:07:04,166: topic[/activity] removing connection to http://10.0.0.11:48344/
+[rospy.internal][INFO] 2016-01-25 10:07:04,167: topic[/stop_learning] removing connection to http://10.0.0.11:32883/
+[rospy.internal][INFO] 2016-01-25 10:07:04,167: topic[/watchdog_clear/tablet] removing connection to http://10.0.0.3:54476/
+[rospy.impl.masterslave][INFO] 2016-01-25 10:07:04,168: Interaction exited
+[rosout][INFO] 2016-01-25 10:07:04,473: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:07:04,783: Stopped
+[rospy.core][INFO] 2016-01-25 10:07:04,783: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-25 10:07:18,662: init_node, name[/drawing_nao], pid[11969]
+[xmlrpc][INFO] 2016-01-25 10:07:18,663: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 10:07:18,663: Started XML-RPC server [http://10.0.0.11:40880/]
+[rospy.init][INFO] 2016-01-25 10:07:18,663: ROS Slave URI: [http://10.0.0.11:40880/]
+[rospy.impl.masterslave][INFO] 2016-01-25 10:07:18,663: _ready: http://10.0.0.11:40880/
+[rospy.registration][INFO] 2016-01-25 10:07:18,664: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-25 10:07:18,664: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2016-01-25 10:07:18,763: registered with master
+[rospy.rosout][INFO] 2016-01-25 10:07:18,764: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 10:07:18,766: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 10:07:18,767: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2016-01-25 10:07:18,782: Waiting for display manager services to become available
+[rospy.internal][INFO] 2016-01-25 10:07:18,823: topic[/activity] adding connection to [/learning_words_nao], count 0
+[rospy.internal][INFO] 2016-01-25 10:07:18,824: topic[/clear_screen] adding connection to [/learning_words_nao], count 0
+[rospy.internal][INFO] 2016-01-25 10:07:18,829: topic[/activity] adding connection to [http://10.0.0.11:41841/], count 0
+[rospy.internal][INFO] 2016-01-25 10:07:18,829: topic[/activity] adding connection to [http://10.0.0.11:40880/], count 0
+[rospy.internal][INFO] 2016-01-25 10:07:18,831: topic[/activity] adding connection to [/drawing_nao], count 1
+[rospy.internal][INFO] 2016-01-25 10:07:18,882: topic[/clear_screen] adding connection to [/trajectory_visualizer], count 1
+[rospy.internal][INFO] 2016-01-25 10:07:18,897: topic[/clear_screen] adding connection to [/log], count 2
+[rospy.internal][INFO] 2016-01-25 10:07:18,897: topic[/activity] adding connection to [/log], count 2
+[rospy.internal][INFO] 2016-01-25 10:07:18,908: topic[/activity] adding connection to [/activity_manager], count 3
+[rospy.internal][INFO] 2016-01-25 10:07:19,005: topic[/clear_screen] adding connection to [/android_gingerbread/boxes_drawer], count 3
+[rospy.internal][INFO] 2016-01-25 10:07:19,005: topic[/clear_screen] adding connection to [/android_gingerbread/display_manager], count 4
+[rospy.internal][INFO] 2016-01-25 10:07:19,055: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2016-01-25 10:07:20,792: Starting new timer
+[rosout][INFO] 2016-01-25 10:07:20,793: Nao configuration: writing=True, speaking=True (english), standing=False, handedness=right
+[rospy.internal][INFO] 2016-01-25 10:07:20,952: topic[/watchdog_clear/tablet] adding connection to [http://10.0.0.3:54476/], count 0
+[rosout][INFO] 2016-01-25 10:07:22,900: STATE: waiting_for_robot_to_connect
+[rosout][INFO] 2016-01-25 10:07:23,402: STATE: STARTING_INTERACTION
+[rosout][INFO] 2016-01-25 10:07:34,681: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:07:37,151: Re-connection
+[rosout][INFO] 2016-01-25 10:07:55,353: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:07:57,759: Re-connection
+[rospy.internal][INFO] 2016-01-25 10:09:15,484: topic[/stop_learning] adding connection to [http://10.0.0.11:52926/], count 0
+[rosout][INFO] 2016-01-25 10:09:16,022: STATE: STOPPING
+[rospy.core][INFO] 2016-01-25 10:09:16,675: signal_shutdown [Interaction exited]
+[rospy.internal][INFO] 2016-01-25 10:09:16,688: topic[/clear_screen] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2016-01-25 10:09:16,689: topic[/clear_screen] removing connection to /trajectory_visualizer
+[rospy.internal][INFO] 2016-01-25 10:09:16,689: topic[/clear_screen] removing connection to /log
+[rospy.internal][INFO] 2016-01-25 10:09:16,692: topic[/clear_screen] removing connection to /android_gingerbread/boxes_drawer
+[rospy.internal][INFO] 2016-01-25 10:09:16,693: topic[/clear_screen] removing connection to /android_gingerbread/display_manager
+[rospy.internal][INFO] 2016-01-25 10:09:16,693: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-25 10:09:16,694: topic[/activity] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2016-01-25 10:09:16,694: topic[/activity] removing connection to /drawing_nao
+[rospy.internal][INFO] 2016-01-25 10:09:16,696: topic[/activity] removing connection to /log
+[rospy.internal][ERROR] 2016-01-25 10:09:16,696: Unable to initiate TCP/IP socket to 10.0.0.11:40672 (http://10.0.0.11:40880/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2016-01-25 10:09:16,699: topic[/activity] removing connection to /activity_manager
+[rospy.internal][INFO] 2016-01-25 10:09:16,699: topic[/activity] removing connection to http://10.0.0.11:41841/
+[rospy.internal][WARNING] 2016-01-25 10:09:16,700: Unknown error initiating TCP/IP socket to 10.0.0.11:53252 (http://10.0.0.11:41841/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2016-01-25 10:09:16,701: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 307, in close
+    c.close()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 807, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2016-01-25 10:09:16,701: topic[/activity] removing connection to http://10.0.0.11:40880/
+[rospy.internal][INFO] 2016-01-25 10:09:16,701: topic[/stop_learning] removing connection to http://10.0.0.11:52926/
+[rospy.internal][INFO] 2016-01-25 10:09:16,702: topic[/watchdog_clear/tablet] removing connection to http://10.0.0.3:54476/
+[rospy.impl.masterslave][INFO] 2016-01-25 10:09:16,702: Interaction exited
+[rosout][INFO] 2016-01-25 10:09:17,082: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:09:17,317: Stopped
+[rospy.core][INFO] 2016-01-25 10:09:17,318: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-25 10:09:34,397: init_node, name[/drawing_nao], pid[16266]
+[xmlrpc][INFO] 2016-01-25 10:09:34,398: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 10:09:34,398: Started XML-RPC server [http://10.0.0.11:33468/]
+[rospy.init][INFO] 2016-01-25 10:09:34,398: ROS Slave URI: [http://10.0.0.11:33468/]
+[rospy.impl.masterslave][INFO] 2016-01-25 10:09:34,398: _ready: http://10.0.0.11:33468/
+[rospy.registration][INFO] 2016-01-25 10:09:34,399: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-25 10:09:34,399: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2016-01-25 10:09:34,498: registered with master
+[rospy.rosout][INFO] 2016-01-25 10:09:34,499: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 10:09:34,500: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 10:09:34,501: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2016-01-25 10:09:34,511: Waiting for display manager services to become available
+[rospy.internal][INFO] 2016-01-25 10:09:34,514: topic[/activity] adding connection to [http://10.0.0.11:35782/], count 0
+[rospy.internal][INFO] 2016-01-25 10:09:34,515: topic[/activity] adding connection to [http://10.0.0.11:33468/], count 1
+[rospy.internal][INFO] 2016-01-25 10:09:34,517: topic[/activity] adding connection to [/drawing_nao], count 0
+[rospy.internal][INFO] 2016-01-25 10:09:34,583: topic[/clear_screen] adding connection to [/learning_words_nao], count 0
+[rospy.internal][INFO] 2016-01-25 10:09:34,584: topic[/activity] adding connection to [/learning_words_nao], count 1
+[rospy.internal][INFO] 2016-01-25 10:09:34,584: topic[/activity] adding connection to [/activity_manager], count 2
+[rospy.internal][INFO] 2016-01-25 10:09:34,598: topic[/clear_screen] adding connection to [/trajectory_visualizer], count 1
+[rospy.internal][INFO] 2016-01-25 10:09:34,617: topic[/clear_screen] adding connection to [/android_gingerbread/boxes_drawer], count 2
+[rospy.internal][INFO] 2016-01-25 10:09:34,621: topic[/activity] adding connection to [/log], count 3
+[rospy.internal][INFO] 2016-01-25 10:09:34,622: topic[/clear_screen] adding connection to [/log], count 3
+[rospy.internal][INFO] 2016-01-25 10:09:34,637: topic[/clear_screen] adding connection to [/android_gingerbread/display_manager], count 4
+[rospy.internal][INFO] 2016-01-25 10:09:34,728: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2016-01-25 10:09:36,521: Starting new timer
+[rosout][INFO] 2016-01-25 10:09:36,523: Nao configuration: writing=True, speaking=True (english), standing=False, handedness=right
+[rospy.internal][INFO] 2016-01-25 10:09:36,818: topic[/watchdog_clear/tablet] adding connection to [http://10.0.0.3:54476/], count 0
+[rosout][INFO] 2016-01-25 10:09:39,102: STATE: waiting_for_robot_to_connect
+[rosout][INFO] 2016-01-25 10:09:39,602: STATE: STARTING_INTERACTION
+[rosout][INFO] 2016-01-25 10:10:03,664: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:10:06,092: Re-connection
+[rosout][INFO] 2016-01-25 10:10:23,521: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:10:26,000: Re-connection
+[rospy.internal][INFO] 2016-01-25 10:15:05,940: topic[/stop_learning] adding connection to [http://10.0.0.11:57542/], count 0
+[rosout][INFO] 2016-01-25 10:15:06,445: STATE: STOPPING
+[rospy.core][INFO] 2016-01-25 10:15:06,779: signal_shutdown [Interaction exited]
+[rospy.internal][INFO] 2016-01-25 10:15:06,786: topic[/clear_screen] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2016-01-25 10:15:06,787: topic[/clear_screen] removing connection to /trajectory_visualizer
+[rospy.internal][INFO] 2016-01-25 10:15:06,787: topic[/clear_screen] removing connection to /android_gingerbread/boxes_drawer
+[rospy.internal][INFO] 2016-01-25 10:15:06,788: topic[/clear_screen] removing connection to /log
+[rospy.internal][INFO] 2016-01-25 10:15:06,789: topic[/clear_screen] removing connection to /android_gingerbread/display_manager
+[rospy.internal][INFO] 2016-01-25 10:15:06,789: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-25 10:15:06,789: topic[/activity] removing connection to /drawing_nao
+[rospy.internal][INFO] 2016-01-25 10:15:06,791: topic[/activity] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2016-01-25 10:15:06,792: topic[/activity] removing connection to /activity_manager
+[rospy.internal][INFO] 2016-01-25 10:15:06,792: topic[/activity] removing connection to /log
+[rospy.internal][ERROR] 2016-01-25 10:15:06,793: Unable to initiate TCP/IP socket to 10.0.0.11:49426 (http://10.0.0.11:33468/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2016-01-25 10:15:06,794: topic[/activity] removing connection to http://10.0.0.11:35782/
+[rospy.internal][INFO] 2016-01-25 10:15:06,794: topic[/activity] removing connection to http://10.0.0.11:33468/
+[rospy.internal][WARNING] 2016-01-25 10:15:06,795: Unknown error initiating TCP/IP socket to 10.0.0.11:51817 (http://10.0.0.11:35782/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.internal][INFO] 2016-01-25 10:15:06,795: topic[/stop_learning] removing connection to http://10.0.0.11:57542/
+[rospy.internal][INFO] 2016-01-25 10:15:06,796: topic[/watchdog_clear/tablet] removing connection to http://10.0.0.3:54476/
+[rospy.internal][WARNING] 2016-01-25 10:15:06,796: Unknown error initiating TCP/IP socket to 10.0.0.11:39523 (http://10.0.0.11:57542/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.impl.masterslave][INFO] 2016-01-25 10:15:06,796: Interaction exited
+[rosout][INFO] 2016-01-25 10:15:06,912: Stopped
+[rospy.core][INFO] 2016-01-25 10:15:06,913: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-25 10:15:18,567: init_node, name[/drawing_nao], pid[27099]
+[xmlrpc][INFO] 2016-01-25 10:15:18,567: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 10:15:18,568: Started XML-RPC server [http://10.0.0.11:39428/]
+[rospy.impl.masterslave][INFO] 2016-01-25 10:15:18,568: _ready: http://10.0.0.11:39428/
+[rospy.init][INFO] 2016-01-25 10:15:18,568: ROS Slave URI: [http://10.0.0.11:39428/]
+[rospy.registration][INFO] 2016-01-25 10:15:18,568: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-25 10:15:18,568: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2016-01-25 10:15:18,668: registered with master
+[rospy.rosout][INFO] 2016-01-25 10:15:18,668: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 10:15:18,671: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 10:15:18,672: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2016-01-25 10:15:18,699: Waiting for display manager services to become available
+[rospy.internal][INFO] 2016-01-25 10:15:18,733: topic[/activity] adding connection to [http://10.0.0.11:39428/], count 0
+[rospy.internal][INFO] 2016-01-25 10:15:18,735: topic[/activity] adding connection to [http://10.0.0.11:43478/], count 1
+[rospy.internal][INFO] 2016-01-25 10:15:18,736: topic[/activity] adding connection to [/drawing_nao], count 0
+[rospy.internal][INFO] 2016-01-25 10:15:18,742: topic[/activity] adding connection to [/learning_words_nao], count 1
+[rospy.internal][INFO] 2016-01-25 10:15:18,743: topic[/clear_screen] adding connection to [/learning_words_nao], count 0
+[rospy.internal][INFO] 2016-01-25 10:15:18,784: topic[/clear_screen] adding connection to [/trajectory_visualizer], count 1
+[rospy.internal][INFO] 2016-01-25 10:15:18,797: topic[/clear_screen] adding connection to [/log], count 2
+[rospy.internal][INFO] 2016-01-25 10:15:18,798: topic[/activity] adding connection to [/log], count 2
+[rospy.internal][INFO] 2016-01-25 10:15:18,818: topic[/activity] adding connection to [/activity_manager], count 3
+[rospy.internal][INFO] 2016-01-25 10:15:18,926: topic[/clear_screen] adding connection to [/android_gingerbread/boxes_drawer], count 3
+[rospy.internal][INFO] 2016-01-25 10:15:18,932: topic[/clear_screen] adding connection to [/android_gingerbread/display_manager], count 4
+[rospy.internal][INFO] 2016-01-25 10:15:18,971: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2016-01-25 10:15:20,704: Starting new timer
+[rosout][INFO] 2016-01-25 10:15:20,705: Nao configuration: writing=True, speaking=True (english), standing=False, handedness=right
+[rospy.internal][INFO] 2016-01-25 10:15:20,837: topic[/watchdog_clear/tablet] adding connection to [http://10.0.0.3:54476/], count 0
+[rosout][INFO] 2016-01-25 10:15:23,060: STATE: waiting_for_robot_to_connect
+[rosout][INFO] 2016-01-25 10:15:23,562: STATE: STARTING_INTERACTION
+[rosout][INFO] 2016-01-25 10:15:54,744: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:15:57,073: Re-connection
+[rosout][INFO] 2016-01-25 10:17:37,011: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:17:39,366: Re-connection
+[rospy.internal][INFO] 2016-01-25 10:18:08,236: topic[/stop_learning] adding connection to [http://10.0.0.11:55601/], count 0
+[rosout][INFO] 2016-01-25 10:18:09,235: STATE: STOPPING
+[rospy.core][INFO] 2016-01-25 10:18:09,243: signal_shutdown [Interaction exited]
+[rospy.internal][INFO] 2016-01-25 10:18:09,247: topic[/clear_screen] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2016-01-25 10:18:09,247: topic[/clear_screen] removing connection to /trajectory_visualizer
+[rospy.internal][INFO] 2016-01-25 10:18:09,247: topic[/clear_screen] removing connection to /log
+[rospy.internal][INFO] 2016-01-25 10:18:09,247: topic[/clear_screen] removing connection to /android_gingerbread/boxes_drawer
+[rospy.internal][INFO] 2016-01-25 10:18:09,248: topic[/clear_screen] removing connection to /android_gingerbread/display_manager
+[rospy.internal][INFO] 2016-01-25 10:18:09,248: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-25 10:18:09,248: topic[/activity] removing connection to /drawing_nao
+[rospy.internal][INFO] 2016-01-25 10:18:09,248: topic[/activity] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2016-01-25 10:18:09,249: topic[/activity] removing connection to /log
+[rospy.internal][INFO] 2016-01-25 10:18:09,249: topic[/activity] removing connection to /activity_manager
+[rospy.internal][INFO] 2016-01-25 10:18:09,249: topic[/activity] removing connection to http://10.0.0.11:39428/
+[rospy.internal][INFO] 2016-01-25 10:18:09,249: topic[/activity] removing connection to http://10.0.0.11:43478/
+[rospy.internal][INFO] 2016-01-25 10:18:09,250: topic[/stop_learning] removing connection to http://10.0.0.11:55601/
+[rospy.internal][WARNING] 2016-01-25 10:18:09,250: Unknown error initiating TCP/IP socket to 10.0.0.11:57656 (http://10.0.0.11:39428/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2016-01-25 10:18:09,250: topic[/watchdog_clear/tablet] removing connection to http://10.0.0.3:54476/
+[rospy.impl.masterslave][INFO] 2016-01-25 10:18:09,250: Interaction exited
+[rosout][INFO] 2016-01-25 10:18:09,619: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:18:09,865: Stopped
+[rospy.core][INFO] 2016-01-25 10:18:09,866: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-25 10:18:27,773: init_node, name[/drawing_nao], pid[559]
+[xmlrpc][INFO] 2016-01-25 10:18:27,774: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 10:18:27,774: Started XML-RPC server [http://10.0.0.11:48916/]
+[rospy.init][INFO] 2016-01-25 10:18:27,774: ROS Slave URI: [http://10.0.0.11:48916/]
+[rospy.impl.masterslave][INFO] 2016-01-25 10:18:27,774: _ready: http://10.0.0.11:48916/
+[rospy.registration][INFO] 2016-01-25 10:18:27,774: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-25 10:18:27,774: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2016-01-25 10:18:27,874: registered with master
+[rospy.rosout][INFO] 2016-01-25 10:18:27,875: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 10:18:27,876: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 10:18:27,877: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2016-01-25 10:18:27,887: Waiting for display manager services to become available
+[rospy.internal][INFO] 2016-01-25 10:18:27,890: topic[/activity] adding connection to [http://10.0.0.11:48916/], count 0
+[rospy.internal][INFO] 2016-01-25 10:18:27,890: topic[/activity] adding connection to [http://10.0.0.11:34417/], count 0
+[rospy.internal][INFO] 2016-01-25 10:18:27,892: topic[/activity] adding connection to [/drawing_nao], count 0
+[rospy.internal][INFO] 2016-01-25 10:18:27,954: topic[/clear_screen] adding connection to [/android_gingerbread/boxes_drawer], count 0
+[rospy.internal][INFO] 2016-01-25 10:18:27,960: topic[/clear_screen] adding connection to [/trajectory_visualizer], count 1
+[rospy.internal][INFO] 2016-01-25 10:18:27,962: topic[/activity] adding connection to [/activity_manager], count 1
+[rospy.internal][INFO] 2016-01-25 10:18:27,972: topic[/clear_screen] adding connection to [/android_gingerbread/display_manager], count 2
+[rospy.internal][INFO] 2016-01-25 10:18:27,972: topic[/activity] adding connection to [/log], count 2
+[rospy.internal][INFO] 2016-01-25 10:18:27,973: topic[/clear_screen] adding connection to [/log], count 3
+[rospy.internal][INFO] 2016-01-25 10:18:27,981: topic[/activity] adding connection to [/learning_words_nao], count 3
+[rospy.internal][INFO] 2016-01-25 10:18:27,982: topic[/clear_screen] adding connection to [/learning_words_nao], count 4
+[rospy.internal][INFO] 2016-01-25 10:18:28,102: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2016-01-25 10:18:29,895: Starting new timer
+[rosout][INFO] 2016-01-25 10:18:29,897: Nao configuration: writing=True, speaking=True (english), standing=False, handedness=right
+[rospy.internal][INFO] 2016-01-25 10:18:30,165: topic[/watchdog_clear/tablet] adding connection to [http://10.0.0.3:54476/], count 0
+[rosout][INFO] 2016-01-25 10:18:31,848: STATE: waiting_for_robot_to_connect
+[rosout][INFO] 2016-01-25 10:18:32,349: STATE: STARTING_INTERACTION
+[rosout][INFO] 2016-01-25 10:18:46,451: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:18:48,812: Re-connection
+[rosout][INFO] 2016-01-25 10:19:10,723: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:19:13,134: Re-connection
+[rosout][INFO] 2016-01-25 10:19:21,480: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rospy.internal][WARNING] 2016-01-25 10:19:24,069: Unknown error initiating TCP/IP socket to 10.0.0.3:38864 (http://10.0.0.3:54476/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2016-01-25 10:19:24,070: topic[/watchdog_clear/tablet] removing connection to http://10.0.0.3:54476/
+[rospy.internal][INFO] 2016-01-25 10:19:30,213: topic[/clear_screen] adding connection to [/android_gingerbread/boxes_drawer], count 5
+[rospy.internal][INFO] 2016-01-25 10:19:30,213: topic[/clear_screen] removing connection to /android_gingerbread/boxes_drawer
+[rospy.internal][INFO] 2016-01-25 10:19:30,348: topic[/clear_screen] adding connection to [/android_gingerbread/display_manager], count 5
+[rospy.internal][INFO] 2016-01-25 10:19:30,348: topic[/clear_screen] removing connection to /android_gingerbread/display_manager
+[rospy.internal][INFO] 2016-01-25 10:19:30,443: topic[/watchdog_clear/tablet] adding connection to [http://10.0.0.3:48218/], count 0
+[rosout][INFO] 2016-01-25 10:19:30,551: Re-connection
+[rosout][INFO] 2016-01-25 10:19:38,076: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:19:40,545: Re-connection
+[rosout][INFO] 2016-01-25 10:19:58,437: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:20:00,825: Re-connection
+[rosout][INFO] 2016-01-25 10:20:17,296: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:20:19,801: Re-connection
+[rosout][INFO] 2016-01-25 10:21:01,255: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:21:03,777: Re-connection
+[rospy.internal][INFO] 2016-01-25 10:22:21,978: topic[/stop_learning] adding connection to [http://10.0.0.11:35048/], count 0
+[rosout][INFO] 2016-01-25 10:22:22,590: STATE: STOPPING
+[rospy.core][INFO] 2016-01-25 10:22:22,621: signal_shutdown [Interaction exited]
+[rospy.internal][INFO] 2016-01-25 10:22:22,630: topic[/clear_screen] removing connection to /trajectory_visualizer
+[rospy.internal][INFO] 2016-01-25 10:22:22,631: topic[/clear_screen] removing connection to /log
+[rospy.internal][INFO] 2016-01-25 10:22:22,632: topic[/clear_screen] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2016-01-25 10:22:22,632: topic[/clear_screen] removing connection to /android_gingerbread/boxes_drawer
+[rospy.internal][INFO] 2016-01-25 10:22:22,633: topic[/clear_screen] removing connection to /android_gingerbread/display_manager
+[rospy.internal][INFO] 2016-01-25 10:22:22,633: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-25 10:22:22,634: topic[/activity] removing connection to /drawing_nao
+[rospy.internal][INFO] 2016-01-25 10:22:22,635: topic[/activity] removing connection to /activity_manager
+[rospy.internal][INFO] 2016-01-25 10:22:22,635: topic[/activity] removing connection to /log
+[rospy.internal][INFO] 2016-01-25 10:22:22,637: topic[/activity] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2016-01-25 10:22:22,637: topic[/activity] removing connection to http://10.0.0.11:48916/
+[rospy.internal][INFO] 2016-01-25 10:22:22,638: topic[/activity] removing connection to http://10.0.0.11:34417/
+[rospy.internal][INFO] 2016-01-25 10:22:22,639: topic[/stop_learning] removing connection to http://10.0.0.11:35048/
+[rospy.internal][WARNING] 2016-01-25 10:22:22,640: Unknown error initiating TCP/IP socket to 10.0.0.11:55621 (http://10.0.0.11:48916/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 365, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2016-01-25 10:22:22,640: topic[/watchdog_clear/tablet] removing connection to http://10.0.0.3:48218/
+[rospy.topics][ERROR] 2016-01-25 10:22:22,642: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 307, in close
+    c.close()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 807, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2016-01-25 10:22:22,642: Interaction exited
+[rospy.internal][WARNING] 2016-01-25 10:22:22,644: Unknown error initiating TCP/IP socket to 10.0.0.3:49414 (http://10.0.0.3:48218/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rosout][INFO] 2016-01-25 10:22:22,970: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:22:23,257: Stopped
+[rospy.core][INFO] 2016-01-25 10:22:23,258: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-25 10:22:35,158: init_node, name[/drawing_nao], pid[8597]
+[xmlrpc][INFO] 2016-01-25 10:22:35,159: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 10:22:35,159: Started XML-RPC server [http://10.0.0.11:44815/]
+[rospy.init][INFO] 2016-01-25 10:22:35,159: ROS Slave URI: [http://10.0.0.11:44815/]
+[rospy.impl.masterslave][INFO] 2016-01-25 10:22:35,159: _ready: http://10.0.0.11:44815/
+[xmlrpc][INFO] 2016-01-25 10:22:35,160: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-25 10:22:35,160: Registering with master node http://10.0.0.11:11311/
+[rospy.init][INFO] 2016-01-25 10:22:35,260: registered with master
+[rospy.rosout][INFO] 2016-01-25 10:22:35,260: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 10:22:35,261: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 10:22:35,262: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2016-01-25 10:22:35,271: Waiting for display manager services to become available
+[rospy.internal][INFO] 2016-01-25 10:22:35,276: topic[/activity] adding connection to [http://10.0.0.11:44815/], count 0
+[rospy.internal][INFO] 2016-01-25 10:22:35,277: topic[/activity] adding connection to [http://10.0.0.11:34053/], count 0
+[rospy.internal][INFO] 2016-01-25 10:22:35,279: topic[/activity] adding connection to [/drawing_nao], count 0
+[rospy.internal][INFO] 2016-01-25 10:22:35,310: topic[/clear_screen] adding connection to [/log], count 0
+[rospy.internal][INFO] 2016-01-25 10:22:35,311: topic[/activity] adding connection to [/log], count 1
+[rospy.internal][INFO] 2016-01-25 10:22:35,316: topic[/activity] adding connection to [/learning_words_nao], count 2
+[rospy.internal][INFO] 2016-01-25 10:22:35,317: topic[/clear_screen] adding connection to [/learning_words_nao], count 1
+[rospy.internal][INFO] 2016-01-25 10:22:35,321: topic[/clear_screen] adding connection to [/trajectory_visualizer], count 2
+[rospy.internal][INFO] 2016-01-25 10:22:35,335: topic[/activity] adding connection to [/activity_manager], count 3
+[rospy.internal][INFO] 2016-01-25 10:22:35,428: topic[/clear_screen] adding connection to [/android_gingerbread/boxes_drawer], count 3
+[rospy.internal][INFO] 2016-01-25 10:22:35,448: topic[/clear_screen] adding connection to [/android_gingerbread/display_manager], count 4
+[rospy.internal][INFO] 2016-01-25 10:22:35,500: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2016-01-25 10:22:37,279: Starting new timer
+[rosout][INFO] 2016-01-25 10:22:37,281: Nao configuration: writing=True, speaking=True (english), standing=False, handedness=right
+[rospy.internal][INFO] 2016-01-25 10:22:37,406: topic[/watchdog_clear/tablet] adding connection to [http://10.0.0.3:48218/], count 0
+[rosout][INFO] 2016-01-25 10:22:39,250: STATE: waiting_for_robot_to_connect
+[rosout][INFO] 2016-01-25 10:22:39,752: STATE: STARTING_INTERACTION
+[rosout][INFO] 2016-01-25 10:22:50,870: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:22:53,319: Re-connection
+[rosout][INFO] 2016-01-25 10:23:16,053: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:23:18,364: Re-connection
+[rospy.internal][INFO] 2016-01-25 10:24:07,426: topic[/stop_learning] adding connection to [http://10.0.0.11:41159/], count 0
+[rosout][INFO] 2016-01-25 10:24:08,347: STATE: STOPPING
+[rospy.core][INFO] 2016-01-25 10:24:08,359: signal_shutdown [Interaction exited]
+[rospy.internal][INFO] 2016-01-25 10:24:08,370: topic[/clear_screen] removing connection to /log
+[rospy.internal][INFO] 2016-01-25 10:24:08,370: topic[/clear_screen] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2016-01-25 10:24:08,371: topic[/clear_screen] removing connection to /trajectory_visualizer
+[rospy.internal][INFO] 2016-01-25 10:24:08,372: topic[/clear_screen] removing connection to /android_gingerbread/boxes_drawer
+[rospy.internal][INFO] 2016-01-25 10:24:08,372: topic[/clear_screen] removing connection to /android_gingerbread/display_manager
+[rospy.internal][INFO] 2016-01-25 10:24:08,372: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-25 10:24:08,373: topic[/activity] removing connection to /drawing_nao
+[rospy.internal][INFO] 2016-01-25 10:24:08,374: topic[/activity] removing connection to /log
+[rospy.internal][INFO] 2016-01-25 10:24:08,374: topic[/activity] removing connection to /learning_words_nao
+[rospy.internal][ERROR] 2016-01-25 10:24:08,375: Unable to initiate TCP/IP socket to 10.0.0.11:56533 (http://10.0.0.11:44815/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2016-01-25 10:24:08,375: topic[/activity] removing connection to /activity_manager
+[rospy.internal][INFO] 2016-01-25 10:24:08,376: topic[/activity] removing connection to http://10.0.0.11:44815/
+[rospy.internal][INFO] 2016-01-25 10:24:08,376: topic[/activity] removing connection to http://10.0.0.11:34053/
+[rospy.internal][INFO] 2016-01-25 10:24:08,376: topic[/stop_learning] removing connection to http://10.0.0.11:41159/
+[rospy.internal][INFO] 2016-01-25 10:24:08,377: topic[/watchdog_clear/tablet] removing connection to http://10.0.0.3:48218/
+[rospy.impl.masterslave][INFO] 2016-01-25 10:24:08,377: Interaction exited
+[rosout][INFO] 2016-01-25 10:24:08,493: Stopped
+[rospy.core][INFO] 2016-01-25 10:24:08,493: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-25 10:26:58,241: init_node, name[/drawing_nao], pid[12839]
+[xmlrpc][INFO] 2016-01-25 10:26:58,242: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 10:26:58,242: Started XML-RPC server [http://10.0.0.11:53815/]
+[rospy.init][INFO] 2016-01-25 10:26:58,242: ROS Slave URI: [http://10.0.0.11:53815/]
+[rospy.impl.masterslave][INFO] 2016-01-25 10:26:58,242: _ready: http://10.0.0.11:53815/
+[xmlrpc][INFO] 2016-01-25 10:26:58,243: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-25 10:26:58,243: Registering with master node http://10.0.0.11:11311/
+[rospy.init][INFO] 2016-01-25 10:26:58,343: registered with master
+[rospy.rosout][INFO] 2016-01-25 10:26:58,343: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 10:26:58,346: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 10:26:58,348: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2016-01-25 10:26:58,398: Waiting for display manager services to become available
+[rospy.internal][INFO] 2016-01-25 10:26:58,409: topic[/activity] adding connection to [http://10.0.0.11:34049/], count 0
+[rospy.internal][INFO] 2016-01-25 10:26:58,409: topic[/activity] adding connection to [http://10.0.0.11:53815/], count 0
+[rospy.internal][INFO] 2016-01-25 10:26:58,413: topic[/clear_screen] adding connection to [/learning_words_nao], count 0
+[rospy.internal][INFO] 2016-01-25 10:26:58,414: topic[/activity] adding connection to [/drawing_nao], count 0
+[rospy.internal][INFO] 2016-01-25 10:26:58,433: topic[/activity] adding connection to [/learning_words_nao], count 1
+[rospy.internal][INFO] 2016-01-25 10:26:58,463: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2016-01-25 10:26:58,489: topic[/activity] adding connection to [/log], count 2
+[rospy.internal][INFO] 2016-01-25 10:26:58,489: topic[/clear_screen] adding connection to [/log], count 1
+[rospy.internal][INFO] 2016-01-25 10:26:58,499: topic[/clear_screen] adding connection to [/trajectory_visualizer], count 2
+[rospy.internal][INFO] 2016-01-25 10:26:58,506: topic[/activity] adding connection to [/activity_manager], count 3
+[rospy.internal][INFO] 2016-01-25 10:26:58,519: topic[/clear_screen] adding connection to [/android_gingerbread/boxes_drawer], count 3
+[rospy.internal][INFO] 2016-01-25 10:26:58,584: topic[/clear_screen] adding connection to [/android_gingerbread/display_manager], count 4
+[rosout][INFO] 2016-01-25 10:27:00,405: Starting new timer
+[rosout][INFO] 2016-01-25 10:27:00,405: Nao configuration: writing=True, speaking=True (english), standing=False, handedness=right
+[rospy.internal][INFO] 2016-01-25 10:27:00,513: topic[/watchdog_clear/tablet] adding connection to [http://10.0.0.3:48218/], count 0
+[rosout][INFO] 2016-01-25 10:27:03,460: STATE: waiting_for_robot_to_connect
+[rosout][INFO] 2016-01-25 10:27:03,961: STATE: STARTING_INTERACTION
+[rosout][INFO] 2016-01-25 10:27:39,340: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:27:41,781: Re-connection
+[rosout][INFO] 2016-01-25 10:28:33,801: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:28:36,220: Re-connection
+[rosout][INFO] 2016-01-25 10:29:36,605: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:29:39,041: Re-connection
+[rosout][INFO] 2016-01-25 10:30:33,219: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:30:35,214: Re-connection
+[rosout][INFO] 2016-01-25 10:31:21,663: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:31:21,671: Re-connection
+[rosout][INFO] 2016-01-25 10:31:27,284: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:31:29,619: Re-connection
+[rosout][INFO] 2016-01-25 10:32:20,584: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:32:22,956: Re-connection
+[rosout][INFO] 2016-01-25 10:33:23,376: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:33:25,708: Re-connection
+[rosout][INFO] 2016-01-25 10:34:33,200: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:34:35,589: Re-connection
+[rosout][INFO] 2016-01-25 10:35:26,096: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:35:28,596: Re-connection
+[rosout][INFO] 2016-01-25 10:36:28,589: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:36:31,047: Re-connection
+[rosout][INFO] 2016-01-25 10:37:16,837: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:37:19,094: Re-connection
+[rosout][INFO] 2016-01-25 10:37:55,760: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:37:58,235: Re-connection
+[rosout][INFO] 2016-01-25 10:39:01,876: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:39:04,325: Re-connection
+[rosout][INFO] 2016-01-25 10:39:41,983: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:39:44,416: Re-connection
+[rosout][INFO] 2016-01-25 10:40:52,229: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:40:54,685: Re-connection
+[rospy.internal][INFO] 2016-01-25 10:41:15,887: topic[/stop_learning] adding connection to [http://10.0.0.11:42456/], count 0
+[rosout][INFO] 2016-01-25 10:41:16,756: STATE: STOPPING
+[rospy.core][INFO] 2016-01-25 10:41:17,023: signal_shutdown [Interaction exited]
+[rospy.internal][INFO] 2016-01-25 10:41:17,028: topic[/clear_screen] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2016-01-25 10:41:17,029: topic[/clear_screen] removing connection to /log
+[rospy.internal][INFO] 2016-01-25 10:41:17,029: topic[/clear_screen] removing connection to /trajectory_visualizer
+[rospy.internal][INFO] 2016-01-25 10:41:17,029: topic[/clear_screen] removing connection to /android_gingerbread/boxes_drawer
+[rospy.internal][INFO] 2016-01-25 10:41:17,030: topic[/clear_screen] removing connection to /android_gingerbread/display_manager
+[rospy.internal][INFO] 2016-01-25 10:41:17,031: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-25 10:41:17,031: topic[/activity] removing connection to /drawing_nao
+[rospy.internal][INFO] 2016-01-25 10:41:17,032: topic[/activity] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2016-01-25 10:41:17,032: topic[/activity] removing connection to /log
+[rospy.internal][ERROR] 2016-01-25 10:41:17,033: Unable to initiate TCP/IP socket to 10.0.0.11:35633 (http://10.0.0.11:53815/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2016-01-25 10:41:17,033: topic[/activity] removing connection to /activity_manager
+[rospy.internal][INFO] 2016-01-25 10:41:17,034: topic[/activity] removing connection to http://10.0.0.11:34049/
+[rospy.internal][WARNING] 2016-01-25 10:41:17,034: Unknown error initiating TCP/IP socket to 10.0.0.11:56453 (http://10.0.0.11:34049/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2016-01-25 10:41:17,034: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 307, in close
+    c.close()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 807, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2016-01-25 10:41:17,034: topic[/activity] removing connection to http://10.0.0.11:53815/
+[rospy.internal][INFO] 2016-01-25 10:41:17,035: topic[/stop_learning] removing connection to http://10.0.0.11:42456/
+[rospy.internal][INFO] 2016-01-25 10:41:17,035: topic[/watchdog_clear/tablet] removing connection to http://10.0.0.3:48218/
+[rospy.impl.masterslave][INFO] 2016-01-25 10:41:17,035: Interaction exited
+[rosout][INFO] 2016-01-25 10:41:17,151: Stopped
+[rospy.core][INFO] 2016-01-25 10:41:17,151: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-25 10:51:29,946: init_node, name[/drawing_nao], pid[8544]
+[xmlrpc][INFO] 2016-01-25 10:51:29,947: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 10:51:29,947: Started XML-RPC server [http://10.0.0.11:33904/]
+[rospy.init][INFO] 2016-01-25 10:51:29,947: ROS Slave URI: [http://10.0.0.11:33904/]
+[rospy.impl.masterslave][INFO] 2016-01-25 10:51:29,947: _ready: http://10.0.0.11:33904/
+[rospy.registration][INFO] 2016-01-25 10:51:29,947: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-25 10:51:29,948: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2016-01-25 10:51:30,047: registered with master
+[rospy.rosout][INFO] 2016-01-25 10:51:30,048: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 10:51:30,050: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 10:51:30,054: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2016-01-25 10:51:30,067: Waiting for display manager services to become available
+[rospy.internal][INFO] 2016-01-25 10:51:30,104: topic[/clear_screen] adding connection to [/log], count 0
+[rospy.internal][INFO] 2016-01-25 10:51:30,113: topic[/activity] adding connection to [/log], count 0
+[rospy.internal][INFO] 2016-01-25 10:51:30,113: topic[/activity] adding connection to [http://10.0.0.11:33649/], count 0
+[rospy.internal][INFO] 2016-01-25 10:51:30,115: topic[/activity] adding connection to [http://10.0.0.11:33904/], count 1
+[rospy.internal][INFO] 2016-01-25 10:51:30,119: topic[/activity] adding connection to [/drawing_nao], count 1
+[rospy.internal][INFO] 2016-01-25 10:51:30,124: topic[/activity] adding connection to [/activity_manager], count 2
+[rospy.internal][INFO] 2016-01-25 10:51:30,128: topic[/activity] adding connection to [/learning_words_nao], count 3
+[rospy.internal][INFO] 2016-01-25 10:51:30,128: topic[/clear_screen] adding connection to [/learning_words_nao], count 1
+[rospy.internal][INFO] 2016-01-25 10:51:30,137: topic[/clear_screen] adding connection to [/trajectory_visualizer], count 2
+[rospy.internal][INFO] 2016-01-25 10:51:30,273: topic[/clear_screen] adding connection to [/android_gingerbread/display_manager], count 3
+[rospy.internal][INFO] 2016-01-25 10:51:30,276: topic[/clear_screen] adding connection to [/android_gingerbread/boxes_drawer], count 4
+[rospy.internal][INFO] 2016-01-25 10:51:30,298: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2016-01-25 10:51:32,074: Starting new timer
+[rosout][INFO] 2016-01-25 10:51:32,074: Nao configuration: writing=True, speaking=True (english), standing=False, handedness=right
+[rospy.internal][INFO] 2016-01-25 10:51:32,235: topic[/watchdog_clear/tablet] adding connection to [http://10.0.0.3:48218/], count 0
+[rosout][INFO] 2016-01-25 10:51:35,442: STATE: waiting_for_robot_to_connect
+[rosout][INFO] 2016-01-25 10:51:35,943: STATE: STARTING_INTERACTION
+[rosout][INFO] 2016-01-25 10:51:59,759: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:52:02,219: Re-connection
+[rosout][INFO] 2016-01-25 10:52:38,771: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:52:41,278: Re-connection
+[rosout][INFO] 2016-01-25 10:53:25,327: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:53:27,734: Re-connection
+[rosout][INFO] 2016-01-25 10:54:05,452: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:54:07,861: Re-connection
+[rosout][INFO] 2016-01-25 10:54:42,372: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:54:44,872: Re-connection
+[rosout][INFO] 2016-01-25 10:55:17,673: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:55:20,154: Re-connection
+[rosout][INFO] 2016-01-25 10:55:57,014: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:55:59,476: Re-connection
+[rosout][INFO] 2016-01-25 10:56:30,318: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:56:32,768: Re-connection
+[rosout][INFO] 2016-01-25 10:57:05,526: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:57:08,000: Re-connection
+[rosout][INFO] 2016-01-25 10:57:42,026: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:57:44,521: Re-connection
+[rosout][INFO] 2016-01-25 10:58:18,634: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:58:21,144: Re-connection
+[rosout][INFO] 2016-01-25 10:58:52,942: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:58:55,346: Re-connection
+[rosout][INFO] 2016-01-25 10:59:27,347: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 10:59:29,812: Re-connection
+[rosout][INFO] 2016-01-25 11:00:04,058: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:00:06,400: Re-connection
+[rosout][INFO] 2016-01-25 11:00:51,394: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:00:53,613: Re-connection
+[rosout][INFO] 2016-01-25 11:01:31,607: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:01:33,824: Re-connection
+[rosout][INFO] 2016-01-25 11:02:17,436: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:02:19,623: Re-connection
+[rosout][INFO] 2016-01-25 11:03:00,863: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:03:03,025: Re-connection
+[rospy.internal][INFO] 2016-01-25 11:03:23,793: topic[/stop_learning] adding connection to [http://10.0.0.11:50211/], count 0
+[rosout][INFO] 2016-01-25 11:03:24,763: STATE: STOPPING
+[rospy.core][INFO] 2016-01-25 11:03:24,804: signal_shutdown [Interaction exited]
+[rospy.internal][INFO] 2016-01-25 11:03:24,816: topic[/clear_screen] removing connection to /log
+[rospy.internal][INFO] 2016-01-25 11:03:24,817: topic[/clear_screen] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2016-01-25 11:03:24,817: topic[/clear_screen] removing connection to /trajectory_visualizer
+[rospy.internal][INFO] 2016-01-25 11:03:24,817: topic[/clear_screen] removing connection to /android_gingerbread/display_manager
+[rospy.internal][INFO] 2016-01-25 11:03:24,818: topic[/clear_screen] removing connection to /android_gingerbread/boxes_drawer
+[rospy.internal][INFO] 2016-01-25 11:03:24,818: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-25 11:03:24,819: topic[/activity] removing connection to /log
+[rospy.internal][INFO] 2016-01-25 11:03:24,819: topic[/activity] removing connection to /drawing_nao
+[rospy.internal][INFO] 2016-01-25 11:03:24,820: topic[/activity] removing connection to /activity_manager
+[rospy.internal][INFO] 2016-01-25 11:03:24,820: topic[/activity] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2016-01-25 11:03:24,820: topic[/activity] removing connection to http://10.0.0.11:33649/
+[rospy.internal][ERROR] 2016-01-25 11:03:24,821: Unable to initiate TCP/IP socket to 10.0.0.11:35085 (http://10.0.0.11:33904/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2016-01-25 11:03:24,821: Unknown error initiating TCP/IP socket to 10.0.0.11:49105 (http://10.0.0.11:33649/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2016-01-25 11:03:24,822: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 307, in close
+    c.close()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 807, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2016-01-25 11:03:24,822: topic[/activity] removing connection to http://10.0.0.11:33904/
+[rospy.internal][INFO] 2016-01-25 11:03:24,822: topic[/stop_learning] removing connection to http://10.0.0.11:50211/
+[rospy.internal][INFO] 2016-01-25 11:03:24,822: topic[/watchdog_clear/tablet] removing connection to http://10.0.0.3:48218/
+[rospy.impl.masterslave][INFO] 2016-01-25 11:03:24,822: Interaction exited
+[rosout][INFO] 2016-01-25 11:03:25,223: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:03:25,463: Stopped
+[rospy.core][INFO] 2016-01-25 11:03:25,464: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-25 11:12:18,182: init_node, name[/drawing_nao], pid[524]
+[xmlrpc][INFO] 2016-01-25 11:12:18,183: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 11:12:18,183: Started XML-RPC server [http://10.0.0.11:47011/]
+[rospy.init][INFO] 2016-01-25 11:12:18,183: ROS Slave URI: [http://10.0.0.11:47011/]
+[rospy.impl.masterslave][INFO] 2016-01-25 11:12:18,183: _ready: http://10.0.0.11:47011/
+[rospy.registration][INFO] 2016-01-25 11:12:18,184: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-25 11:12:18,184: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2016-01-25 11:12:18,284: registered with master
+[rospy.rosout][INFO] 2016-01-25 11:12:18,284: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 11:12:18,285: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 11:12:18,292: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2016-01-25 11:12:18,356: topic[/clear_screen] adding connection to [/log], count 0
+[rospy.internal][INFO] 2016-01-25 11:12:18,363: topic[/activity] adding connection to [/log], count 0
+[rosout][INFO] 2016-01-25 11:12:18,367: Waiting for display manager services to become available
+[rospy.internal][INFO] 2016-01-25 11:12:18,383: topic[/clear_screen] adding connection to [/trajectory_visualizer], count 1
+[rospy.internal][INFO] 2016-01-25 11:12:18,386: topic[/clear_screen] adding connection to [/learning_words_nao], count 2
+[rospy.internal][INFO] 2016-01-25 11:12:18,393: topic[/activity] adding connection to [/learning_words_nao], count 1
+[rospy.internal][INFO] 2016-01-25 11:12:18,400: topic[/activity] adding connection to [http://10.0.0.11:54551/], count 0
+[rospy.internal][INFO] 2016-01-25 11:12:18,416: topic[/activity] adding connection to [http://10.0.0.11:47011/], count 1
+[rospy.internal][INFO] 2016-01-25 11:12:18,417: topic[/activity] adding connection to [/activity_manager], count 2
+[rospy.internal][INFO] 2016-01-25 11:12:18,417: topic[/activity] adding connection to [/drawing_nao], count 3
+[rospy.internal][INFO] 2016-01-25 11:12:18,531: topic[/clear_screen] adding connection to [/android_gingerbread/boxes_drawer], count 3
+[rospy.internal][INFO] 2016-01-25 11:12:18,542: topic[/clear_screen] adding connection to [/android_gingerbread/display_manager], count 4
+[rospy.internal][INFO] 2016-01-25 11:12:18,543: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2016-01-25 11:12:20,382: Starting new timer
+[rosout][INFO] 2016-01-25 11:12:20,383: Nao configuration: writing=True, speaking=True (english), standing=False, handedness=right
+[rospy.internal][INFO] 2016-01-25 11:12:20,498: topic[/watchdog_clear/tablet] adding connection to [http://10.0.0.4:53181/], count 0
+[rosout][INFO] 2016-01-25 11:12:22,709: STATE: waiting_for_robot_to_connect
+[rosout][INFO] 2016-01-25 11:12:23,210: STATE: STARTING_INTERACTION
+[rosout][INFO] 2016-01-25 11:12:56,868: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:12:58,926: Re-connection
+[rosout][INFO] 2016-01-25 11:13:40,294: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:13:42,685: Re-connection
+[rosout][INFO] 2016-01-25 11:14:33,154: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:14:35,509: Re-connection
+[rosout][INFO] 2016-01-25 11:15:20,702: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:15:23,201: Re-connection
+[rosout][INFO] 2016-01-25 11:16:01,052: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:16:03,504: Re-connection
+[rosout][INFO] 2016-01-25 11:16:49,186: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:16:51,375: Re-connection
+[rosout][INFO] 2016-01-25 11:17:20,796: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:17:23,255: Re-connection
+[rosout][INFO] 2016-01-25 11:17:59,813: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:18:02,292: Re-connection
+[rosout][INFO] 2016-01-25 11:18:36,111: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:18:38,518: Re-connection
+[rosout][INFO] 2016-01-25 11:19:09,328: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:19:11,758: Re-connection
+[rosout][INFO] 2016-01-25 11:19:53,955: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:19:56,362: Re-connection
+[rosout][INFO] 2016-01-25 11:20:32,954: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:20:35,457: Re-connection
+[rosout][INFO] 2016-01-25 11:21:08,551: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:21:10,893: Re-connection
+[rosout][INFO] 2016-01-25 11:21:41,841: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:21:44,304: Re-connection
+[rosout][INFO] 2016-01-25 11:22:14,544: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:22:16,961: Re-connection
+[rosout][INFO] 2016-01-25 11:22:54,550: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:22:56,753: Re-connection
+[rosout][INFO] 2016-01-25 11:23:29,543: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:23:31,944: Re-connection
+[rosout][INFO] 2016-01-25 11:24:09,857: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:24:12,301: Re-connection
+[rosout][INFO] 2016-01-25 11:24:40,835: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:24:43,356: Re-connection
+[rospy.internal][INFO] 2016-01-25 11:25:22,468: topic[/stop_learning] adding connection to [http://10.0.0.11:37222/], count 0
+[rosout][INFO] 2016-01-25 11:25:23,244: STATE: STOPPING
+[rospy.core][INFO] 2016-01-25 11:25:23,265: signal_shutdown [Interaction exited]
+[rospy.internal][INFO] 2016-01-25 11:25:23,268: topic[/clear_screen] removing connection to /log
+[rospy.internal][INFO] 2016-01-25 11:25:23,269: topic[/clear_screen] removing connection to /trajectory_visualizer
+[rospy.internal][INFO] 2016-01-25 11:25:23,269: topic[/clear_screen] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2016-01-25 11:25:23,270: topic[/clear_screen] removing connection to /android_gingerbread/boxes_drawer
+[rospy.internal][INFO] 2016-01-25 11:25:23,270: topic[/clear_screen] removing connection to /android_gingerbread/display_manager
+[rospy.internal][INFO] 2016-01-25 11:25:23,271: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-25 11:25:23,271: topic[/activity] removing connection to /log
+[rospy.internal][INFO] 2016-01-25 11:25:23,271: topic[/activity] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2016-01-25 11:25:23,272: topic[/activity] removing connection to /activity_manager
+[rospy.internal][INFO] 2016-01-25 11:25:23,272: topic[/activity] removing connection to /drawing_nao
+[rospy.internal][INFO] 2016-01-25 11:25:23,273: topic[/activity] removing connection to http://10.0.0.11:54551/
+[rospy.internal][INFO] 2016-01-25 11:25:23,273: topic[/activity] removing connection to http://10.0.0.11:47011/
+[rospy.internal][INFO] 2016-01-25 11:25:23,273: topic[/stop_learning] removing connection to http://10.0.0.11:37222/
+[rospy.internal][ERROR] 2016-01-25 11:25:23,273: Unable to initiate TCP/IP socket to 10.0.0.11:54771 (http://10.0.0.11:47011/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2016-01-25 11:25:23,273: Unknown error initiating TCP/IP socket to 10.0.0.11:46770 (http://10.0.0.11:54551/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.internal][INFO] 2016-01-25 11:25:23,274: topic[/watchdog_clear/tablet] removing connection to http://10.0.0.4:53181/
+[rospy.topics][ERROR] 2016-01-25 11:25:23,274: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 307, in close
+    c.close()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 807, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2016-01-25 11:25:23,274: Interaction exited
+[rospy.internal][WARNING] 2016-01-25 11:25:23,303: Unknown error initiating TCP/IP socket to 10.0.0.4:41578 (http://10.0.0.4:53181/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rosout][INFO] 2016-01-25 11:25:23,423: Stopped
+[rospy.core][INFO] 2016-01-25 11:25:23,424: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-25 11:34:37,577: init_node, name[/drawing_nao], pid[27170]
+[xmlrpc][INFO] 2016-01-25 11:34:37,578: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 11:34:37,578: Started XML-RPC server [http://10.0.0.11:58801/]
+[rospy.init][INFO] 2016-01-25 11:34:37,578: ROS Slave URI: [http://10.0.0.11:58801/]
+[rospy.impl.masterslave][INFO] 2016-01-25 11:34:37,578: _ready: http://10.0.0.11:58801/
+[rospy.registration][INFO] 2016-01-25 11:34:37,578: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-25 11:34:37,578: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2016-01-25 11:34:37,678: registered with master
+[rospy.rosout][INFO] 2016-01-25 11:34:37,678: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 11:34:37,680: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 11:34:37,681: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2016-01-25 11:34:37,693: Waiting for display manager services to become available
+[rospy.internal][INFO] 2016-01-25 11:34:37,696: topic[/activity] adding connection to [http://10.0.0.11:58801/], count 0
+[rospy.internal][INFO] 2016-01-25 11:34:37,697: topic[/activity] adding connection to [http://10.0.0.11:52258/], count 0
+[rospy.internal][INFO] 2016-01-25 11:34:37,700: topic[/activity] adding connection to [/drawing_nao], count 0
+[rospy.internal][INFO] 2016-01-25 11:34:37,712: topic[/clear_screen] adding connection to [/trajectory_visualizer], count 0
+[rospy.internal][INFO] 2016-01-25 11:34:37,723: topic[/activity] adding connection to [/learning_words_nao], count 1
+[rospy.internal][INFO] 2016-01-25 11:34:37,723: topic[/clear_screen] adding connection to [/learning_words_nao], count 1
+[rospy.internal][INFO] 2016-01-25 11:34:37,754: topic[/activity] adding connection to [/activity_manager], count 2
+[rospy.internal][INFO] 2016-01-25 11:34:37,758: topic[/activity] adding connection to [/log], count 3
+[rospy.internal][INFO] 2016-01-25 11:34:37,761: topic[/clear_screen] adding connection to [/log], count 2
+[rospy.internal][INFO] 2016-01-25 11:34:37,862: topic[/clear_screen] adding connection to [/android_gingerbread/boxes_drawer], count 3
+[rospy.internal][INFO] 2016-01-25 11:34:37,908: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2016-01-25 11:34:37,923: topic[/clear_screen] adding connection to [/android_gingerbread/display_manager], count 4
+[rosout][INFO] 2016-01-25 11:34:39,700: Starting new timer
+[rosout][INFO] 2016-01-25 11:34:39,702: Nao configuration: writing=True, speaking=True (english), standing=False, handedness=right
+[rospy.internal][INFO] 2016-01-25 11:34:39,803: topic[/watchdog_clear/tablet] adding connection to [http://10.0.0.4:53181/], count 0
+[rosout][INFO] 2016-01-25 11:34:41,865: STATE: waiting_for_robot_to_connect
+[rosout][INFO] 2016-01-25 11:34:42,366: STATE: STARTING_INTERACTION
+[rosout][INFO] 2016-01-25 11:34:58,361: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:35:00,860: Re-connection
+[rosout][INFO] 2016-01-25 11:35:40,384: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:35:42,810: Re-connection
+[rosout][INFO] 2016-01-25 11:36:13,681: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:36:16,099: Re-connection
+[rosout][INFO] 2016-01-25 11:36:59,014: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:37:01,480: Re-connection
+[rosout][INFO] 2016-01-25 11:37:23,695: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:37:26,125: Re-connection
+[rosout][INFO] 2016-01-25 11:37:53,680: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:37:56,197: Re-connection
+[rosout][INFO] 2016-01-25 11:38:31,109: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:38:33,465: Re-connection
+[rosout][INFO] 2016-01-25 11:39:02,999: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:39:05,436: Re-connection
+[rosout][INFO] 2016-01-25 11:39:25,571: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:39:28,046: Re-connection
+[rosout][INFO] 2016-01-25 11:39:53,783: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:39:56,083: Re-connection
+[rosout][INFO] 2016-01-25 11:40:23,555: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:40:25,990: Re-connection
+[rosout][INFO] 2016-01-25 11:40:56,556: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:40:59,006: Re-connection
+[rosout][INFO] 2016-01-25 11:41:20,465: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:41:22,888: Re-connection
+[rosout][INFO] 2016-01-25 11:41:54,247: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:41:56,742: Re-connection
+[rosout][INFO] 2016-01-25 11:42:17,618: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:42:20,087: Re-connection
+[rosout][INFO] 2016-01-25 11:42:49,331: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:42:51,588: Re-connection
+[rosout][INFO] 2016-01-25 11:43:15,407: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:43:17,771: Re-connection
+[rosout][INFO] 2016-01-25 11:43:47,067: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:43:49,535: Re-connection
+[rosout][INFO] 2016-01-25 11:44:09,545: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:44:11,989: Re-connection
+[rosout][INFO] 2016-01-25 11:44:47,058: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:44:49,360: Re-connection
+[rosout][INFO] 2016-01-25 11:45:11,246: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:45:13,483: Re-connection
+[rosout][INFO] 2016-01-25 11:45:53,066: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:45:55,420: Re-connection
+[rosout][INFO] 2016-01-25 11:46:22,284: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:46:24,466: Re-connection
+[rosout][INFO] 2016-01-25 11:47:11,011: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:47:12,716: Re-connection
+[rospy.internal][INFO] 2016-01-25 11:47:28,664: topic[/stop_learning] adding connection to [http://10.0.0.11:40053/], count 0
+[rosout][INFO] 2016-01-25 11:47:29,663: STATE: STOPPING
+[rospy.core][INFO] 2016-01-25 11:47:29,686: signal_shutdown [Interaction exited]
+[rospy.internal][INFO] 2016-01-25 11:47:29,731: topic[/clear_screen] removing connection to /trajectory_visualizer
+[rospy.internal][INFO] 2016-01-25 11:47:29,732: topic[/clear_screen] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2016-01-25 11:47:29,733: topic[/clear_screen] removing connection to /log
+[rospy.internal][INFO] 2016-01-25 11:47:29,734: topic[/clear_screen] removing connection to /android_gingerbread/boxes_drawer
+[rospy.internal][INFO] 2016-01-25 11:47:29,734: topic[/clear_screen] removing connection to /android_gingerbread/display_manager
+[rospy.internal][INFO] 2016-01-25 11:47:29,734: topic[/rosout] removing connection to /rosout
+[rospy.internal][ERROR] 2016-01-25 11:47:29,736: Unable to initiate TCP/IP socket to 10.0.0.11:59122 (http://10.0.0.11:58801/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2016-01-25 11:47:29,736: topic[/activity] removing connection to /drawing_nao
+[rospy.internal][INFO] 2016-01-25 11:47:29,737: topic[/activity] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2016-01-25 11:47:29,737: topic[/activity] removing connection to /activity_manager
+[rospy.internal][INFO] 2016-01-25 11:47:29,738: topic[/activity] removing connection to /log
+[rospy.internal][INFO] 2016-01-25 11:47:29,738: topic[/activity] removing connection to http://10.0.0.11:58801/
+[rospy.internal][INFO] 2016-01-25 11:47:29,739: topic[/activity] removing connection to http://10.0.0.11:52258/
+[rospy.internal][INFO] 2016-01-25 11:47:29,739: topic[/stop_learning] removing connection to http://10.0.0.11:40053/
+[rospy.internal][INFO] 2016-01-25 11:47:29,739: topic[/watchdog_clear/tablet] removing connection to http://10.0.0.4:53181/
+[rospy.impl.masterslave][INFO] 2016-01-25 11:47:29,740: Interaction exited
+[rosout][INFO] 2016-01-25 11:47:30,143: Haven't received a clear on 'watchdog_clear/tablet' topic
+[rosout][INFO] 2016-01-25 11:47:30,383: Stopped
+[rospy.core][INFO] 2016-01-25 11:47:30,384: signal_shutdown [atexit]

@@ -1,0 +1,199 @@
+[rospy.client][INFO] 2016-01-25 09:40:57,555: init_node, name[/joke_nao], pid[8014]
+[xmlrpc][INFO] 2016-01-25 09:40:57,555: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 09:40:57,556: Started XML-RPC server [http://10.0.0.11:45684/]
+[rospy.init][INFO] 2016-01-25 09:40:57,556: ROS Slave URI: [http://10.0.0.11:45684/]
+[rospy.impl.masterslave][INFO] 2016-01-25 09:40:57,556: _ready: http://10.0.0.11:45684/
+[rospy.registration][INFO] 2016-01-25 09:40:57,556: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-25 09:40:57,556: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2016-01-25 09:40:57,656: registered with master
+[rospy.rosout][INFO] 2016-01-25 09:40:57,656: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 09:40:57,658: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 09:40:57,659: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.core][INFO] 2016-01-25 09:40:58,361: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2016-01-25 09:40:58,365: atexit
+[rospy.client][INFO] 2016-01-25 09:48:25,614: init_node, name[/joke_nao], pid[9910]
+[xmlrpc][INFO] 2016-01-25 09:48:25,614: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 09:48:25,615: Started XML-RPC server [http://10.0.0.11:50413/]
+[rospy.init][INFO] 2016-01-25 09:48:25,615: ROS Slave URI: [http://10.0.0.11:50413/]
+[rospy.impl.masterslave][INFO] 2016-01-25 09:48:25,615: _ready: http://10.0.0.11:50413/
+[xmlrpc][INFO] 2016-01-25 09:48:25,615: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-25 09:48:25,615: Registering with master node http://10.0.0.11:11311/
+[rospy.init][INFO] 2016-01-25 09:48:25,715: registered with master
+[rospy.rosout][INFO] 2016-01-25 09:48:25,715: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 09:48:25,717: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 09:48:25,718: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.core][INFO] 2016-01-25 09:48:25,998: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2016-01-25 09:48:26,000: atexit
+[rospy.client][INFO] 2016-01-25 09:51:22,213: init_node, name[/joke_nao], pid[13815]
+[xmlrpc][INFO] 2016-01-25 09:51:22,213: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 09:51:22,214: Started XML-RPC server [http://10.0.0.11:34866/]
+[rospy.init][INFO] 2016-01-25 09:51:22,214: ROS Slave URI: [http://10.0.0.11:34866/]
+[rospy.impl.masterslave][INFO] 2016-01-25 09:51:22,214: _ready: http://10.0.0.11:34866/
+[rospy.registration][INFO] 2016-01-25 09:51:22,214: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-25 09:51:22,215: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2016-01-25 09:51:22,314: registered with master
+[rospy.rosout][INFO] 2016-01-25 09:51:22,314: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 09:51:22,316: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 09:51:22,317: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.core][INFO] 2016-01-25 09:51:22,899: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2016-01-25 09:51:22,902: atexit
+[rospy.client][INFO] 2016-01-25 09:55:32,005: init_node, name[/joke_nao], pid[20832]
+[xmlrpc][INFO] 2016-01-25 09:55:32,005: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 09:55:32,006: Started XML-RPC server [http://10.0.0.11:41195/]
+[rospy.init][INFO] 2016-01-25 09:55:32,006: ROS Slave URI: [http://10.0.0.11:41195/]
+[rospy.impl.masterslave][INFO] 2016-01-25 09:55:32,006: _ready: http://10.0.0.11:41195/
+[rospy.registration][INFO] 2016-01-25 09:55:32,006: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-25 09:55:32,006: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2016-01-25 09:55:32,106: registered with master
+[rospy.rosout][INFO] 2016-01-25 09:55:32,106: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 09:55:32,108: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 09:55:32,109: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.core][INFO] 2016-01-25 09:55:32,706: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2016-01-25 09:55:32,708: atexit
+[rospy.client][INFO] 2016-01-25 10:00:31,141: init_node, name[/joke_nao], pid[29778]
+[xmlrpc][INFO] 2016-01-25 10:00:31,142: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 10:00:31,144: Started XML-RPC server [http://10.0.0.11:37563/]
+[rospy.init][INFO] 2016-01-25 10:00:31,144: ROS Slave URI: [http://10.0.0.11:37563/]
+[rospy.impl.masterslave][INFO] 2016-01-25 10:00:31,144: _ready: http://10.0.0.11:37563/
+[rospy.registration][INFO] 2016-01-25 10:00:31,144: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-25 10:00:31,144: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2016-01-25 10:00:31,244: registered with master
+[rospy.rosout][INFO] 2016-01-25 10:00:31,244: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 10:00:31,246: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 10:00:31,247: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.core][INFO] 2016-01-25 10:00:32,079: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2016-01-25 10:00:32,082: atexit
+[rospy.client][INFO] 2016-01-25 10:03:53,119: init_node, name[/joke_nao], pid[4724]
+[xmlrpc][INFO] 2016-01-25 10:03:53,135: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 10:03:53,136: Started XML-RPC server [http://10.0.0.11:47201/]
+[rospy.impl.masterslave][INFO] 2016-01-25 10:03:53,136: _ready: http://10.0.0.11:47201/
+[rospy.init][INFO] 2016-01-25 10:03:53,136: ROS Slave URI: [http://10.0.0.11:47201/]
+[xmlrpc][INFO] 2016-01-25 10:03:53,141: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-25 10:03:53,142: Registering with master node http://10.0.0.11:11311/
+[rospy.init][INFO] 2016-01-25 10:03:53,236: registered with master
+[rospy.rosout][INFO] 2016-01-25 10:03:53,236: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 10:03:53,238: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 10:03:53,239: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.core][INFO] 2016-01-25 10:03:54,071: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2016-01-25 10:03:54,074: atexit
+[rospy.client][INFO] 2016-01-25 10:07:17,909: init_node, name[/joke_nao], pid[11970]
+[xmlrpc][INFO] 2016-01-25 10:07:17,909: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 10:07:17,910: Started XML-RPC server [http://10.0.0.11:60372/]
+[rospy.init][INFO] 2016-01-25 10:07:17,910: ROS Slave URI: [http://10.0.0.11:60372/]
+[rospy.impl.masterslave][INFO] 2016-01-25 10:07:17,910: _ready: http://10.0.0.11:60372/
+[rospy.registration][INFO] 2016-01-25 10:07:17,911: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-25 10:07:17,911: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2016-01-25 10:07:18,010: registered with master
+[rospy.rosout][INFO] 2016-01-25 10:07:18,010: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 10:07:18,018: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 10:07:18,019: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.core][INFO] 2016-01-25 10:07:18,582: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2016-01-25 10:07:18,585: atexit
+[rospy.client][INFO] 2016-01-25 10:09:33,278: init_node, name[/joke_nao], pid[16269]
+[xmlrpc][INFO] 2016-01-25 10:09:33,278: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2016-01-25 10:09:33,279: ROS Slave URI: [http://10.0.0.11:43628/]
+[xmlrpc][INFO] 2016-01-25 10:09:33,279: Started XML-RPC server [http://10.0.0.11:43628/]
+[rospy.impl.masterslave][INFO] 2016-01-25 10:09:33,280: _ready: http://10.0.0.11:43628/
+[xmlrpc][INFO] 2016-01-25 10:09:33,295: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-25 10:09:33,295: Registering with master node http://10.0.0.11:11311/
+[rospy.init][INFO] 2016-01-25 10:09:33,379: registered with master
+[rospy.rosout][INFO] 2016-01-25 10:09:33,379: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 10:09:33,386: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 10:09:33,396: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2016-01-25 10:09:34,173: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2016-01-25 10:09:34,176: signal_shutdown [atexit]
+[rospy.internal][INFO] 2016-01-25 10:09:34,180: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2016-01-25 10:09:34,180: atexit
+[rospy.client][INFO] 2016-01-25 10:15:17,733: init_node, name[/joke_nao], pid[27100]
+[xmlrpc][INFO] 2016-01-25 10:15:17,733: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 10:15:17,733: Started XML-RPC server [http://10.0.0.11:42125/]
+[rospy.init][INFO] 2016-01-25 10:15:17,734: ROS Slave URI: [http://10.0.0.11:42125/]
+[rospy.impl.masterslave][INFO] 2016-01-25 10:15:17,734: _ready: http://10.0.0.11:42125/
+[rospy.registration][INFO] 2016-01-25 10:15:17,735: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-25 10:15:17,735: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2016-01-25 10:15:17,835: registered with master
+[rospy.rosout][INFO] 2016-01-25 10:15:17,835: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 10:15:17,836: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 10:15:17,841: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.core][INFO] 2016-01-25 10:15:18,508: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2016-01-25 10:15:18,512: atexit
+[rospy.client][INFO] 2016-01-25 10:18:26,928: init_node, name[/joke_nao], pid[562]
+[xmlrpc][INFO] 2016-01-25 10:18:26,928: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 10:18:26,929: Started XML-RPC server [http://10.0.0.11:46147/]
+[rospy.init][INFO] 2016-01-25 10:18:26,929: ROS Slave URI: [http://10.0.0.11:46147/]
+[rospy.impl.masterslave][INFO] 2016-01-25 10:18:26,929: _ready: http://10.0.0.11:46147/
+[xmlrpc][INFO] 2016-01-25 10:18:26,929: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-25 10:18:26,929: Registering with master node http://10.0.0.11:11311/
+[rospy.init][INFO] 2016-01-25 10:18:27,029: registered with master
+[rospy.rosout][INFO] 2016-01-25 10:18:27,030: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 10:18:27,033: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 10:18:27,035: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2016-01-25 10:18:27,743: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2016-01-25 10:18:27,746: signal_shutdown [atexit]
+[rospy.internal][INFO] 2016-01-25 10:18:27,749: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2016-01-25 10:18:27,749: atexit
+[rospy.client][INFO] 2016-01-25 10:22:34,303: init_node, name[/joke_nao], pid[8598]
+[xmlrpc][INFO] 2016-01-25 10:22:34,303: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 10:22:34,303: Started XML-RPC server [http://10.0.0.11:37432/]
+[rospy.init][INFO] 2016-01-25 10:22:34,303: ROS Slave URI: [http://10.0.0.11:37432/]
+[rospy.impl.masterslave][INFO] 2016-01-25 10:22:34,303: _ready: http://10.0.0.11:37432/
+[rospy.registration][INFO] 2016-01-25 10:22:34,304: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-25 10:22:34,304: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2016-01-25 10:22:34,404: registered with master
+[rospy.rosout][INFO] 2016-01-25 10:22:34,404: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 10:22:34,406: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 10:22:34,407: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.core][INFO] 2016-01-25 10:22:35,038: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2016-01-25 10:22:35,040: atexit
+[rospy.client][INFO] 2016-01-25 10:26:57,493: init_node, name[/joke_nao], pid[12841]
+[xmlrpc][INFO] 2016-01-25 10:26:57,496: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2016-01-25 10:26:57,497: ROS Slave URI: [http://10.0.0.11:58192/]
+[xmlrpc][INFO] 2016-01-25 10:26:57,497: Started XML-RPC server [http://10.0.0.11:58192/]
+[rospy.impl.masterslave][INFO] 2016-01-25 10:26:57,497: _ready: http://10.0.0.11:58192/
+[rospy.registration][INFO] 2016-01-25 10:26:57,499: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-25 10:26:57,499: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2016-01-25 10:26:57,597: registered with master
+[rospy.rosout][INFO] 2016-01-25 10:26:57,597: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 10:26:57,608: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 10:26:57,612: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.core][INFO] 2016-01-25 10:26:58,140: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2016-01-25 10:26:58,142: atexit
+[rospy.client][INFO] 2016-01-25 10:51:29,379: init_node, name[/joke_nao], pid[8545]
+[xmlrpc][INFO] 2016-01-25 10:51:29,379: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 10:51:29,380: Started XML-RPC server [http://10.0.0.11:59875/]
+[rospy.init][INFO] 2016-01-25 10:51:29,380: ROS Slave URI: [http://10.0.0.11:59875/]
+[rospy.impl.masterslave][INFO] 2016-01-25 10:51:29,380: _ready: http://10.0.0.11:59875/
+[xmlrpc][INFO] 2016-01-25 10:51:29,380: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-25 10:51:29,381: Registering with master node http://10.0.0.11:11311/
+[rospy.init][INFO] 2016-01-25 10:51:29,480: registered with master
+[rospy.rosout][INFO] 2016-01-25 10:51:29,480: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 10:51:29,482: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 10:51:29,483: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.core][INFO] 2016-01-25 10:51:29,892: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2016-01-25 10:51:29,895: atexit
+[rospy.client][INFO] 2016-01-25 11:12:17,484: init_node, name[/joke_nao], pid[525]
+[xmlrpc][INFO] 2016-01-25 11:12:17,484: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 11:12:17,485: Started XML-RPC server [http://10.0.0.11:54138/]
+[rospy.init][INFO] 2016-01-25 11:12:17,485: ROS Slave URI: [http://10.0.0.11:54138/]
+[rospy.impl.masterslave][INFO] 2016-01-25 11:12:17,485: _ready: http://10.0.0.11:54138/
+[rospy.registration][INFO] 2016-01-25 11:12:17,485: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-25 11:12:17,485: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2016-01-25 11:12:17,585: registered with master
+[rospy.rosout][INFO] 2016-01-25 11:12:17,585: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 11:12:17,587: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 11:12:17,588: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.core][INFO] 2016-01-25 11:12:18,081: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2016-01-25 11:12:18,084: atexit
+[rospy.client][INFO] 2016-01-25 11:34:36,943: init_node, name[/joke_nao], pid[27173]
+[xmlrpc][INFO] 2016-01-25 11:34:36,944: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 11:34:36,945: Started XML-RPC server [http://10.0.0.11:59548/]
+[rospy.init][INFO] 2016-01-25 11:34:36,945: ROS Slave URI: [http://10.0.0.11:59548/]
+[rospy.impl.masterslave][INFO] 2016-01-25 11:34:36,945: _ready: http://10.0.0.11:59548/
+[rospy.registration][INFO] 2016-01-25 11:34:36,946: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-25 11:34:36,946: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2016-01-25 11:34:37,045: registered with master
+[rospy.rosout][INFO] 2016-01-25 11:34:37,045: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 11:34:37,047: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 11:34:37,048: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.core][INFO] 2016-01-25 11:34:37,536: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2016-01-25 11:34:37,538: atexit

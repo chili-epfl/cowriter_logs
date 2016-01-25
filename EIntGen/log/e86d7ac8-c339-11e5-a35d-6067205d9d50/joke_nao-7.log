@@ -1,0 +1,28 @@
+[rospy.client][INFO] 2016-01-25 09:14:53,758: init_node, name[/joke_nao], pid[11256]
+[xmlrpc][INFO] 2016-01-25 09:14:53,758: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 09:14:53,759: Started XML-RPC server [http://10.0.0.11:52705/]
+[rospy.impl.masterslave][INFO] 2016-01-25 09:14:53,759: _ready: http://10.0.0.11:52705/
+[xmlrpc][INFO] 2016-01-25 09:14:53,759: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-25 09:14:53,760: Registering with master node http://10.0.0.11:11311/
+[rospy.init][INFO] 2016-01-25 09:14:53,761: ROS Slave URI: [http://10.0.0.11:52705/]
+[rospy.init][INFO] 2016-01-25 09:14:53,761: registered with master
+[rospy.rosout][INFO] 2016-01-25 09:14:53,761: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 09:14:53,763: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 09:14:53,766: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.core][INFO] 2016-01-25 09:14:53,785: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2016-01-25 09:14:53,787: atexit
+[rospy.client][INFO] 2016-01-25 09:15:45,252: init_node, name[/joke_nao], pid[11994]
+[xmlrpc][INFO] 2016-01-25 09:15:45,252: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2016-01-25 09:15:45,253: ROS Slave URI: [http://10.0.0.11:42585/]
+[xmlrpc][INFO] 2016-01-25 09:15:45,253: Started XML-RPC server [http://10.0.0.11:42585/]
+[rospy.impl.masterslave][INFO] 2016-01-25 09:15:45,253: _ready: http://10.0.0.11:42585/
+[xmlrpc][INFO] 2016-01-25 09:15:45,254: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-25 09:15:45,254: Registering with master node http://10.0.0.11:11311/
+[rospy.init][INFO] 2016-01-25 09:15:45,353: registered with master
+[rospy.rosout][INFO] 2016-01-25 09:15:45,353: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 09:15:45,355: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 09:15:45,357: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2016-01-25 09:15:46,163: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2016-01-25 09:15:46,165: signal_shutdown [atexit]
+[rospy.internal][INFO] 2016-01-25 09:15:46,168: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2016-01-25 09:15:46,168: atexit

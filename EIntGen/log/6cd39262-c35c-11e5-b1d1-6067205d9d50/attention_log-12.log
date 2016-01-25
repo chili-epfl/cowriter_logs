@@ -1,0 +1,159 @@
+[rospy.client][INFO] 2016-01-25 13:18:39,534: init_node, name[/attention_log], pid[22517]
+[xmlrpc][INFO] 2016-01-25 13:18:39,534: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 13:18:39,534: Started XML-RPC server [http://10.0.0.11:44986/]
+[rospy.init][INFO] 2016-01-25 13:18:39,535: ROS Slave URI: [http://10.0.0.11:44986/]
+[rospy.impl.masterslave][INFO] 2016-01-25 13:18:39,535: _ready: http://10.0.0.11:44986/
+[rospy.registration][INFO] 2016-01-25 13:18:39,535: Registering with master node http://10.0.0.11:11311/
+[rospy.registration][INFO] 2016-01-25 13:18:39,535: registering subscriber topic [/actual_focus_of_attention] type [std_msgs/String] with master
+[xmlrpc][INFO] 2016-01-25 13:18:39,535: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-25 13:18:39,537: registering subscriber topic [/new_child] type [std_msgs/String] with master
+[rospy.registration][INFO] 2016-01-25 13:18:39,538: registering subscriber topic [/withmeness_topic] type [std_msgs/Float64] with master
+[rospy.internal][INFO] 2016-01-25 13:18:39,542: topic[/actual_focus_of_attention] adding connection to [http://10.0.0.11:42794/], count 0
+[rospy.internal][INFO] 2016-01-25 13:18:39,548: topic[/withmeness_topic] adding connection to [http://10.0.0.11:38976/], count 0
+[rospy.init][INFO] 2016-01-25 13:18:39,635: registered with master
+[rospy.rosout][INFO] 2016-01-25 13:18:39,635: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 13:18:39,637: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 13:18:39,639: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2016-01-25 13:18:39,919: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2016-01-25 13:20:37,105: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2016-01-25 13:20:37,109: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-25 13:20:37,109: topic[/actual_focus_of_attention] removing connection to http://10.0.0.11:42794/
+[rospy.topics][ERROR] 2016-01-25 13:20:37,110: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 307, in close
+    c.close()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 807, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2016-01-25 13:20:37,110: topic[/withmeness_topic] removing connection to http://10.0.0.11:38976/
+[rospy.impl.masterslave][INFO] 2016-01-25 13:20:37,110: signal-2
+[rospy.internal][WARNING] 2016-01-25 13:20:37,110: Unknown error initiating TCP/IP socket to 10.0.0.11:57679 (http://10.0.0.11:42794/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.core][INFO] 2016-01-25 13:20:37,226: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-25 13:53:56,182: init_node, name[/attention_log], pid[23835]
+[xmlrpc][INFO] 2016-01-25 13:53:56,183: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 13:53:56,183: Started XML-RPC server [http://10.0.0.11:58995/]
+[rospy.init][INFO] 2016-01-25 13:53:56,183: ROS Slave URI: [http://10.0.0.11:58995/]
+[rospy.impl.masterslave][INFO] 2016-01-25 13:53:56,183: _ready: http://10.0.0.11:58995/
+[rospy.registration][INFO] 2016-01-25 13:53:56,184: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-25 13:53:56,184: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-25 13:53:56,184: registering subscriber topic [/actual_focus_of_attention] type [std_msgs/String] with master
+[rospy.registration][INFO] 2016-01-25 13:53:56,186: registering subscriber topic [/new_child] type [std_msgs/String] with master
+[rospy.registration][INFO] 2016-01-25 13:53:56,187: registering subscriber topic [/withmeness_topic] type [std_msgs/Float64] with master
+[rospy.internal][INFO] 2016-01-25 13:53:56,191: topic[/actual_focus_of_attention] adding connection to [http://10.0.0.11:46637/], count 0
+[rospy.internal][INFO] 2016-01-25 13:53:56,193: topic[/withmeness_topic] adding connection to [http://10.0.0.11:33180/], count 0
+[rospy.init][INFO] 2016-01-25 13:53:56,284: registered with master
+[rospy.rosout][INFO] 2016-01-25 13:53:56,284: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 13:53:56,286: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 13:53:56,287: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2016-01-25 13:53:56,558: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2016-01-25 13:54:02,073: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2016-01-25 13:54:02,079: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-25 13:54:02,080: topic[/actual_focus_of_attention] removing connection to http://10.0.0.11:46637/
+[rospy.internal][INFO] 2016-01-25 13:54:02,080: topic[/withmeness_topic] removing connection to http://10.0.0.11:33180/
+[rospy.impl.masterslave][INFO] 2016-01-25 13:54:02,080: signal-2
+[rospy.internal][WARNING] 2016-01-25 13:54:02,081: Unknown error initiating TCP/IP socket to 10.0.0.11:36256 (http://10.0.0.11:33180/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 556, in connect
+    self.write_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 607, in write_header
+    self.stat_bytes += write_ros_handshake_header(sock, protocol.get_header_fields())
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 419, in write_ros_handshake_header
+    sock.sendall(s)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 32] Broken pipe
+
+[rospy.core][INFO] 2016-01-25 13:54:02,212: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-25 13:54:32,966: init_node, name[/attention_log], pid[24199]
+[xmlrpc][INFO] 2016-01-25 13:54:32,966: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 13:54:32,967: Started XML-RPC server [http://10.0.0.11:50648/]
+[rospy.init][INFO] 2016-01-25 13:54:32,967: ROS Slave URI: [http://10.0.0.11:50648/]
+[rospy.impl.masterslave][INFO] 2016-01-25 13:54:32,967: _ready: http://10.0.0.11:50648/
+[rospy.registration][INFO] 2016-01-25 13:54:32,967: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-25 13:54:32,967: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-25 13:54:32,967: registering subscriber topic [/actual_focus_of_attention] type [std_msgs/String] with master
+[rospy.registration][INFO] 2016-01-25 13:54:32,969: registering subscriber topic [/new_child] type [std_msgs/String] with master
+[rospy.registration][INFO] 2016-01-25 13:54:32,970: registering subscriber topic [/withmeness_topic] type [std_msgs/Float64] with master
+[rospy.internal][INFO] 2016-01-25 13:54:32,971: topic[/actual_focus_of_attention] adding connection to [http://10.0.0.11:47884/], count 0
+[rospy.internal][INFO] 2016-01-25 13:54:33,036: topic[/withmeness_topic] adding connection to [http://10.0.0.11:49799/], count 0
+[rospy.init][INFO] 2016-01-25 13:54:33,067: registered with master
+[rospy.rosout][INFO] 2016-01-25 13:54:33,067: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 13:54:33,069: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 13:54:33,070: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2016-01-25 13:54:33,320: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2016-01-25 14:10:07,409: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2016-01-25 14:10:07,414: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-25 14:10:07,414: topic[/actual_focus_of_attention] removing connection to http://10.0.0.11:47884/
+[rospy.internal][WARNING] 2016-01-25 14:10:07,415: Unknown error initiating TCP/IP socket to 10.0.0.11:54296 (http://10.0.0.11:47884/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2016-01-25 14:10:07,415: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 307, in close
+    c.close()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 807, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2016-01-25 14:10:07,415: topic[/withmeness_topic] removing connection to http://10.0.0.11:49799/
+[rospy.impl.masterslave][INFO] 2016-01-25 14:10:07,416: signal-2
+[rospy.core][INFO] 2016-01-25 14:10:07,584: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-25 14:14:00,903: init_node, name[/attention_log], pid[18675]
+[xmlrpc][INFO] 2016-01-25 14:14:00,904: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 14:14:00,904: Started XML-RPC server [http://10.0.0.11:36492/]
+[rospy.init][INFO] 2016-01-25 14:14:00,905: ROS Slave URI: [http://10.0.0.11:36492/]
+[rospy.impl.masterslave][INFO] 2016-01-25 14:14:00,905: _ready: http://10.0.0.11:36492/
+[rospy.registration][INFO] 2016-01-25 14:14:00,905: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-25 14:14:00,905: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-25 14:14:00,905: registering subscriber topic [/actual_focus_of_attention] type [std_msgs/String] with master
+[rospy.registration][INFO] 2016-01-25 14:14:00,907: registering subscriber topic [/new_child] type [std_msgs/String] with master
+[rospy.registration][INFO] 2016-01-25 14:14:00,908: registering subscriber topic [/withmeness_topic] type [std_msgs/Float64] with master
+[rospy.internal][INFO] 2016-01-25 14:14:00,911: topic[/withmeness_topic] adding connection to [http://10.0.0.11:54084/], count 0
+[rospy.internal][INFO] 2016-01-25 14:14:00,912: topic[/actual_focus_of_attention] adding connection to [http://10.0.0.11:45003/], count 0
+[rospy.init][INFO] 2016-01-25 14:14:01,005: registered with master
+[rospy.rosout][INFO] 2016-01-25 14:14:01,005: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 14:14:01,007: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 14:14:01,008: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2016-01-25 14:14:01,258: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2016-01-25 14:28:28,468: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2016-01-25 14:28:28,475: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-25 14:28:28,475: topic[/actual_focus_of_attention] removing connection to http://10.0.0.11:45003/
+[rospy.internal][INFO] 2016-01-25 14:28:28,475: topic[/withmeness_topic] removing connection to http://10.0.0.11:54084/
+[rospy.impl.masterslave][INFO] 2016-01-25 14:28:28,476: signal-2
+[rospy.core][INFO] 2016-01-25 14:28:28,591: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-25 14:29:05,098: init_node, name[/attention_log], pid[12990]
+[xmlrpc][INFO] 2016-01-25 14:29:05,098: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 14:29:05,099: Started XML-RPC server [http://10.0.0.11:46660/]
+[rospy.init][INFO] 2016-01-25 14:29:05,099: ROS Slave URI: [http://10.0.0.11:46660/]
+[rospy.impl.masterslave][INFO] 2016-01-25 14:29:05,099: _ready: http://10.0.0.11:46660/
+[rospy.registration][INFO] 2016-01-25 14:29:05,099: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-25 14:29:05,099: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-25 14:29:05,099: registering subscriber topic [/actual_focus_of_attention] type [std_msgs/String] with master
+[rospy.registration][INFO] 2016-01-25 14:29:05,102: registering subscriber topic [/new_child] type [std_msgs/String] with master
+[rospy.registration][INFO] 2016-01-25 14:29:05,103: registering subscriber topic [/withmeness_topic] type [std_msgs/Float64] with master
+[rospy.internal][INFO] 2016-01-25 14:29:05,105: topic[/actual_focus_of_attention] adding connection to [http://10.0.0.11:43892/], count 0
+[rospy.init][INFO] 2016-01-25 14:29:05,199: registered with master
+[rospy.rosout][INFO] 2016-01-25 14:29:05,199: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-25 14:29:05,201: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-25 14:29:05,202: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2016-01-25 14:29:05,321: topic[/withmeness_topic] adding connection to [http://10.0.0.11:37431/], count 0
+[rospy.internal][INFO] 2016-01-25 14:29:05,502: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2016-01-25 14:43:57,865: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2016-01-25 14:43:57,872: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-25 14:43:57,873: topic[/actual_focus_of_attention] removing connection to http://10.0.0.11:43892/
+[rospy.internal][INFO] 2016-01-25 14:43:57,873: topic[/withmeness_topic] removing connection to http://10.0.0.11:37431/
+[rospy.impl.masterslave][INFO] 2016-01-25 14:43:57,873: signal-2
+[rospy.internal][WARNING] 2016-01-25 14:43:57,873: Unknown error initiating TCP/IP socket to 10.0.0.11:38227 (http://10.0.0.11:43892/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2016-01-25 14:43:58,043: signal_shutdown [atexit]

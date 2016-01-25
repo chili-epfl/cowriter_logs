@@ -1,0 +1,54 @@
+[I] 12492 qimessaging.session: Session listener created on tcp://0.0.0.0:0
+[I] 12492 qimessaging.transportserver: TransportServer will listen on: tcp://172.17.0.1:60950
+[I] 12492 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:60950
+[I] 12492 qimessaging.transportserver: TransportServer will listen on: tcp://10.0.0.11:60950
+[INFO] [WallTime: 1453728545.077447] Waiting for display manager services to become available
+[INFO] [WallTime: 1453728547.098839] Starting new timer
+[INFO] [WallTime: 1453728547.099289] Nao configuration: writing=True, speaking=True (english), standing=False, handedness=right
+inaoqi-broker: construct at 0.0.0.0:0, parent : 10.0.0.2:9559
+[I] 12492 qimessaging.session: Session listener created on tcp://0.0.0.0:0
+[I] 12492 qimessaging.transportserver: TransportServer will listen on: tcp://172.17.0.1:42215
+[I] 12492 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:42215
+[I] 12492 qimessaging.transportserver: TransportServer will listen on: tcp://10.0.0.11:42215
+[INFO] [WallTime: 1453728549.140447] STATE: waiting_for_robot_to_connect
+[INFO] [WallTime: 1453728549.641380] STATE: STARTING_INTERACTION
+[INFO] [WallTime: 1453728577.956658] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453728580.131416] Re-connection
+[INFO] [WallTime: 1453728664.751814] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453728667.062841] Re-connection
+[INFO] [WallTime: 1453728714.358129] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453728716.783903] Re-connection
+[INFO] [WallTime: 1453728766.464327] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453728768.540159] Re-connection
+[INFO] [WallTime: 1453728813.804774] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453728813.881090] Re-connection
+[INFO] [WallTime: 1453728819.205630] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453728821.423827] Re-connection
+[INFO] [WallTime: 1453728868.751759] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453728868.769361] Re-connection
+[INFO] [WallTime: 1453728874.044135] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453728876.461451] Re-connection
+[INFO] [WallTime: 1453728918.787740] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453728921.181929] Re-connection
+[INFO] [WallTime: 1453728969.340803] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453728971.772730] Re-connection
+[INFO] [WallTime: 1453728996.264108] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453728998.681993] Re-connection
+[INFO] [WallTime: 1453729045.176423] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453729047.564034] Re-connection
+[INFO] [WallTime: 1453729089.743766] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453729092.109501] Re-connection
+[INFO] [WallTime: 1453729140.655558] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453729143.050526] Re-connection
+[INFO] [WallTime: 1453729186.704026] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453729189.023848] Re-connection
+[INFO] [WallTime: 1453729241.472497] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453729243.892248] Re-connection
+[INFO] [WallTime: 1453729283.488309] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453729285.904589] Re-connection
+[INFO] [WallTime: 1453729325.423625] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453729327.823894] Re-connection
+[INFO] [WallTime: 1453729361.824830] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453729364.089151] Re-connection
+[INFO] [WallTime: 1453729379.264866] STATE: STOPPING
+[INFO] [WallTime: 1453729379.663984] Stopped

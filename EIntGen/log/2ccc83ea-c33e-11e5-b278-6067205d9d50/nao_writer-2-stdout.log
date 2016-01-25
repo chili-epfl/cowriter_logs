@@ -1,0 +1,92 @@
+inaoqi-broker: construct at 0.0.0.0:0, parent : 10.0.0.2:9559
+[I] 27156 qimessaging.session: Session listener created on tcp://0.0.0.0:0
+[I] 27156 qimessaging.transportserver: TransportServer will listen on: tcp://172.17.0.1:51509
+[I] 27156 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:51509
+[I] 27156 qimessaging.transportserver: TransportServer will listen on: tcp://10.0.0.11:51509
+[W] 27156 qitype.metaobject: Method(113) already defined (and overriden): BIND_PYTHON::(m)
+[W] 27156 qitype.metaobject: Method(114) already defined (and overriden): addParam::(m)
+[W] 27156 qitype.metaobject: Method(115) already defined (and overriden): autoBind::(m)
+[W] 27156 qitype.metaobject: Method(100) already defined (and overriden): exit::()
+[W] 27156 qitype.metaobject: Method(116) already defined (and overriden): functionName::(m)
+[W] 27156 qitype.metaobject: Method(111) already defined (and overriden): getBrokerName::()
+[W] 27156 qitype.metaobject: Method(117) already defined (and overriden): getModule::(m)
+[W] 27156 qitype.metaobject: Method(119) already defined (and overriden): has_fallen::(m)
+[W] 27156 qitype.metaobject: Method(121) already defined (and overriden): pythonChanged::(mmm)
+[W] 27156 qitype.metaobject: Method(121) already defined (and overriden): pythonChanged::(mmm)
+[W] 27156 qitype.metaobject: Method(121) already defined (and overriden): pythonChanged::(mmm)
+[W] 27156 qitype.metaobject: Method(123) already defined (and overriden): setModuleDescription::(m)
+[W] 27156 qitype.metaobject: Method(103) already defined (and overriden): version::()
+[INFO] [WallTime: 1453718077.577481] Subscribed to robotHasFallen event
+[INFO] [WallTime: 1453718097.820450] got traj at 1453718097820368051
+[INFO] [WallTime: 1453718100.813616] executing rest of traj at 1453718100813523054
+[INFO] [WallTime: 1453718106.616553] Time taken for rest of trajectory: 5.802448988
+[INFO] [WallTime: 1453718139.846791] got traj at 1453718139846690893
+[INFO] [WallTime: 1453718142.841478] executing rest of traj at 1453718142841388940
+[INFO] [WallTime: 1453718148.635805] Time taken for rest of trajectory: 5.793951035
+[INFO] [WallTime: 1453718173.085870] got traj at 1453718173085772037
+[INFO] [WallTime: 1453718176.078235] executing rest of traj at 1453718176078156948
+[INFO] [WallTime: 1453718181.875952] Time taken for rest of trajectory: 5.79739499
+[INFO] [WallTime: 1453718218.467271] got traj at 1453718218467192888
+[INFO] [WallTime: 1453718221.458297] executing rest of traj at 1453718221458194017
+[INFO] [WallTime: 1453718227.256531] Time taken for rest of trajectory: 5.797762156
+[INFO] [WallTime: 1453718243.145977] got traj at 1453718243145879983
+[INFO] [WallTime: 1453718246.140914] executing rest of traj at 1453718246140822887
+[INFO] [WallTime: 1453718251.935581] Time taken for rest of trajectory: 5.79430294
+[INFO] [WallTime: 1453718273.111407] got traj at 1453718273111305952
+[INFO] [WallTime: 1453718276.105777] executing rest of traj at 1453718276105664014
+[INFO] [WallTime: 1453718281.913906] Time taken for rest of trajectory: 5.807679892
+[INFO] [WallTime: 1453718310.626921] got traj at 1453718310626825094
+[INFO] [WallTime: 1453718313.482058] executing rest of traj at 1453718313481950998
+[INFO] [WallTime: 1453718319.273621] Time taken for rest of trajectory: 5.791177988
+[INFO] [WallTime: 1453718342.475679] got traj at 1453718342475589990
+[INFO] [WallTime: 1453718345.467273] executing rest of traj at 1453718345466871976
+[INFO] [WallTime: 1453718351.273439] Time taken for rest of trajectory: 5.80562687
+[INFO] [WallTime: 1453718365.075600] got traj at 1453718365075500965
+[INFO] [WallTime: 1453718368.067549] executing rest of traj at 1453718368067456960
+[INFO] [WallTime: 1453718373.873991] Time taken for rest of trajectory: 5.806050062
+[INFO] [WallTime: 1453718393.138702] got traj at 1453718393138596057
+[INFO] [WallTime: 1453718396.131685] executing rest of traj at 1453718396131576061
+[INFO] [WallTime: 1453718401.933805] Time taken for rest of trajectory: 5.801730156
+[INFO] [WallTime: 1453718422.972851] got traj at 1453718422972753047
+[INFO] [WallTime: 1453718425.964672] executing rest of traj at 1453718425964567899
+[INFO] [WallTime: 1453718432.093468] Time taken for rest of trajectory: 6.128301144
+[INFO] [WallTime: 1453718456.057728] got traj at 1453718456057538032
+[INFO] [WallTime: 1453718459.046040] executing rest of traj at 1453718459045916080
+[INFO] [WallTime: 1453718464.851976] Time taken for rest of trajectory: 5.805413008
+[INFO] [WallTime: 1453718479.908051] got traj at 1453718479907946109
+[INFO] [WallTime: 1453718482.902534] executing rest of traj at 1453718482902435064
+[INFO] [WallTime: 1453718488.711427] Time taken for rest of trajectory: 5.808472872
+[INFO] [WallTime: 1453718513.706278] got traj at 1453718513706181049
+[INFO] [WallTime: 1453718516.701285] executing rest of traj at 1453718516701145887
+[INFO] [WallTime: 1453718522.511912] Time taken for rest of trajectory: 5.810150861
+[INFO] [WallTime: 1453718537.108742] got traj at 1453718537108661890
+[INFO] [WallTime: 1453718540.103197] executing rest of traj at 1453718540103095054
+[INFO] [WallTime: 1453718545.912382] Time taken for rest of trajectory: 5.808710813
+[INFO] [WallTime: 1453718568.546867] got traj at 1453718568546771049
+[INFO] [WallTime: 1453718571.525699] executing rest of traj at 1453718571525577068
+[INFO] [WallTime: 1453718577.370397] Time taken for rest of trajectory: 5.844207048
+[INFO] [WallTime: 1453718594.880982] got traj at 1453718594880886077
+[INFO] [WallTime: 1453718597.855694] executing rest of traj at 1453718597855552911
+[INFO] [WallTime: 1453718603.664122] Time taken for rest of trajectory: 5.808016061
+[INFO] [WallTime: 1453718626.558608] got traj at 1453718626558528900
+[INFO] [WallTime: 1453718629.552047] executing rest of traj at 1453718629551930904
+[INFO] [WallTime: 1453718635.349779] Time taken for rest of trajectory: 5.797272921
+[INFO] [WallTime: 1453718648.966828] got traj at 1453718648966732025
+[INFO] [WallTime: 1453718651.963668] executing rest of traj at 1453718651963484048
+[INFO] [WallTime: 1453718658.047776] Time taken for rest of trajectory: 6.083601952
+[INFO] [WallTime: 1453718686.425097] got traj at 1453718686424992084
+[INFO] [WallTime: 1453718689.393303] executing rest of traj at 1453718689393171072
+[INFO] [WallTime: 1453718695.367817] Time taken for rest of trajectory: 5.973923922
+[INFO] [WallTime: 1453718710.644550] got traj at 1453718710644439935
+[INFO] [WallTime: 1453718713.587601] executing rest of traj at 1453718713587472915
+[INFO] [WallTime: 1453718721.387348] Time taken for rest of trajectory: 7.799182176
+[INFO] [WallTime: 1453718752.498169] got traj at 1453718752498069047
+[INFO] [WallTime: 1453718755.492294] executing rest of traj at 1453718755492197990
+[INFO] [WallTime: 1453718763.323959] Time taken for rest of trajectory: 7.831257105
+[INFO] [WallTime: 1453718781.594297] got traj at 1453718781594223976
+[INFO] [WallTime: 1453718784.583123] executing rest of traj at 1453718784582907915
+[INFO] [WallTime: 1453718792.387490] Time taken for rest of trajectory: 7.803814888
+[INFO] [WallTime: 1453718830.275681] got traj at 1453718830275564908
+[INFO] [WallTime: 1453718832.863694] executing rest of traj at 1453718832863539934
+[INFO] [WallTime: 1453718840.668831] Time taken for rest of trajectory: 7.804726839
+[I] 27156 behavior.inaoqi: Stop broker myBroker

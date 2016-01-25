@@ -1,0 +1,27 @@
+[rospy.client][INFO] 2016-01-25 09:54:49,308: init_node, name[/rostopic_20587_1453712089251], pid[20587]
+[xmlrpc][INFO] 2016-01-25 09:54:49,308: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-25 09:54:49,309: Started XML-RPC server [http://10.0.0.11:37205/]
+[rospy.init][INFO] 2016-01-25 09:54:49,309: ROS Slave URI: [http://10.0.0.11:37205/]
+[rospy.impl.masterslave][INFO] 2016-01-25 09:54:49,309: _ready: http://10.0.0.11:37205/
+[rospy.registration][INFO] 2016-01-25 09:54:49,309: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-25 09:54:49,309: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2016-01-25 09:54:49,409: registered with master
+[rospy.internal][INFO] 2016-01-25 09:54:49,457: topic[/stop_learning] adding connection to [/learning_words_nao], count 0
+[rospy.internal][INFO] 2016-01-25 09:54:49,465: topic[/stop_learning] adding connection to [/activity_manager], count 1
+[rospy.internal][INFO] 2016-01-25 09:54:49,490: topic[/stop_learning] adding connection to [/log], count 2
+[rospy.internal][INFO] 2016-01-25 09:54:49,507: topic[/stop_learning] adding connection to [/drawing_nao], count 3
+[rosout][WARNING] 2016-01-25 09:54:50,728: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2016-01-25 09:54:50,728: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 365, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.core][INFO] 2016-01-25 09:54:52,420: signal_shutdown [atexit]
+[rospy.internal][INFO] 2016-01-25 09:54:52,425: topic[/stop_learning] removing connection to /learning_words_nao
+[rospy.internal][INFO] 2016-01-25 09:54:52,425: topic[/stop_learning] removing connection to /activity_manager
+[rospy.internal][INFO] 2016-01-25 09:54:52,426: topic[/stop_learning] removing connection to /log
+[rospy.internal][INFO] 2016-01-25 09:54:52,427: topic[/stop_learning] removing connection to /drawing_nao
+[rospy.impl.masterslave][INFO] 2016-01-25 09:54:52,427: atexit

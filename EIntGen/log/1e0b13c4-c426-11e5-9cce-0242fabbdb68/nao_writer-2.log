@@ -1,0 +1,181 @@
+[rospy.client][INFO] 2016-01-26 13:51:16,161: init_node, name[/nao_writer], pid[18114]
+[xmlrpc][INFO] 2016-01-26 13:51:16,173: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-26 13:51:16,173: Started XML-RPC server [http://10.0.0.11:33790/]
+[rospy.impl.masterslave][INFO] 2016-01-26 13:51:16,173: _ready: http://10.0.0.11:33790/
+[rospy.init][INFO] 2016-01-26 13:51:16,174: ROS Slave URI: [http://10.0.0.11:33790/]
+[rospy.registration][INFO] 2016-01-26 13:51:16,187: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-26 13:51:16,187: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2016-01-26 13:51:16,274: registered with master
+[rospy.rosout][INFO] 2016-01-26 13:51:16,274: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-26 13:51:16,313: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-26 13:51:16,331: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2016-01-26 13:51:16,750: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2016-01-26 13:51:16,757: Subscribed to robotHasFallen event
+[rospy.internal][INFO] 2016-01-26 13:51:17,347: topic[/write_traj_downsampled] adding connection to [http://10.0.0.11:56142/], count 0
+[rospy.internal][INFO] 2016-01-26 13:51:21,411: topic[/tf] adding connection to [http://10.0.0.11:35834/], count 0
+[rospy.internal][INFO] 2016-01-26 13:51:21,412: topic[/tf] adding connection to [http://10.0.0.11:50745/], count 1
+[rospy.internal][INFO] 2016-01-26 13:51:21,415: topic[/tf] adding connection to [http://10.0.0.11:50895/], count 2
+[rospy.internal][INFO] 2016-01-26 13:51:21,417: topic[/tf] adding connection to [http://10.0.0.11:47412/], count 3
+[rospy.internal][INFO] 2016-01-26 13:51:21,418: topic[/tf] adding connection to [http://10.0.0.11:51561/], count 4
+[rospy.internal][INFO] 2016-01-26 13:51:21,419: topic[/tf] adding connection to [http://10.0.0.11:48827/], count 5
+[rospy.internal][INFO] 2016-01-26 13:51:21,420: topic[/tf] adding connection to [http://10.0.0.11:35921/], count 6
+[rospy.internal][INFO] 2016-01-26 13:51:21,421: topic[/tf] adding connection to [http://10.0.0.11:32791/], count 6
+[rospy.internal][INFO] 2016-01-26 13:51:21,422: topic[/tf] adding connection to [http://10.0.0.11:57243/], count 7
+[rospy.internal][INFO] 2016-01-26 13:51:21,428: topic[/tf] adding connection to [http://10.0.0.11:55153/], count 9
+[rosout][INFO] 2016-01-26 13:51:43,365: got traj at 1453812703365385055
+[rosout][INFO] 2016-01-26 13:51:46,360: executing rest of traj at 1453812706360116958
+[rosout][INFO] 2016-01-26 13:51:52,155: Time taken for rest of trajectory: 5.7952981
+[rosout][INFO] 2016-01-26 13:53:00,731: got traj at 1453812780731839895
+[rosout][INFO] 2016-01-26 13:53:03,725: executing rest of traj at 1453812783725003957
+[rosout][INFO] 2016-01-26 13:53:09,534: Time taken for rest of trajectory: 5.808526993
+[rosout][INFO] 2016-01-26 13:53:51,694: got traj at 1453812831694402933
+[rosout][INFO] 2016-01-26 13:53:54,686: executing rest of traj at 1453812834686142921
+[rosout][INFO] 2016-01-26 13:54:00,493: Time taken for rest of trajectory: 5.806025982
+[rosout][INFO] 2016-01-26 13:54:23,699: got traj at 1453812863698964118
+[rosout][INFO] 2016-01-26 13:54:26,663: executing rest of traj at 1453812866662945032
+[rosout][INFO] 2016-01-26 13:54:32,472: Time taken for rest of trajectory: 5.809512854
+[rosout][INFO] 2016-01-26 13:55:33,755: got traj at 1453812933755542993
+[rosout][INFO] 2016-01-26 13:55:36,746: executing rest of traj at 1453812936746939897
+[rosout][INFO] 2016-01-26 13:55:42,553: Time taken for rest of trajectory: 5.806275129
+[rosout][INFO] 2016-01-26 13:56:38,367: got traj at 1453812998367274999
+[rosout][INFO] 2016-01-26 13:56:41,361: executing rest of traj at 1453813001360940933
+[rosout][INFO] 2016-01-26 13:56:47,191: Time taken for rest of trajectory: 5.830229998
+[rosout][INFO] 2016-01-26 13:57:20,588: got traj at 1453813040587982892
+[rosout][INFO] 2016-01-26 13:57:23,591: executing rest of traj at 1453813043591111898
+[rosout][INFO] 2016-01-26 13:57:29,399: Time taken for rest of trajectory: 5.807774067
+[rosout][INFO] 2016-01-26 13:58:05,785: got traj at 1453813085785336971
+[rosout][INFO] 2016-01-26 13:58:08,614: executing rest of traj at 1453813088614938020
+[rosout][INFO] 2016-01-26 13:58:14,411: Time taken for rest of trajectory: 5.795704126
+[rosout][INFO] 2016-01-26 13:59:05,649: got traj at 1453813145649475097
+[rosout][INFO] 2016-01-26 13:59:08,606: executing rest of traj at 1453813148606750965
+[rosout][INFO] 2016-01-26 13:59:14,606: Time taken for rest of trajectory: 5.998471022
+[rosout][INFO] 2016-01-26 13:59:46,832: got traj at 1453813186832480907
+[rosout][INFO] 2016-01-26 13:59:49,846: executing rest of traj at 1453813189846942901
+[rosout][INFO] 2016-01-26 13:59:57,671: Time taken for rest of trajectory: 7.823834896
+[rosout][INFO] 2016-01-26 14:01:09,474: got traj at 1453813269474905014
+[rosout][INFO] 2016-01-26 14:01:12,462: executing rest of traj at 1453813272462312936
+[rosout][INFO] 2016-01-26 14:01:20,268: Time taken for rest of trajectory: 7.805955886
+[rosout][INFO] 2016-01-26 14:02:23,124: got traj at 1453813343124810934
+[rosout][INFO] 2016-01-26 14:02:26,111: executing rest of traj at 1453813346111248970
+[rosout][INFO] 2016-01-26 14:02:33,971: Time taken for rest of trajectory: 7.857315064
+[rosout][INFO] 2016-01-26 14:03:13,342: got traj at 1453813393342194080
+[rosout][INFO] 2016-01-26 14:03:16,165: executing rest of traj at 1453813396165458917
+[rosout][INFO] 2016-01-26 14:03:21,971: Time taken for rest of trajectory: 5.805940151
+[rosout][INFO] 2016-01-26 14:04:08,476: got traj at 1453813448476808071
+[rosout][INFO] 2016-01-26 14:04:11,306: executing rest of traj at 1453813451306031942
+[rosout][INFO] 2016-01-26 14:04:17,111: Time taken for rest of trajectory: 5.805017948
+[rosout][INFO] 2016-01-26 14:04:40,587: got traj at 1453813480587186098
+[rosout][INFO] 2016-01-26 14:04:43,367: executing rest of traj at 1453813483366962909
+[rosout][INFO] 2016-01-26 14:04:49,175: Time taken for rest of trajectory: 5.808079004
+[rosout][INFO] 2016-01-26 14:05:27,357: got traj at 1453813527357812881
+[rosout][INFO] 2016-01-26 14:05:30,350: executing rest of traj at 1453813530350399017
+[rosout][INFO] 2016-01-26 14:05:36,203: Time taken for rest of trajectory: 5.8524549
+[rosout][INFO] 2016-01-26 14:06:08,471: got traj at 1453813568471653938
+[rosout][INFO] 2016-01-26 14:06:11,437: executing rest of traj at 1453813571437514066
+[rosout][INFO] 2016-01-26 14:06:17,259: Time taken for rest of trajectory: 5.821779012
+[rosout][INFO] 2016-01-26 14:06:48,820: got traj at 1453813608820158004
+[rosout][INFO] 2016-01-26 14:06:51,813: executing rest of traj at 1453813611813893079
+[rosout][INFO] 2016-01-26 14:06:57,625: Time taken for rest of trajectory: 5.811160803
+[rosout][INFO] 2016-01-26 14:07:28,633: got traj at 1453813648633708953
+[rosout][INFO] 2016-01-26 14:07:31,597: executing rest of traj at 1453813651597426891
+[rosout][INFO] 2016-01-26 14:07:37,403: Time taken for rest of trajectory: 5.806120872
+[rosout][INFO] 2016-01-26 14:08:25,321: got traj at 1453813705321350097
+[rosout][INFO] 2016-01-26 14:08:28,295: executing rest of traj at 1453813708295244932
+[rosout][INFO] 2016-01-26 14:08:34,262: Time taken for rest of trajectory: 5.966669083
+[rosout][INFO] 2016-01-26 14:09:06,191: got traj at 1453813746191291093
+[rosout][INFO] 2016-01-26 14:09:09,160: executing rest of traj at 1453813749160151004
+[rosout][INFO] 2016-01-26 14:09:15,131: Time taken for rest of trajectory: 5.971050024
+[rosout][INFO] 2016-01-26 14:09:31,150: got traj at 1453813771149966955
+[rosout][INFO] 2016-01-26 14:09:33,922: executing rest of traj at 1453813773922282934
+[rosout][INFO] 2016-01-26 14:09:39,720: Time taken for rest of trajectory: 5.79736805
+[rosout][INFO] 2016-01-26 14:10:05,019: got traj at 1453813805019262075
+[rosout][INFO] 2016-01-26 14:10:07,991: executing rest of traj at 1453813807991364955
+[rosout][INFO] 2016-01-26 14:10:13,800: Time taken for rest of trajectory: 5.808698893
+[rosout][INFO] 2016-01-26 14:10:45,396: got traj at 1453813845396365880
+[rosout][INFO] 2016-01-26 14:10:48,391: executing rest of traj at 1453813848390965938
+[rosout][INFO] 2016-01-26 14:10:54,199: Time taken for rest of trajectory: 5.808026075
+[rosout][INFO] 2016-01-26 14:11:23,201: got traj at 1453813883201178073
+[rosout][INFO] 2016-01-26 14:11:26,191: executing rest of traj at 1453813886191526889
+[rosout][INFO] 2016-01-26 14:11:32,038: Time taken for rest of trajectory: 5.846409083
+[rosout][INFO] 2016-01-26 14:11:59,072: got traj at 1453813919072385072
+[rosout][INFO] 2016-01-26 14:12:02,087: executing rest of traj at 1453813922086941003
+[rosout][INFO] 2016-01-26 14:12:07,899: Time taken for rest of trajectory: 5.811663151
+[rosout][INFO] 2016-01-26 14:12:34,553: got traj at 1453813954553788900
+[rosout][INFO] 2016-01-26 14:12:37,571: executing rest of traj at 1453813957570941925
+[rosout][INFO] 2016-01-26 14:12:43,377: Time taken for rest of trajectory: 5.805916071
+[rosout][INFO] 2016-01-26 14:13:09,148: got traj at 1453813989148823976
+[rosout][INFO] 2016-01-26 14:13:12,140: executing rest of traj at 1453813992140173912
+[rosout][INFO] 2016-01-26 14:13:17,980: Time taken for rest of trajectory: 5.839558125
+[rosout][INFO] 2016-01-26 14:13:42,362: got traj at 1453814022362518072
+[rosout][INFO] 2016-01-26 14:13:45,354: executing rest of traj at 1453814025354938030
+[rosout][INFO] 2016-01-26 14:13:51,156: Time taken for rest of trajectory: 5.801522016
+[rosout][INFO] 2016-01-26 14:15:02,319: got traj at 1453814102319325923
+[rosout][INFO] 2016-01-26 14:15:05,285: executing rest of traj at 1453814105285244941
+[rosout][INFO] 2016-01-26 14:15:13,096: Time taken for rest of trajectory: 7.810843944
+[rosout][INFO] 2016-01-26 14:16:41,790: got traj at 1453814201790700912
+[rosout][INFO] 2016-01-26 14:16:44,791: executing rest of traj at 1453814204791098117
+[rosout][INFO] 2016-01-26 14:16:52,810: Time taken for rest of trajectory: 8.019124985
+[rosout][INFO] 2016-01-26 14:17:53,861: got traj at 1453814273861486911
+[rosout][INFO] 2016-01-26 14:17:56,871: executing rest of traj at 1453814276871455907
+[rosout][INFO] 2016-01-26 14:18:04,694: Time taken for rest of trajectory: 7.822212935
+[rosout][INFO] 2016-01-26 14:18:58,676: got traj at 1453814338676839113
+[rosout][INFO] 2016-01-26 14:19:01,661: executing rest of traj at 1453814341661147117
+[rosout][INFO] 2016-01-26 14:19:09,491: Time taken for rest of trajectory: 7.829646111
+[rosout][INFO] 2016-01-26 14:19:39,197: got traj at 1453814379197119951
+[rosout][INFO] 2016-01-26 14:19:42,167: executing rest of traj at 1453814382166976928
+[rosout][INFO] 2016-01-26 14:19:48,973: Time taken for rest of trajectory: 6.805708886
+[rosout][INFO] 2016-01-26 14:20:42,022: got traj at 1453814442022294998
+[rosout][INFO] 2016-01-26 14:20:44,876: executing rest of traj at 1453814444876214027
+[rosout][INFO] 2016-01-26 14:20:51,831: Time taken for rest of trajectory: 6.954715968
+[rosout][INFO] 2016-01-26 14:21:34,048: got traj at 1453814494048437118
+[rosout][INFO] 2016-01-26 14:21:36,926: executing rest of traj at 1453814496926286935
+[rosout][INFO] 2016-01-26 14:21:43,871: Time taken for rest of trajectory: 6.944469928
+[rosout][INFO] 2016-01-26 14:22:28,580: got traj at 1453814548580514907
+[rosout][INFO] 2016-01-26 14:22:31,591: executing rest of traj at 1453814551590956926
+[rosout][INFO] 2016-01-26 14:22:38,412: Time taken for rest of trajectory: 6.820935011
+[rosout][INFO] 2016-01-26 14:23:01,682: got traj at 1453814581681991100
+[rosout][INFO] 2016-01-26 14:23:04,674: executing rest of traj at 1453814584674746036
+[rosout][INFO] 2016-01-26 14:23:11,489: Time taken for rest of trajectory: 6.813713073
+[rosout][INFO] 2016-01-26 14:24:07,531: got traj at 1453814647530991077
+[rosout][INFO] 2016-01-26 14:24:10,536: executing rest of traj at 1453814650536318063
+[rosout][INFO] 2016-01-26 14:24:17,352: Time taken for rest of trajectory: 6.814476013
+[rosout][INFO] 2016-01-26 14:25:05,864: got traj at 1453814705864425897
+[rosout][INFO] 2016-01-26 14:25:08,857: executing rest of traj at 1453814708857435941
+[rosout][INFO] 2016-01-26 14:25:15,671: Time taken for rest of trajectory: 6.813580036
+[rosout][INFO] 2016-01-26 14:25:42,566: got traj at 1453814742566901922
+[rosout][INFO] 2016-01-26 14:25:45,526: executing rest of traj at 1453814745526010036
+[rosout][INFO] 2016-01-26 14:25:53,351: Time taken for rest of trajectory: 7.824889898
+[rosout][INFO] 2016-01-26 14:26:23,725: got traj at 1453814783725500106
+[rosout][INFO] 2016-01-26 14:26:26,716: executing rest of traj at 1453814786716871023
+[rosout][INFO] 2016-01-26 14:26:32,526: Time taken for rest of trajectory: 5.809047938
+[rosout][INFO] 2016-01-26 14:27:32,560: got traj at 1453814852560415029
+[rosout][INFO] 2016-01-26 14:27:35,555: executing rest of traj at 1453814855555114030
+[rosout][INFO] 2016-01-26 14:27:41,364: Time taken for rest of trajectory: 5.809074879
+[rosout][INFO] 2016-01-26 14:28:31,414: got traj at 1453814911414031982
+[rosout][INFO] 2016-01-26 14:28:34,355: executing rest of traj at 1453814914355030059
+[rosout][INFO] 2016-01-26 14:28:40,164: Time taken for rest of trajectory: 5.808974028
+[rosout][INFO] 2016-01-26 14:29:25,512: got traj at 1453814965512131929
+[rosout][INFO] 2016-01-26 14:29:28,478: executing rest of traj at 1453814968478283882
+[rosout][INFO] 2016-01-26 14:29:30,991: Time taken for rest of trajectory: 2.513195992
+[rospy.internal][WARNING] 2016-01-26 14:29:30,993: Unknown error initiating TCP/IP socket to 10.0.0.11:60177 (http://10.0.0.11:56142/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2016-01-26 14:29:30,993: topic[/write_traj_downsampled] removing connection to http://10.0.0.11:56142/
+[rospy.core][INFO] 2016-01-26 14:29:35,842: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2016-01-26 14:29:35,864: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-26 14:29:35,864: topic[/tf] removing connection to http://10.0.0.11:35834/
+[rospy.internal][INFO] 2016-01-26 14:29:35,864: topic[/tf] removing connection to http://10.0.0.11:50745/
+[rospy.internal][INFO] 2016-01-26 14:29:35,865: topic[/tf] removing connection to http://10.0.0.11:50895/
+[rospy.internal][INFO] 2016-01-26 14:29:35,865: topic[/tf] removing connection to http://10.0.0.11:47412/
+[rospy.internal][INFO] 2016-01-26 14:29:35,865: topic[/tf] removing connection to http://10.0.0.11:51561/
+[rospy.internal][INFO] 2016-01-26 14:29:35,865: topic[/tf] removing connection to http://10.0.0.11:48827/
+[rospy.internal][INFO] 2016-01-26 14:29:35,865: topic[/tf] removing connection to http://10.0.0.11:35921/
+[rospy.internal][INFO] 2016-01-26 14:29:35,865: topic[/tf] removing connection to http://10.0.0.11:32791/
+[rospy.internal][INFO] 2016-01-26 14:29:35,865: topic[/tf] removing connection to http://10.0.0.11:57243/
+[rospy.internal][INFO] 2016-01-26 14:29:35,866: topic[/tf] removing connection to http://10.0.0.11:55153/
+[rospy.impl.masterslave][INFO] 2016-01-26 14:29:35,890: signal-2
+[rospy.core][INFO] 2016-01-26 14:29:36,561: signal_shutdown [atexit]

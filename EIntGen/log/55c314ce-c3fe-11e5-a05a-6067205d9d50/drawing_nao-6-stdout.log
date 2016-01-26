@@ -1,0 +1,39 @@
+[I] 23897 qimessaging.session: Session listener created on tcp://0.0.0.0:0
+[I] 23897 qimessaging.transportserver: TransportServer will listen on: tcp://172.17.0.1:49508
+[I] 23897 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:49508
+[I] 23897 qimessaging.transportserver: TransportServer will listen on: tcp://10.0.0.11:49508
+[INFO] [WallTime: 1453804369.662520] Waiting for display manager services to become available
+[INFO] [WallTime: 1453804371.669097] Starting new timer
+[INFO] [WallTime: 1453804371.669503] Nao configuration: writing=True, speaking=True (english), standing=False, handedness=right
+inaoqi-broker: construct at 0.0.0.0:0, parent : 10.0.0.2:9559
+[I] 23897 qimessaging.session: Session listener created on tcp://0.0.0.0:0
+[I] 23897 qimessaging.transportserver: TransportServer will listen on: tcp://172.17.0.1:43676
+[I] 23897 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:43676
+[I] 23897 qimessaging.transportserver: TransportServer will listen on: tcp://10.0.0.11:43676
+[INFO] [WallTime: 1453804375.234545] STATE: waiting_for_robot_to_connect
+[INFO] [WallTime: 1453804375.735471] STATE: STARTING_INTERACTION
+[INFO] [WallTime: 1453804389.714015] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453804392.197159] Re-connection
+[INFO] [WallTime: 1453804442.978937] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453804445.437793] Re-connection
+[INFO] [WallTime: 1453804474.084235] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453804476.516990] Re-connection
+[INFO] [WallTime: 1453804577.267890] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453804579.662420] Re-connection
+[INFO] [WallTime: 1453804609.282438] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453804611.526799] Re-connection
+[INFO] [WallTime: 1453804688.202927] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453804690.348789] Re-connection
+[INFO] [WallTime: 1453804714.879060] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453804717.355700] Re-connection
+[INFO] [WallTime: 1453804774.968848] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453804777.219882] Re-connection
+[INFO] [WallTime: 1453804870.965773] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453804873.408430] Re-connection
+[INFO] [WallTime: 1453804929.675794] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453804931.936515] Re-connection
+[INFO] [WallTime: 1453805019.552736] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453805021.829191] Re-connection
+[INFO] [WallTime: 1453805067.479814] STATE: STOPPING
+[INFO] [WallTime: 1453805067.927939] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453805068.167717] Stopped

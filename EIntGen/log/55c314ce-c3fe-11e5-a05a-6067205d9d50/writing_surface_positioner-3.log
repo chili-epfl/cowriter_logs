@@ -1,0 +1,229 @@
+[rospy.client][INFO] 2016-01-26 08:34:24,168: init_node, name[/writing_surface_positioner], pid[16918]
+[xmlrpc][INFO] 2016-01-26 08:34:24,187: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-26 08:34:24,188: Started XML-RPC server [http://10.0.0.11:45817/]
+[rospy.init][INFO] 2016-01-26 08:34:24,188: ROS Slave URI: [http://10.0.0.11:45817/]
+[rospy.impl.masterslave][INFO] 2016-01-26 08:34:24,191: _ready: http://10.0.0.11:45817/
+[rospy.registration][INFO] 2016-01-26 08:34:24,211: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-26 08:34:24,211: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-26 08:34:24,223: Registering publisher topic [/tf] type [tf/tfMessage] with master
+[rospy.init][INFO] 2016-01-26 08:34:24,291: registered with master
+[rospy.rosout][INFO] 2016-01-26 08:34:24,292: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-26 08:34:24,301: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-26 08:34:24,329: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2016-01-26 08:34:24,463: topic[/tf] adding connection to [/estimate_focus], count 0
+[rospy.internal][INFO] 2016-01-26 08:34:24,662: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2016-01-26 08:34:30,668: topic[/tf] adding connection to [/nao_writer], count 1
+[rospy.internal][INFO] 2016-01-26 08:35:56,176: topic[/tf] removing connection to /estimate_focus
+[rospy.core][INFO] 2016-01-26 08:38:21,762: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2016-01-26 08:38:21,774: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-26 08:38:21,774: topic[/tf] removing connection to /nao_writer
+[rospy.impl.masterslave][INFO] 2016-01-26 08:38:21,774: signal-2
+[rospy.core][INFO] 2016-01-26 08:38:21,882: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-26 08:40:41,166: init_node, name[/writing_surface_positioner], pid[22119]
+[xmlrpc][INFO] 2016-01-26 08:40:41,185: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2016-01-26 08:40:41,189: ROS Slave URI: [http://10.0.0.11:56654/]
+[xmlrpc][INFO] 2016-01-26 08:40:41,189: Started XML-RPC server [http://10.0.0.11:56654/]
+[rospy.impl.masterslave][INFO] 2016-01-26 08:40:41,189: _ready: http://10.0.0.11:56654/
+[rospy.registration][INFO] 2016-01-26 08:40:41,201: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-26 08:40:41,201: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-26 08:40:41,202: Registering publisher topic [/tf] type [tf/tfMessage] with master
+[rospy.init][INFO] 2016-01-26 08:40:41,290: registered with master
+[rospy.rosout][INFO] 2016-01-26 08:40:41,290: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-26 08:40:41,320: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-26 08:40:41,348: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2016-01-26 08:40:41,511: topic[/tf] adding connection to [/estimate_focus], count 0
+[rospy.internal][INFO] 2016-01-26 08:40:41,613: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2016-01-26 08:40:46,727: topic[/tf] adding connection to [/nao_writer], count 1
+[rospy.core][INFO] 2016-01-26 08:41:39,902: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2016-01-26 08:41:39,934: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-26 08:41:39,934: topic[/tf] removing connection to /estimate_focus
+[rospy.internal][INFO] 2016-01-26 08:41:39,934: topic[/tf] removing connection to /nao_writer
+[rospy.impl.masterslave][INFO] 2016-01-26 08:41:39,934: signal-2
+[rospy.core][INFO] 2016-01-26 08:41:40,550: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-26 08:41:50,593: init_node, name[/writing_surface_positioner], pid[23691]
+[xmlrpc][INFO] 2016-01-26 08:41:50,601: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-26 08:41:50,601: Started XML-RPC server [http://10.0.0.11:39763/]
+[rospy.impl.masterslave][INFO] 2016-01-26 08:41:50,602: _ready: http://10.0.0.11:39763/
+[rospy.init][INFO] 2016-01-26 08:41:50,602: ROS Slave URI: [http://10.0.0.11:39763/]
+[rospy.registration][INFO] 2016-01-26 08:41:50,609: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-26 08:41:50,610: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-26 08:41:50,614: Registering publisher topic [/tf] type [tf/tfMessage] with master
+[rospy.init][INFO] 2016-01-26 08:41:50,702: registered with master
+[rospy.rosout][INFO] 2016-01-26 08:41:50,702: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-26 08:41:50,717: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-26 08:41:50,732: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2016-01-26 08:41:50,851: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2016-01-26 08:41:50,860: topic[/tf] adding connection to [/estimate_focus], count 0
+[rospy.internal][INFO] 2016-01-26 08:41:57,002: topic[/tf] adding connection to [/nao_writer], count 1
+[rospy.core][INFO] 2016-01-26 08:43:35,296: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2016-01-26 08:43:35,318: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-26 08:43:35,319: topic[/tf] removing connection to /estimate_focus
+[rospy.internal][INFO] 2016-01-26 08:43:35,323: topic[/tf] removing connection to /nao_writer
+[rospy.impl.masterslave][INFO] 2016-01-26 08:43:35,324: signal-2
+[rospy.core][INFO] 2016-01-26 08:43:35,938: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-26 08:43:50,744: init_node, name[/writing_surface_positioner], pid[26551]
+[xmlrpc][INFO] 2016-01-26 08:43:50,797: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2016-01-26 08:43:50,799: ROS Slave URI: [http://10.0.0.11:55234/]
+[xmlrpc][INFO] 2016-01-26 08:43:50,799: Started XML-RPC server [http://10.0.0.11:55234/]
+[rospy.impl.masterslave][INFO] 2016-01-26 08:43:50,800: _ready: http://10.0.0.11:55234/
+[xmlrpc][INFO] 2016-01-26 08:43:50,810: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-26 08:43:50,811: Registering with master node http://10.0.0.11:11311/
+[rospy.registration][INFO] 2016-01-26 08:43:50,811: Registering publisher topic [/tf] type [tf/tfMessage] with master
+[rospy.init][INFO] 2016-01-26 08:43:50,900: registered with master
+[rospy.rosout][INFO] 2016-01-26 08:43:50,900: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-26 08:43:50,956: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-26 08:43:50,980: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2016-01-26 08:43:51,144: topic[/tf] adding connection to [/estimate_focus], count 0
+[rospy.internal][INFO] 2016-01-26 08:43:51,147: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2016-01-26 08:43:56,849: topic[/tf] adding connection to [/nao_writer], count 1
+[rospy.internal][INFO] 2016-01-26 09:03:18,436: topic[/tf] removing connection to /estimate_focus
+[rospy.core][INFO] 2016-01-26 09:03:21,823: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2016-01-26 09:03:21,840: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-26 09:03:21,840: topic[/tf] removing connection to /nao_writer
+[rospy.impl.masterslave][INFO] 2016-01-26 09:03:21,840: signal-2
+[rospy.core][INFO] 2016-01-26 09:03:21,957: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-26 09:12:26,540: init_node, name[/writing_surface_positioner], pid[31796]
+[xmlrpc][INFO] 2016-01-26 09:12:26,550: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2016-01-26 09:12:26,550: ROS Slave URI: [http://10.0.0.11:42322/]
+[xmlrpc][INFO] 2016-01-26 09:12:26,551: Started XML-RPC server [http://10.0.0.11:42322/]
+[rospy.impl.masterslave][INFO] 2016-01-26 09:12:26,551: _ready: http://10.0.0.11:42322/
+[xmlrpc][INFO] 2016-01-26 09:12:26,557: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-26 09:12:26,558: Registering with master node http://10.0.0.11:11311/
+[rospy.registration][INFO] 2016-01-26 09:12:26,558: Registering publisher topic [/tf] type [tf/tfMessage] with master
+[rospy.init][INFO] 2016-01-26 09:12:26,651: registered with master
+[rospy.rosout][INFO] 2016-01-26 09:12:26,651: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-26 09:12:26,677: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-26 09:12:26,691: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2016-01-26 09:12:26,821: topic[/tf] adding connection to [/estimate_focus], count 0
+[rospy.internal][INFO] 2016-01-26 09:12:26,927: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2016-01-26 09:12:31,967: topic[/tf] adding connection to [/nao_writer], count 1
+[rospy.core][INFO] 2016-01-26 09:23:49,022: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2016-01-26 09:23:49,073: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-26 09:23:49,073: topic[/tf] removing connection to /estimate_focus
+[rospy.internal][INFO] 2016-01-26 09:23:49,073: topic[/tf] removing connection to /nao_writer
+[rospy.impl.masterslave][INFO] 2016-01-26 09:23:49,073: signal-2
+[rospy.core][INFO] 2016-01-26 09:23:49,736: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-26 09:29:02,940: init_node, name[/writing_surface_positioner], pid[21662]
+[xmlrpc][INFO] 2016-01-26 09:29:02,950: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2016-01-26 09:29:02,951: ROS Slave URI: [http://10.0.0.11:59536/]
+[xmlrpc][INFO] 2016-01-26 09:29:02,951: Started XML-RPC server [http://10.0.0.11:59536/]
+[rospy.impl.masterslave][INFO] 2016-01-26 09:29:02,951: _ready: http://10.0.0.11:59536/
+[xmlrpc][INFO] 2016-01-26 09:29:02,963: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-26 09:29:02,964: Registering with master node http://10.0.0.11:11311/
+[rospy.registration][INFO] 2016-01-26 09:29:02,964: Registering publisher topic [/tf] type [tf/tfMessage] with master
+[rospy.init][INFO] 2016-01-26 09:29:03,052: registered with master
+[rospy.rosout][INFO] 2016-01-26 09:29:03,052: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-26 09:29:03,093: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-26 09:29:03,126: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2016-01-26 09:29:03,245: topic[/tf] adding connection to [/estimate_focus], count 0
+[rospy.internal][INFO] 2016-01-26 09:29:03,369: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2016-01-26 09:29:08,692: topic[/tf] adding connection to [/nao_writer], count 1
+[rospy.core][INFO] 2016-01-26 09:41:19,972: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2016-01-26 09:41:19,979: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-26 09:41:19,980: topic[/tf] removing connection to /estimate_focus
+[rospy.internal][INFO] 2016-01-26 09:41:19,980: topic[/tf] removing connection to /nao_writer
+[rospy.impl.masterslave][INFO] 2016-01-26 09:41:19,980: signal-2
+[rospy.core][INFO] 2016-01-26 09:41:20,113: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-26 10:24:03,834: init_node, name[/writing_surface_positioner], pid[13629]
+[xmlrpc][INFO] 2016-01-26 10:24:03,843: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-26 10:24:03,843: Started XML-RPC server [http://10.0.0.11:55776/]
+[rospy.init][INFO] 2016-01-26 10:24:03,843: ROS Slave URI: [http://10.0.0.11:55776/]
+[rospy.impl.masterslave][INFO] 2016-01-26 10:24:03,844: _ready: http://10.0.0.11:55776/
+[rospy.registration][INFO] 2016-01-26 10:24:03,855: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-26 10:24:03,856: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-26 10:24:03,858: Registering publisher topic [/tf] type [tf/tfMessage] with master
+[rospy.init][INFO] 2016-01-26 10:24:03,944: registered with master
+[rospy.rosout][INFO] 2016-01-26 10:24:03,944: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-26 10:24:03,957: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-26 10:24:03,971: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2016-01-26 10:24:04,131: topic[/tf] adding connection to [/estimate_focus], count 0
+[rospy.internal][INFO] 2016-01-26 10:24:04,243: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2016-01-26 10:24:09,712: topic[/tf] adding connection to [/nao_writer], count 1
+[rospy.internal][INFO] 2016-01-26 10:39:06,212: topic[/tf] removing connection to /estimate_focus
+[rospy.core][INFO] 2016-01-26 10:39:08,195: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2016-01-26 10:39:08,212: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-26 10:39:08,212: topic[/tf] removing connection to /nao_writer
+[rospy.impl.masterslave][INFO] 2016-01-26 10:39:08,212: signal-2
+[rospy.core][INFO] 2016-01-26 10:39:08,817: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-26 10:48:42,097: init_node, name[/writing_surface_positioner], pid[9986]
+[xmlrpc][INFO] 2016-01-26 10:48:42,111: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2016-01-26 10:48:42,119: ROS Slave URI: [http://10.0.0.11:45298/]
+[xmlrpc][INFO] 2016-01-26 10:48:42,120: Started XML-RPC server [http://10.0.0.11:45298/]
+[rospy.impl.masterslave][INFO] 2016-01-26 10:48:42,120: _ready: http://10.0.0.11:45298/
+[rospy.registration][INFO] 2016-01-26 10:48:42,130: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-26 10:48:42,130: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-26 10:48:42,137: Registering publisher topic [/tf] type [tf/tfMessage] with master
+[rospy.init][INFO] 2016-01-26 10:48:42,220: registered with master
+[rospy.rosout][INFO] 2016-01-26 10:48:42,220: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-26 10:48:42,260: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-26 10:48:42,304: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2016-01-26 10:48:42,423: topic[/tf] adding connection to [/estimate_focus], count 0
+[rospy.internal][INFO] 2016-01-26 10:48:42,428: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2016-01-26 10:49:24,409: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2016-01-26 10:49:24,428: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-26 10:49:24,429: topic[/tf] removing connection to /estimate_focus
+[rospy.impl.masterslave][INFO] 2016-01-26 10:49:24,429: signal-2
+[rospy.core][INFO] 2016-01-26 10:49:24,536: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-26 10:50:31,815: init_node, name[/writing_surface_positioner], pid[10875]
+[xmlrpc][INFO] 2016-01-26 10:50:31,829: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2016-01-26 10:50:31,843: ROS Slave URI: [http://10.0.0.11:50849/]
+[xmlrpc][INFO] 2016-01-26 10:50:31,843: Started XML-RPC server [http://10.0.0.11:50849/]
+[rospy.impl.masterslave][INFO] 2016-01-26 10:50:31,844: _ready: http://10.0.0.11:50849/
+[rospy.registration][INFO] 2016-01-26 10:50:31,861: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-26 10:50:31,861: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-26 10:50:31,863: Registering publisher topic [/tf] type [tf/tfMessage] with master
+[rospy.init][INFO] 2016-01-26 10:50:31,944: registered with master
+[rospy.rosout][INFO] 2016-01-26 10:50:31,944: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-26 10:50:31,972: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-26 10:50:31,994: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2016-01-26 10:50:32,098: topic[/tf] adding connection to [/estimate_focus], count 0
+[rospy.internal][INFO] 2016-01-26 10:50:32,207: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2016-01-26 10:50:34,364: topic[/tf] adding connection to [/nao_writer], count 1
+[rospy.internal][INFO] 2016-01-26 11:02:09,999: topic[/tf] removing connection to /estimate_focus
+[rospy.core][INFO] 2016-01-26 11:02:36,900: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2016-01-26 11:02:36,916: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-26 11:02:36,916: topic[/tf] removing connection to /nao_writer
+[rospy.impl.masterslave][INFO] 2016-01-26 11:02:36,917: signal-2
+[rospy.core][INFO] 2016-01-26 11:02:37,049: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-26 11:12:09,923: init_node, name[/writing_surface_positioner], pid[1891]
+[xmlrpc][INFO] 2016-01-26 11:12:09,954: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-26 11:12:09,955: Started XML-RPC server [http://10.0.0.11:47323/]
+[rospy.init][INFO] 2016-01-26 11:12:09,955: ROS Slave URI: [http://10.0.0.11:47323/]
+[rospy.impl.masterslave][INFO] 2016-01-26 11:12:09,971: _ready: http://10.0.0.11:47323/
+[xmlrpc][INFO] 2016-01-26 11:12:09,979: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-26 11:12:09,980: Registering with master node http://10.0.0.11:11311/
+[rospy.registration][INFO] 2016-01-26 11:12:09,980: Registering publisher topic [/tf] type [tf/tfMessage] with master
+[rospy.init][INFO] 2016-01-26 11:12:10,071: registered with master
+[rospy.rosout][INFO] 2016-01-26 11:12:10,072: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-26 11:12:10,081: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-26 11:12:10,098: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2016-01-26 11:12:10,290: topic[/tf] adding connection to [/estimate_focus], count 0
+[rospy.internal][INFO] 2016-01-26 11:12:10,294: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2016-01-26 11:12:15,314: topic[/tf] adding connection to [/nao_writer], count 1
+[rospy.internal][INFO] 2016-01-26 11:23:40,328: topic[/tf] removing connection to /estimate_focus
+[rospy.core][INFO] 2016-01-26 11:23:43,165: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2016-01-26 11:23:43,186: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-26 11:23:43,186: topic[/tf] removing connection to /nao_writer
+[rospy.impl.masterslave][INFO] 2016-01-26 11:23:43,186: signal-2
+[rospy.core][INFO] 2016-01-26 11:23:43,319: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-26 11:32:49,019: init_node, name[/writing_surface_positioner], pid[23892]
+[xmlrpc][INFO] 2016-01-26 11:32:49,030: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-26 11:32:49,058: Started XML-RPC server [http://10.0.0.11:47167/]
+[rospy.init][INFO] 2016-01-26 11:32:49,058: ROS Slave URI: [http://10.0.0.11:47167/]
+[rospy.impl.masterslave][INFO] 2016-01-26 11:32:49,060: _ready: http://10.0.0.11:47167/
+[xmlrpc][INFO] 2016-01-26 11:32:49,087: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-26 11:32:49,093: Registering with master node http://10.0.0.11:11311/
+[rospy.registration][INFO] 2016-01-26 11:32:49,094: Registering publisher topic [/tf] type [tf/tfMessage] with master
+[rospy.init][INFO] 2016-01-26 11:32:49,161: registered with master
+[rospy.rosout][INFO] 2016-01-26 11:32:49,161: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-26 11:32:49,181: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-26 11:32:49,191: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2016-01-26 11:32:49,371: topic[/tf] adding connection to [/estimate_focus], count 0
+[rospy.internal][INFO] 2016-01-26 11:32:49,474: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2016-01-26 11:32:53,825: topic[/tf] adding connection to [/nao_writer], count 1
+[rospy.internal][INFO] 2016-01-26 11:45:30,523: topic[/tf] removing connection to /estimate_focus
+[rospy.core][INFO] 2016-01-26 12:35:39,179: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2016-01-26 12:35:39,194: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-26 12:35:39,194: topic[/tf] removing connection to /nao_writer
+[rospy.impl.masterslave][INFO] 2016-01-26 12:35:39,195: signal-2
+[rospy.core][INFO] 2016-01-26 12:35:39,809: signal_shutdown [atexit]

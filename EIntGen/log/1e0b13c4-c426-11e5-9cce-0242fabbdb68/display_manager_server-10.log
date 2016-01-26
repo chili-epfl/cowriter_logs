@@ -1,0 +1,72 @@
+[rospy.client][INFO] 2016-01-26 13:51:15,767: init_node, name[/display_manager_server], pid[18134]
+[xmlrpc][INFO] 2016-01-26 13:51:15,795: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2016-01-26 13:51:15,805: ROS Slave URI: [http://10.0.0.11:60945/]
+[xmlrpc][INFO] 2016-01-26 13:51:15,805: Started XML-RPC server [http://10.0.0.11:60945/]
+[rospy.impl.masterslave][INFO] 2016-01-26 13:51:15,805: _ready: http://10.0.0.11:60945/
+[xmlrpc][INFO] 2016-01-26 13:51:15,814: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-26 13:51:15,815: Registering with master node http://10.0.0.11:11311/
+[rospy.init][INFO] 2016-01-26 13:51:15,905: registered with master
+[rospy.rosout][INFO] 2016-01-26 13:51:15,906: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-26 13:51:15,932: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-26 13:51:15,960: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2016-01-26 13:51:16,012: Ready to clear all shapes.
+[rosout][INFO] 2016-01-26 13:51:16,040: Ready to display new shapes.
+[rosout][INFO] 2016-01-26 13:51:16,060: Ready to determine index of location.
+[rosout][INFO] 2016-01-26 13:51:16,105: Ready to determine shape at location.
+[rosout][INFO] 2016-01-26 13:51:16,132: Ready to determine closest shape(s) to location.
+[rosout][INFO] 2016-01-26 13:51:16,170: Ready to display new shapes at specific location.
+[rospy.internal][INFO] 2016-01-26 13:51:16,175: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2016-01-26 13:51:16,199: Ready to determine is shape fits.
+[rosout][INFO] 2016-01-26 13:51:42,310: Shapes cleared
+[rosout][INFO] 2016-01-26 13:52:59,616: Shapes cleared
+[rosout][INFO] 2016-01-26 13:53:50,651: Shapes cleared
+[rosout][INFO] 2016-01-26 13:54:22,591: Shapes cleared
+[rosout][INFO] 2016-01-26 13:55:32,678: Shapes cleared
+[rosout][INFO] 2016-01-26 13:56:37,288: Shapes cleared
+[rosout][INFO] 2016-01-26 13:57:19,541: Shapes cleared
+[rosout][INFO] 2016-01-26 13:58:04,503: Shapes cleared
+[rosout][INFO] 2016-01-26 13:59:04,523: Shapes cleared
+[rosout][INFO] 2016-01-26 13:59:45,687: Shapes cleared
+[rosout][INFO] 2016-01-26 14:01:08,382: Shapes cleared
+[rosout][INFO] 2016-01-26 14:02:21,935: Shapes cleared
+[rosout][INFO] 2016-01-26 14:03:12,082: Shapes cleared
+[rosout][INFO] 2016-01-26 14:03:43,816: Shape at location returned: 0_-1
+[rosout][INFO] 2016-01-26 14:04:07,233: Shapes cleared
+[rosout][INFO] 2016-01-26 14:04:39,289: Shapes cleared
+[rosout][INFO] 2016-01-26 14:05:26,318: Shapes cleared
+[rosout][INFO] 2016-01-26 14:06:07,397: Shapes cleared
+[rosout][INFO] 2016-01-26 14:06:47,746: Shapes cleared
+[rosout][INFO] 2016-01-26 14:07:27,539: Shapes cleared
+[rosout][INFO] 2016-01-26 14:08:24,175: Shapes cleared
+[rosout][INFO] 2016-01-26 14:09:05,122: Shapes cleared
+[rosout][INFO] 2016-01-26 14:09:29,857: Shapes cleared
+[rosout][INFO] 2016-01-26 14:10:03,875: Shapes cleared
+[rosout][INFO] 2016-01-26 14:10:44,245: Shapes cleared
+[rosout][INFO] 2016-01-26 14:11:22,047: Shapes cleared
+[rosout][INFO] 2016-01-26 14:11:57,999: Shapes cleared
+[rosout][INFO] 2016-01-26 14:12:33,481: Shapes cleared
+[rosout][INFO] 2016-01-26 14:13:08,093: Shapes cleared
+[rosout][INFO] 2016-01-26 14:13:41,281: Shapes cleared
+[rosout][INFO] 2016-01-26 14:15:01,214: Shapes cleared
+[rosout][INFO] 2016-01-26 14:16:40,714: Shapes cleared
+[rosout][INFO] 2016-01-26 14:17:52,654: Shapes cleared
+[rosout][INFO] 2016-01-26 14:18:57,530: Shapes cleared
+[rosout][INFO] 2016-01-26 14:19:37,923: Shapes cleared
+[rosout][INFO] 2016-01-26 14:20:31,091: Shape at location returned: 0_-1
+[rosout][INFO] 2016-01-26 14:20:40,825: Shapes cleared
+[rosout][INFO] 2016-01-26 14:21:32,831: Shapes cleared
+[rosout][INFO] 2016-01-26 14:22:27,448: Shapes cleared
+[rosout][INFO] 2016-01-26 14:23:00,593: Shapes cleared
+[rosout][INFO] 2016-01-26 14:23:50,857: Shape at location returned: 0_-1
+[rosout][INFO] 2016-01-26 14:24:06,367: Shapes cleared
+[rosout][INFO] 2016-01-26 14:25:04,758: Shapes cleared
+[rosout][INFO] 2016-01-26 14:25:41,379: Shapes cleared
+[rosout][INFO] 2016-01-26 14:26:22,656: Shapes cleared
+[rosout][INFO] 2016-01-26 14:27:31,517: Shapes cleared
+[rosout][INFO] 2016-01-26 14:28:30,269: Shapes cleared
+[rosout][INFO] 2016-01-26 14:29:24,434: Shapes cleared
+[rospy.core][INFO] 2016-01-26 14:29:35,840: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2016-01-26 14:29:35,857: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2016-01-26 14:29:35,858: signal-2
+[rosout][INFO] 2016-01-26 14:29:36,011: shut down
+[rospy.core][INFO] 2016-01-26 14:29:36,011: signal_shutdown [atexit]

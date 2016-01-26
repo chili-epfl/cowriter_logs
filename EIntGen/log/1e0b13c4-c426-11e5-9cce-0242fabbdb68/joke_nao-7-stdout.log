@@ -1,0 +1,4 @@
+[I] 18131 qimessaging.session: Session listener created on tcp://0.0.0.0:0
+[I] 18131 qimessaging.transportserver: TransportServer will listen on: tcp://172.17.0.1:56340
+[I] 18131 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:56340
+[I] 18131 qimessaging.transportserver: TransportServer will listen on: tcp://10.0.0.11:56340

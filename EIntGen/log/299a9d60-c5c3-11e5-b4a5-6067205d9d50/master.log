@@ -1,0 +1,1059 @@
+[rosmaster.main][INFO] 2016-01-28 14:29:31,603: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2016-01-28 14:29:31,604: Starting ROS Master Node
+[xmlrpc][INFO] 2016-01-28 14:29:31,604: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2016-01-28 14:29:31,604: Started XML-RPC server [http://10.0.0.11:11311/]
+[xmlrpc][INFO] 2016-01-28 14:29:31,604: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2016-01-28 14:29:31,605: Master initialized: port[11311], uri[http://10.0.0.11:11311/]
+[rosmaster.master][INFO] 2016-01-28 14:29:31,662: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:29:31,664: +PARAM [/roslaunch/uris/host_10_0_0_11__38882] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:29:31,754: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:29:31,754: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:29:31,760: +SERVICE [/rosout/get_loggers] /rosout http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:29:31,761: +SERVICE [/rosout/set_logger_level] /rosout http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:29:31,762: +PUB [/rosout_agg] /rosout http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:29:31,767: +SUB [/rosout] /rosout http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:31:38,269: +PARAM [/roslaunch/uris/host_10_0_0_11__57644] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,278: +PARAM [/activityManager/current_activity_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,279: +PARAM [/drawing_nao/shape_log] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,279: +PARAM [/learning_words_nao/shape_writing_finished_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,279: +PARAM [/activityManager/clear_writing_surface_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,279: +PARAM [/nao_writer/nao_handedness] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,279: +PARAM [/drawing_nao/stop_request_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,279: +PARAM [/trajectory_visualizer/clear_surface_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,279: +PARAM [/writing_surface_positioner/tag_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,279: +PARAM [/learning_words_nao/grade_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,279: +PARAM [/activity_manager/stop_request_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,279: +PARAM [/nao_writer/nao_ip] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,280: +PARAM [/activityManager/nao_handedness] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,280: +PARAM [/learning_words_nao/trajectory_output_nao_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,280: +PARAM [/trajectory_visualizer/trajectory_input_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,280: +PARAM [/trajectory_visualizer/writing_surface_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,280: +PARAM [/activityManager/language] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,280: +PARAM [/writing_surface_positioner/surface_width] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,280: +PARAM [/learning_words_nao/nb_repetitions_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,280: +PARAM [/v4l/gscam_driver_v4l/gscam_config] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,280: +PARAM [/joke_nao/dataset_directory] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,280: +PARAM [/activityManager/nao_standing] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,280: +PARAM [/tablet_input_interpreter/shape_feedback_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,280: +PARAM [/tablet_input_interpreter/touch_info_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,280: +PARAM [/activityManager/new_teacher_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,280: +PARAM [/learning_words_nao/test_request_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,280: +PARAM [/activityManager/time_activity_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,281: +PARAM [/v4l/gscam_driver_v4l/camera_info_url] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,281: +PARAM [/trajectory_visualizer/visualization_output_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,281: +PARAM [/v4l/gscam_driver_v4l/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,281: +PARAM [/learning_words_nao/gesture_info_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,281: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,281: +PARAM [/writing_surface_positioner/surface_height] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,281: +PARAM [/writing_surface_positioner/writing_surface_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,281: +PARAM [/activityManager/nao_speaking] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,281: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,281: +PARAM [/nao_writer/trajectory_input_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,281: +PARAM [/joke_nao/shape_log] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,281: +PARAM [/joke_nao/stop_request_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,281: +PARAM [/learning_words_nao/dataset_directory] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,281: +PARAM [/activity_manager/shape_log] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,281: +PARAM [/learning_words_nao/shape_feedback_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,282: +PARAM [/v4l/gscam_driver_v4l/camera_name] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,282: +PARAM [/writing_surface_positioner/positioning_method] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,282: +PARAM [/writing_surface_positioner/nao_handedness] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,282: +PARAM [/activityManager/nao_writing] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,282: +PARAM [/learning_words_nao/shape_log] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,282: +PARAM [/learning_words_nao/processed_user_shape_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,282: +PARAM [/learning_words_nao/writing_surface_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,282: +PARAM [/activityManager/camera_publishing_status_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,282: +PARAM [/activityManager/use_robot_in_interaction] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,282: +PARAM [/learning_words_nao/stop_request_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,282: +PARAM [/wait_to_sync_traj] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,282: +PARAM [/v4l/gscam_driver_v4l/sync_sink] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,282: +PARAM [/tablet_input_interpreter/gesture_info_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,282: +PARAM [/activityManager/nao_ip] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,282: +PARAM [/learning_words_nao/words_to_write_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,283: +PARAM [/learning_words_nao/trajectory_output_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,283: +PARAM [/drawing_nao/dataset_directory] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:31:38,369: +PUB [/rosout] /map_footprint_broadcaster http://10.0.0.11:34689/
+[rosmaster.master][INFO] 2016-01-28 14:31:38,370: +SERVICE [/map_footprint_broadcaster/get_loggers] /map_footprint_broadcaster http://10.0.0.11:34689/
+[rosmaster.master][INFO] 2016-01-28 14:31:38,371: +SERVICE [/map_footprint_broadcaster/set_logger_level] /map_footprint_broadcaster http://10.0.0.11:34689/
+[rosmaster.master][INFO] 2016-01-28 14:31:38,372: +PUB [/tf] /map_footprint_broadcaster http://10.0.0.11:34689/
+[rosmaster.master][INFO] 2016-01-28 14:31:38,378: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:31:38,581: +PUB [/rosout] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:31:38,585: +SERVICE [/v4l/gscam_driver_v4l/get_loggers] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:31:38,589: +SERVICE [/v4l/gscam_driver_v4l/set_logger_level] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:31:38,681: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:31:38,916: +SERVICE [/v4l/set_camera_info] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,176: +PUB [/rosout] /trajectory_visualizer http://10.0.0.11:46765/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,182: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,215: +SERVICE [/trajectory_visualizer/get_loggers] /trajectory_visualizer http://10.0.0.11:46765/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,225: +SERVICE [/trajectory_visualizer/set_logger_level] /trajectory_visualizer http://10.0.0.11:46765/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,344: +PUB [/visualization_markers] /trajectory_visualizer http://10.0.0.11:46765/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,378: +SUB [/write_traj] /trajectory_visualizer http://10.0.0.11:46765/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,395: +SUB [/clear_screen] /trajectory_visualizer http://10.0.0.11:46765/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,476: +PUB [/rosout] /display_manager_server http://10.0.0.11:54429/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,482: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,496: +SERVICE [/display_manager_server/get_loggers] /display_manager_server http://10.0.0.11:54429/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,504: +SERVICE [/display_manager_server/set_logger_level] /display_manager_server http://10.0.0.11:54429/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,516: +SERVICE [/clear_all_shapes] /display_manager_server http://10.0.0.11:54429/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,540: +SERVICE [/display_new_shape] /display_manager_server http://10.0.0.11:54429/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,548: +SERVICE [/index_of_location] /display_manager_server http://10.0.0.11:54429/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,561: +SERVICE [/shape_at_location] /display_manager_server http://10.0.0.11:54429/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,572: +PUB [/v4l/camera/image_raw/compressedDepth] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,588: +SERVICE [/closest_shapes_to_location] /display_manager_server http://10.0.0.11:54429/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,602: +SERVICE [/v4l/camera/image_raw/compressedDepth/set_parameters] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,612: +SERVICE [/display_shape_at_location] /display_manager_server http://10.0.0.11:54429/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,625: +PUB [/v4l/camera/image_raw/compressedDepth/parameter_descriptions] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,640: +SERVICE [/possible_to_display_shape] /display_manager_server http://10.0.0.11:54429/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,641: +SUB [/words_to_write] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,652: +PUB [/v4l/camera/image_raw/compressedDepth/parameter_updates] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,664: +SUB [/novelty] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,688: +SUB [/activity] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,708: +SUB [/current_score] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,728: +SUB [/current_learn] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,740: +PARAM [/v4l/camera/image_raw/compressedDepth/depth_max] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:31:39,749: +SUB [/sizeHead] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,759: +PARAM [/v4l/camera/image_raw/compressedDepth/depth_quantization] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:31:39,766: +SUB [/clear_screen] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,780: +PARAM [/v4l/camera/image_raw/compressedDepth/png_level] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:31:39,796: +SUB [/nb_repetitions] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,804: +PARAM [/v4l/camera/image_raw/compressedDepth/depth_max] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:31:39,811: +SUB [/lookAt] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,820: +PUB [/rosout] /nao_writer http://10.0.0.11:34219/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,828: +PARAM [/v4l/camera/image_raw/compressedDepth/depth_quantization] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:31:39,844: +SUB [/user_feedback] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,868: +PARAM [/v4l/camera/image_raw/compressedDepth/png_level] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:31:39,872: +SUB [/time_writing] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,880: +SERVICE [/nao_writer/get_loggers] /nao_writer http://10.0.0.11:34219/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,884: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,892: +SUB [/current_demo] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,912: +SERVICE [/nao_writer/set_logger_level] /nao_writer http://10.0.0.11:34219/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,916: +SUB [/time_response] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,921: +SUB [/movement] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,926: +SUB [/smile] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,932: +SUB [/stop_learning] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,947: +SUB [/new_child] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:31:39,980: +PUB [/tf] /writing_surface_positioner http://10.0.0.11:54940/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,016: +PUB [/rosout] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,064: +SERVICE [/log/get_loggers] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,068: +PUB [/rosout] /writing_surface_positioner http://10.0.0.11:54940/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,085: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,086: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,088: +PUB [/v4l/camera/image_raw/compressed] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,096: +SERVICE [/log/set_logger_level] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,127: +SERVICE [/v4l/camera/image_raw/compressed/set_parameters] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,132: +SERVICE [/writing_surface_positioner/get_loggers] /writing_surface_positioner http://10.0.0.11:54940/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,136: +PUB [/v4l/camera/image_raw/compressed/parameter_descriptions] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,139: +PUB [/v4l/camera/image_raw/compressed/parameter_updates] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,148: +SERVICE [/writing_surface_positioner/set_logger_level] /writing_surface_positioner http://10.0.0.11:54940/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,170: +PUB [/writing_surface_placer/update_full] /writing_surface_positioner http://10.0.0.11:54940/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,172: +PUB [/writing_surface_placer/update] /writing_surface_positioner http://10.0.0.11:54940/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,177: +SUB [/writing_surface_placer/feedback] /writing_surface_positioner http://10.0.0.11:54940/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,179: +PARAM [/v4l/camera/image_raw/compressed/format] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:31:40,186: +PARAM [/v4l/camera/image_raw/compressed/jpeg_quality] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:31:40,188: +PARAM [/v4l/camera/image_raw/compressed/png_level] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:31:40,204: +PARAM [/v4l/camera/image_raw/compressed/format] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:31:40,206: +PARAM [/v4l/camera/image_raw/compressed/jpeg_quality] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:31:40,208: +PARAM [/v4l/camera/image_raw/compressed/png_level] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:31:40,277: +PUB [/rosout] /tablet_input_interpreter http://10.0.0.11:51232/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,282: +SERVICE [/tablet_input_interpreter/get_loggers] /tablet_input_interpreter http://10.0.0.11:51232/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,283: +SERVICE [/tablet_input_interpreter/set_logger_level] /tablet_input_interpreter http://10.0.0.11:51232/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,286: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,294: +SUB [/gesture_info] /tablet_input_interpreter http://10.0.0.11:51232/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,302: +SUB [/user_drawn_shapes] /tablet_input_interpreter http://10.0.0.11:51232/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,304: +PUB [/user_shapes_processed] /tablet_input_interpreter http://10.0.0.11:51232/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,321: +PUB [/v4l/camera/image_raw] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,381: +PUB [/v4l/camera/image_raw/theora] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,382: +SERVICE [/v4l/camera/image_raw/theora/set_parameters] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,383: +PUB [/v4l/camera/image_raw/theora/parameter_descriptions] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,384: +PUB [/v4l/camera/image_raw/theora/parameter_updates] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,386: +PARAM [/v4l/camera/image_raw/theora/optimize_for] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:31:40,388: +PUB [/rosout] /activity_manager http://10.0.0.11:38728/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,388: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,389: +PARAM [/v4l/camera/image_raw/theora/target_bitrate] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:31:40,390: +PARAM [/v4l/camera/image_raw/theora/quality] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:31:40,392: +PARAM [/v4l/camera/image_raw/theora/keyframe_frequency] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:31:40,393: +SERVICE [/activity_manager/get_loggers] /activity_manager http://10.0.0.11:38728/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,394: +PARAM [/v4l/camera/image_raw/theora/optimize_for] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:31:40,394: +SERVICE [/activity_manager/set_logger_level] /activity_manager http://10.0.0.11:38728/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,395: +PARAM [/v4l/camera/image_raw/theora/target_bitrate] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:31:40,397: +PARAM [/v4l/camera/image_raw/theora/quality] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:31:40,397: +PUB [/activity] /activity_manager http://10.0.0.11:38728/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,398: +PARAM [/v4l/camera/image_raw/theora/keyframe_frequency] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:31:40,400: +PUB [/activity_time] /activity_manager http://10.0.0.11:38728/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,400: +PUB [/v4l/camera/camera_info] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,402: +SUB [/stop_learning] /activity_manager http://10.0.0.11:38728/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,404: +SUB [/activity] /activity_manager http://10.0.0.11:38728/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,407: +SUB [/watchdog_clear/tablet] /activity_manager http://10.0.0.11:38728/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,487: publisherUpdate[/activity] -> http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,507: +PUB [/rosout] /joke_nao http://10.0.0.11:59798/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,510: +SERVICE [/joke_nao/get_loggers] /joke_nao http://10.0.0.11:59798/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,510: +SERVICE [/joke_nao/set_logger_level] /joke_nao http://10.0.0.11:59798/
+[rosmaster.master][INFO] 2016-01-28 14:31:40,589: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:31:44,589: -PUB [/rosout] /android/wordpub http://10.0.0.4:44821/
+[rosmaster.master][INFO] 2016-01-28 14:31:44,591: -PUB [/words_to_write] /android/wordpub http://10.0.0.4:44821/
+[rosmaster.master][INFO] 2016-01-28 14:31:44,945: -PUB [/rosout] /nao_writer http://10.0.0.11:34219/
+[rosmaster.master][INFO] 2016-01-28 14:31:44,945: -SERVICE [/nao_writer/set_logger_level] /nao_writer rosrpc://10.0.0.11:38198
+[rosmaster.master][INFO] 2016-01-28 14:31:44,945: -SERVICE [/nao_writer/get_loggers] /nao_writer rosrpc://10.0.0.11:38198
+[rosmaster.master][INFO] 2016-01-28 14:31:44,995: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:31:45,516: -PUB [/rosout] /joke_nao http://10.0.0.11:59798/
+[rosmaster.master][INFO] 2016-01-28 14:31:45,516: -SERVICE [/joke_nao/set_logger_level] /joke_nao rosrpc://10.0.0.11:57579
+[rosmaster.master][INFO] 2016-01-28 14:31:45,516: -SERVICE [/joke_nao/get_loggers] /joke_nao rosrpc://10.0.0.11:57579
+[rosmaster.master][INFO] 2016-01-28 14:31:45,596: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:31:47,419: -SUB [/activity] /activity_manager http://10.0.0.11:38728/
+[rosmaster.master][INFO] 2016-01-28 14:31:47,419: -SUB [/stop_learning] /activity_manager http://10.0.0.11:38728/
+[rosmaster.master][INFO] 2016-01-28 14:31:47,419: -SUB [/watchdog_clear/tablet] /activity_manager http://10.0.0.11:38728/
+[rosmaster.master][INFO] 2016-01-28 14:31:47,419: -PUB [/rosout] /activity_manager http://10.0.0.11:38728/
+[rosmaster.master][INFO] 2016-01-28 14:31:47,420: -PUB [/activity] /activity_manager http://10.0.0.11:38728/
+[rosmaster.master][INFO] 2016-01-28 14:31:47,420: -PUB [/activity_time] /activity_manager http://10.0.0.11:38728/
+[rosmaster.master][INFO] 2016-01-28 14:31:47,420: -SERVICE [/activity_manager/get_loggers] /activity_manager rosrpc://10.0.0.11:43423
+[rosmaster.master][INFO] 2016-01-28 14:31:47,420: -SERVICE [/activity_manager/set_logger_level] /activity_manager rosrpc://10.0.0.11:43423
+[rosmaster.master][INFO] 2016-01-28 14:31:47,499: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:31:47,499: publisherUpdate[/activity] -> http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:31:47,858: +PUB [/rosout] /android/wordpub http://10.0.0.4:48129/
+[rosmaster.master][INFO] 2016-01-28 14:31:47,901: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:31:47,914: +PUB [/words_to_write] /android/wordpub http://10.0.0.4:48129/
+[rosmaster.master][INFO] 2016-01-28 14:31:48,001: publisherUpdate[/words_to_write] -> http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:31:52,560: -PUB [/time_response] /android_gingerbread/interaction_manager http://10.0.0.3:56143/
+[rosmaster.master][INFO] 2016-01-28 14:31:52,565: -PUB [/touch_info] /android_gingerbread/interaction_manager http://10.0.0.3:56143/
+[rosmaster.master][INFO] 2016-01-28 14:31:52,677: -PUB [/rosout] /android_gingerbread/interaction_manager http://10.0.0.3:56143/
+[rosmaster.master][INFO] 2016-01-28 14:31:52,677: -PUB [/clear_screen] /android_gingerbread/interaction_manager http://10.0.0.3:56143/
+[rosmaster.master][INFO] 2016-01-28 14:31:52,682: -PUB [/time_writing] /android_gingerbread/interaction_manager http://10.0.0.3:56143/
+[rosmaster.master][INFO] 2016-01-28 14:31:52,682: -PUB [/gesture_info] /android_gingerbread/interaction_manager http://10.0.0.3:56143/
+[rosmaster.master][INFO] 2016-01-28 14:31:52,687: -PUB [/user_drawn_shapes] /android_gingerbread/interaction_manager http://10.0.0.3:56143/
+[rosmaster.master][INFO] 2016-01-28 14:31:52,693: -PUB [/user_feedback] /android_gingerbread/interaction_manager http://10.0.0.3:56143/
+[rosmaster.master][INFO] 2016-01-28 14:31:52,751: -PUB [/rosout] /android_gingerbread/boxes_drawer http://10.0.0.3:57415/
+[rosmaster.master][INFO] 2016-01-28 14:31:52,752: -SUB [/clear_screen] /android_gingerbread/boxes_drawer http://10.0.0.3:57415/
+[rosmaster.master][INFO] 2016-01-28 14:31:52,759: -SUB [/boxes_to_draw] /android_gingerbread/boxes_drawer http://10.0.0.3:57415/
+[rosmaster.master][INFO] 2016-01-28 14:31:52,793: -PUB [/watchdog_clear/tablet] /android_gingerbread/display_manager http://10.0.0.3:50790/
+[rosmaster.master][INFO] 2016-01-28 14:31:52,796: -PUB [/shape_finished] /android_gingerbread/display_manager http://10.0.0.3:50790/
+[rosmaster.master][INFO] 2016-01-28 14:31:52,802: -PUB [/rosout] /android_gingerbread/display_manager http://10.0.0.3:50790/
+[rosmaster.master][INFO] 2016-01-28 14:31:52,808: -SUB [/write_traj] /android_gingerbread/display_manager http://10.0.0.3:50790/
+[rosmaster.master][INFO] 2016-01-28 14:31:52,820: -SUB [/clear_screen] /android_gingerbread/display_manager http://10.0.0.3:50790/
+[rosmaster.master][INFO] 2016-01-28 14:32:00,128: +PUB [/rosout] /android_gingerbread/display_manager http://10.0.0.3:54932/
+[rosmaster.master][INFO] 2016-01-28 14:32:00,136: +PUB [/rosout] /android_gingerbread/interaction_manager http://10.0.0.3:55957/
+[rosmaster.master][INFO] 2016-01-28 14:32:00,152: +PUB [/rosout] /android_gingerbread/boxes_drawer http://10.0.0.3:37724/
+[rosmaster.master][INFO] 2016-01-28 14:32:00,185: +PUB [/touch_info] /android_gingerbread/interaction_manager http://10.0.0.3:55957/
+[rosmaster.master][INFO] 2016-01-28 14:32:00,215: +SUB [/boxes_to_draw] /android_gingerbread/boxes_drawer http://10.0.0.3:37724/
+[rosmaster.master][INFO] 2016-01-28 14:32:00,218: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:00,218: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:00,219: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:00,227: +PUB [/gesture_info] /android_gingerbread/interaction_manager http://10.0.0.3:55957/
+[rosmaster.master][INFO] 2016-01-28 14:32:00,259: +PUB [/clear_screen] /android_gingerbread/interaction_manager http://10.0.0.3:55957/
+[rosmaster.master][INFO] 2016-01-28 14:32:00,261: +SUB [/clear_screen] /android_gingerbread/boxes_drawer http://10.0.0.3:37724/
+[rosmaster.master][INFO] 2016-01-28 14:32:00,287: +PUB [/user_drawn_shapes] /android_gingerbread/interaction_manager http://10.0.0.3:55957/
+[rosmaster.master][INFO] 2016-01-28 14:32:00,308: +PUB [/time_writing] /android_gingerbread/interaction_manager http://10.0.0.3:55957/
+[rosmaster.master][INFO] 2016-01-28 14:32:00,318: +PUB [/time_response] /android_gingerbread/interaction_manager http://10.0.0.3:55957/
+[rosmaster.master][INFO] 2016-01-28 14:32:00,318: publisherUpdate[/gesture_info] -> http://10.0.0.11:51232/
+[rosmaster.master][INFO] 2016-01-28 14:32:00,319: publisherUpdate[/clear_screen] -> http://10.0.0.11:46765/
+[rosmaster.master][INFO] 2016-01-28 14:32:00,319: publisherUpdate[/clear_screen] -> http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:32:00,320: publisherUpdate[/user_drawn_shapes] -> http://10.0.0.11:51232/
+[rosmaster.master][INFO] 2016-01-28 14:32:00,321: publisherUpdate[/time_writing] -> http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:32:00,322: publisherUpdate[/time_response] -> http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:32:00,416: +PUB [/user_feedback] /android_gingerbread/interaction_manager http://10.0.0.3:55957/
+[rosmaster.master][INFO] 2016-01-28 14:32:00,420: publisherUpdate[/user_feedback] -> http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:32:00,449: +SUB [/write_traj] /android_gingerbread/display_manager http://10.0.0.3:54932/
+[rosmaster.master][INFO] 2016-01-28 14:32:00,456: +SUB [/clear_screen] /android_gingerbread/display_manager http://10.0.0.3:54932/
+[rosmaster.master][INFO] 2016-01-28 14:32:00,539: +PUB [/shape_finished] /android_gingerbread/display_manager http://10.0.0.3:54932/
+[rosmaster.master][INFO] 2016-01-28 14:32:00,550: +PUB [/watchdog_clear/tablet] /android_gingerbread/display_manager http://10.0.0.3:54932/
+[rosmaster.master][INFO] 2016-01-28 14:32:17,457: +SERVICE [/rostopic_27355_1453987937306/get_loggers] /rostopic_27355_1453987937306 http://10.0.0.11:59837/
+[rosmaster.master][INFO] 2016-01-28 14:32:17,458: +SERVICE [/rostopic_27355_1453987937306/set_logger_level] /rostopic_27355_1453987937306 http://10.0.0.11:59837/
+[rosmaster.master][INFO] 2016-01-28 14:32:17,459: +PUB [/stop_learning] /rostopic_27355_1453987937306 http://10.0.0.11:59837/
+[rosmaster.master][INFO] 2016-01-28 14:32:17,546: publisherUpdate[/stop_learning] -> http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:32:20,465: -PUB [/stop_learning] /rostopic_27355_1453987937306 http://10.0.0.11:59837/
+[rosmaster.master][INFO] 2016-01-28 14:32:20,465: -SERVICE [/rostopic_27355_1453987937306/set_logger_level] /rostopic_27355_1453987937306 rosrpc://10.0.0.11:45006
+[rosmaster.master][INFO] 2016-01-28 14:32:20,465: -SERVICE [/rostopic_27355_1453987937306/get_loggers] /rostopic_27355_1453987937306 rosrpc://10.0.0.11:45006
+[rosmaster.master][INFO] 2016-01-28 14:32:20,551: publisherUpdate[/stop_learning] -> http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,949: -SUB [/words_to_write] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,949: -SUB [/novelty] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,950: -SUB [/user_drawn_shapes] /tablet_input_interpreter http://10.0.0.11:51232/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,950: -SUB [/activity] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,952: -SUB [/gesture_info] /tablet_input_interpreter http://10.0.0.11:51232/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,953: -PUB [/rosout] /display_manager_server http://10.0.0.11:54429/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,954: -SUB [/current_score] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,954: -SUB [/write_traj] /trajectory_visualizer http://10.0.0.11:46765/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,954: -PUB [/user_shapes_processed] /tablet_input_interpreter http://10.0.0.11:51232/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,954: -SUB [/writing_surface_placer/feedback] /writing_surface_positioner http://10.0.0.11:54940/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,954: -SERVICE [/closest_shapes_to_location] /display_manager_server rosrpc://10.0.0.11:57658
+[rosmaster.master][INFO] 2016-01-28 14:32:25,954: -SUB [/current_learn] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,954: -SUB [/clear_screen] /trajectory_visualizer http://10.0.0.11:46765/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,955: -PUB [/rosout] /tablet_input_interpreter http://10.0.0.11:51232/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,955: -PUB [/writing_surface_placer/update_full] /writing_surface_positioner http://10.0.0.11:54940/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,955: -SERVICE [/index_of_location] /display_manager_server rosrpc://10.0.0.11:57658
+[rosmaster.master][INFO] 2016-01-28 14:32:25,955: -SUB [/sizeHead] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,956: -PUB [/rosout] /trajectory_visualizer http://10.0.0.11:46765/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,956: -SERVICE [/tablet_input_interpreter/set_logger_level] /tablet_input_interpreter rosrpc://10.0.0.11:37663
+[rosmaster.master][INFO] 2016-01-28 14:32:25,956: -PUB [/rosout] /writing_surface_positioner http://10.0.0.11:54940/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,956: -SERVICE [/shape_at_location] /display_manager_server rosrpc://10.0.0.11:57658
+[rosmaster.master][INFO] 2016-01-28 14:32:25,956: -SUB [/clear_screen] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,956: -PUB [/visualization_markers] /trajectory_visualizer http://10.0.0.11:46765/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,956: -SERVICE [/tablet_input_interpreter/get_loggers] /tablet_input_interpreter rosrpc://10.0.0.11:37663
+[rosmaster.master][INFO] 2016-01-28 14:32:25,957: -PUB [/writing_surface_placer/update] /writing_surface_positioner http://10.0.0.11:54940/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,958: -SERVICE [/display_new_shape] /display_manager_server rosrpc://10.0.0.11:57658
+[rosmaster.master][INFO] 2016-01-28 14:32:25,958: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,958: -SUB [/nb_repetitions] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,959: -SERVICE [/trajectory_visualizer/get_loggers] /trajectory_visualizer rosrpc://10.0.0.11:32929
+[rosmaster.master][INFO] 2016-01-28 14:32:25,959: -PUB [/tf] /writing_surface_positioner http://10.0.0.11:54940/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,959: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,959: -SERVICE [/display_shape_at_location] /display_manager_server rosrpc://10.0.0.11:57658
+[rosmaster.master][INFO] 2016-01-28 14:32:25,960: -SUB [/lookAt] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,960: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,960: -SERVICE [/trajectory_visualizer/set_logger_level] /trajectory_visualizer rosrpc://10.0.0.11:32929
+[rosmaster.master][INFO] 2016-01-28 14:32:25,961: -SERVICE [/writing_surface_positioner/get_loggers] /writing_surface_positioner rosrpc://10.0.0.11:51823
+[rosmaster.master][INFO] 2016-01-28 14:32:25,961: -SERVICE [/display_manager_server/set_logger_level] /display_manager_server rosrpc://10.0.0.11:57658
+[rosmaster.master][INFO] 2016-01-28 14:32:25,961: -SUB [/user_feedback] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,961: -SUB [/time_writing] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,961: -SERVICE [/clear_all_shapes] /display_manager_server rosrpc://10.0.0.11:57658
+[rosmaster.master][INFO] 2016-01-28 14:32:25,961: -SUB [/current_demo] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,962: -SERVICE [/writing_surface_positioner/set_logger_level] /writing_surface_positioner rosrpc://10.0.0.11:51823
+[rosmaster.master][INFO] 2016-01-28 14:32:25,962: -SERVICE [/display_manager_server/get_loggers] /display_manager_server rosrpc://10.0.0.11:57658
+[rosmaster.master][INFO] 2016-01-28 14:32:25,961: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,962: -SUB [/time_response] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,962: -SERVICE [/possible_to_display_shape] /display_manager_server rosrpc://10.0.0.11:57658
+[rosmaster.master][INFO] 2016-01-28 14:32:25,963: -SUB [/movement] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,963: -SUB [/smile] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,963: -SUB [/stop_learning] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,964: -SUB [/new_child] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,964: -PUB [/rosout] /log http://10.0.0.11:50711/
+[rosmaster.master][INFO] 2016-01-28 14:32:25,964: -SERVICE [/log/get_loggers] /log rosrpc://10.0.0.11:60029
+[rosmaster.master][INFO] 2016-01-28 14:32:25,964: -SERVICE [/log/set_logger_level] /log rosrpc://10.0.0.11:60029
+[rosmaster.master][INFO] 2016-01-28 14:32:26,040: -PUB [/rosout] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:32:26,040: -PUB [/v4l/camera/image_raw/compressedDepth] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:32:26,041: -PUB [/v4l/camera/image_raw/compressedDepth/parameter_descriptions] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:32:26,041: -PUB [/v4l/camera/image_raw/compressedDepth/parameter_updates] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:32:26,042: -PUB [/v4l/camera/image_raw/compressed] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:32:26,042: -PUB [/v4l/camera/image_raw/compressed/parameter_descriptions] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:32:26,043: -PUB [/v4l/camera/image_raw/compressed/parameter_updates] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:32:26,043: -PUB [/v4l/camera/image_raw] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:32:26,044: -PUB [/v4l/camera/image_raw/theora] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:32:26,044: -PUB [/v4l/camera/image_raw/theora/parameter_descriptions] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:32:26,045: -PUB [/v4l/camera/image_raw/theora/parameter_updates] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:32:26,045: -PUB [/v4l/camera/camera_info] /v4l/gscam_driver_v4l http://10.0.0.11:52204/
+[rosmaster.master][INFO] 2016-01-28 14:32:26,046: -SERVICE [/v4l/gscam_driver_v4l/get_loggers] /v4l/gscam_driver_v4l rosrpc://10.0.0.11:39198
+[rosmaster.master][INFO] 2016-01-28 14:32:26,046: -SERVICE [/v4l/gscam_driver_v4l/set_logger_level] /v4l/gscam_driver_v4l rosrpc://10.0.0.11:39198
+[rosmaster.master][INFO] 2016-01-28 14:32:26,047: -SERVICE [/v4l/set_camera_info] /v4l/gscam_driver_v4l rosrpc://10.0.0.11:39198
+[rosmaster.master][INFO] 2016-01-28 14:32:26,047: -SERVICE [/v4l/camera/image_raw/compressedDepth/set_parameters] /v4l/gscam_driver_v4l rosrpc://10.0.0.11:39198
+[rosmaster.master][INFO] 2016-01-28 14:32:26,048: -SERVICE [/v4l/camera/image_raw/compressed/set_parameters] /v4l/gscam_driver_v4l rosrpc://10.0.0.11:39198
+[rosmaster.master][INFO] 2016-01-28 14:32:26,048: -SERVICE [/v4l/camera/image_raw/theora/set_parameters] /v4l/gscam_driver_v4l rosrpc://10.0.0.11:39198
+[rosmaster.master][INFO] 2016-01-28 14:32:26,058: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:26,060: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:26,137: -PUB [/rosout] /map_footprint_broadcaster http://10.0.0.11:34689/
+[rosmaster.master][INFO] 2016-01-28 14:32:26,138: -PUB [/tf] /map_footprint_broadcaster http://10.0.0.11:34689/
+[rosmaster.master][INFO] 2016-01-28 14:32:26,138: -SERVICE [/map_footprint_broadcaster/get_loggers] /map_footprint_broadcaster rosrpc://10.0.0.11:45802
+[rosmaster.master][INFO] 2016-01-28 14:32:26,139: -SERVICE [/map_footprint_broadcaster/set_logger_level] /map_footprint_broadcaster rosrpc://10.0.0.11:45802
+[rosmaster.master][INFO] 2016-01-28 14:32:26,159: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:29,301: +PARAM [/roslaunch/uris/host_10_0_0_11__43249] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,307: +PARAM [/activityManager/current_activity_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,307: +PARAM [/drawing_nao/shape_log] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,308: +PARAM [/learning_words_nao/shape_writing_finished_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,308: +PARAM [/activityManager/clear_writing_surface_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,308: +PARAM [/nao_writer/nao_handedness] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,308: +PARAM [/drawing_nao/stop_request_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,308: +PARAM [/trajectory_visualizer/clear_surface_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,308: +PARAM [/writing_surface_positioner/tag_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,308: +PARAM [/learning_words_nao/grade_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,309: +PARAM [/activity_manager/stop_request_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,309: +PARAM [/nao_writer/nao_ip] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,309: +PARAM [/activityManager/nao_handedness] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,309: +PARAM [/learning_words_nao/trajectory_output_nao_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,309: +PARAM [/trajectory_visualizer/trajectory_input_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,309: +PARAM [/trajectory_visualizer/writing_surface_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,309: +PARAM [/activityManager/language] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,309: +PARAM [/writing_surface_positioner/surface_width] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,309: +PARAM [/learning_words_nao/nb_repetitions_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,310: +PARAM [/v4l/gscam_driver_v4l/gscam_config] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,310: +PARAM [/joke_nao/dataset_directory] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,310: +PARAM [/activityManager/nao_standing] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,310: +PARAM [/tablet_input_interpreter/shape_feedback_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,310: +PARAM [/tablet_input_interpreter/touch_info_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,310: +PARAM [/activityManager/new_teacher_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,310: +PARAM [/learning_words_nao/test_request_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,310: +PARAM [/activityManager/time_activity_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,311: +PARAM [/v4l/gscam_driver_v4l/camera_info_url] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,311: +PARAM [/trajectory_visualizer/visualization_output_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,311: +PARAM [/v4l/gscam_driver_v4l/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,311: +PARAM [/learning_words_nao/gesture_info_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,311: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,311: +PARAM [/writing_surface_positioner/surface_height] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,311: +PARAM [/writing_surface_positioner/writing_surface_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,311: +PARAM [/activityManager/nao_speaking] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,311: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,311: +PARAM [/nao_writer/trajectory_input_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,311: +PARAM [/joke_nao/shape_log] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,312: +PARAM [/joke_nao/stop_request_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,312: +PARAM [/learning_words_nao/dataset_directory] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,312: +PARAM [/activity_manager/shape_log] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,312: +PARAM [/learning_words_nao/shape_feedback_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,312: +PARAM [/v4l/gscam_driver_v4l/camera_name] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,312: +PARAM [/writing_surface_positioner/positioning_method] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,312: +PARAM [/writing_surface_positioner/nao_handedness] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,312: +PARAM [/activityManager/nao_writing] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,312: +PARAM [/learning_words_nao/shape_log] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,313: +PARAM [/learning_words_nao/processed_user_shape_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,313: +PARAM [/learning_words_nao/writing_surface_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,313: +PARAM [/activityManager/camera_publishing_status_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,313: +PARAM [/activityManager/use_robot_in_interaction] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,313: +PARAM [/learning_words_nao/stop_request_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,313: +PARAM [/wait_to_sync_traj] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,313: +PARAM [/v4l/gscam_driver_v4l/sync_sink] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,313: +PARAM [/tablet_input_interpreter/gesture_info_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,313: +PARAM [/activityManager/nao_ip] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,313: +PARAM [/learning_words_nao/words_to_write_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,313: +PARAM [/learning_words_nao/trajectory_output_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,313: +PARAM [/drawing_nao/dataset_directory] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:29,400: +PUB [/rosout] /map_footprint_broadcaster http://10.0.0.11:36155/
+[rosmaster.master][INFO] 2016-01-28 14:32:29,402: +SERVICE [/map_footprint_broadcaster/get_loggers] /map_footprint_broadcaster http://10.0.0.11:36155/
+[rosmaster.master][INFO] 2016-01-28 14:32:29,403: +SERVICE [/map_footprint_broadcaster/set_logger_level] /map_footprint_broadcaster http://10.0.0.11:36155/
+[rosmaster.master][INFO] 2016-01-28 14:32:29,404: +PUB [/tf] /map_footprint_broadcaster http://10.0.0.11:36155/
+[rosmaster.master][INFO] 2016-01-28 14:32:29,464: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:29,592: +PUB [/rosout] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:29,594: +SERVICE [/v4l/gscam_driver_v4l/get_loggers] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:29,628: +SERVICE [/v4l/gscam_driver_v4l/set_logger_level] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:29,666: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:29,863: +SERVICE [/v4l/set_camera_info] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,156: +PUB [/rosout] /trajectory_visualizer http://10.0.0.11:53294/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,167: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,207: +SERVICE [/trajectory_visualizer/get_loggers] /trajectory_visualizer http://10.0.0.11:53294/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,227: +SERVICE [/trajectory_visualizer/set_logger_level] /trajectory_visualizer http://10.0.0.11:53294/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,327: +PUB [/visualization_markers] /trajectory_visualizer http://10.0.0.11:53294/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,356: +SUB [/write_traj] /trajectory_visualizer http://10.0.0.11:53294/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,379: +SUB [/clear_screen] /trajectory_visualizer http://10.0.0.11:53294/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,397: +PUB [/rosout] /display_manager_server http://10.0.0.11:45822/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,411: +SERVICE [/display_manager_server/get_loggers] /display_manager_server http://10.0.0.11:45822/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,427: +SERVICE [/display_manager_server/set_logger_level] /display_manager_server http://10.0.0.11:45822/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,437: +SERVICE [/clear_all_shapes] /display_manager_server http://10.0.0.11:45822/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,457: +SERVICE [/display_new_shape] /display_manager_server http://10.0.0.11:45822/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,469: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,473: +SERVICE [/index_of_location] /display_manager_server http://10.0.0.11:45822/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,483: +SERVICE [/shape_at_location] /display_manager_server http://10.0.0.11:45822/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,489: +SERVICE [/closest_shapes_to_location] /display_manager_server http://10.0.0.11:45822/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,504: +SERVICE [/display_shape_at_location] /display_manager_server http://10.0.0.11:45822/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,513: +SERVICE [/possible_to_display_shape] /display_manager_server http://10.0.0.11:45822/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,527: +SUB [/words_to_write] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,529: +SUB [/novelty] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,547: +SUB [/activity] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,557: +SUB [/current_score] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,563: +SUB [/current_learn] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,575: +SUB [/sizeHead] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,581: +SUB [/clear_screen] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,588: +SUB [/nb_repetitions] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,592: +SUB [/lookAt] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,604: +SUB [/user_feedback] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,605: +SUB [/time_writing] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,607: +SUB [/current_demo] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,609: +SUB [/time_response] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,610: +SUB [/movement] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,612: +SUB [/smile] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,614: +SUB [/stop_learning] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,617: +SUB [/new_child] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,632: +PUB [/rosout] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,643: +PUB [/v4l/camera/image_raw/compressedDepth] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,647: +SERVICE [/v4l/camera/image_raw/compressedDepth/set_parameters] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,652: +SERVICE [/log/get_loggers] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,662: +PUB [/v4l/camera/image_raw/compressedDepth/parameter_descriptions] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,668: +SERVICE [/log/set_logger_level] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,669: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,685: +PUB [/v4l/camera/image_raw/compressedDepth/parameter_updates] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,716: +PARAM [/v4l/camera/image_raw/compressedDepth/depth_max] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:32:30,725: +PARAM [/v4l/camera/image_raw/compressedDepth/depth_quantization] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:32:30,737: +PARAM [/v4l/camera/image_raw/compressedDepth/png_level] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:32:30,745: +PARAM [/v4l/camera/image_raw/compressedDepth/depth_max] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:32:30,752: +PUB [/rosout] /nao_writer http://10.0.0.11:52039/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,757: +PARAM [/v4l/camera/image_raw/compressedDepth/depth_quantization] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:32:30,767: +PARAM [/v4l/camera/image_raw/compressedDepth/png_level] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:32:30,770: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,787: +SERVICE [/nao_writer/get_loggers] /nao_writer http://10.0.0.11:52039/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,808: +SERVICE [/nao_writer/set_logger_level] /nao_writer http://10.0.0.11:52039/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,966: +PUB [/v4l/camera/image_raw/compressed] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,974: +SERVICE [/v4l/camera/image_raw/compressed/set_parameters] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,980: +PUB [/v4l/camera/image_raw/compressed/parameter_descriptions] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,986: +PUB [/tf] /writing_surface_positioner http://10.0.0.11:34252/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,987: +PUB [/v4l/camera/image_raw/compressed/parameter_updates] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:30,995: +PARAM [/v4l/camera/image_raw/compressed/format] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:32:30,997: +PARAM [/v4l/camera/image_raw/compressed/jpeg_quality] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:32:30,999: +PARAM [/v4l/camera/image_raw/compressed/png_level] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:32:31,002: +PARAM [/v4l/camera/image_raw/compressed/format] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:32:31,004: +PARAM [/v4l/camera/image_raw/compressed/jpeg_quality] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:32:31,006: +PARAM [/v4l/camera/image_raw/compressed/png_level] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:32:31,100: +PUB [/rosout] /writing_surface_positioner http://10.0.0.11:34252/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,136: +SERVICE [/writing_surface_positioner/get_loggers] /writing_surface_positioner http://10.0.0.11:34252/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,146: +SERVICE [/writing_surface_positioner/set_logger_level] /writing_surface_positioner http://10.0.0.11:34252/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,147: +PUB [/v4l/camera/image_raw] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,156: +PUB [/writing_surface_placer/update_full] /writing_surface_positioner http://10.0.0.11:34252/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,159: +PUB [/writing_surface_placer/update] /writing_surface_positioner http://10.0.0.11:34252/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,163: +SUB [/writing_surface_placer/feedback] /writing_surface_positioner http://10.0.0.11:34252/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,168: +PUB [/rosout] /tablet_input_interpreter http://10.0.0.11:45432/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,171: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,172: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,192: +SERVICE [/tablet_input_interpreter/get_loggers] /tablet_input_interpreter http://10.0.0.11:45432/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,200: +SERVICE [/tablet_input_interpreter/set_logger_level] /tablet_input_interpreter http://10.0.0.11:45432/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,230: +SUB [/gesture_info] /tablet_input_interpreter http://10.0.0.11:45432/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,243: +SUB [/user_drawn_shapes] /tablet_input_interpreter http://10.0.0.11:45432/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,251: +PUB [/user_shapes_processed] /tablet_input_interpreter http://10.0.0.11:45432/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,265: +PUB [/v4l/camera/image_raw/theora] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,267: +SERVICE [/v4l/camera/image_raw/theora/set_parameters] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,274: +PUB [/v4l/camera/image_raw/theora/parameter_descriptions] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,278: +PUB [/v4l/camera/image_raw/theora/parameter_updates] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,287: +PARAM [/v4l/camera/image_raw/theora/optimize_for] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:32:31,291: +PARAM [/v4l/camera/image_raw/theora/target_bitrate] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:32:31,293: +PARAM [/v4l/camera/image_raw/theora/quality] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:32:31,295: +PARAM [/v4l/camera/image_raw/theora/keyframe_frequency] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:32:31,297: +PARAM [/v4l/camera/image_raw/theora/optimize_for] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:32:31,300: +PARAM [/v4l/camera/image_raw/theora/target_bitrate] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:32:31,302: +PARAM [/v4l/camera/image_raw/theora/quality] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:32:31,312: +PARAM [/v4l/camera/image_raw/theora/keyframe_frequency] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:32:31,314: +PUB [/v4l/camera/camera_info] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,353: +PUB [/rosout] /activity_manager http://10.0.0.11:41118/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,357: +SERVICE [/activity_manager/get_loggers] /activity_manager http://10.0.0.11:41118/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,358: +SERVICE [/activity_manager/set_logger_level] /activity_manager http://10.0.0.11:41118/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,360: +PUB [/activity] /activity_manager http://10.0.0.11:41118/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,361: +PUB [/activity_time] /activity_manager http://10.0.0.11:41118/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,363: +SUB [/stop_learning] /activity_manager http://10.0.0.11:41118/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,365: +SUB [/activity] /activity_manager http://10.0.0.11:41118/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,368: +SUB [/watchdog_clear/tablet] /activity_manager http://10.0.0.11:41118/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,372: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,372: publisherUpdate[/activity] -> http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,503: +PUB [/rosout] /joke_nao http://10.0.0.11:44848/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,506: +SERVICE [/joke_nao/get_loggers] /joke_nao http://10.0.0.11:44848/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,507: +SERVICE [/joke_nao/set_logger_level] /joke_nao http://10.0.0.11:44848/
+[rosmaster.master][INFO] 2016-01-28 14:32:31,573: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:35,854: -PUB [/rosout] /nao_writer http://10.0.0.11:52039/
+[rosmaster.master][INFO] 2016-01-28 14:32:35,854: -SERVICE [/nao_writer/set_logger_level] /nao_writer rosrpc://10.0.0.11:40856
+[rosmaster.master][INFO] 2016-01-28 14:32:35,854: -SERVICE [/nao_writer/get_loggers] /nao_writer rosrpc://10.0.0.11:40856
+[rosmaster.master][INFO] 2016-01-28 14:32:35,879: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:36,513: -PUB [/rosout] /joke_nao http://10.0.0.11:44848/
+[rosmaster.master][INFO] 2016-01-28 14:32:36,513: -SERVICE [/joke_nao/set_logger_level] /joke_nao rosrpc://10.0.0.11:51304
+[rosmaster.master][INFO] 2016-01-28 14:32:36,514: -SERVICE [/joke_nao/get_loggers] /joke_nao rosrpc://10.0.0.11:51304
+[rosmaster.master][INFO] 2016-01-28 14:32:36,581: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:38,381: -SUB [/activity] /activity_manager http://10.0.0.11:41118/
+[rosmaster.master][INFO] 2016-01-28 14:32:38,381: -SUB [/stop_learning] /activity_manager http://10.0.0.11:41118/
+[rosmaster.master][INFO] 2016-01-28 14:32:38,381: -SUB [/watchdog_clear/tablet] /activity_manager http://10.0.0.11:41118/
+[rosmaster.master][INFO] 2016-01-28 14:32:38,381: -PUB [/rosout] /activity_manager http://10.0.0.11:41118/
+[rosmaster.master][INFO] 2016-01-28 14:32:38,381: -PUB [/activity] /activity_manager http://10.0.0.11:41118/
+[rosmaster.master][INFO] 2016-01-28 14:32:38,381: -PUB [/activity_time] /activity_manager http://10.0.0.11:41118/
+[rosmaster.master][INFO] 2016-01-28 14:32:38,382: -SERVICE [/activity_manager/get_loggers] /activity_manager rosrpc://10.0.0.11:53711
+[rosmaster.master][INFO] 2016-01-28 14:32:38,382: -SERVICE [/activity_manager/set_logger_level] /activity_manager rosrpc://10.0.0.11:53711
+[rosmaster.master][INFO] 2016-01-28 14:32:38,383: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:38,383: publisherUpdate[/activity] -> http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,723: -SUB [/words_to_write] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,723: -SUB [/novelty] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,723: -SUB [/activity] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,723: -SUB [/current_score] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,723: -SUB [/current_learn] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,723: -SUB [/sizeHead] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,724: -SUB [/clear_screen] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,724: -SUB [/nb_repetitions] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,724: -SUB [/lookAt] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,724: -SUB [/user_feedback] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,724: -SUB [/time_writing] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,724: -SUB [/current_demo] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,724: -SUB [/time_response] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,724: -SUB [/movement] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,724: -SUB [/smile] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,725: -SUB [/stop_learning] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,725: -SUB [/new_child] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,725: -PUB [/rosout] /log http://10.0.0.11:43509/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,725: -SERVICE [/log/get_loggers] /log rosrpc://10.0.0.11:38455
+[rosmaster.master][INFO] 2016-01-28 14:32:42,725: -SERVICE [/log/set_logger_level] /log rosrpc://10.0.0.11:38455
+[rosmaster.master][INFO] 2016-01-28 14:32:42,727: -SUB [/user_drawn_shapes] /tablet_input_interpreter http://10.0.0.11:45432/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,727: -SUB [/gesture_info] /tablet_input_interpreter http://10.0.0.11:45432/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,727: -PUB [/user_shapes_processed] /tablet_input_interpreter http://10.0.0.11:45432/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,727: -PUB [/rosout] /tablet_input_interpreter http://10.0.0.11:45432/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,728: -SERVICE [/tablet_input_interpreter/set_logger_level] /tablet_input_interpreter rosrpc://10.0.0.11:56595
+[rosmaster.master][INFO] 2016-01-28 14:32:42,728: -SERVICE [/tablet_input_interpreter/get_loggers] /tablet_input_interpreter rosrpc://10.0.0.11:56595
+[rosmaster.master][INFO] 2016-01-28 14:32:42,732: -PUB [/rosout] /display_manager_server http://10.0.0.11:45822/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,732: -SUB [/write_traj] /trajectory_visualizer http://10.0.0.11:53294/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,733: -SERVICE [/closest_shapes_to_location] /display_manager_server rosrpc://10.0.0.11:37058
+[rosmaster.master][INFO] 2016-01-28 14:32:42,734: -SUB [/clear_screen] /trajectory_visualizer http://10.0.0.11:53294/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,734: -SUB [/writing_surface_placer/feedback] /writing_surface_positioner http://10.0.0.11:34252/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,734: -SERVICE [/index_of_location] /display_manager_server rosrpc://10.0.0.11:37058
+[rosmaster.master][INFO] 2016-01-28 14:32:42,734: -PUB [/rosout] /trajectory_visualizer http://10.0.0.11:53294/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,734: -PUB [/visualization_markers] /trajectory_visualizer http://10.0.0.11:53294/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,734: -SERVICE [/shape_at_location] /display_manager_server rosrpc://10.0.0.11:37058
+[rosmaster.master][INFO] 2016-01-28 14:32:42,734: -SERVICE [/trajectory_visualizer/get_loggers] /trajectory_visualizer rosrpc://10.0.0.11:35557
+[rosmaster.master][INFO] 2016-01-28 14:32:42,735: -PUB [/writing_surface_placer/update_full] /writing_surface_positioner http://10.0.0.11:34252/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,735: -SERVICE [/display_new_shape] /display_manager_server rosrpc://10.0.0.11:37058
+[rosmaster.master][INFO] 2016-01-28 14:32:42,735: -SERVICE [/trajectory_visualizer/set_logger_level] /trajectory_visualizer rosrpc://10.0.0.11:35557
+[rosmaster.master][INFO] 2016-01-28 14:32:42,735: -PUB [/rosout] /writing_surface_positioner http://10.0.0.11:34252/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,736: -SERVICE [/display_shape_at_location] /display_manager_server rosrpc://10.0.0.11:37058
+[rosmaster.master][INFO] 2016-01-28 14:32:42,736: -PUB [/writing_surface_placer/update] /writing_surface_positioner http://10.0.0.11:34252/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,736: -SERVICE [/display_manager_server/set_logger_level] /display_manager_server rosrpc://10.0.0.11:37058
+[rosmaster.master][INFO] 2016-01-28 14:32:42,736: -PUB [/tf] /writing_surface_positioner http://10.0.0.11:34252/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,736: -SERVICE [/clear_all_shapes] /display_manager_server rosrpc://10.0.0.11:37058
+[rosmaster.master][INFO] 2016-01-28 14:32:42,736: -SERVICE [/writing_surface_positioner/get_loggers] /writing_surface_positioner rosrpc://10.0.0.11:33778
+[rosmaster.master][INFO] 2016-01-28 14:32:42,736: -SERVICE [/display_manager_server/get_loggers] /display_manager_server rosrpc://10.0.0.11:37058
+[rosmaster.master][INFO] 2016-01-28 14:32:42,736: -SERVICE [/writing_surface_positioner/set_logger_level] /writing_surface_positioner rosrpc://10.0.0.11:33778
+[rosmaster.master][INFO] 2016-01-28 14:32:42,737: -SERVICE [/possible_to_display_shape] /display_manager_server rosrpc://10.0.0.11:37058
+[rosmaster.master][INFO] 2016-01-28 14:32:42,785: -PUB [/rosout] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,786: -PUB [/v4l/camera/image_raw/compressedDepth] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,787: -PUB [/v4l/camera/image_raw/compressedDepth/parameter_descriptions] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,788: -PUB [/v4l/camera/image_raw/compressedDepth/parameter_updates] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,789: -PUB [/v4l/camera/image_raw/compressed] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,789: -PUB [/v4l/camera/image_raw/compressed/parameter_descriptions] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,790: -PUB [/v4l/camera/image_raw/compressed/parameter_updates] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,790: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,790: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,791: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,791: -PUB [/v4l/camera/image_raw] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,792: -PUB [/v4l/camera/image_raw/theora] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,792: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,793: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,793: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,794: -PUB [/v4l/camera/image_raw/theora/parameter_descriptions] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,795: -PUB [/v4l/camera/image_raw/theora/parameter_updates] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,796: -PUB [/v4l/camera/camera_info] /v4l/gscam_driver_v4l http://10.0.0.11:49649/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,796: -SERVICE [/v4l/gscam_driver_v4l/get_loggers] /v4l/gscam_driver_v4l rosrpc://10.0.0.11:35677
+[rosmaster.master][INFO] 2016-01-28 14:32:42,797: -SERVICE [/v4l/gscam_driver_v4l/set_logger_level] /v4l/gscam_driver_v4l rosrpc://10.0.0.11:35677
+[rosmaster.master][INFO] 2016-01-28 14:32:42,797: -SERVICE [/v4l/set_camera_info] /v4l/gscam_driver_v4l rosrpc://10.0.0.11:35677
+[rosmaster.master][INFO] 2016-01-28 14:32:42,798: -SERVICE [/v4l/camera/image_raw/compressedDepth/set_parameters] /v4l/gscam_driver_v4l rosrpc://10.0.0.11:35677
+[rosmaster.master][INFO] 2016-01-28 14:32:42,799: -SERVICE [/v4l/camera/image_raw/compressed/set_parameters] /v4l/gscam_driver_v4l rosrpc://10.0.0.11:35677
+[rosmaster.master][INFO] 2016-01-28 14:32:42,799: -SERVICE [/v4l/camera/image_raw/theora/set_parameters] /v4l/gscam_driver_v4l rosrpc://10.0.0.11:35677
+[rosmaster.master][INFO] 2016-01-28 14:32:42,883: -PUB [/rosout] /map_footprint_broadcaster http://10.0.0.11:36155/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,884: -PUB [/tf] /map_footprint_broadcaster http://10.0.0.11:36155/
+[rosmaster.master][INFO] 2016-01-28 14:32:42,884: -SERVICE [/map_footprint_broadcaster/get_loggers] /map_footprint_broadcaster rosrpc://10.0.0.11:35629
+[rosmaster.master][INFO] 2016-01-28 14:32:42,885: -SERVICE [/map_footprint_broadcaster/set_logger_level] /map_footprint_broadcaster rosrpc://10.0.0.11:35629
+[rosmaster.master][INFO] 2016-01-28 14:32:42,890: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:59,080: +PARAM [/roslaunch/uris/host_10_0_0_11__59023] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,086: +PARAM [/activityManager/current_activity_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,087: +PARAM [/drawing_nao/shape_log] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,087: +PARAM [/learning_words_nao/shape_writing_finished_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,087: +PARAM [/activityManager/clear_writing_surface_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,087: +PARAM [/nao_writer/nao_handedness] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,087: +PARAM [/drawing_nao/stop_request_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,087: +PARAM [/trajectory_visualizer/clear_surface_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,087: +PARAM [/writing_surface_positioner/tag_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,087: +PARAM [/learning_words_nao/grade_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,087: +PARAM [/activity_manager/stop_request_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,087: +PARAM [/nao_writer/nao_ip] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,088: +PARAM [/activityManager/nao_handedness] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,088: +PARAM [/learning_words_nao/trajectory_output_nao_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,088: +PARAM [/trajectory_visualizer/trajectory_input_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,088: +PARAM [/trajectory_visualizer/writing_surface_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,088: +PARAM [/activityManager/language] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,088: +PARAM [/writing_surface_positioner/surface_width] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,088: +PARAM [/learning_words_nao/nb_repetitions_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,089: +PARAM [/v4l/gscam_driver_v4l/gscam_config] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,089: +PARAM [/joke_nao/dataset_directory] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,089: +PARAM [/activityManager/nao_standing] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,089: +PARAM [/tablet_input_interpreter/shape_feedback_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,089: +PARAM [/tablet_input_interpreter/touch_info_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,089: +PARAM [/activityManager/new_teacher_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,089: +PARAM [/learning_words_nao/test_request_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,089: +PARAM [/activityManager/time_activity_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,089: +PARAM [/v4l/gscam_driver_v4l/camera_info_url] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,089: +PARAM [/trajectory_visualizer/visualization_output_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,089: +PARAM [/v4l/gscam_driver_v4l/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,089: +PARAM [/learning_words_nao/gesture_info_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,089: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,090: +PARAM [/writing_surface_positioner/surface_height] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,090: +PARAM [/writing_surface_positioner/writing_surface_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,090: +PARAM [/activityManager/nao_speaking] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,090: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,090: +PARAM [/nao_writer/trajectory_input_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,090: +PARAM [/joke_nao/shape_log] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,090: +PARAM [/joke_nao/stop_request_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,090: +PARAM [/learning_words_nao/dataset_directory] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,090: +PARAM [/activity_manager/shape_log] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,090: +PARAM [/learning_words_nao/shape_feedback_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,090: +PARAM [/v4l/gscam_driver_v4l/camera_name] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,090: +PARAM [/writing_surface_positioner/positioning_method] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,090: +PARAM [/writing_surface_positioner/nao_handedness] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,091: +PARAM [/activityManager/nao_writing] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,091: +PARAM [/learning_words_nao/shape_log] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,091: +PARAM [/learning_words_nao/processed_user_shape_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,091: +PARAM [/learning_words_nao/writing_surface_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,091: +PARAM [/activityManager/camera_publishing_status_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,091: +PARAM [/activityManager/use_robot_in_interaction] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,091: +PARAM [/learning_words_nao/stop_request_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,091: +PARAM [/wait_to_sync_traj] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,091: +PARAM [/v4l/gscam_driver_v4l/sync_sink] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,091: +PARAM [/tablet_input_interpreter/gesture_info_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,091: +PARAM [/activityManager/nao_ip] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,091: +PARAM [/learning_words_nao/words_to_write_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,092: +PARAM [/learning_words_nao/trajectory_output_topic] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,092: +PARAM [/drawing_nao/dataset_directory] by /roslaunch
+[rosmaster.master][INFO] 2016-01-28 14:32:59,176: +PUB [/rosout] /map_footprint_broadcaster http://10.0.0.11:37187/
+[rosmaster.master][INFO] 2016-01-28 14:32:59,177: +SERVICE [/map_footprint_broadcaster/get_loggers] /map_footprint_broadcaster http://10.0.0.11:37187/
+[rosmaster.master][INFO] 2016-01-28 14:32:59,178: +SERVICE [/map_footprint_broadcaster/set_logger_level] /map_footprint_broadcaster http://10.0.0.11:37187/
+[rosmaster.master][INFO] 2016-01-28 14:32:59,184: +PUB [/tf] /map_footprint_broadcaster http://10.0.0.11:37187/
+[rosmaster.master][INFO] 2016-01-28 14:32:59,213: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:59,374: +PUB [/rosout] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:32:59,384: +SERVICE [/v4l/gscam_driver_v4l/get_loggers] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:32:59,414: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:59,420: +SERVICE [/v4l/gscam_driver_v4l/set_logger_level] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:32:59,692: +SERVICE [/v4l/set_camera_info] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:32:59,851: +PUB [/rosout] /trajectory_visualizer http://10.0.0.11:47986/
+[rosmaster.master][INFO] 2016-01-28 14:32:59,876: +SERVICE [/trajectory_visualizer/get_loggers] /trajectory_visualizer http://10.0.0.11:47986/
+[rosmaster.master][INFO] 2016-01-28 14:32:59,896: +SERVICE [/trajectory_visualizer/set_logger_level] /trajectory_visualizer http://10.0.0.11:47986/
+[rosmaster.master][INFO] 2016-01-28 14:32:59,916: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:32:59,975: +PUB [/visualization_markers] /trajectory_visualizer http://10.0.0.11:47986/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,012: +SUB [/write_traj] /trajectory_visualizer http://10.0.0.11:47986/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,044: +SUB [/clear_screen] /trajectory_visualizer http://10.0.0.11:47986/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,282: +PUB [/v4l/camera/image_raw/compressedDepth] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,293: +SERVICE [/v4l/camera/image_raw/compressedDepth/set_parameters] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,302: +PUB [/v4l/camera/image_raw/compressedDepth/parameter_descriptions] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,312: +PUB [/v4l/camera/image_raw/compressedDepth/parameter_updates] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,332: +PUB [/rosout] /display_manager_server http://10.0.0.11:39791/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,368: +PARAM [/v4l/camera/image_raw/compressedDepth/depth_max] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:33:00,372: +SERVICE [/display_manager_server/get_loggers] /display_manager_server http://10.0.0.11:39791/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,384: +PARAM [/v4l/camera/image_raw/compressedDepth/depth_quantization] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:33:00,390: +SERVICE [/display_manager_server/set_logger_level] /display_manager_server http://10.0.0.11:39791/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,402: +PARAM [/v4l/camera/image_raw/compressedDepth/png_level] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:33:00,412: +SERVICE [/clear_all_shapes] /display_manager_server http://10.0.0.11:39791/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,416: +SUB [/words_to_write] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,417: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,425: +PARAM [/v4l/camera/image_raw/compressedDepth/depth_max] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:33:00,431: +SERVICE [/display_new_shape] /display_manager_server http://10.0.0.11:39791/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,443: +SUB [/novelty] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,455: +PARAM [/v4l/camera/image_raw/compressedDepth/depth_quantization] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:33:00,457: +SERVICE [/index_of_location] /display_manager_server http://10.0.0.11:39791/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,464: +SUB [/activity] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,471: +PARAM [/v4l/camera/image_raw/compressedDepth/png_level] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:33:00,476: +SERVICE [/shape_at_location] /display_manager_server http://10.0.0.11:39791/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,486: +SUB [/current_score] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,498: +SERVICE [/closest_shapes_to_location] /display_manager_server http://10.0.0.11:39791/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,517: +SUB [/current_learn] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,526: +SERVICE [/display_shape_at_location] /display_manager_server http://10.0.0.11:39791/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,532: +SUB [/sizeHead] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,538: +SERVICE [/possible_to_display_shape] /display_manager_server http://10.0.0.11:39791/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,549: +SUB [/clear_screen] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,555: +SUB [/nb_repetitions] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,568: +SUB [/lookAt] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,576: +SUB [/user_feedback] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,596: +SUB [/time_writing] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,607: +SUB [/current_demo] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,628: +SUB [/time_response] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,633: +SUB [/movement] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,647: +SUB [/smile] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,657: +SUB [/stop_learning] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,670: +SUB [/new_child] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,677: +PUB [/tf] /writing_surface_positioner http://10.0.0.11:36410/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,704: +PUB [/v4l/camera/image_raw/compressed] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,716: +PUB [/rosout] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,718: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,724: +SERVICE [/v4l/camera/image_raw/compressed/set_parameters] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,747: +PUB [/v4l/camera/image_raw/compressed/parameter_descriptions] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,757: +PUB [/rosout] /writing_surface_positioner http://10.0.0.11:36410/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,764: +SERVICE [/log/get_loggers] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,777: +PUB [/v4l/camera/image_raw/compressed/parameter_updates] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,797: +SERVICE [/log/set_logger_level] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,820: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,825: +SERVICE [/writing_surface_positioner/get_loggers] /writing_surface_positioner http://10.0.0.11:36410/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,860: +SERVICE [/writing_surface_positioner/set_logger_level] /writing_surface_positioner http://10.0.0.11:36410/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,884: +PARAM [/v4l/camera/image_raw/compressed/format] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:33:00,904: +PARAM [/v4l/camera/image_raw/compressed/jpeg_quality] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:33:00,909: +PARAM [/v4l/camera/image_raw/compressed/png_level] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:33:00,914: +PARAM [/v4l/camera/image_raw/compressed/format] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:33:00,920: +PUB [/writing_surface_placer/update_full] /writing_surface_positioner http://10.0.0.11:36410/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,924: +PARAM [/v4l/camera/image_raw/compressed/jpeg_quality] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:33:00,928: +PUB [/writing_surface_placer/update] /writing_surface_positioner http://10.0.0.11:36410/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,930: +PARAM [/v4l/camera/image_raw/compressed/png_level] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:33:00,956: +SUB [/writing_surface_placer/feedback] /writing_surface_positioner http://10.0.0.11:36410/
+[rosmaster.master][INFO] 2016-01-28 14:33:00,984: +PUB [/rosout] /nao_writer http://10.0.0.11:57983/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,002: +SERVICE [/nao_writer/get_loggers] /nao_writer http://10.0.0.11:57983/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,010: +SERVICE [/nao_writer/set_logger_level] /nao_writer http://10.0.0.11:57983/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,021: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,027: +PUB [/v4l/camera/image_raw] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,098: +PUB [/rosout] /tablet_input_interpreter http://10.0.0.11:36905/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,102: +SERVICE [/tablet_input_interpreter/get_loggers] /tablet_input_interpreter http://10.0.0.11:36905/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,103: +SERVICE [/tablet_input_interpreter/set_logger_level] /tablet_input_interpreter http://10.0.0.11:36905/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,109: +SUB [/gesture_info] /tablet_input_interpreter http://10.0.0.11:36905/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,115: +SUB [/user_drawn_shapes] /tablet_input_interpreter http://10.0.0.11:36905/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,117: +PUB [/v4l/camera/image_raw/theora] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,120: +SERVICE [/v4l/camera/image_raw/theora/set_parameters] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,121: +PUB [/user_shapes_processed] /tablet_input_interpreter http://10.0.0.11:36905/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,122: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,129: +PUB [/v4l/camera/image_raw/theora/parameter_descriptions] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,131: +PUB [/v4l/camera/image_raw/theora/parameter_updates] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,138: +PARAM [/v4l/camera/image_raw/theora/optimize_for] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:33:01,139: +PARAM [/v4l/camera/image_raw/theora/target_bitrate] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:33:01,140: +PARAM [/v4l/camera/image_raw/theora/quality] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:33:01,140: +PARAM [/v4l/camera/image_raw/theora/keyframe_frequency] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:33:01,141: +PARAM [/v4l/camera/image_raw/theora/optimize_for] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:33:01,142: +PARAM [/v4l/camera/image_raw/theora/target_bitrate] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:33:01,142: +PARAM [/v4l/camera/image_raw/theora/quality] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:33:01,143: +PARAM [/v4l/camera/image_raw/theora/keyframe_frequency] by /v4l/gscam_driver_v4l
+[rosmaster.master][INFO] 2016-01-28 14:33:01,144: +PUB [/v4l/camera/camera_info] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,232: +PUB [/rosout] /activity_manager http://10.0.0.11:44159/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,234: +SERVICE [/activity_manager/get_loggers] /activity_manager http://10.0.0.11:44159/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,235: +SERVICE [/activity_manager/set_logger_level] /activity_manager http://10.0.0.11:44159/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,236: +PUB [/activity] /activity_manager http://10.0.0.11:44159/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,237: +PUB [/activity_time] /activity_manager http://10.0.0.11:44159/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,239: +SUB [/stop_learning] /activity_manager http://10.0.0.11:44159/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,240: +SUB [/activity] /activity_manager http://10.0.0.11:44159/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,242: +SUB [/watchdog_clear/tablet] /activity_manager http://10.0.0.11:44159/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,255: +PUB [/rosout] /joke_nao http://10.0.0.11:46604/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,257: +SERVICE [/joke_nao/get_loggers] /joke_nao http://10.0.0.11:46604/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,258: +SERVICE [/joke_nao/set_logger_level] /joke_nao http://10.0.0.11:46604/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,322: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,323: publisherUpdate[/activity] -> http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,323: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,567: +SUB [/write_traj_downsampled] /nao_writer http://10.0.0.11:57983/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,581: +PUB [/rosout] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,583: +SERVICE [/learning_words_nao/get_loggers] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,584: +SERVICE [/learning_words_nao/set_logger_level] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,596: +PUB [/camera_publishing_status] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,597: +PUB [/write_traj] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,598: +PUB [/boxes_to_draw] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,599: +PUB [/write_traj_downsampled] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,600: +PUB [/clear_screen] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,600: +PUB [/nb_repetitions] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,601: +PUB [/current_demo] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,602: +PUB [/current_learn] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,603: +PUB [/state_activity] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,604: +PUB [/current_score] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,605: +SUB [/shape_finished] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,608: +SUB [/new_child] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,610: +SUB [/words_to_write] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,611: +SUB [/clear_screen] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,613: +SUB [/test_learning] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,615: +SUB [/stop_learning] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,616: +SUB [/user_shapes_processed] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,618: +SUB [/gesture_info] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,621: +SUB [/activity] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,623: +SUB [/user_feedback] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,624: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,625: publisherUpdate[/write_traj] -> http://10.0.0.3:54932/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,625: publisherUpdate[/write_traj] -> http://10.0.0.11:47986/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,626: publisherUpdate[/boxes_to_draw] -> http://10.0.0.3:37724/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,627: publisherUpdate[/write_traj_downsampled] -> http://10.0.0.11:57983/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,630: publisherUpdate[/clear_screen] -> http://10.0.0.11:47986/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,631: publisherUpdate[/clear_screen] -> http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,632: publisherUpdate[/nb_repetitions] -> http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,632: publisherUpdate[/current_demo] -> http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,633: publisherUpdate[/current_learn] -> http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,635: publisherUpdate[/current_score] -> http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,644: -PUB [/rosout] /joke_nao http://10.0.0.11:46604/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,645: -SERVICE [/joke_nao/set_logger_level] /joke_nao rosrpc://10.0.0.11:43047
+[rosmaster.master][INFO] 2016-01-28 14:33:01,645: -SERVICE [/joke_nao/get_loggers] /joke_nao rosrpc://10.0.0.11:43047
+[rosmaster.master][INFO] 2016-01-28 14:33:01,682: +PUB [/rosout] /drawing_nao http://10.0.0.11:35194/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,686: +SERVICE [/drawing_nao/get_loggers] /drawing_nao http://10.0.0.11:35194/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,687: +SERVICE [/drawing_nao/set_logger_level] /drawing_nao http://10.0.0.11:35194/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,689: +PUB [/clear_screen] /drawing_nao http://10.0.0.11:35194/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,690: +PUB [/activity] /drawing_nao http://10.0.0.11:35194/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,691: +SUB [/activity] /drawing_nao http://10.0.0.11:35194/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,693: +SUB [/stop_learning] /drawing_nao http://10.0.0.11:35194/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,737: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,737: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,738: publisherUpdate[/clear_screen] -> http://10.0.0.11:47986/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,739: publisherUpdate[/clear_screen] -> http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,740: publisherUpdate[/clear_screen] -> http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,742: publisherUpdate[/activity] -> http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,744: publisherUpdate[/activity] -> http://10.0.0.11:44159/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,745: publisherUpdate[/activity] -> http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,788: publisherUpdate[/clear_screen] -> http://10.0.0.3:54932/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,788: publisherUpdate[/clear_screen] -> http://10.0.0.3:37724/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,825: publisherUpdate[/clear_screen] -> http://10.0.0.3:37724/
+[rosmaster.master][INFO] 2016-01-28 14:33:01,968: publisherUpdate[/clear_screen] -> http://10.0.0.3:54932/
+[rosmaster.master][INFO] 2016-01-28 14:33:03,633: +SUB [/watchdog_clear/tablet] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:33:03,700: +SUB [/watchdog_clear/tablet] /drawing_nao http://10.0.0.11:35194/
+[rosmaster.master][INFO] 2016-01-28 14:33:06,165: +SUB [/tf] /nao_writer http://10.0.0.11:57983/
+[rosmaster.master][INFO] 2016-01-28 14:33:06,167: +SERVICE [/nao_writer/tf_frames] /nao_writer http://10.0.0.11:57983/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,095: +PUB [/rosout] /android_gingerbread/display_manager http://10.0.0.3:37095/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,098: +PUB [/rosout] /android_gingerbread/interaction_manager http://10.0.0.3:38879/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,112: +PUB [/rosout] /android_gingerbread/boxes_drawer http://10.0.0.3:46156/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,116: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,121: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,137: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,140: +PUB [/touch_info] /android_gingerbread/interaction_manager http://10.0.0.3:38879/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,155: +PUB [/gesture_info] /android_gingerbread/interaction_manager http://10.0.0.3:38879/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,180: +SUB [/boxes_to_draw] /android_gingerbread/boxes_drawer http://10.0.0.3:46156/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,186: publisherUpdate[/gesture_info] -> http://10.0.0.11:36905/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,186: publisherUpdate[/gesture_info] -> http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,194: +PUB [/clear_screen] /android_gingerbread/interaction_manager http://10.0.0.3:38879/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,204: +SUB [/clear_screen] /android_gingerbread/boxes_drawer http://10.0.0.3:46156/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,238: publisherUpdate[/clear_screen] -> http://10.0.0.11:47986/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,240: publisherUpdate[/clear_screen] -> http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,241: publisherUpdate[/clear_screen] -> http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,254: +PUB [/user_drawn_shapes] /android_gingerbread/interaction_manager http://10.0.0.3:38879/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,288: publisherUpdate[/user_drawn_shapes] -> http://10.0.0.11:36905/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,296: +PUB [/time_response] /android_gingerbread/interaction_manager http://10.0.0.3:38879/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,342: publisherUpdate[/time_response] -> http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,378: +PUB [/time_writing] /android_gingerbread/interaction_manager http://10.0.0.3:38879/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,388: publisherUpdate[/time_writing] -> http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,404: +SUB [/write_traj] /android_gingerbread/display_manager http://10.0.0.3:37095/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,449: +PUB [/user_feedback] /android_gingerbread/interaction_manager http://10.0.0.3:38879/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,477: +PUB [/shape_finished] /android_gingerbread/display_manager http://10.0.0.3:37095/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,489: publisherUpdate[/user_feedback] -> http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,490: publisherUpdate[/user_feedback] -> http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,492: publisherUpdate[/shape_finished] -> http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,493: +SUB [/clear_screen] /android_gingerbread/display_manager http://10.0.0.3:37095/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,497: +PUB [/watchdog_clear/tablet] /android_gingerbread/display_manager http://10.0.0.3:37095/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,544: publisherUpdate[/watchdog_clear/tablet] -> http://10.0.0.11:44159/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,545: publisherUpdate[/watchdog_clear/tablet] -> http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:36:27,546: publisherUpdate[/watchdog_clear/tablet] -> http://10.0.0.11:35194/
+[rosmaster.master][INFO] 2016-01-28 14:36:39,081: +SERVICE [/rostopic_1482_1453988198932/get_loggers] /rostopic_1482_1453988198932 http://10.0.0.11:39544/
+[rosmaster.master][INFO] 2016-01-28 14:36:39,082: +SERVICE [/rostopic_1482_1453988198932/set_logger_level] /rostopic_1482_1453988198932 http://10.0.0.11:39544/
+[rosmaster.master][INFO] 2016-01-28 14:36:39,083: +PUB [/words_to_write] /rostopic_1482_1453988198932 http://10.0.0.11:39544/
+[rosmaster.master][INFO] 2016-01-28 14:36:39,107: publisherUpdate[/words_to_write] -> http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:36:39,108: publisherUpdate[/words_to_write] -> http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:36:42,088: -PUB [/words_to_write] /rostopic_1482_1453988198932 http://10.0.0.11:39544/
+[rosmaster.master][INFO] 2016-01-28 14:36:42,088: -SERVICE [/rostopic_1482_1453988198932/set_logger_level] /rostopic_1482_1453988198932 rosrpc://10.0.0.11:58762
+[rosmaster.master][INFO] 2016-01-28 14:36:42,089: -SERVICE [/rostopic_1482_1453988198932/get_loggers] /rostopic_1482_1453988198932 rosrpc://10.0.0.11:58762
+[rosmaster.master][INFO] 2016-01-28 14:36:42,113: publisherUpdate[/words_to_write] -> http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:36:42,113: publisherUpdate[/words_to_write] -> http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:59:27,193: +SERVICE [/rostopic_11135_1453989567043/get_loggers] /rostopic_11135_1453989567043 http://10.0.0.11:46366/
+[rosmaster.master][INFO] 2016-01-28 14:59:27,194: +SERVICE [/rostopic_11135_1453989567043/set_logger_level] /rostopic_11135_1453989567043 http://10.0.0.11:46366/
+[rosmaster.master][INFO] 2016-01-28 14:59:27,195: +PUB [/stop_learning] /rostopic_11135_1453989567043 http://10.0.0.11:46366/
+[rosmaster.master][INFO] 2016-01-28 14:59:27,248: publisherUpdate[/stop_learning] -> http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:59:27,248: publisherUpdate[/stop_learning] -> http://10.0.0.11:44159/
+[rosmaster.master][INFO] 2016-01-28 14:59:27,249: publisherUpdate[/stop_learning] -> http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:59:27,250: publisherUpdate[/stop_learning] -> http://10.0.0.11:35194/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,068: -SUB [/activity] /drawing_nao http://10.0.0.11:35194/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,069: -SUB [/stop_learning] /drawing_nao http://10.0.0.11:35194/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,069: -SUB [/watchdog_clear/tablet] /drawing_nao http://10.0.0.11:35194/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,069: -PUB [/clear_screen] /drawing_nao http://10.0.0.11:35194/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,069: -PUB [/rosout] /drawing_nao http://10.0.0.11:35194/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,069: -PUB [/activity] /drawing_nao http://10.0.0.11:35194/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,069: -SERVICE [/drawing_nao/get_loggers] /drawing_nao rosrpc://10.0.0.11:39580
+[rosmaster.master][INFO] 2016-01-28 14:59:28,069: -SERVICE [/drawing_nao/set_logger_level] /drawing_nao rosrpc://10.0.0.11:39580
+[rosmaster.master][INFO] 2016-01-28 14:59:28,152: publisherUpdate[/clear_screen] -> http://10.0.0.11:47986/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,152: publisherUpdate[/clear_screen] -> http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,153: publisherUpdate[/clear_screen] -> http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,154: publisherUpdate[/clear_screen] -> http://10.0.0.3:46156/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,154: publisherUpdate[/clear_screen] -> http://10.0.0.3:37095/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,155: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,155: publisherUpdate[/activity] -> http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,156: publisherUpdate[/activity] -> http://10.0.0.11:44159/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,157: publisherUpdate[/activity] -> http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,869: -SUB [/shape_finished] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,869: -SUB [/words_to_write] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,869: -SUB [/new_child] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,869: -SUB [/activity] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,869: -SUB [/gesture_info] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,869: -SUB [/clear_screen] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,869: -SUB [/user_feedback] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,869: -SUB [/user_shapes_processed] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,869: -SUB [/test_learning] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,869: -SUB [/stop_learning] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,870: -SUB [/watchdog_clear/tablet] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,870: -PUB [/boxes_to_draw] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,870: -PUB [/write_traj] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,870: -PUB [/write_traj_downsampled] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,870: -PUB [/state_activity] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,870: -PUB [/rosout] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,870: -PUB [/current_score] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,870: -PUB [/clear_screen] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,870: -PUB [/nb_repetitions] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,870: -PUB [/camera_publishing_status] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,870: -PUB [/current_demo] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,870: -PUB [/current_learn] /learning_words_nao http://10.0.0.11:56578/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,870: -SERVICE [/learning_words_nao/get_loggers] /learning_words_nao rosrpc://10.0.0.11:37684
+[rosmaster.master][INFO] 2016-01-28 14:59:28,871: -SERVICE [/learning_words_nao/set_logger_level] /learning_words_nao rosrpc://10.0.0.11:37684
+[rosmaster.master][INFO] 2016-01-28 14:59:28,895: publisherUpdate[/boxes_to_draw] -> http://10.0.0.3:46156/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,896: publisherUpdate[/write_traj] -> http://10.0.0.11:47986/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,897: publisherUpdate[/write_traj] -> http://10.0.0.3:37095/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,937: publisherUpdate[/write_traj_downsampled] -> http://10.0.0.11:57983/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,938: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,939: publisherUpdate[/current_score] -> http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,940: publisherUpdate[/clear_screen] -> http://10.0.0.11:47986/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,940: publisherUpdate[/clear_screen] -> http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,941: publisherUpdate[/clear_screen] -> http://10.0.0.3:46156/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,942: publisherUpdate[/clear_screen] -> http://10.0.0.3:37095/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,957: publisherUpdate[/nb_repetitions] -> http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,959: publisherUpdate[/current_demo] -> http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:59:28,960: publisherUpdate[/current_learn] -> http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:59:30,200: -PUB [/stop_learning] /rostopic_11135_1453989567043 http://10.0.0.11:46366/
+[rosmaster.master][INFO] 2016-01-28 14:59:30,200: -SERVICE [/rostopic_11135_1453989567043/get_loggers] /rostopic_11135_1453989567043 rosrpc://10.0.0.11:53157
+[rosmaster.master][INFO] 2016-01-28 14:59:30,200: -SERVICE [/rostopic_11135_1453989567043/set_logger_level] /rostopic_11135_1453989567043 rosrpc://10.0.0.11:53157
+[rosmaster.master][INFO] 2016-01-28 14:59:30,261: publisherUpdate[/stop_learning] -> http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:59:30,261: publisherUpdate[/stop_learning] -> http://10.0.0.11:44159/
+[rosmaster.master][INFO] 2016-01-28 14:59:32,389: -SUB [/activity] /activity_manager http://10.0.0.11:44159/
+[rosmaster.master][INFO] 2016-01-28 14:59:32,389: -SUB [/stop_learning] /activity_manager http://10.0.0.11:44159/
+[rosmaster.master][INFO] 2016-01-28 14:59:32,389: -SUB [/watchdog_clear/tablet] /activity_manager http://10.0.0.11:44159/
+[rosmaster.master][INFO] 2016-01-28 14:59:32,389: -PUB [/rosout] /activity_manager http://10.0.0.11:44159/
+[rosmaster.master][INFO] 2016-01-28 14:59:32,390: -PUB [/activity] /activity_manager http://10.0.0.11:44159/
+[rosmaster.master][INFO] 2016-01-28 14:59:32,390: -PUB [/activity_time] /activity_manager http://10.0.0.11:44159/
+[rosmaster.master][INFO] 2016-01-28 14:59:32,390: -SERVICE [/activity_manager/get_loggers] /activity_manager rosrpc://10.0.0.11:32806
+[rosmaster.master][INFO] 2016-01-28 14:59:32,390: -SERVICE [/activity_manager/set_logger_level] /activity_manager rosrpc://10.0.0.11:32806
+[rosmaster.master][INFO] 2016-01-28 14:59:32,466: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:59:32,466: publisherUpdate[/activity] -> http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,222: -SUB [/words_to_write] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,223: -SUB [/novelty] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,223: -SUB [/activity] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,223: -SUB [/current_score] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,223: -SUB [/current_learn] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,223: -SUB [/sizeHead] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,224: -SUB [/clear_screen] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,225: -SUB [/nb_repetitions] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,226: -SUB [/user_drawn_shapes] /tablet_input_interpreter http://10.0.0.11:36905/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,228: -SUB [/lookAt] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,228: -SUB [/write_traj] /trajectory_visualizer http://10.0.0.11:47986/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,229: -PUB [/rosout] /display_manager_server http://10.0.0.11:39791/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,230: -SUB [/gesture_info] /tablet_input_interpreter http://10.0.0.11:36905/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,231: -SUB [/user_feedback] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,231: -SUB [/write_traj_downsampled] /nao_writer http://10.0.0.11:57983/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,231: -SUB [/tf] /nao_writer http://10.0.0.11:57983/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,231: -SUB [/writing_surface_placer/feedback] /writing_surface_positioner http://10.0.0.11:36410/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,231: -PUB [/writing_surface_placer/update_full] /writing_surface_positioner http://10.0.0.11:36410/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,231: -PUB [/rosout] /writing_surface_positioner http://10.0.0.11:36410/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,232: -PUB [/writing_surface_placer/update] /writing_surface_positioner http://10.0.0.11:36410/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,232: -PUB [/tf] /writing_surface_positioner http://10.0.0.11:36410/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,232: -PUB [/rosout] /nao_writer http://10.0.0.11:57983/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,232: -SERVICE [/closest_shapes_to_location] /display_manager_server rosrpc://10.0.0.11:59977
+[rosmaster.master][INFO] 2016-01-28 14:59:37,232: -PUB [/user_shapes_processed] /tablet_input_interpreter http://10.0.0.11:36905/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,233: -SUB [/time_writing] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,233: -SERVICE [/writing_surface_positioner/get_loggers] /writing_surface_positioner rosrpc://10.0.0.11:52981
+[rosmaster.master][INFO] 2016-01-28 14:59:37,233: -SUB [/clear_screen] /trajectory_visualizer http://10.0.0.11:47986/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,233: -SERVICE [/nao_writer/tf_frames] /nao_writer rosrpc://10.0.0.11:51971
+[rosmaster.master][INFO] 2016-01-28 14:59:37,233: -SERVICE [/index_of_location] /display_manager_server rosrpc://10.0.0.11:59977
+[rosmaster.master][INFO] 2016-01-28 14:59:37,233: -PUB [/rosout] /tablet_input_interpreter http://10.0.0.11:36905/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,233: -SUB [/current_demo] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,233: -SERVICE [/writing_surface_positioner/set_logger_level] /writing_surface_positioner rosrpc://10.0.0.11:52981
+[rosmaster.master][INFO] 2016-01-28 14:59:37,234: -PUB [/rosout] /trajectory_visualizer http://10.0.0.11:47986/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,234: -SERVICE [/nao_writer/set_logger_level] /nao_writer rosrpc://10.0.0.11:51971
+[rosmaster.master][INFO] 2016-01-28 14:59:37,234: -SERVICE [/shape_at_location] /display_manager_server rosrpc://10.0.0.11:59977
+[rosmaster.master][INFO] 2016-01-28 14:59:37,234: -SERVICE [/tablet_input_interpreter/set_logger_level] /tablet_input_interpreter rosrpc://10.0.0.11:41315
+[rosmaster.master][INFO] 2016-01-28 14:59:37,234: -SUB [/time_response] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,234: -PUB [/visualization_markers] /trajectory_visualizer http://10.0.0.11:47986/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,234: -SERVICE [/nao_writer/get_loggers] /nao_writer rosrpc://10.0.0.11:51971
+[rosmaster.master][INFO] 2016-01-28 14:59:37,235: -SERVICE [/display_new_shape] /display_manager_server rosrpc://10.0.0.11:59977
+[rosmaster.master][INFO] 2016-01-28 14:59:37,235: -SERVICE [/display_shape_at_location] /display_manager_server rosrpc://10.0.0.11:59977
+[rosmaster.master][INFO] 2016-01-28 14:59:37,235: -SUB [/movement] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,235: -SERVICE [/trajectory_visualizer/get_loggers] /trajectory_visualizer rosrpc://10.0.0.11:45987
+[rosmaster.master][INFO] 2016-01-28 14:59:37,235: -SERVICE [/display_manager_server/set_logger_level] /display_manager_server rosrpc://10.0.0.11:59977
+[rosmaster.master][INFO] 2016-01-28 14:59:37,236: -SUB [/smile] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,236: -SERVICE [/trajectory_visualizer/set_logger_level] /trajectory_visualizer rosrpc://10.0.0.11:45987
+[rosmaster.master][INFO] 2016-01-28 14:59:37,236: -SERVICE [/clear_all_shapes] /display_manager_server rosrpc://10.0.0.11:59977
+[rosmaster.master][INFO] 2016-01-28 14:59:37,236: -SUB [/stop_learning] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,237: -SERVICE [/tablet_input_interpreter/get_loggers] /tablet_input_interpreter rosrpc://10.0.0.11:41315
+[rosmaster.master][INFO] 2016-01-28 14:59:37,244: -SERVICE [/display_manager_server/get_loggers] /display_manager_server rosrpc://10.0.0.11:59977
+[rosmaster.master][INFO] 2016-01-28 14:59:37,245: -SUB [/new_child] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,245: -SERVICE [/possible_to_display_shape] /display_manager_server rosrpc://10.0.0.11:59977
+[rosmaster.master][INFO] 2016-01-28 14:59:37,245: -PUB [/rosout] /log http://10.0.0.11:44163/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,246: -SERVICE [/log/get_loggers] /log rosrpc://10.0.0.11:42052
+[rosmaster.master][INFO] 2016-01-28 14:59:37,246: -SERVICE [/log/set_logger_level] /log rosrpc://10.0.0.11:42052
+[rosmaster.master][INFO] 2016-01-28 14:59:37,272: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,273: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,274: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,274: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,275: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,275: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,309: -PUB [/rosout] /map_footprint_broadcaster http://10.0.0.11:37187/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,310: -PUB [/tf] /map_footprint_broadcaster http://10.0.0.11:37187/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,311: -SERVICE [/map_footprint_broadcaster/get_loggers] /map_footprint_broadcaster rosrpc://10.0.0.11:54232
+[rosmaster.master][INFO] 2016-01-28 14:59:37,311: -SERVICE [/map_footprint_broadcaster/set_logger_level] /map_footprint_broadcaster rosrpc://10.0.0.11:54232
+[rosmaster.master][INFO] 2016-01-28 14:59:37,373: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,376: -PUB [/rosout] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,376: publisherUpdate[/rosout] -> http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,377: -PUB [/v4l/camera/image_raw/compressedDepth] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,378: -PUB [/v4l/camera/image_raw/compressedDepth/parameter_descriptions] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,378: -PUB [/v4l/camera/image_raw/compressedDepth/parameter_updates] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,379: -PUB [/v4l/camera/image_raw/compressed] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,380: -PUB [/v4l/camera/image_raw/compressed/parameter_descriptions] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,380: -PUB [/v4l/camera/image_raw/compressed/parameter_updates] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,381: -PUB [/v4l/camera/image_raw] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,382: -PUB [/v4l/camera/image_raw/theora] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,382: -PUB [/v4l/camera/image_raw/theora/parameter_descriptions] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,383: -PUB [/v4l/camera/image_raw/theora/parameter_updates] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,383: -PUB [/v4l/camera/camera_info] /v4l/gscam_driver_v4l http://10.0.0.11:50091/
+[rosmaster.master][INFO] 2016-01-28 14:59:37,384: -SERVICE [/v4l/gscam_driver_v4l/get_loggers] /v4l/gscam_driver_v4l rosrpc://10.0.0.11:41090
+[rosmaster.master][INFO] 2016-01-28 14:59:37,385: -SERVICE [/v4l/gscam_driver_v4l/set_logger_level] /v4l/gscam_driver_v4l rosrpc://10.0.0.11:41090
+[rosmaster.master][INFO] 2016-01-28 14:59:37,385: -SERVICE [/v4l/set_camera_info] /v4l/gscam_driver_v4l rosrpc://10.0.0.11:41090
+[rosmaster.master][INFO] 2016-01-28 14:59:37,386: -SERVICE [/v4l/camera/image_raw/compressedDepth/set_parameters] /v4l/gscam_driver_v4l rosrpc://10.0.0.11:41090
+[rosmaster.master][INFO] 2016-01-28 14:59:37,386: -SERVICE [/v4l/camera/image_raw/compressed/set_parameters] /v4l/gscam_driver_v4l rosrpc://10.0.0.11:41090
+[rosmaster.master][INFO] 2016-01-28 14:59:37,387: -SERVICE [/v4l/camera/image_raw/theora/set_parameters] /v4l/gscam_driver_v4l rosrpc://10.0.0.11:41090
+[rosmaster.master][INFO] 2016-01-28 15:00:47,163: -PUB [/rosout_agg] /rosout http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 15:00:47,163: -SUB [/rosout] /rosout http://10.0.0.11:47225/
+[rosmaster.master][INFO] 2016-01-28 15:00:47,164: -SERVICE [/rosout/get_loggers] /rosout rosrpc://10.0.0.11:36330
+[rosmaster.master][INFO] 2016-01-28 15:00:47,164: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://10.0.0.11:36330
+[rosmaster.main][INFO] 2016-01-28 15:00:47,251: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2016-01-28 15:00:47,251: stopping master...
+[rospy.core][INFO] 2016-01-28 15:00:47,251: signal_shutdown [atexit]

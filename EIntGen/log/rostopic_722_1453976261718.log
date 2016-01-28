@@ -1,0 +1,14 @@
+[rospy.client][INFO] 2016-01-28 11:17:41,803: init_node, name[/rostopic_722_1453976261718], pid[722]
+[xmlrpc][INFO] 2016-01-28 11:17:41,804: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-28 11:17:41,804: Started XML-RPC server [http://10.0.0.11:37217/]
+[rospy.init][INFO] 2016-01-28 11:17:41,804: ROS Slave URI: [http://10.0.0.11:37217/]
+[rospy.impl.masterslave][INFO] 2016-01-28 11:17:41,804: _ready: http://10.0.0.11:37217/
+[xmlrpc][INFO] 2016-01-28 11:17:41,805: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-28 11:17:41,805: Registering with master node http://10.0.0.11:11311/
+[rospy.init][INFO] 2016-01-28 11:17:41,905: registered with master
+[rospy.internal][INFO] 2016-01-28 11:17:41,969: topic[/words_to_write] adding connection to [/log], count 0
+[rospy.internal][INFO] 2016-01-28 11:17:41,978: topic[/words_to_write] adding connection to [/learning_words_nao], count 1
+[rospy.core][INFO] 2016-01-28 11:17:45,036: signal_shutdown [atexit]
+[rospy.internal][INFO] 2016-01-28 11:17:45,038: topic[/words_to_write] removing connection to /log
+[rospy.internal][INFO] 2016-01-28 11:17:45,038: topic[/words_to_write] removing connection to /learning_words_nao
+[rospy.impl.masterslave][INFO] 2016-01-28 11:17:45,039: atexit

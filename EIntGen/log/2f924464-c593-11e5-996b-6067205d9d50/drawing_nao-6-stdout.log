@@ -1,0 +1,92 @@
+[I] 10582 qimessaging.session: Session listener created on tcp://0.0.0.0:0
+[I] 10582 qimessaging.transportserver: TransportServer will listen on: tcp://172.17.0.1:57647
+[I] 10582 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:57647
+[I] 10582 qimessaging.transportserver: TransportServer will listen on: tcp://10.0.0.11:57647
+[INFO] [WallTime: 1453985365.366505] Waiting for display manager services to become available
+[INFO] [WallTime: 1453985367.373302] Starting new timer
+[INFO] [WallTime: 1453985367.373908] Nao configuration: writing=True, speaking=True (english), standing=False, handedness=right
+inaoqi-broker: construct at 0.0.0.0:0, parent : 10.0.0.2:9559
+[I] 10582 qimessaging.session: Session listener created on tcp://0.0.0.0:0
+[I] 10582 qimessaging.transportserver: TransportServer will listen on: tcp://172.17.0.1:53457
+[I] 10582 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:53457
+[I] 10582 qimessaging.transportserver: TransportServer will listen on: tcp://10.0.0.11:53457
+[INFO] [WallTime: 1453985371.115253] STATE: waiting_for_robot_to_connect
+[INFO] [WallTime: 1453985371.615897] STATE: STARTING_INTERACTION
+[INFO] [WallTime: 1453985391.487280] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453985394.032612] Re-connection
+[INFO] [WallTime: 1453985426.423215] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453985428.891089] Re-connection
+[INFO] [WallTime: 1453985476.877717] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453985479.304652] Re-connection
+[INFO] [WallTime: 1453985514.391816] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453985516.830031] Re-connection
+[INFO] [WallTime: 1453985560.940234] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453985563.338162] Re-connection
+[INFO] [WallTime: 1453985600.092479] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453985602.575928] Re-connection
+[INFO] [WallTime: 1453985636.656284] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453985639.056352] Re-connection
+[INFO] [WallTime: 1453985666.256342] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453985668.636031] Re-connection
+[INFO] [WallTime: 1453985716.029090] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453985718.166814] Re-connection
+[INFO] [WallTime: 1453985797.068824] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453985799.136316] Re-connection
+[INFO] [WallTime: 1453985861.479390] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453985863.846773] Re-connection
+[INFO] [WallTime: 1453985902.860027] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453985905.112870] Re-connection
+[INFO] [WallTime: 1453985930.379901] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453985932.856024] Re-connection
+[INFO] [WallTime: 1453985965.986537] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453985968.294728] Re-connection
+[INFO] [WallTime: 1453985992.276533] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453985994.665943] Re-connection
+[INFO] [WallTime: 1453986037.992229] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453986040.377953] Re-connection
+[INFO] [WallTime: 1453986059.769144] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453986062.119261] Re-connection
+[INFO] [WallTime: 1453986095.175991] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453986097.544179] Re-connection
+[INFO] [WallTime: 1453986115.435752] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453986117.842575] Re-connection
+[INFO] [WallTime: 1453986158.621194] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453986160.973520] Re-connection
+[INFO] [WallTime: 1453986180.196006] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453986182.584209] Re-connection
+[INFO] [WallTime: 1453986213.784793] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453986216.159202] Re-connection
+[INFO] [WallTime: 1453986246.347796] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453986248.749790] Re-connection
+[INFO] [WallTime: 1453986281.357230] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453986283.768183] Re-connection
+[INFO] [WallTime: 1453986318.616057] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453986320.728151] Re-connection
+[INFO] [WallTime: 1453986383.535927] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453986384.138254] Re-connection
+[INFO] [WallTime: 1453986384.856397] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453986385.516218] Re-connection
+[INFO] [WallTime: 1453986392.056019] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453986392.196550] Re-connection
+[INFO] [WallTime: 1453986398.056017] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453986400.276248] Re-connection
+[INFO] [WallTime: 1453986475.288469] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453986475.422117] Re-connection
+[INFO] [WallTime: 1453986481.216009] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453986483.316503] Re-connection
+[INFO] [WallTime: 1453986519.640084] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453986521.914237] Re-connection
+[INFO] [WallTime: 1453986609.928045] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453986610.695984] Re-connection
+[INFO] [WallTime: 1453986615.369997] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453986617.624499] Re-connection
+[INFO] [WallTime: 1453986655.669318] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453986658.019045] Re-connection
+[INFO] [WallTime: 1453986723.116932] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453986725.508276] Re-connection
+[INFO] [WallTime: 1453986778.715208] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453986779.560429] Re-connection
+[INFO] [WallTime: 1453986784.808868] Haven't received a clear on 'watchdog_clear/tablet' topic
+[INFO] [WallTime: 1453986787.162096] Re-connection
+[INFO] [WallTime: 1453986887.796351] STATE: STOPPING
+[INFO] [WallTime: 1453986888.016522] Stopped

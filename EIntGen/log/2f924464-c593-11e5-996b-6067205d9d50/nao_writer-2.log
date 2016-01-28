@@ -1,0 +1,1001 @@
+[rospy.client][INFO] 2016-01-28 08:51:41,636: init_node, name[/nao_writer], pid[17515]
+[xmlrpc][INFO] 2016-01-28 08:51:41,651: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2016-01-28 08:51:41,654: ROS Slave URI: [http://10.0.0.11:38091/]
+[xmlrpc][INFO] 2016-01-28 08:51:41,654: Started XML-RPC server [http://10.0.0.11:38091/]
+[rospy.impl.masterslave][INFO] 2016-01-28 08:51:41,654: _ready: http://10.0.0.11:38091/
+[xmlrpc][INFO] 2016-01-28 08:51:41,662: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-28 08:51:41,663: Registering with master node http://10.0.0.11:11311/
+[rospy.init][INFO] 2016-01-28 08:51:41,755: registered with master
+[rospy.rosout][INFO] 2016-01-28 08:51:41,755: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-28 08:51:41,775: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-28 08:51:41,796: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2016-01-28 08:51:42,334: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2016-01-28 08:51:42,339: Subscribed to robotHasFallen event
+[rospy.internal][INFO] 2016-01-28 08:51:43,182: topic[/write_traj_downsampled] adding connection to [http://10.0.0.11:36411/], count 0
+[rospy.internal][INFO] 2016-01-28 08:51:46,997: topic[/tf] adding connection to [http://10.0.0.11:41793/], count 0
+[rospy.internal][INFO] 2016-01-28 08:51:46,998: topic[/tf] adding connection to [http://10.0.0.11:60287/], count 0
+[rospy.internal][INFO] 2016-01-28 08:51:47,000: topic[/tf] adding connection to [http://10.0.0.11:58287/], count 2
+[rospy.internal][INFO] 2016-01-28 08:51:47,001: topic[/tf] adding connection to [http://10.0.0.11:44808/], count 2
+[rospy.internal][INFO] 2016-01-28 08:51:47,000: topic[/tf] adding connection to [http://10.0.0.11:54975/], count 2
+[rospy.internal][INFO] 2016-01-28 08:51:47,002: topic[/tf] adding connection to [http://10.0.0.11:37697/], count 2
+[rospy.internal][INFO] 2016-01-28 08:51:47,002: topic[/tf] adding connection to [http://10.0.0.11:51330/], count 3
+[rospy.internal][INFO] 2016-01-28 08:51:47,009: topic[/tf] adding connection to [http://10.0.0.11:56199/], count 7
+[rospy.internal][INFO] 2016-01-28 08:51:47,010: topic[/tf] adding connection to [http://10.0.0.11:34179/], count 8
+[rospy.internal][INFO] 2016-01-28 08:51:47,010: topic[/tf] adding connection to [http://10.0.0.11:32970/], count 8
+[rosout][INFO] 2016-01-28 08:52:18,979: got traj at 1453967538979043006
+[rosout][INFO] 2016-01-28 08:52:21,973: executing rest of traj at 1453967541972987890
+[rosout][INFO] 2016-01-28 08:52:27,771: Time taken for rest of trajectory: 5.7973001
+[rosout][INFO] 2016-01-28 08:53:47,133: got traj at 1453967627133601903
+[rosout][INFO] 2016-01-28 08:53:50,123: executing rest of traj at 1453967630123718976
+[rosout][INFO] 2016-01-28 08:53:55,929: Time taken for rest of trajectory: 5.805835008
+[rospy.internal][ERROR] 2016-01-28 08:55:34,999: Unable to initiate TCP/IP socket to 10.0.0.11:46672 (http://10.0.0.11:36411/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2016-01-28 08:55:36,000: Unknown error initiating TCP/IP socket to 10.0.0.11:46672 (http://10.0.0.11:36411/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2016-01-28 08:55:36,000: topic[/write_traj_downsampled] removing connection to http://10.0.0.11:36411/
+[rospy.core][INFO] 2016-01-28 08:55:43,781: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2016-01-28 08:55:43,835: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-28 08:55:43,836: topic[/tf] removing connection to http://10.0.0.11:41793/
+[rospy.internal][INFO] 2016-01-28 08:55:43,836: topic[/tf] removing connection to http://10.0.0.11:60287/
+[rospy.internal][INFO] 2016-01-28 08:55:43,837: topic[/tf] removing connection to http://10.0.0.11:58287/
+[rospy.internal][INFO] 2016-01-28 08:55:43,837: topic[/tf] removing connection to http://10.0.0.11:44808/
+[rospy.internal][INFO] 2016-01-28 08:55:43,838: topic[/tf] removing connection to http://10.0.0.11:54975/
+[rospy.internal][INFO] 2016-01-28 08:55:43,838: topic[/tf] removing connection to http://10.0.0.11:37697/
+[rospy.internal][INFO] 2016-01-28 08:55:43,839: topic[/tf] removing connection to http://10.0.0.11:51330/
+[rospy.internal][INFO] 2016-01-28 08:55:43,839: topic[/tf] removing connection to http://10.0.0.11:56199/
+[rospy.internal][INFO] 2016-01-28 08:55:43,839: topic[/tf] removing connection to http://10.0.0.11:34179/
+[rospy.internal][INFO] 2016-01-28 08:55:43,839: topic[/tf] removing connection to http://10.0.0.11:32970/
+[rospy.impl.masterslave][INFO] 2016-01-28 08:55:43,839: signal-2
+[rospy.core][INFO] 2016-01-28 08:55:44,454: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-28 08:55:51,648: init_node, name[/nao_writer], pid[24212]
+[xmlrpc][INFO] 2016-01-28 08:55:51,658: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-28 08:55:51,660: Started XML-RPC server [http://10.0.0.11:40206/]
+[rospy.init][INFO] 2016-01-28 08:55:51,660: ROS Slave URI: [http://10.0.0.11:40206/]
+[rospy.impl.masterslave][INFO] 2016-01-28 08:55:51,662: _ready: http://10.0.0.11:40206/
+[xmlrpc][INFO] 2016-01-28 08:55:51,677: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-28 08:55:51,678: Registering with master node http://10.0.0.11:11311/
+[rospy.init][INFO] 2016-01-28 08:55:51,762: registered with master
+[rospy.rosout][INFO] 2016-01-28 08:55:51,763: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-28 08:55:51,787: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-28 08:55:51,816: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2016-01-28 08:55:52,377: Subscribed to robotHasFallen event
+[rospy.internal][INFO] 2016-01-28 08:55:52,461: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2016-01-28 08:55:52,632: topic[/write_traj_downsampled] adding connection to [http://10.0.0.11:32952/], count 0
+[rospy.internal][INFO] 2016-01-28 08:55:57,068: topic[/tf] adding connection to [http://10.0.0.11:60287/], count 0
+[rospy.internal][INFO] 2016-01-28 08:55:57,070: topic[/tf] adding connection to [http://10.0.0.11:41793/], count 1
+[rospy.internal][INFO] 2016-01-28 08:55:57,070: topic[/tf] adding connection to [http://10.0.0.11:54975/], count 1
+[rospy.internal][INFO] 2016-01-28 08:55:57,071: topic[/tf] adding connection to [http://10.0.0.11:44808/], count 1
+[rospy.internal][INFO] 2016-01-28 08:55:57,073: topic[/tf] adding connection to [http://10.0.0.11:51330/], count 4
+[rospy.internal][INFO] 2016-01-28 08:55:57,079: topic[/tf] adding connection to [http://10.0.0.11:58287/], count 5
+[rospy.internal][INFO] 2016-01-28 08:55:57,082: topic[/tf] adding connection to [http://10.0.0.11:37697/], count 5
+[rospy.internal][INFO] 2016-01-28 08:55:57,083: topic[/tf] adding connection to [http://10.0.0.11:56199/], count 5
+[rospy.internal][INFO] 2016-01-28 08:55:57,084: topic[/tf] adding connection to [http://10.0.0.11:41492/], count 5
+[rospy.internal][INFO] 2016-01-28 08:55:57,086: topic[/tf] adding connection to [http://10.0.0.11:37531/], count 9
+[rosout][INFO] 2016-01-28 08:56:14,511: got traj at 1453967774511181116
+[rosout][INFO] 2016-01-28 08:56:17,501: executing rest of traj at 1453967777501421928
+[rosout][INFO] 2016-01-28 08:56:23,459: Time taken for rest of trajectory: 5.958093882
+[rosout][INFO] 2016-01-28 08:57:40,395: got traj at 1453967860395889043
+[rosout][INFO] 2016-01-28 08:57:43,387: executing rest of traj at 1453967863387439966
+[rosout][INFO] 2016-01-28 08:57:49,185: Time taken for rest of trajectory: 5.797680139
+[rosout][INFO] 2016-01-28 08:58:32,446: got traj at 1453967912445972919
+[rosout][INFO] 2016-01-28 08:58:35,436: executing rest of traj at 1453967915436366081
+[rosout][INFO] 2016-01-28 08:58:41,256: Time taken for rest of trajectory: 5.819388866
+[rosout][INFO] 2016-01-28 08:59:19,261: got traj at 1453967959261663913
+[rosout][INFO] 2016-01-28 08:59:22,241: executing rest of traj at 1453967962241425037
+[rosout][INFO] 2016-01-28 08:59:28,056: Time taken for rest of trajectory: 5.814380169
+[rosout][INFO] 2016-01-28 09:00:01,159: got traj at 1453968001159785032
+[rosout][INFO] 2016-01-28 09:00:04,152: executing rest of traj at 1453968004151998043
+[rosout][INFO] 2016-01-28 09:00:09,976: Time taken for rest of trajectory: 5.823475837
+[rosout][INFO] 2016-01-28 09:00:47,346: got traj at 1453968047346803903
+[rosout][INFO] 2016-01-28 09:00:50,335: executing rest of traj at 1453968050335731983
+[rosout][INFO] 2016-01-28 09:00:56,142: Time taken for rest of trajectory: 5.80649209
+[rosout][INFO] 2016-01-28 09:01:38,031: got traj at 1453968098031488895
+[rosout][INFO] 2016-01-28 09:01:41,025: executing rest of traj at 1453968101025412082
+[rosout][INFO] 2016-01-28 09:01:46,840: Time taken for rest of trajectory: 5.81492281
+[rosout][INFO] 2016-01-28 09:02:26,606: got traj at 1453968146606381893
+[rosout][INFO] 2016-01-28 09:02:29,594: executing rest of traj at 1453968149594597101
+[rosout][INFO] 2016-01-28 09:02:35,416: Time taken for rest of trajectory: 5.820832014
+[rosout][INFO] 2016-01-28 09:03:02,834: got traj at 1453968182834021091
+[rosout][INFO] 2016-01-28 09:03:05,836: executing rest of traj at 1453968185836080074
+[rosout][INFO] 2016-01-28 09:03:11,656: Time taken for rest of trajectory: 5.819775105
+[rosout][INFO] 2016-01-28 09:03:42,268: got traj at 1453968222268013954
+[rosout][INFO] 2016-01-28 09:03:45,260: executing rest of traj at 1453968225260184049
+[rosout][INFO] 2016-01-28 09:03:51,076: Time taken for rest of trajectory: 5.815689087
+[rosout][INFO] 2016-01-28 09:04:29,126: got traj at 1453968269126465082
+[rosout][INFO] 2016-01-28 09:04:32,136: executing rest of traj at 1453968272136915922
+[rosout][INFO] 2016-01-28 09:04:37,938: Time taken for rest of trajectory: 5.801354885
+[rosout][INFO] 2016-01-28 09:05:17,147: got traj at 1453968317147006988
+[rosout][INFO] 2016-01-28 09:05:20,140: executing rest of traj at 1453968320140362977
+[rosout][INFO] 2016-01-28 09:05:25,936: Time taken for rest of trajectory: 5.795264006
+[rosout][INFO] 2016-01-28 09:06:05,275: got traj at 1453968365274976968
+[rosout][INFO] 2016-01-28 09:06:08,268: executing rest of traj at 1453968368268557071
+[rosout][INFO] 2016-01-28 09:06:14,117: Time taken for rest of trajectory: 5.848453999
+[rosout][INFO] 2016-01-28 09:06:56,663: got traj at 1453968416662966012
+[rosout][INFO] 2016-01-28 09:06:59,658: executing rest of traj at 1453968419658449888
+[rosout][INFO] 2016-01-28 09:07:05,497: Time taken for rest of trajectory: 5.838393926
+[rosout][INFO] 2016-01-28 09:07:53,702: got traj at 1453968473702302932
+[rosout][INFO] 2016-01-28 09:07:56,697: executing rest of traj at 1453968476697257995
+[rosout][INFO] 2016-01-28 09:08:02,494: Time taken for rest of trajectory: 5.796463967
+[rosout][INFO] 2016-01-28 09:08:28,858: got traj at 1453968508858283996
+[rosout][INFO] 2016-01-28 09:08:31,852: executing rest of traj at 1453968511852772951
+[rosout][INFO] 2016-01-28 09:08:37,655: Time taken for rest of trajectory: 5.801839113
+[rosout][INFO] 2016-01-28 09:09:04,861: got traj at 1453968544861030101
+[rosout][INFO] 2016-01-28 09:09:07,856: executing rest of traj at 1453968547856163978
+[rosout][INFO] 2016-01-28 09:09:13,657: Time taken for rest of trajectory: 5.801117897
+[rosout][INFO] 2016-01-28 09:09:42,195: got traj at 1453968582195128917
+[rosout][INFO] 2016-01-28 09:09:45,163: executing rest of traj at 1453968585163718938
+[rosout][INFO] 2016-01-28 09:09:50,974: Time taken for rest of trajectory: 5.810042143
+[rosout][INFO] 2016-01-28 09:10:19,307: got traj at 1453968619307745933
+[rosout][INFO] 2016-01-28 09:10:22,299: executing rest of traj at 1453968622299731969
+[rosout][INFO] 2016-01-28 09:10:28,136: Time taken for rest of trajectory: 5.836137056
+[rosout][INFO] 2016-01-28 09:10:55,545: got traj at 1453968655545862913
+[rosout][INFO] 2016-01-28 09:10:58,534: executing rest of traj at 1453968658534890890
+[rosout][INFO] 2016-01-28 09:11:04,336: Time taken for rest of trajectory: 5.800606966
+[rosout][INFO] 2016-01-28 09:11:38,853: got traj at 1453968698853233098
+[rosout][INFO] 2016-01-28 09:11:41,467: executing rest of traj at 1453968701467717885
+[rosout][INFO] 2016-01-28 09:11:47,271: Time taken for rest of trajectory: 5.803132057
+[rosout][INFO] 2016-01-28 09:12:14,393: got traj at 1453968734393408060
+[rosout][INFO] 2016-01-28 09:12:17,367: executing rest of traj at 1453968737367794036
+[rosout][INFO] 2016-01-28 09:12:23,271: Time taken for rest of trajectory: 5.902960062
+[rosout][INFO] 2016-01-28 09:12:38,799: got traj at 1453968758799123048
+[rosout][INFO] 2016-01-28 09:12:41,793: executing rest of traj at 1453968761793287038
+[rosout][INFO] 2016-01-28 09:12:49,610: Time taken for rest of trajectory: 7.816403865
+[rosout][INFO] 2016-01-28 09:13:31,449: got traj at 1453968811449342966
+[rosout][INFO] 2016-01-28 09:13:34,456: executing rest of traj at 1453968814456568956
+[rosout][INFO] 2016-01-28 09:13:42,280: Time taken for rest of trajectory: 7.822685003
+[rosout][INFO] 2016-01-28 09:14:18,504: got traj at 1453968858504714965
+[rosout][INFO] 2016-01-28 09:14:21,468: executing rest of traj at 1453968861468275070
+[rosout][INFO] 2016-01-28 09:14:29,308: Time taken for rest of trajectory: 7.839269876
+[rosout][INFO] 2016-01-28 09:15:08,676: got traj at 1453968908676274061
+[rosout][INFO] 2016-01-28 09:15:11,665: executing rest of traj at 1453968911665697097
+[rosout][INFO] 2016-01-28 09:15:19,473: Time taken for rest of trajectory: 7.806805849
+[rosout][INFO] 2016-01-28 09:15:57,051: got traj at 1453968957051001071
+[rosout][INFO] 2016-01-28 09:16:00,044: executing rest of traj at 1453968960044015884
+[rosout][INFO] 2016-01-28 09:16:07,876: Time taken for rest of trajectory: 7.831928015
+[rosout][INFO] 2016-01-28 09:16:45,554: got traj at 1453969005554435014
+[rosout][INFO] 2016-01-28 09:16:48,567: executing rest of traj at 1453969008567725896
+[rosout][INFO] 2016-01-28 09:16:56,392: Time taken for rest of trajectory: 7.82363987
+[rospy.internal][ERROR] 2016-01-28 09:17:03,759: Unable to initiate TCP/IP socket to 10.0.0.11:60973 (http://10.0.0.11:32952/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2016-01-28 09:17:04,776: Unknown error initiating TCP/IP socket to 10.0.0.11:60973 (http://10.0.0.11:32952/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2016-01-28 09:17:04,776: topic[/write_traj_downsampled] removing connection to http://10.0.0.11:32952/
+[rospy.core][INFO] 2016-01-28 09:17:16,350: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2016-01-28 09:17:16,371: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-28 09:17:16,397: topic[/tf] removing connection to http://10.0.0.11:60287/
+[rospy.internal][INFO] 2016-01-28 09:17:16,397: topic[/tf] removing connection to http://10.0.0.11:41793/
+[rospy.internal][INFO] 2016-01-28 09:17:16,397: topic[/tf] removing connection to http://10.0.0.11:54975/
+[rospy.internal][INFO] 2016-01-28 09:17:16,397: topic[/tf] removing connection to http://10.0.0.11:44808/
+[rospy.internal][INFO] 2016-01-28 09:17:16,397: topic[/tf] removing connection to http://10.0.0.11:51330/
+[rospy.internal][INFO] 2016-01-28 09:17:16,398: topic[/tf] removing connection to http://10.0.0.11:58287/
+[rospy.internal][INFO] 2016-01-28 09:17:16,398: topic[/tf] removing connection to http://10.0.0.11:37697/
+[rospy.internal][INFO] 2016-01-28 09:17:16,398: topic[/tf] removing connection to http://10.0.0.11:56199/
+[rospy.internal][INFO] 2016-01-28 09:17:16,398: topic[/tf] removing connection to http://10.0.0.11:41492/
+[rospy.internal][INFO] 2016-01-28 09:17:16,398: topic[/tf] removing connection to http://10.0.0.11:37531/
+[rospy.impl.masterslave][INFO] 2016-01-28 09:17:16,399: signal-2
+[rospy.core][INFO] 2016-01-28 09:17:17,002: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-28 09:25:01,292: init_node, name[/nao_writer], pid[1346]
+[xmlrpc][INFO] 2016-01-28 09:25:01,293: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2016-01-28 09:25:01,293: ROS Slave URI: [http://10.0.0.11:36458/]
+[xmlrpc][INFO] 2016-01-28 09:25:01,293: Started XML-RPC server [http://10.0.0.11:36458/]
+[rospy.impl.masterslave][INFO] 2016-01-28 09:25:01,294: _ready: http://10.0.0.11:36458/
+[xmlrpc][INFO] 2016-01-28 09:25:01,294: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-28 09:25:01,294: Registering with master node http://10.0.0.11:11311/
+[rospy.init][INFO] 2016-01-28 09:25:01,394: registered with master
+[rospy.rosout][INFO] 2016-01-28 09:25:01,394: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-28 09:25:01,403: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-28 09:25:01,410: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2016-01-28 09:25:01,994: Subscribed to robotHasFallen event
+[rospy.internal][INFO] 2016-01-28 09:25:02,089: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2016-01-28 09:25:02,364: topic[/write_traj_downsampled] adding connection to [http://10.0.0.11:57954/], count 0
+[rospy.internal][INFO] 2016-01-28 09:25:06,630: topic[/tf] adding connection to [http://10.0.0.11:37282/], count 0
+[rospy.internal][INFO] 2016-01-28 09:25:06,631: topic[/tf] adding connection to [http://10.0.0.11:54155/], count 1
+[rospy.internal][INFO] 2016-01-28 09:25:06,631: topic[/tf] adding connection to [http://10.0.0.11:58512/], count 2
+[rospy.internal][INFO] 2016-01-28 09:25:06,632: topic[/tf] adding connection to [http://10.0.0.11:36187/], count 2
+[rospy.internal][INFO] 2016-01-28 09:25:06,633: topic[/tf] adding connection to [http://10.0.0.11:33413/], count 3
+[rospy.internal][INFO] 2016-01-28 09:25:06,634: topic[/tf] adding connection to [http://10.0.0.11:33388/], count 5
+[rospy.internal][INFO] 2016-01-28 09:25:06,636: topic[/tf] adding connection to [http://10.0.0.11:52256/], count 6
+[rospy.internal][INFO] 2016-01-28 09:25:06,637: topic[/tf] adding connection to [http://10.0.0.11:35960/], count 6
+[rospy.internal][INFO] 2016-01-28 09:25:06,638: topic[/tf] adding connection to [http://10.0.0.11:37639/], count 8
+[rospy.internal][INFO] 2016-01-28 09:25:06,641: topic[/tf] adding connection to [http://10.0.0.11:42851/], count 9
+[rosout][INFO] 2016-01-28 09:25:32,306: got traj at 1453969532306821107
+[rosout][INFO] 2016-01-28 09:25:35,292: executing rest of traj at 1453969535292808055
+[rosout][INFO] 2016-01-28 09:25:43,098: Time taken for rest of trajectory: 7.804991961
+[rosout][INFO] 2016-01-28 09:26:27,103: got traj at 1453969587103084087
+[rosout][INFO] 2016-01-28 09:26:30,096: executing rest of traj at 1453969590096612930
+[rosout][INFO] 2016-01-28 09:26:37,912: Time taken for rest of trajectory: 7.81474495
+[rosout][INFO] 2016-01-28 09:27:24,579: got traj at 1453969644579129934
+[rosout][INFO] 2016-01-28 09:27:27,571: executing rest of traj at 1453969647571484088
+[rosout][INFO] 2016-01-28 09:27:35,374: Time taken for rest of trajectory: 7.802999019
+[rosout][INFO] 2016-01-28 09:28:01,352: got traj at 1453969681352530002
+[rosout][INFO] 2016-01-28 09:28:04,345: executing rest of traj at 1453969684345381021
+[rosout][INFO] 2016-01-28 09:28:10,156: Time taken for rest of trajectory: 5.810203075
+[rosout][INFO] 2016-01-28 09:28:41,543: got traj at 1453969721543554067
+[rosout][INFO] 2016-01-28 09:28:44,538: executing rest of traj at 1453969724538415908
+[rosout][INFO] 2016-01-28 09:28:50,335: Time taken for rest of trajectory: 5.796778917
+[rosout][INFO] 2016-01-28 09:29:27,304: got traj at 1453969767304343938
+[rosout][INFO] 2016-01-28 09:29:30,299: executing rest of traj at 1453969770299710035
+[rosout][INFO] 2016-01-28 09:29:36,094: Time taken for rest of trajectory: 5.793900013
+[rosout][INFO] 2016-01-28 09:29:56,501: got traj at 1453969796501806020
+[rosout][INFO] 2016-01-28 09:29:59,511: executing rest of traj at 1453969799511754989
+[rosout][INFO] 2016-01-28 09:30:08,413: Time taken for rest of trajectory: 8.900875092
+[rosout][INFO] 2016-01-28 09:30:49,149: got traj at 1453969849149118900
+[rosout][INFO] 2016-01-28 09:30:52,119: executing rest of traj at 1453969852119726896
+[rosout][INFO] 2016-01-28 09:31:00,932: Time taken for rest of trajectory: 8.812067985
+[rosout][INFO] 2016-01-28 09:31:43,257: got traj at 1453969903257442951
+[rosout][INFO] 2016-01-28 09:31:46,233: executing rest of traj at 1453969906233468055
+[rosout][INFO] 2016-01-28 09:31:55,052: Time taken for rest of trajectory: 8.818206788
+[rosout][INFO] 2016-01-28 09:32:54,217: got traj at 1453969974217478036
+[rosout][INFO] 2016-01-28 09:32:57,179: executing rest of traj at 1453969977179785013
+[rosout][INFO] 2016-01-28 09:33:06,017: Time taken for rest of trajectory: 8.836770058
+[rosout][INFO] 2016-01-28 09:33:47,444: got traj at 1453970027444202899
+[rosout][INFO] 2016-01-28 09:33:50,436: executing rest of traj at 1453970030435966968
+[rosout][INFO] 2016-01-28 09:33:59,259: Time taken for rest of trajectory: 8.822628975
+[rosout][INFO] 2016-01-28 09:34:29,658: got traj at 1453970069658539056
+[rosout][INFO] 2016-01-28 09:34:32,583: executing rest of traj at 1453970072583746910
+[rosout][INFO] 2016-01-28 09:34:40,408: Time taken for rest of trajectory: 7.823788166
+[rosout][INFO] 2016-01-28 09:35:24,198: got traj at 1453970124198190927
+[rosout][INFO] 2016-01-28 09:35:27,186: executing rest of traj at 1453970127186821937
+[rosout][INFO] 2016-01-28 09:35:35,379: Time taken for rest of trajectory: 8.192092895
+[rosout][INFO] 2016-01-28 09:36:28,464: got traj at 1453970188464044094
+[rosout][INFO] 2016-01-28 09:36:31,429: executing rest of traj at 1453970191429406881
+[rosout][INFO] 2016-01-28 09:36:39,268: Time taken for rest of trajectory: 7.838371992
+[rosout][INFO] 2016-01-28 09:37:29,121: got traj at 1453970249121689081
+[rosout][INFO] 2016-01-28 09:37:32,089: executing rest of traj at 1453970252089353084
+[rosout][INFO] 2016-01-28 09:37:39,907: Time taken for rest of trajectory: 7.81724906
+[rospy.internal][ERROR] 2016-01-28 09:38:36,029: Unable to initiate TCP/IP socket to 10.0.0.11:40828 (http://10.0.0.11:57954/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2016-01-28 09:38:37,036: Unknown error initiating TCP/IP socket to 10.0.0.11:40828 (http://10.0.0.11:57954/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2016-01-28 09:38:37,037: topic[/write_traj_downsampled] removing connection to http://10.0.0.11:57954/
+[rospy.core][INFO] 2016-01-28 09:39:23,669: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2016-01-28 09:39:23,679: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-28 09:39:23,679: topic[/tf] removing connection to http://10.0.0.11:37282/
+[rospy.internal][INFO] 2016-01-28 09:39:23,679: topic[/tf] removing connection to http://10.0.0.11:54155/
+[rospy.internal][INFO] 2016-01-28 09:39:23,680: topic[/tf] removing connection to http://10.0.0.11:58512/
+[rospy.internal][INFO] 2016-01-28 09:39:23,680: topic[/tf] removing connection to http://10.0.0.11:36187/
+[rospy.internal][INFO] 2016-01-28 09:39:23,680: topic[/tf] removing connection to http://10.0.0.11:33413/
+[rospy.internal][INFO] 2016-01-28 09:39:23,680: topic[/tf] removing connection to http://10.0.0.11:33388/
+[rospy.internal][INFO] 2016-01-28 09:39:23,680: topic[/tf] removing connection to http://10.0.0.11:52256/
+[rospy.internal][WARNING] 2016-01-28 09:39:23,680: Unknown error initiating TCP/IP socket to 10.0.0.11:53553 (http://10.0.0.11:37282/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][INFO] 2016-01-28 09:39:23,681: topic[/tf] removing connection to http://10.0.0.11:35960/
+[rospy.internal][INFO] 2016-01-28 09:39:23,681: topic[/tf] removing connection to http://10.0.0.11:37639/
+[rospy.internal][WARNING] 2016-01-28 09:39:23,681: Unknown error initiating TCP/IP socket to 10.0.0.11:38463 (http://10.0.0.11:35960/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][INFO] 2016-01-28 09:39:23,681: topic[/tf] removing connection to http://10.0.0.11:42851/
+[rospy.impl.masterslave][INFO] 2016-01-28 09:39:23,682: signal-2
+[rospy.core][INFO] 2016-01-28 09:39:24,307: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-28 10:26:18,258: init_node, name[/nao_writer], pid[28405]
+[xmlrpc][INFO] 2016-01-28 10:26:18,262: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-28 10:26:18,262: Started XML-RPC server [http://10.0.0.11:56256/]
+[rospy.impl.masterslave][INFO] 2016-01-28 10:26:18,262: _ready: http://10.0.0.11:56256/
+[rospy.init][INFO] 2016-01-28 10:26:18,272: ROS Slave URI: [http://10.0.0.11:56256/]
+[xmlrpc][INFO] 2016-01-28 10:26:18,275: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-01-28 10:26:18,276: Registering with master node http://10.0.0.11:11311/
+[rospy.init][INFO] 2016-01-28 10:26:18,373: registered with master
+[rospy.rosout][INFO] 2016-01-28 10:26:18,373: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-28 10:26:18,391: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-28 10:26:18,418: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2016-01-28 10:26:19,670: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2016-01-28 10:26:20,102: Subscribed to robotHasFallen event
+[rospy.internal][INFO] 2016-01-28 10:26:20,129: topic[/write_traj_downsampled] adding connection to [http://10.0.0.11:47373/], count 0
+[rospy.internal][INFO] 2016-01-28 10:26:24,744: topic[/tf] adding connection to [http://10.0.0.11:56189/], count 0
+[rospy.internal][INFO] 2016-01-28 10:26:24,746: topic[/tf] adding connection to [http://10.0.0.11:49517/], count 1
+[rospy.internal][INFO] 2016-01-28 10:26:24,747: topic[/tf] adding connection to [http://10.0.0.11:37100/], count 2
+[rospy.internal][INFO] 2016-01-28 10:26:24,747: topic[/tf] adding connection to [http://10.0.0.11:39712/], count 2
+[rospy.internal][INFO] 2016-01-28 10:26:24,748: topic[/tf] adding connection to [http://10.0.0.11:52174/], count 2
+[rospy.internal][INFO] 2016-01-28 10:26:24,749: topic[/tf] adding connection to [http://10.0.0.11:42909/], count 2
+[rospy.internal][INFO] 2016-01-28 10:26:24,750: topic[/tf] adding connection to [http://10.0.0.11:53136/], count 5
+[rospy.internal][INFO] 2016-01-28 10:26:24,759: topic[/tf] adding connection to [http://10.0.0.11:60146/], count 7
+[rospy.internal][INFO] 2016-01-28 10:26:24,760: topic[/tf] adding connection to [http://10.0.0.11:58990/], count 8
+[rospy.internal][INFO] 2016-01-28 10:26:24,774: topic[/tf] adding connection to [http://10.0.0.11:33168/], count 9
+[rosout][INFO] 2016-01-28 10:26:48,547: got traj at 1453973208547388076
+[rosout][INFO] 2016-01-28 10:26:51,542: executing rest of traj at 1453973211542720079
+[rosout][INFO] 2016-01-28 10:26:57,343: Time taken for rest of trajectory: 5.800513982
+[rosout][INFO] 2016-01-28 10:27:28,878: got traj at 1453973248878830909
+[rosout][INFO] 2016-01-28 10:27:31,848: executing rest of traj at 1453973251848819971
+[rosout][INFO] 2016-01-28 10:27:37,663: Time taken for rest of trajectory: 5.81447196
+[rosout][INFO] 2016-01-28 10:28:03,202: got traj at 1453973283202915906
+[rosout][INFO] 2016-01-28 10:28:06,186: executing rest of traj at 1453973286186372041
+[rosout][INFO] 2016-01-28 10:28:11,983: Time taken for rest of trajectory: 5.796576977
+[rosout][INFO] 2016-01-28 10:28:45,991: got traj at 1453973325991049051
+[rosout][INFO] 2016-01-28 10:28:48,983: executing rest of traj at 1453973328983098030
+[rosout][INFO] 2016-01-28 10:28:54,783: Time taken for rest of trajectory: 5.799643993
+[rosout][INFO] 2016-01-28 10:29:14,024: got traj at 1453973354024735927
+[rosout][INFO] 2016-01-28 10:29:17,019: executing rest of traj at 1453973357019733905
+[rosout][INFO] 2016-01-28 10:29:22,822: Time taken for rest of trajectory: 5.802280902
+[rosout][INFO] 2016-01-28 10:29:53,315: got traj at 1453973393315716028
+[rosout][INFO] 2016-01-28 10:29:56,310: executing rest of traj at 1453973396310630083
+[rosout][INFO] 2016-01-28 10:30:02,121: Time taken for rest of trajectory: 5.809934139
+[rosout][INFO] 2016-01-28 10:30:19,474: got traj at 1453973419474490880
+[rosout][INFO] 2016-01-28 10:30:22,469: executing rest of traj at 1453973422469436883
+[rosout][INFO] 2016-01-28 10:30:28,400: Time taken for rest of trajectory: 5.930438042
+[rosout][INFO] 2016-01-28 10:30:54,587: got traj at 1453973454587687015
+[rosout][INFO] 2016-01-28 10:30:57,583: executing rest of traj at 1453973457583647966
+[rosout][INFO] 2016-01-28 10:31:03,436: Time taken for rest of trajectory: 5.852771044
+[rosout][INFO] 2016-01-28 10:31:30,052: got traj at 1453973490052094936
+[rosout][INFO] 2016-01-28 10:31:33,043: executing rest of traj at 1453973493043497085
+[rosout][INFO] 2016-01-28 10:31:38,856: Time taken for rest of trajectory: 5.812064171
+[rosout][INFO] 2016-01-28 10:31:58,224: got traj at 1453973518224524021
+[rosout][INFO] 2016-01-28 10:32:01,215: executing rest of traj at 1453973521215780973
+[rosout][INFO] 2016-01-28 10:32:07,018: Time taken for rest of trajectory: 5.802232027
+[rosout][INFO] 2016-01-28 10:32:33,675: got traj at 1453973553674962043
+[rosout][INFO] 2016-01-28 10:32:36,667: executing rest of traj at 1453973556667803049
+[rosout][INFO] 2016-01-28 10:32:42,479: Time taken for rest of trajectory: 5.811192989
+[rosout][INFO] 2016-01-28 10:33:14,139: got traj at 1453973594139635086
+[rosout][INFO] 2016-01-28 10:33:17,113: executing rest of traj at 1453973597113421916
+[rosout][INFO] 2016-01-28 10:33:22,938: Time taken for rest of trajectory: 5.824687005
+[rosout][INFO] 2016-01-28 10:33:50,223: got traj at 1453973630223476886
+[rosout][INFO] 2016-01-28 10:33:53,223: executing rest of traj at 1453973633223726034
+[rosout][INFO] 2016-01-28 10:33:59,017: Time taken for rest of trajectory: 5.792998076
+[rosout][INFO] 2016-01-28 10:34:31,771: got traj at 1453973671771502971
+[rosout][INFO] 2016-01-28 10:34:34,775: executing rest of traj at 1453973674775742053
+[rosout][INFO] 2016-01-28 10:34:43,595: Time taken for rest of trajectory: 8.819550991
+[rosout][INFO] 2016-01-28 10:35:31,515: got traj at 1453973731515326023
+[rosout][INFO] 2016-01-28 10:35:34,393: executing rest of traj at 1453973734393132925
+[rosout][INFO] 2016-01-28 10:35:43,215: Time taken for rest of trajectory: 8.822424889
+[rosout][INFO] 2016-01-28 10:36:17,180: got traj at 1453973777180706024
+[rosout][INFO] 2016-01-28 10:36:20,144: executing rest of traj at 1453973780144663095
+[rosout][INFO] 2016-01-28 10:36:28,956: Time taken for rest of trajectory: 8.811249971
+[rosout][INFO] 2016-01-28 10:37:06,638: got traj at 1453973826638016939
+[rosout][INFO] 2016-01-28 10:37:09,639: executing rest of traj at 1453973829639724969
+[rosout][INFO] 2016-01-28 10:37:18,455: Time taken for rest of trajectory: 8.81507492
+[rosout][INFO] 2016-01-28 10:37:46,777: got traj at 1453973866777739048
+[rosout][INFO] 2016-01-28 10:37:49,770: executing rest of traj at 1453973869770476102
+[rosout][INFO] 2016-01-28 10:37:55,577: Time taken for rest of trajectory: 5.806865931
+[rosout][INFO] 2016-01-28 10:38:36,143: got traj at 1453973916142910957
+[rosout][INFO] 2016-01-28 10:38:39,111: executing rest of traj at 1453973919111723899
+[rosout][INFO] 2016-01-28 10:38:44,920: Time taken for rest of trajectory: 5.80832386
+[rosout][INFO] 2016-01-28 10:39:21,443: got traj at 1453973961443428993
+[rosout][INFO] 2016-01-28 10:39:24,087: executing rest of traj at 1453973964087889909
+[rosout][INFO] 2016-01-28 10:39:29,896: Time taken for rest of trajectory: 5.808393001
+[rosout][INFO] 2016-01-28 10:40:02,785: got traj at 1453974002785475969
+[rosout][INFO] 2016-01-28 10:40:05,779: executing rest of traj at 1453974005779716014
+[rosout][INFO] 2016-01-28 10:40:11,592: Time taken for rest of trajectory: 5.811860084
+[rosout][INFO] 2016-01-28 10:40:52,586: got traj at 1453974052586549043
+[rosout][INFO] 2016-01-28 10:40:55,579: executing rest of traj at 1453974055579210996
+[rosout][INFO] 2016-01-28 10:41:01,395: Time taken for rest of trajectory: 5.816276073
+[rosout][INFO] 2016-01-28 10:41:27,660: got traj at 1453974087660742998
+[rosout][INFO] 2016-01-28 10:41:30,663: executing rest of traj at 1453974090663758039
+[rosout][INFO] 2016-01-28 10:41:36,470: Time taken for rest of trajectory: 5.806272984
+[rosout][INFO] 2016-01-28 10:42:09,019: got traj at 1453974129019252061
+[rosout][INFO] 2016-01-28 10:42:11,986: executing rest of traj at 1453974131985969066
+[rosout][INFO] 2016-01-28 10:42:17,791: Time taken for rest of trajectory: 5.804647922
+[rosout][INFO] 2016-01-28 10:42:34,580: got traj at 1453974154579976081
+[rosout][INFO] 2016-01-28 10:42:37,546: executing rest of traj at 1453974157545914888
+[rosout][INFO] 2016-01-28 10:42:44,350: Time taken for rest of trajectory: 6.803620815
+[rosout][INFO] 2016-01-28 10:43:10,757: got traj at 1453974190757160902
+[rosout][INFO] 2016-01-28 10:43:13,750: executing rest of traj at 1453974193750937938
+[rosout][INFO] 2016-01-28 10:43:20,596: Time taken for rest of trajectory: 6.845265865
+[rosout][INFO] 2016-01-28 10:43:42,290: got traj at 1453974222290708065
+[rosout][INFO] 2016-01-28 10:43:45,281: executing rest of traj at 1453974225281548023
+[rosout][INFO] 2016-01-28 10:43:53,088: Time taken for rest of trajectory: 7.806460142
+[rosout][INFO] 2016-01-28 10:44:27,450: got traj at 1453974267450787067
+[rosout][INFO] 2016-01-28 10:44:30,424: executing rest of traj at 1453974270423724889
+[rosout][INFO] 2016-01-28 10:44:38,251: Time taken for rest of trajectory: 7.827084064
+[rosout][INFO] 2016-01-28 10:44:58,909: got traj at 1453974298909223079
+[rosout][INFO] 2016-01-28 10:45:01,911: executing rest of traj at 1453974301911801099
+[rosout][INFO] 2016-01-28 10:45:08,728: Time taken for rest of trajectory: 6.815958023
+[rosout][INFO] 2016-01-28 10:45:48,321: got traj at 1453974348321769952
+[rosout][INFO] 2016-01-28 10:45:51,335: executing rest of traj at 1453974351335813999
+[rosout][INFO] 2016-01-28 10:45:58,168: Time taken for rest of trajectory: 6.831785917
+[rosout][INFO] 2016-01-28 10:46:17,802: got traj at 1453974377801918983
+[rosout][INFO] 2016-01-28 10:46:20,775: executing rest of traj at 1453974380775729894
+[rosout][INFO] 2016-01-28 10:46:28,664: Time taken for rest of trajectory: 7.888103008
+[rosout][INFO] 2016-01-28 10:47:15,780: got traj at 1453974435780800104
+[rosout][INFO] 2016-01-28 10:47:18,776: executing rest of traj at 1453974438776012897
+[rosout][INFO] 2016-01-28 10:47:26,587: Time taken for rest of trajectory: 7.810919046
+[rosout][INFO] 2016-01-28 10:47:46,664: got traj at 1453974466664483070
+[rosout][INFO] 2016-01-28 10:47:49,288: executing rest of traj at 1453974469288429021
+[rosout][INFO] 2016-01-28 10:47:56,104: Time taken for rest of trajectory: 6.81517601
+[rosout][INFO] 2016-01-28 10:48:36,167: got traj at 1453974516167956113
+[rosout][INFO] 2016-01-28 10:48:39,158: executing rest of traj at 1453974519158056974
+[rosout][INFO] 2016-01-28 10:48:45,984: Time taken for rest of trajectory: 6.824965
+[rosout][INFO] 2016-01-28 10:49:08,067: got traj at 1453974548067922115
+[rosout][INFO] 2016-01-28 10:49:11,079: executing rest of traj at 1453974551079730987
+[rosout][INFO] 2016-01-28 10:49:16,882: Time taken for rest of trajectory: 5.801779032
+[rosout][INFO] 2016-01-28 10:49:33,872: got traj at 1453974573872162103
+[rosout][INFO] 2016-01-28 10:49:36,865: executing rest of traj at 1453974576865844964
+[rosout][INFO] 2016-01-28 10:49:42,664: Time taken for rest of trajectory: 5.797883987
+[rosout][INFO] 2016-01-28 10:50:02,363: got traj at 1453974602363168001
+[rosout][INFO] 2016-01-28 10:50:05,355: executing rest of traj at 1453974605355859994
+[rosout][INFO] 2016-01-28 10:50:11,288: Time taken for rest of trajectory: 5.932576179
+[rosout][INFO] 2016-01-28 10:50:38,191: got traj at 1453974638191364049
+[rosout][INFO] 2016-01-28 10:50:41,175: executing rest of traj at 1453974641175791025
+[rosout][INFO] 2016-01-28 10:50:47,003: Time taken for rest of trajectory: 5.826617956
+[rospy.internal][ERROR] 2016-01-28 10:51:18,381: Unable to initiate TCP/IP socket to 10.0.0.11:38700 (http://10.0.0.11:47373/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2016-01-28 10:51:19,400: Unknown error initiating TCP/IP socket to 10.0.0.11:38700 (http://10.0.0.11:47373/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2016-01-28 10:51:19,400: topic[/write_traj_downsampled] removing connection to http://10.0.0.11:47373/
+[rospy.internal][WARNING] 2016-01-28 10:54:54,869: Unknown error initiating TCP/IP socket to 10.0.0.11:52338 (http://10.0.0.11:52174/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2016-01-28 10:54:54,869: topic[/tf] removing connection to http://10.0.0.11:52174/
+[rospy.internal][WARNING] 2016-01-28 10:54:54,881: Unknown error initiating TCP/IP socket to 10.0.0.11:55614 (http://10.0.0.11:60146/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2016-01-28 10:54:54,881: topic[/tf] removing connection to http://10.0.0.11:60146/
+[rospy.internal][WARNING] 2016-01-28 10:54:55,011: Unknown error initiating TCP/IP socket to 10.0.0.11:38995 (http://10.0.0.11:53136/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2016-01-28 10:54:55,037: topic[/tf] removing connection to http://10.0.0.11:53136/
+[rospy.internal][WARNING] 2016-01-28 10:54:55,037: Unknown error initiating TCP/IP socket to 10.0.0.11:41370 (http://10.0.0.11:39712/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2016-01-28 10:54:55,037: topic[/tf] removing connection to http://10.0.0.11:39712/
+[rospy.internal][WARNING] 2016-01-28 10:54:55,038: Unknown error initiating TCP/IP socket to 10.0.0.11:53770 (http://10.0.0.11:42909/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2016-01-28 10:54:55,038: topic[/tf] removing connection to http://10.0.0.11:42909/
+[rospy.internal][WARNING] 2016-01-28 10:54:55,041: Unknown error initiating TCP/IP socket to 10.0.0.11:42915 (http://10.0.0.11:37100/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2016-01-28 10:54:55,041: topic[/tf] removing connection to http://10.0.0.11:37100/
+[rospy.internal][WARNING] 2016-01-28 10:54:55,041: Unknown error initiating TCP/IP socket to 10.0.0.11:60044 (http://10.0.0.11:49517/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2016-01-28 10:54:55,041: topic[/tf] removing connection to http://10.0.0.11:49517/
+[rospy.internal][WARNING] 2016-01-28 10:54:55,464: Unknown error initiating TCP/IP socket to 10.0.0.11:49548 (http://10.0.0.11:56189/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2016-01-28 10:54:55,464: topic[/tf] removing connection to http://10.0.0.11:56189/
+[rospy.core][INFO] 2016-01-28 10:54:58,908: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2016-01-28 10:54:58,914: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-28 10:54:58,915: topic[/tf] removing connection to http://10.0.0.11:58990/
+[rospy.internal][INFO] 2016-01-28 10:54:58,915: topic[/tf] removing connection to http://10.0.0.11:33168/
+[rospy.impl.masterslave][INFO] 2016-01-28 10:54:58,915: signal-2
+[rospy.internal][WARNING] 2016-01-28 10:54:59,001: Unknown error initiating TCP/IP socket to 10.0.0.11:33985 (http://10.0.0.11:58990/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 365, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.core][INFO] 2016-01-28 10:54:59,054: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-28 11:06:23,576: init_node, name[/nao_writer], pid[11999]
+[xmlrpc][INFO] 2016-01-28 11:06:23,583: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-28 11:06:23,584: Started XML-RPC server [http://10.0.0.11:45376/]
+[rospy.impl.masterslave][INFO] 2016-01-28 11:06:23,584: _ready: http://10.0.0.11:45376/
+[rospy.init][INFO] 2016-01-28 11:06:23,589: ROS Slave URI: [http://10.0.0.11:45376/]
+[rospy.registration][INFO] 2016-01-28 11:06:23,597: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-28 11:06:23,597: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2016-01-28 11:06:23,689: registered with master
+[rospy.rosout][INFO] 2016-01-28 11:06:23,689: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-28 11:06:23,697: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-28 11:06:23,708: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2016-01-28 11:06:25,124: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2016-01-28 11:06:25,128: Subscribed to robotHasFallen event
+[rospy.internal][INFO] 2016-01-28 11:06:25,310: topic[/write_traj_downsampled] adding connection to [http://10.0.0.11:36145/], count 0
+[rospy.internal][INFO] 2016-01-28 11:06:29,724: topic[/tf] adding connection to [http://10.0.0.11:49640/], count 0
+[rospy.internal][INFO] 2016-01-28 11:06:29,726: topic[/tf] adding connection to [http://10.0.0.11:36604/], count 0
+[rospy.internal][INFO] 2016-01-28 11:06:29,727: topic[/tf] adding connection to [http://10.0.0.11:33136/], count 2
+[rospy.internal][INFO] 2016-01-28 11:06:29,728: topic[/tf] adding connection to [http://10.0.0.11:50362/], count 2
+[rospy.internal][INFO] 2016-01-28 11:06:29,736: topic[/tf] adding connection to [http://10.0.0.11:48439/], count 4
+[rospy.internal][INFO] 2016-01-28 11:06:29,737: topic[/tf] adding connection to [http://10.0.0.11:58276/], count 4
+[rospy.internal][INFO] 2016-01-28 11:06:29,738: topic[/tf] adding connection to [http://10.0.0.11:38255/], count 5
+[rospy.internal][INFO] 2016-01-28 11:06:29,739: topic[/tf] adding connection to [http://10.0.0.11:49582/], count 6
+[rospy.internal][INFO] 2016-01-28 11:06:29,740: topic[/tf] adding connection to [http://10.0.0.11:57262/], count 8
+[rospy.internal][INFO] 2016-01-28 11:06:29,750: topic[/tf] adding connection to [http://10.0.0.11:50138/], count 9
+[rosout][INFO] 2016-01-28 11:06:49,760: got traj at 1453975609760612964
+[rosout][INFO] 2016-01-28 11:06:52,755: executing rest of traj at 1453975612755716085
+[rosout][INFO] 2016-01-28 11:06:58,547: Time taken for rest of trajectory: 5.791508913
+[rosout][INFO] 2016-01-28 11:07:40,265: got traj at 1453975660265428066
+[rosout][INFO] 2016-01-28 11:07:43,258: executing rest of traj at 1453975663258414030
+[rosout][INFO] 2016-01-28 11:07:49,069: Time taken for rest of trajectory: 5.810608864
+[rosout][INFO] 2016-01-28 11:08:27,210: got traj at 1453975707210306882
+[rosout][INFO] 2016-01-28 11:08:30,215: executing rest of traj at 1453975710215725898
+[rosout][INFO] 2016-01-28 11:08:36,025: Time taken for rest of trajectory: 5.808990955
+[rosout][INFO] 2016-01-28 11:09:04,120: got traj at 1453975744120698928
+[rosout][INFO] 2016-01-28 11:09:07,095: executing rest of traj at 1453975747095747947
+[rosout][INFO] 2016-01-28 11:09:12,904: Time taken for rest of trajectory: 5.808214903
+[rosout][INFO] 2016-01-28 11:09:42,735: got traj at 1453975782735424041
+[rosout][INFO] 2016-01-28 11:09:45,735: executing rest of traj at 1453975785735728025
+[rosout][INFO] 2016-01-28 11:09:51,551: Time taken for rest of trajectory: 5.815609932
+[rosout][INFO] 2016-01-28 11:10:19,348: got traj at 1453975819348845005
+[rosout][INFO] 2016-01-28 11:10:22,335: executing rest of traj at 1453975822335036039
+[rosout][INFO] 2016-01-28 11:10:28,244: Time taken for rest of trajectory: 5.908541918
+[rosout][INFO] 2016-01-28 11:10:54,720: got traj at 1453975854720849037
+[rosout][INFO] 2016-01-28 11:10:57,688: executing rest of traj at 1453975857688266038
+[rosout][INFO] 2016-01-28 11:11:03,498: Time taken for rest of trajectory: 5.80969882
+[rosout][INFO] 2016-01-28 11:11:31,345: got traj at 1453975891345525979
+[rosout][INFO] 2016-01-28 11:11:34,338: executing rest of traj at 1453975894338387966
+[rosout][INFO] 2016-01-28 11:11:40,141: Time taken for rest of trajectory: 5.802998066
+[rosout][INFO] 2016-01-28 11:12:02,897: got traj at 1453975922897593975
+[rosout][INFO] 2016-01-28 11:12:05,899: executing rest of traj at 1453975925899657011
+[rosout][INFO] 2016-01-28 11:12:11,717: Time taken for rest of trajectory: 5.816313982
+[rosout][INFO] 2016-01-28 11:12:46,745: got traj at 1453975966745157003
+[rosout][INFO] 2016-01-28 11:12:49,736: executing rest of traj at 1453975969736783027
+[rosout][INFO] 2016-01-28 11:12:55,542: Time taken for rest of trajectory: 5.805583954
+[rosout][INFO] 2016-01-28 11:13:29,624: got traj at 1453976009624509096
+[rosout][INFO] 2016-01-28 11:13:32,619: executing rest of traj at 1453976012619116067
+[rosout][INFO] 2016-01-28 11:13:38,421: Time taken for rest of trajectory: 5.802117825
+[rosout][INFO] 2016-01-28 11:14:08,031: got traj at 1453976048031532049
+[rosout][INFO] 2016-01-28 11:14:11,025: executing rest of traj at 1453976051025362968
+[rosout][INFO] 2016-01-28 11:14:16,821: Time taken for rest of trajectory: 5.795979976
+[rosout][INFO] 2016-01-28 11:14:30,328: got traj at 1453976070328665971
+[rosout][INFO] 2016-01-28 11:14:33,303: executing rest of traj at 1453976073303811073
+[rosout][INFO] 2016-01-28 11:14:41,120: Time taken for rest of trajectory: 7.815926075
+[rosout][INFO] 2016-01-28 11:15:26,070: got traj at 1453976126070808887
+[rosout][INFO] 2016-01-28 11:15:29,079: executing rest of traj at 1453976129079758882
+[rosout][INFO] 2016-01-28 11:15:36,904: Time taken for rest of trajectory: 7.823951006
+[rosout][INFO] 2016-01-28 11:15:51,033: got traj at 1453976151033210992
+[rosout][INFO] 2016-01-28 11:15:54,025: executing rest of traj at 1453976154025795936
+[rosout][INFO] 2016-01-28 11:15:59,838: Time taken for rest of trajectory: 5.812693835
+[rosout][INFO] 2016-01-28 11:16:31,360: got traj at 1453976191360652923
+[rosout][INFO] 2016-01-28 11:16:34,353: executing rest of traj at 1453976194353389978
+[rosout][INFO] 2016-01-28 11:16:40,159: Time taken for rest of trajectory: 5.805799961
+[rosout][INFO] 2016-01-28 11:17:08,069: got traj at 1453976228069123029
+[rosout][INFO] 2016-01-28 11:17:11,079: executing rest of traj at 1453976231079777002
+[rosout][INFO] 2016-01-28 11:17:16,897: Time taken for rest of trajectory: 5.817298889
+[rosout][INFO] 2016-01-28 11:17:47,532: got traj at 1453976267532624006
+[rosout][INFO] 2016-01-28 11:17:50,536: executing rest of traj at 1453976270536170959
+[rosout][INFO] 2016-01-28 11:17:56,344: Time taken for rest of trajectory: 5.806655168
+[rosout][INFO] 2016-01-28 11:18:21,448: got traj at 1453976301448851108
+[rosout][INFO] 2016-01-28 11:18:24,375: executing rest of traj at 1453976304375860929
+[rosout][INFO] 2016-01-28 11:18:30,196: Time taken for rest of trajectory: 5.819703818
+[rosout][INFO] 2016-01-28 11:19:02,358: got traj at 1453976342358725070
+[rosout][INFO] 2016-01-28 11:19:05,327: executing rest of traj at 1453976345327394008
+[rosout][INFO] 2016-01-28 11:19:11,134: Time taken for rest of trajectory: 5.806983947
+[rosout][INFO] 2016-01-28 11:19:45,930: got traj at 1453976385930006027
+[rosout][INFO] 2016-01-28 11:19:48,911: executing rest of traj at 1453976388911191940
+[rosout][INFO] 2016-01-28 11:19:55,036: Time taken for rest of trajectory: 6.124697208
+[rosout][INFO] 2016-01-28 11:20:08,851: got traj at 1453976408851716995
+[rosout][INFO] 2016-01-28 11:20:11,847: executing rest of traj at 1453976411847934961
+[rosout][INFO] 2016-01-28 11:20:17,656: Time taken for rest of trajectory: 5.808018923
+[rosout][INFO] 2016-01-28 11:20:54,938: got traj at 1453976454937978029
+[rosout][INFO] 2016-01-28 11:20:57,926: executing rest of traj at 1453976457926462888
+[rosout][INFO] 2016-01-28 11:21:04,120: Time taken for rest of trajectory: 6.193740845
+[rosout][INFO] 2016-01-28 11:21:23,322: got traj at 1453976483322268962
+[rosout][INFO] 2016-01-28 11:21:25,995: executing rest of traj at 1453976485995721101
+[rosout][INFO] 2016-01-28 11:21:31,820: Time taken for rest of trajectory: 5.824738026
+[rosout][INFO] 2016-01-28 11:21:57,286: got traj at 1453976517286006927
+[rosout][INFO] 2016-01-28 11:22:00,295: executing rest of traj at 1453976520295768022
+[rosout][INFO] 2016-01-28 11:22:06,099: Time taken for rest of trajectory: 5.803092003
+[rosout][INFO] 2016-01-28 11:22:28,389: got traj at 1453976548389161109
+[rosout][INFO] 2016-01-28 11:22:31,355: executing rest of traj at 1453976551355602979
+[rosout][INFO] 2016-01-28 11:22:37,156: Time taken for rest of trajectory: 5.800196886
+[rosout][INFO] 2016-01-28 11:22:48,570: got traj at 1453976568570799112
+[rosout][INFO] 2016-01-28 11:22:51,556: executing rest of traj at 1453976571556313991
+[rosout][INFO] 2016-01-28 11:22:58,376: Time taken for rest of trajectory: 6.819659949
+[rosout][INFO] 2016-01-28 11:23:25,148: got traj at 1453976605147994995
+[rosout][INFO] 2016-01-28 11:23:28,111: executing rest of traj at 1453976608111747026
+[rosout][INFO] 2016-01-28 11:23:34,967: Time taken for rest of trajectory: 6.854870081
+[rosout][INFO] 2016-01-28 11:23:52,042: got traj at 1453976632042891979
+[rosout][INFO] 2016-01-28 11:23:55,016: executing rest of traj at 1453976635016298055
+[rosout][INFO] 2016-01-28 11:24:02,835: Time taken for rest of trajectory: 7.818047047
+[rosout][INFO] 2016-01-28 11:24:32,662: got traj at 1453976672661983013
+[rosout][INFO] 2016-01-28 11:24:35,624: executing rest of traj at 1453976675624170064
+[rosout][INFO] 2016-01-28 11:24:43,432: Time taken for rest of trajectory: 7.80730915
+[rosout][INFO] 2016-01-28 11:25:27,760: got traj at 1453976727760297060
+[rosout][INFO] 2016-01-28 11:25:30,747: executing rest of traj at 1453976730747719049
+[rosout][INFO] 2016-01-28 11:25:38,548: Time taken for rest of trajectory: 7.800621987
+[rosout][INFO] 2016-01-28 11:25:58,376: got traj at 1453976758376760005
+[rosout][INFO] 2016-01-28 11:26:01,383: executing rest of traj at 1453976761383783102
+[rosout][INFO] 2016-01-28 11:26:09,207: Time taken for rest of trajectory: 7.823463201
+[rosout][INFO] 2016-01-28 11:26:47,672: got traj at 1453976807672159910
+[rosout][INFO] 2016-01-28 11:26:50,631: executing rest of traj at 1453976810631711006
+[rosout][INFO] 2016-01-28 11:26:58,816: Time taken for rest of trajectory: 8.184531927
+[rosout][INFO] 2016-01-28 11:27:29,391: got traj at 1453976849391156911
+[rosout][INFO] 2016-01-28 11:27:32,381: executing rest of traj at 1453976852381804943
+[rosout][INFO] 2016-01-28 11:27:40,187: Time taken for rest of trajectory: 7.805455923
+[rosout][INFO] 2016-01-28 11:28:00,305: got traj at 1453976880305947065
+[rosout][INFO] 2016-01-28 11:28:03,272: executing rest of traj at 1453976883272205114
+[rosout][INFO] 2016-01-28 11:28:09,086: Time taken for rest of trajectory: 5.814002991
+[rosout][INFO] 2016-01-28 11:28:39,304: got traj at 1453976919304888010
+[rosout][INFO] 2016-01-28 11:28:42,279: executing rest of traj at 1453976922279728889
+[rosout][INFO] 2016-01-28 11:28:48,087: Time taken for rest of trajectory: 5.807242871
+[rosout][INFO] 2016-01-28 11:29:13,230: got traj at 1453976953230045080
+[rosout][INFO] 2016-01-28 11:29:16,223: executing rest of traj at 1453976956223723888
+[rosout][INFO] 2016-01-28 11:29:22,027: Time taken for rest of trajectory: 5.803192138
+[rosout][INFO] 2016-01-28 11:29:42,529: got traj at 1453976982529561042
+[rosout][INFO] 2016-01-28 11:29:45,544: executing rest of traj at 1453976985544044971
+[rosout][INFO] 2016-01-28 11:29:51,344: Time taken for rest of trajectory: 5.800364971
+[rosout][INFO] 2016-01-28 11:30:25,723: got traj at 1453977025723725080
+[rosout][INFO] 2016-01-28 11:30:28,715: executing rest of traj at 1453977028715727090
+[rosout][INFO] 2016-01-28 11:30:34,525: Time taken for rest of trajectory: 5.808806896
+[rosout][INFO] 2016-01-28 11:31:18,068: got traj at 1453977078068089962
+[rosout][INFO] 2016-01-28 11:31:21,059: executing rest of traj at 1453977081059293031
+[rosout][INFO] 2016-01-28 11:31:26,866: Time taken for rest of trajectory: 5.806628942
+[rosout][INFO] 2016-01-28 11:31:55,758: got traj at 1453977115758461952
+[rosout][INFO] 2016-01-28 11:31:58,775: executing rest of traj at 1453977118775727033
+[rosout][INFO] 2016-01-28 11:32:04,584: Time taken for rest of trajectory: 5.80766511
+[rosout][INFO] 2016-01-28 11:32:37,116: got traj at 1453977157116950988
+[rosout][INFO] 2016-01-28 11:32:40,119: executing rest of traj at 1453977160119802951
+[rosout][INFO] 2016-01-28 11:32:45,928: Time taken for rest of trajectory: 5.807502985
+[rosout][INFO] 2016-01-28 11:33:19,307: got traj at 1453977199307384014
+[rosout][INFO] 2016-01-28 11:33:22,298: executing rest of traj at 1453977202298403024
+[rosout][INFO] 2016-01-28 11:33:29,102: Time taken for rest of trajectory: 6.803572178
+[rosout][INFO] 2016-01-28 11:34:10,486: got traj at 1453977250486939907
+[rosout][INFO] 2016-01-28 11:34:13,477: executing rest of traj at 1453977253477235078
+[rosout][INFO] 2016-01-28 11:34:20,316: Time taken for rest of trajectory: 6.838693142
+[rosout][INFO] 2016-01-28 11:34:46,846: got traj at 1453977286846672058
+[rosout][INFO] 2016-01-28 11:34:49,835: executing rest of traj at 1453977289835932970
+[rosout][INFO] 2016-01-28 11:34:56,680: Time taken for rest of trajectory: 6.842795134
+[rosout][INFO] 2016-01-28 11:35:22,634: got traj at 1453977322634797096
+[rosout][INFO] 2016-01-28 11:35:25,625: executing rest of traj at 1453977325625583887
+[rosout][INFO] 2016-01-28 11:35:32,444: Time taken for rest of trajectory: 6.817322969
+[rosout][INFO] 2016-01-28 11:36:06,727: got traj at 1453977366727082967
+[rosout][INFO] 2016-01-28 11:36:09,737: executing rest of traj at 1453977369737473011
+[rosout][INFO] 2016-01-28 11:36:16,540: Time taken for rest of trajectory: 6.802815915
+[rosout][INFO] 2016-01-28 11:36:50,446: got traj at 1453977410446840047
+[rosout][INFO] 2016-01-28 11:36:53,437: executing rest of traj at 1453977413437762022
+[rosout][INFO] 2016-01-28 11:37:00,257: Time taken for rest of trajectory: 6.818871021
+[rosout][INFO] 2016-01-28 11:37:33,337: got traj at 1453977453337728023
+[rosout][INFO] 2016-01-28 11:37:36,329: executing rest of traj at 1453977456329718112
+[rosout][INFO] 2016-01-28 11:37:43,155: Time taken for rest of trajectory: 6.825818061
+[rosout][INFO] 2016-01-28 11:38:12,506: got traj at 1453977492506316900
+[rosout][INFO] 2016-01-28 11:38:15,343: executing rest of traj at 1453977495343724966
+[rosout][INFO] 2016-01-28 11:38:22,179: Time taken for rest of trajectory: 6.835364103
+[rosout][INFO] 2016-01-28 11:39:00,590: got traj at 1453977540590698003
+[rosout][INFO] 2016-01-28 11:39:03,585: executing rest of traj at 1453977543585216045
+[rosout][INFO] 2016-01-28 11:39:10,398: Time taken for rest of trajectory: 6.812399864
+[rospy.internal][ERROR] 2016-01-28 11:39:30,587: Unable to initiate TCP/IP socket to 10.0.0.11:55427 (http://10.0.0.11:36145/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2016-01-28 11:39:31,588: Unknown error initiating TCP/IP socket to 10.0.0.11:55427 (http://10.0.0.11:36145/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2016-01-28 11:39:31,588: topic[/write_traj_downsampled] removing connection to http://10.0.0.11:36145/
+[rosout][INFO] 2016-01-28 11:41:21,198: Stopped task
+[rospy.core][INFO] 2016-01-28 11:42:05,610: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2016-01-28 11:42:05,624: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-28 11:42:05,624: topic[/tf] removing connection to http://10.0.0.11:49640/
+[rospy.internal][INFO] 2016-01-28 11:42:05,627: topic[/tf] removing connection to http://10.0.0.11:36604/
+[rospy.internal][INFO] 2016-01-28 11:42:05,627: topic[/tf] removing connection to http://10.0.0.11:33136/
+[rospy.internal][INFO] 2016-01-28 11:42:05,627: topic[/tf] removing connection to http://10.0.0.11:50362/
+[rospy.internal][INFO] 2016-01-28 11:42:05,627: topic[/tf] removing connection to http://10.0.0.11:48439/
+[rospy.internal][INFO] 2016-01-28 11:42:05,627: topic[/tf] removing connection to http://10.0.0.11:58276/
+[rospy.internal][INFO] 2016-01-28 11:42:05,628: topic[/tf] removing connection to http://10.0.0.11:38255/
+[rospy.internal][INFO] 2016-01-28 11:42:05,628: topic[/tf] removing connection to http://10.0.0.11:49582/
+[rospy.internal][INFO] 2016-01-28 11:42:05,628: topic[/tf] removing connection to http://10.0.0.11:57262/
+[rospy.internal][INFO] 2016-01-28 11:42:05,628: topic[/tf] removing connection to http://10.0.0.11:50138/
+[rospy.impl.masterslave][INFO] 2016-01-28 11:42:05,628: signal-2
+[rospy.core][INFO] 2016-01-28 11:42:06,262: signal_shutdown [atexit]
+[rospy.client][INFO] 2016-01-28 13:49:24,090: init_node, name[/nao_writer], pid[10576]
+[xmlrpc][INFO] 2016-01-28 13:49:24,094: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-01-28 13:49:24,098: Started XML-RPC server [http://10.0.0.11:47868/]
+[rospy.init][INFO] 2016-01-28 13:49:24,098: ROS Slave URI: [http://10.0.0.11:47868/]
+[rospy.impl.masterslave][INFO] 2016-01-28 13:49:24,111: _ready: http://10.0.0.11:47868/
+[rospy.registration][INFO] 2016-01-28 13:49:24,122: Registering with master node http://10.0.0.11:11311/
+[xmlrpc][INFO] 2016-01-28 13:49:24,122: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2016-01-28 13:49:24,211: registered with master
+[rospy.rosout][INFO] 2016-01-28 13:49:24,211: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-01-28 13:49:24,240: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-01-28 13:49:24,270: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2016-01-28 13:49:24,369: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2016-01-28 13:49:24,740: Subscribed to robotHasFallen event
+[rospy.internal][INFO] 2016-01-28 13:49:25,393: topic[/write_traj_downsampled] adding connection to [http://10.0.0.11:55614/], count 0
+[rospy.internal][INFO] 2016-01-28 13:49:29,391: topic[/tf] adding connection to [http://10.0.0.11:47096/], count 0
+[rospy.internal][INFO] 2016-01-28 13:49:29,391: topic[/tf] adding connection to [http://10.0.0.11:38781/], count 0
+[rospy.internal][INFO] 2016-01-28 13:49:29,392: topic[/tf] adding connection to [http://10.0.0.11:49204/], count 0
+[rospy.internal][INFO] 2016-01-28 13:49:29,393: topic[/tf] adding connection to [http://10.0.0.11:40484/], count 0
+[rospy.internal][INFO] 2016-01-28 13:49:29,394: topic[/tf] adding connection to [http://10.0.0.11:47651/], count 0
+[rospy.internal][INFO] 2016-01-28 13:49:29,394: topic[/tf] adding connection to [http://10.0.0.11:50828/], count 0
+[rospy.internal][INFO] 2016-01-28 13:49:29,397: topic[/tf] adding connection to [http://10.0.0.11:50236/], count 4
+[rospy.internal][INFO] 2016-01-28 13:49:29,399: topic[/tf] adding connection to [http://10.0.0.11:36955/], count 7
+[rospy.internal][INFO] 2016-01-28 13:49:29,409: topic[/tf] adding connection to [http://10.0.0.11:37179/], count 8
+[rospy.internal][INFO] 2016-01-28 13:49:29,412: topic[/tf] adding connection to [http://10.0.0.11:50928/], count 9
+[rosout][INFO] 2016-01-28 13:49:50,946: got traj at 1453985390946548938
+[rosout][INFO] 2016-01-28 13:49:53,935: executing rest of traj at 1453985393935626983
+[rosout][INFO] 2016-01-28 13:49:59,747: Time taken for rest of trajectory: 5.811304093
+[rosout][INFO] 2016-01-28 13:50:25,923: got traj at 1453985425923135042
+[rosout][INFO] 2016-01-28 13:50:28,911: executing rest of traj at 1453985428911729097
+[rosout][INFO] 2016-01-28 13:50:34,709: Time taken for rest of trajectory: 5.797109127
+[rosout][INFO] 2016-01-28 13:51:16,372: got traj at 1453985476372307062
+[rosout][INFO] 2016-01-28 13:51:19,355: executing rest of traj at 1453985479355063915
+[rosout][INFO] 2016-01-28 13:51:25,226: Time taken for rest of trajectory: 5.871283054
+[rosout][INFO] 2016-01-28 13:51:53,868: got traj at 1453985513868078947
+[rosout][INFO] 2016-01-28 13:51:56,859: executing rest of traj at 1453985516859719038
+[rosout][INFO] 2016-01-28 13:52:02,666: Time taken for rest of trajectory: 5.805750131
+[rosout][INFO] 2016-01-28 13:52:40,384: got traj at 1453985560384659051
+[rosout][INFO] 2016-01-28 13:52:43,377: executing rest of traj at 1453985563377413034
+[rosout][INFO] 2016-01-28 13:52:49,185: Time taken for rest of trajectory: 5.807448148
+[rosout][INFO] 2016-01-28 13:53:19,526: got traj at 1453985599526530027
+[rosout][INFO] 2016-01-28 13:53:22,520: executing rest of traj at 1453985602520514965
+[rosout][INFO] 2016-01-28 13:53:28,336: Time taken for rest of trajectory: 5.815457106
+[rosout][INFO] 2016-01-28 13:53:56,166: got traj at 1453985636166866064
+[rosout][INFO] 2016-01-28 13:53:59,176: executing rest of traj at 1453985639176065921
+[rosout][INFO] 2016-01-28 13:54:05,336: Time taken for rest of trajectory: 6.159964084
+[rosout][INFO] 2016-01-28 13:54:25,627: got traj at 1453985665627104997
+[rosout][INFO] 2016-01-28 13:54:28,635: executing rest of traj at 1453985668635756015
+[rosout][INFO] 2016-01-28 13:54:35,464: Time taken for rest of trajectory: 6.828161001
+[rosout][INFO] 2016-01-28 13:55:15,227: got traj at 1453985715227390050
+[rosout][INFO] 2016-01-28 13:55:18,220: executing rest of traj at 1453985718220808982
+[rosout][INFO] 2016-01-28 13:55:27,022: Time taken for rest of trajectory: 8.800801038
+[rosout][INFO] 2016-01-28 13:56:36,329: got traj at 1453985796329571008
+[rosout][INFO] 2016-01-28 13:56:39,315: executing rest of traj at 1453985799315927982
+[rosout][INFO] 2016-01-28 13:56:48,136: Time taken for rest of trajectory: 8.818634987
+[rosout][INFO] 2016-01-28 13:57:40,949: got traj at 1453985860949856996
+[rosout][INFO] 2016-01-28 13:57:43,939: executing rest of traj at 1453985863939676046
+[rosout][INFO] 2016-01-28 13:57:49,741: Time taken for rest of trajectory: 5.800437212
+[rosout][INFO] 2016-01-28 13:58:22,264: got traj at 1453985902264878988
+[rosout][INFO] 2016-01-28 13:58:25,191: executing rest of traj at 1453985905191831111
+[rosout][INFO] 2016-01-28 13:58:31,002: Time taken for rest of trajectory: 5.809665918
+[rosout][INFO] 2016-01-28 13:58:49,897: got traj at 1453985929871691942
+[rosout][INFO] 2016-01-28 13:58:52,863: executing rest of traj at 1453985932863857030
+[rosout][INFO] 2016-01-28 13:58:58,658: Time taken for rest of trajectory: 5.794157028
+[rosout][INFO] 2016-01-28 13:59:25,365: got traj at 1453985965365576982
+[rosout][INFO] 2016-01-28 13:59:28,355: executing rest of traj at 1453985968355341911
+[rosout][INFO] 2016-01-28 13:59:34,160: Time taken for rest of trajectory: 5.804244041
+[rosout][INFO] 2016-01-28 13:59:51,690: got traj at 1453985991690853118
+[rosout][INFO] 2016-01-28 13:59:54,682: executing rest of traj at 1453985994682873010
+[rosout][INFO] 2016-01-28 14:00:00,478: Time taken for rest of trajectory: 5.794945956
+[rosout][INFO] 2016-01-28 14:00:37,446: got traj at 1453986037446333885
+[rosout][INFO] 2016-01-28 14:00:40,455: executing rest of traj at 1453986040455817937
+[rosout][INFO] 2016-01-28 14:00:46,277: Time taken for rest of trajectory: 5.820905924
+[rosout][INFO] 2016-01-28 14:00:59,234: got traj at 1453986059234065055
+[rosout][INFO] 2016-01-28 14:01:02,200: executing rest of traj at 1453986062200114011
+[rosout][INFO] 2016-01-28 14:01:08,008: Time taken for rest of trajectory: 5.807566166
+[rosout][INFO] 2016-01-28 14:01:34,582: got traj at 1453986094582257032
+[rosout][INFO] 2016-01-28 14:01:37,546: executing rest of traj at 1453986097546245098
+[rosout][INFO] 2016-01-28 14:01:43,355: Time taken for rest of trajectory: 5.808777094
+[rosout][INFO] 2016-01-28 14:01:54,910: got traj at 1453986114910722017
+[rosout][INFO] 2016-01-28 14:01:57,898: executing rest of traj at 1453986117898021936
+[rosout][INFO] 2016-01-28 14:02:03,695: Time taken for rest of trajectory: 5.797397852
+[rosout][INFO] 2016-01-28 14:02:38,023: got traj at 1453986158023221969
+[rosout][INFO] 2016-01-28 14:02:41,017: executing rest of traj at 1453986161017942905
+[rosout][INFO] 2016-01-28 14:02:46,817: Time taken for rest of trajectory: 5.798744917
+[rosout][INFO] 2016-01-28 14:02:59,608: got traj at 1453986179608822107
+[rosout][INFO] 2016-01-28 14:03:02,599: executing rest of traj at 1453986182599751949
+[rosout][INFO] 2016-01-28 14:03:08,395: Time taken for rest of trajectory: 5.794708013
+[rosout][INFO] 2016-01-28 14:03:33,209: got traj at 1453986213209824085
+[rosout][INFO] 2016-01-28 14:03:36,203: executing rest of traj at 1453986216203912019
+[rosout][INFO] 2016-01-28 14:03:42,015: Time taken for rest of trajectory: 5.811100006
+[rosout][INFO] 2016-01-28 14:04:05,823: got traj at 1453986245823628902
+[rosout][INFO] 2016-01-28 14:04:08,792: executing rest of traj at 1453986248792263031
+[rosout][INFO] 2016-01-28 14:04:14,594: Time taken for rest of trajectory: 5.802227021
+[rosout][INFO] 2016-01-28 14:04:40,825: got traj at 1453986280825407981
+[rosout][INFO] 2016-01-28 14:04:43,819: executing rest of traj at 1453986283819051027
+[rosout][INFO] 2016-01-28 14:04:49,658: Time taken for rest of trajectory: 5.839061022
+[rosout][INFO] 2016-01-28 14:05:17,908: got traj at 1453986317908637046
+[rosout][INFO] 2016-01-28 14:05:20,919: executing rest of traj at 1453986320919739007
+[rosout][INFO] 2016-01-28 14:05:28,733: Time taken for rest of trajectory: 7.813379049
+[rosout][INFO] 2016-01-28 14:06:37,396: got traj at 1453986397396725893
+[rosout][INFO] 2016-01-28 14:06:40,365: executing rest of traj at 1453986400365664958
+[rosout][INFO] 2016-01-28 14:06:48,214: Time taken for rest of trajectory: 7.846463919
+[rosout][INFO] 2016-01-28 14:08:00,448: got traj at 1453986480448468923
+[rosout][INFO] 2016-01-28 14:08:03,438: executing rest of traj at 1453986483438024997
+[rosout][INFO] 2016-01-28 14:08:11,251: Time taken for rest of trajectory: 7.812546015
+[rosout][INFO] 2016-01-28 14:08:39,064: got traj at 1453986519064750909
+[rosout][INFO] 2016-01-28 14:08:42,040: executing rest of traj at 1453986522040060043
+[rosout][INFO] 2016-01-28 14:08:48,856: Time taken for rest of trajectory: 6.815222978
+[rosout][INFO] 2016-01-28 14:10:14,783: got traj at 1453986614783440113
+[rosout][INFO] 2016-01-28 14:10:17,751: executing rest of traj at 1453986617751801967
+[rosout][INFO] 2016-01-28 14:10:24,586: Time taken for rest of trajectory: 6.834471941
+[rosout][INFO] 2016-01-28 14:10:55,065: got traj at 1453986655065783023
+[rosout][INFO] 2016-01-28 14:10:58,054: executing rest of traj at 1453986658054091930
+[rosout][INFO] 2016-01-28 14:11:04,876: Time taken for rest of trajectory: 6.821970939
+[rosout][INFO] 2016-01-28 14:12:02,555: got traj at 1453986722555957078
+[rosout][INFO] 2016-01-28 14:12:05,550: executing rest of traj at 1453986725550767898
+[rosout][INFO] 2016-01-28 14:12:11,385: Time taken for rest of trajectory: 5.834534883
+[rosout][INFO] 2016-01-28 14:13:04,238: got traj at 1453986784238137960
+[rosout][INFO] 2016-01-28 14:13:07,240: executing rest of traj at 1453986787240014076
+[rosout][INFO] 2016-01-28 14:13:13,049: Time taken for rest of trajectory: 5.808254003
+[rospy.internal][ERROR] 2016-01-28 14:14:48,866: Unable to initiate TCP/IP socket to 10.0.0.11:44855 (http://10.0.0.11:55614/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2016-01-28 14:14:49,877: Unknown error initiating TCP/IP socket to 10.0.0.11:44855 (http://10.0.0.11:55614/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2016-01-28 14:14:49,877: topic[/write_traj_downsampled] removing connection to http://10.0.0.11:55614/
+[rospy.internal][WARNING] 2016-01-28 14:14:55,487: Unknown error initiating TCP/IP socket to 10.0.0.11:42668 (http://10.0.0.11:50828/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2016-01-28 14:14:55,487: topic[/tf] removing connection to http://10.0.0.11:50828/
+[rospy.internal][WARNING] 2016-01-28 14:14:55,494: Unknown error initiating TCP/IP socket to 10.0.0.11:47867 (http://10.0.0.11:47651/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2016-01-28 14:14:55,494: topic[/tf] removing connection to http://10.0.0.11:47651/
+[rospy.internal][WARNING] 2016-01-28 14:14:55,496: Unknown error initiating TCP/IP socket to 10.0.0.11:38361 (http://10.0.0.11:49204/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2016-01-28 14:14:55,496: topic[/tf] removing connection to http://10.0.0.11:49204/
+[rospy.internal][WARNING] 2016-01-28 14:14:55,502: Unknown error initiating TCP/IP socket to 10.0.0.11:55155 (http://10.0.0.11:40484/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2016-01-28 14:14:55,502: topic[/tf] removing connection to http://10.0.0.11:40484/
+[rospy.internal][WARNING] 2016-01-28 14:14:55,532: Unknown error initiating TCP/IP socket to 10.0.0.11:35531 (http://10.0.0.11:50236/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2016-01-28 14:14:55,532: topic[/tf] removing connection to http://10.0.0.11:50236/
+[rospy.internal][WARNING] 2016-01-28 14:14:55,539: Unknown error initiating TCP/IP socket to 10.0.0.11:55300 (http://10.0.0.11:38781/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2016-01-28 14:14:55,539: topic[/tf] removing connection to http://10.0.0.11:38781/
+[rospy.internal][WARNING] 2016-01-28 14:14:55,540: Unknown error initiating TCP/IP socket to 10.0.0.11:50022 (http://10.0.0.11:36955/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2016-01-28 14:14:55,540: topic[/tf] removing connection to http://10.0.0.11:36955/
+[rospy.internal][WARNING] 2016-01-28 14:14:55,547: Unknown error initiating TCP/IP socket to 10.0.0.11:54518 (http://10.0.0.11:47096/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2016-01-28 14:14:55,547: topic[/tf] removing connection to http://10.0.0.11:47096/
+[rospy.core][INFO] 2016-01-28 14:29:02,646: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2016-01-28 14:29:02,657: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-01-28 14:29:02,658: topic[/tf] removing connection to http://10.0.0.11:37179/
+[rospy.internal][INFO] 2016-01-28 14:29:02,659: topic[/tf] removing connection to http://10.0.0.11:50928/
+[rospy.impl.masterslave][INFO] 2016-01-28 14:29:02,659: signal-2
+[rospy.internal][WARNING] 2016-01-28 14:29:02,659: Unknown error initiating TCP/IP socket to 10.0.0.11:49116 (http://10.0.0.11:50928/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.core][INFO] 2016-01-28 14:29:02,775: signal_shutdown [atexit]

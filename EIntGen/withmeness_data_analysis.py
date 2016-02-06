@@ -30,19 +30,88 @@ def withmenesslogtoCSV(fname):
 	withmeness = np.genfromtxt(open(fname, 'r'), dtype=None, delimiter=" ", skip_header=1)
 	data_w=[]
 	count=0
+	row_t1 = withmeness[0]
 	for row in withmeness:
-		data = row[-1]
-		data = data[:-1]
-		data_w.append([count,datetime.strptime(row[0].replace('"','')+' '+row[1].replace('"',''),'%Y-%m-%d %H:%M:%S:%f'), float(data)])
+		data = row[-1][:-1]
+		data_t1 = row_t1[-1][:-1]
+		evol=0
+		if(float(data_t1)-float(data)>0):
+			evol= -1 
+		elif(float(data_t1)-float(data)<0):
+			 evol= 1
+		data_w.append([count,datetime.strptime(row[0].replace('"','')+' '+row[1].replace('"',''),'%Y-%m-%d %H:%M:%S:%f'), float(data), evol])
 		count+=1
+		row_t1=row
 	return data_w
+	
+def rewrite_withmenssCSV():
+	csvfileout = open('all_withmeness_r.csv', 'w')
+	csvheader=("idx","datetime","child_id","child_name","session","fformation","alone","groupid","gender","chouchou","withmeness_value","evol")
+	csvheadero=("idx","datetime","child_id","child_name","session","fformation","alone","groupid","gender","chouchou","withmeness_value","evol","new_w")
+	writer = csv.DictWriter(csvfileout, csvheadero)
+	writer.writeheader()
+	csvfilein = open('all_withmeness.csv', 'r')
+	reader = csv.DictReader(csvfilein, csvheader)
+	count=1
+	value = 0.5 
+	print("enter")
+	current_child =''
+	current_session = ''
+	current_index = 0
+	for row in reader:
+		row2=row
+		
+		if(count==1):
+			current_child = row["child_id"]
+			current_session = row["session"]
+			count+=1
+		elif(count>1):
+			count+=1
+			if(row["child_id"]!=current_child) or (row["session"]!=current_session) :
+				value = 0.5 
+				row["new_w"] = value
+				current_child = row["child_id"]
+				current_session = row["session"]
+				current_index=0
+				print(row["child_id"],row["session"])
+			else:
+				if(row["evol"]=='-1'):
+					value = 0.9 * value 
+				elif(row["evol"]=='1'):
+					value = 0.9 * value + 0.1
+				#print("prev data ",row["withmeness_value"])
+				#print("new data", value)
+				row2["new_w"] = value
+		row2["idx"]=current_index
+		current_index+=1
+		writer.writerow(row2)
+	csvfileout.close()
+	csvfilein.close()
+		
+		
+
+def recompute_withmeness(data):
+	print(data[0][-2])
+	#data[0][:-1] = 0.5
+	value = 0.5 
+	data[0][-2] = value
+	for row in range(1,len(data)):
+		if(data[row][-1]<0):
+			value = 0.9 * value + 0.1
+		elif(data[row][-1]>0):
+			value = 0.9 * value 
+		data[row][-2] = value
+		print("prev data ",data[row][-2])
+		print("new data", value)
+	return data
+		
 	
 def exportWithmeness_wfactors():
 	'''
 	Produce the file all_withmeness from all the files in attentionLogs starting with withmeness and from the session_info
 	'''
 	csvfileout = open('all_withmeness.csv', 'w')
-	csvheader=("idx","datetime","child_id","child_name","session","fformation","alone","groupid","withmeness_value")
+	csvheader=("idx","datetime","child_id","child_name","session","fformation","alone","groupid","gender","chouchou","withmeness_value","evol")
 	writer = csv.DictWriter(csvfileout, csvheader)
 	writer.writeheader()
 	
@@ -65,11 +134,12 @@ def exportWithmeness_wfactors():
 				if(current_time>= start_time and  current_time<= end_time):
 					#print(start_time)
 					print(datetime.strftime(current_time,'%Y-%m-%d %H:%M:%S:%f'),i[0], i[1],i[-1],i[5], i[9],i[10],row[2])
-					new_row = {"idx":row[0],"datetime":datetime.strftime(current_time,'%Y-%m-%d %H:%M:%S:%f'),"child_id":i[0],"child_name":i[1],"session":i[-1],"fformation":i[5],"withmeness_value":row[2]}
+					new_row = {"idx":row[0],"datetime":datetime.strftime(current_time,'%Y-%m-%d %H:%M:%S:%f'),"child_id":i[0],"child_name":i[1],"session":i[-5],"fformation":i[5],"alone":i[-4],"groupid":i[-3],"gender":i[-2],"chouchou":i[-1],"withmeness_value":row[2], "evol":row[3]}
 					writer.writerow(new_row)
 					#print(end_time)
 	csvfileout.close()
 
+	
 
 ###########targets
 def targetslogtoCSV(fname):
@@ -89,7 +159,7 @@ def targetslogtoCSV(fname):
 
 def exportTargets_wfactors():
 	csvfileout = open('all_targets.csv', 'w')
-	csvheader=("idx","datetime","child_id","child_name","session","fformation","alone","groupid","target")
+	csvheader=("idx","datetime","child_id","child_name","session","fformation","alone","groupid","gender","chouchou","target")
 	writer = csv.DictWriter(csvfileout, csvheader)
 	writer.writeheader()
 	info=readInfoFile()
@@ -105,18 +175,17 @@ def exportTargets_wfactors():
 		for row in data:
 			current_time = row[1]
 			for i in info:
-				#print(i)
 				start_time = datetime.strptime(i[2]+' '+i[3], '%d.%m.%y %H:%M:%S.%f')
 				end_time = datetime.strptime(i[2]+' '+i[6], '%d.%m.%y %H:%M:%S.%f')
+				
 				if(current_time>= start_time and  current_time<= end_time):
-					#print(start_time)
-					print(datetime.strftime(current_time,'%Y-%m-%d %H:%M:%S:%f'),i[0], i[1],i[-1],i[5], i[9],i[10],row[2])
-					new_row = {"idx":row[0],"datetime":datetime.strftime(current_time,'%Y-%m-%d %H:%M:%S:%f'),"child_id":i[0],"child_name":i[1],"session":i[-1],"fformation":i[5],"target":row[2]}
+					new_row = {"idx":row[0],"datetime":datetime.strftime(current_time,'%Y-%m-%d %H:%M:%S:%f'),"child_id":i[0],"child_name":i[1],"session":i[-5],"fformation":i[5],"alone":i[-4],"groupid":i[-3],"gender":i[-2],"chouchou":i[-1],"target":row[2]}
 					writer.writerow(new_row)
-					#print(end_time)
 	csvfileout.close()
 	
 if __name__=="__main__":
 	#exportWithmeness_wfactors()
-	exportTargets_wfactors()
+	rewrite_withmenssCSV()
+	#exportTargets_wfactors()
+	
 	

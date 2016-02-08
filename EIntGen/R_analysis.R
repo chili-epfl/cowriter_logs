@@ -8,6 +8,8 @@ library(gplots)
 all_withmeness <- read.csv("~/Documents/CODING/CoWriter/cowriter_logs/EIntGen/all_withmeness_r.csv")
 View(all_withmeness)
 attach(all_withmeness)
+withme_sorted <- all_withmeness[order(datetime),] 
+write.csv(withme_sorted, "~/Documents/CODING/CoWriter/cowriter_logs/EIntGen/withme_sorted.csv")
 
 all_withmeness$session <- as.factor(session)
 all_withmeness$child_id <- as.factor(child_id)
@@ -31,12 +33,13 @@ child2session <- subset(all_withmeness, ((child_id>=1) & (child_id<=8)) | (child
 all_withmeness <- child2session
 
 current <- f2fs
-p <- ggplot(all_withmeness, aes(x=idx))+ facet_wrap(~child_name, ncol=4)
+p <- ggplot(withme_sorted, aes(x=idx))+ facet_wrap(~child_name, ncol=4)
 p + stat_smooth(aes(y=new_w,  color=fformation)) 
 p+ stat_smooth(aes(y=new_w))
 p + geom_line(aes(y=new_w,color=fformation))
 
-stat_withme <- summarySE(all_withmeness, measurevar="new_w", groupvars=c("fformation","session","alone","gender","chouchou"))
+stat_withme <- summarySE(all_withmeness, measurevar="new_w", groupvars=c("fformation","session","child_id"))
+write.csv(stat_withme, "~/Documents/CODING/CoWriter/cowriter_logs/EIntGen/stat_withme.csv")
 
 
 ### fformation : sbs or f2f
@@ -120,6 +123,9 @@ interaction.plot(fformation, gender, new_w, type="b", col=c(1:3),
 all_targets <- read.csv("~/Documents/CODING/CoWriter/cowriter_logs/EIntGen/all_targets.csv")
 View(all_targets)
 attach(all_targets)
+target_sorted <- all_targets[order(datetime),] 
+write.csv(target_sorted, "~/Documents/CODING/CoWriter/cowriter_logs/EIntGen/target_sorted.csv")
+
 all_targets$session <- as.factor(session)
 all_targets$child_id <- as.factor(child_id)
 
@@ -138,7 +144,6 @@ s2 <- subset(all_targets, (session=='2'))
 pie(summary(s1$target,col=rainbow(5), main="# of targets"))
 pie(summary(s2$target,col=rainbow(5), main="# of targets"))
 
-ta
 
 
 ##########################
@@ -147,12 +152,29 @@ ta
 all_userfeeback <- read.csv("~/Documents/CODING/CoWriter/cowriter_logs/EIntGen/all_userfeeback.csv")
 View(all_userfeeback)
 attach(all_userfeeback)
+userfb_sorted <- all_userfeeback[order(datetime),] 
+write.csv(userfb_sorted, "~/Documents/CODING/CoWriter/cowriter_logs/EIntGen/uf_sorted.csv")
 
 #extract children that actually passed the 2 session
 child2session <- subset(all_userfeeback, ((child_id>=1) & (child_id<=8)) | (child_id==10) | (child_id>=22))
 all_userfeeback <- child2session
 all_userfeeback$session <- as.factor(session)
 all_userfeeback$child_id <- as.factor(child_id)
+
+
+stat_uf <- summarySE(all_userfeeback, measurevar="feedback", groupvars=c("fformation","session","child_id"))
+write.csv(stat_uf, "~/Documents/CODING/CoWriter/cowriter_logs/EIntGen/stat_uf.csv")
+
+usef_withme <- merge(stat_uf, stat_withme, by = c('fformation','session','child_id'), all = TRUE)
+p <- ggplot(usef_withme, aes(x=usef_withme$new_w, y=usef_withme$feedback, group=usef_withme$fformation, color=fformation))
+p+geom_point()
+Labblue.palette <- colorRampPalette(c( "white", "red"), space = "Lab")
+cor_ton<-cor(usef_withme$new_w, usef_withme$feedback, use="complete.obs",method = c("pearson", "kendall", "spearman"))
+smoothScatter(usef_withme$new_w, usef_withme$feedback, xlab="Withmeness", ylab="Userfeedback", colramp = Labblue.palette)
+legend("topleft", paste("R=", round(cor_ton,digits = 2)), bty="n")
+reg3 <- lm(usef_withme$new_w~usef_withme$feedback)
+abline(reg3)
+
 
 
 p <- ggplot(all_userfeeback, aes(fformation))
@@ -207,6 +229,23 @@ p + geom_boxplot(aes(fill=factor(all_timelogs$fformation)))
 p <- ggplot(all_withmeness, aes(factor(all_withmeness$session),new_w))
 p + geom_boxplot(aes(fill=factor(all_withmeness$session))) 
 
+
+
+
+##########################
+##### UD WITHMENESS
+##########################
+uf_withmeness <- read.csv("~/Documents/CODING/CoWriter/cowriter_logs/EIntGen/uf_withmeness.csv")
+View(uf_withmeness)
+p <- ggplot(all_timelogs, aes(factor(all_timelogs$fformation), writingt))
+p + geom_boxplot(aes(fill=factor(all_timelogs$fformation))) 
+
+Labblue.palette <- colorRampPalette(c( "white", "red"), space = "Lab")
+cor_ton<-cor(uf_withmeness$new_w, uf_withmeness$feedback, use="complete.obs",method = c("pearson", "kendall", "spearman"))
+smoothScatter(uf_withmeness$new_w, uf_withmeness$feedback, xlab="Withmeness", ylab="Userfeedback", colramp = Labblue.palette)
+legend("topleft", paste("R=", round(cor_ton,digits = 2)), bty="n")
+reg3 <- lm(uf_withmeness$new_w~uf_withmeness$feedback)
+abline(reg3)
 
 
 ########################### HELPING FUNCTIONS

@@ -34,7 +34,6 @@ def userfeedbacktoCSV(fname):
 			if(len(row)==3 and row[2].startswith("user_feedback")):
 				feedback = row[2].split(':')
 				feedback[-1] = feedback[-1].replace('\r\n','')
-				print(repr(feedback[-1]))
 				data_w.append([count,datetime.strptime(row[0].replace('"','')+' '+row[1].replace('"',''),'%Y-%m-%d %H:%M:%S:%f'), feedback[-1].replace('"','')])
 			count+=1
 			#print(row)
@@ -61,7 +60,8 @@ def exportFeedback_wfactors():
 				end_time = datetime.strptime(i[2]+' '+i[6], '%d.%m.%y %H:%M:%S.%f')
 				
 				if(current_time>= start_time and  current_time<= end_time):
-					new_row = {"idx":row[0],"datetime":datetime.strftime(current_time,'%Y-%m-%d %H:%M:%S:%f'),"child_id":i[0],"child_name":i[1],"session":i[-5],"fformation":i[5],"alone":i[-4],"groupid":i[-3],"gender":i[-2],"chouchou":i[-1],"feedback":row[-1]}
+					feedback = -1 if  row[-1]=='-' else 1
+					new_row = {"idx":row[0],"datetime":datetime.strftime(current_time,'%Y-%m-%d %H:%M:%S:%f'),"child_id":i[0],"child_name":i[1],"session":i[-5],"fformation":i[5],"alone":i[-4],"groupid":i[-3],"gender":i[-2],"chouchou":i[-1],"feedback":feedback}
 					writer.writerow(new_row)
 	csvfileout.close()
 	

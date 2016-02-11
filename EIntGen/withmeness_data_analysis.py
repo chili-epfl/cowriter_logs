@@ -139,6 +139,43 @@ def exportWithmeness_wfactors():
 					#print(end_time)
 	csvfileout.close()
 
+
+def resample_withUF(wfname="withme_sorted.csv", uffname ="uf_sorted.csv"):
+	'''
+	takes the closest value of withmeness regarding the time of the user_feedback
+	'''
+	wcsvheader=("X","idx","datetime","child_id","child_name","session","fformation","alone","groupid","gender","chouchou","withmeness_value","evol","new_w")
+	csvheader=("idx","datetime","child_id","child_name","session","fformation","alone","groupid","gender","chouchou","withmeness_value","evol","new_w","feedback")
+	fcsvheader=("X","idx","datetime","child_id","child_name","session","fformation","alone","groupid","gender","chouchou","feedback")
+	
+	wcsvfilein = open(wfname, 'r')
+	wreader = csv.DictReader(wcsvfilein, wcsvheader)
+	fcsvfilein = open(uffname, 'r')
+	freader = csv.DictReader(fcsvfilein, fcsvheader)
+	next(freader, None)  # skip the headers
+	next(wreader, None)  # skip the headers
+	
+	prev_time = datetime(1985, 7, 2, 12, 30) 
+	ufrow = freader.next()
+	u_time =  datetime.strptime(ufrow["datetime"], '%Y-%m-%d %H:%M:%S:%f')
+	csvfileout = open('uf_withmeness.csv', 'w')
+	writer = csv.DictWriter(csvfileout, csvheader)
+	writer.writeheader()
+	for wrow in wreader:
+		print(wrow["datetime"])
+		c_time = datetime.strptime(wrow["datetime"], '%Y-%m-%d %H:%M:%S:%f')
+		while((u_time> prev_time) and (u_time<= c_time)):
+			new_row = {"idx":ufrow["idx"],"datetime":datetime.strftime(c_time,'%Y-%m-%d %H:%M:%S:%f'),"child_id":wrow["child_id"],"child_name":wrow["child_name"],"session":wrow["session"],"fformation":wrow["fformation"],"alone":wrow["alone"],"groupid":wrow["groupid"],"gender":wrow["gender"],"chouchou":wrow["chouchou"],"withmeness_value":wrow["withmeness_value"], "evol":wrow["evol"],"new_w":wrow["new_w"],"feedback":ufrow["feedback"]}
+			writer.writerow(new_row)
+			ufrow = freader.next()
+			u_time =  datetime.strptime(ufrow["datetime"], '%Y-%m-%d %H:%M:%S:%f')
+		prev_time = c_time
+	
+	wcsvfilein.close()
+	fcsvfilein.close()
+	csvfileout.close()
+		
+		
 	
 
 ###########targets
@@ -185,7 +222,8 @@ def exportTargets_wfactors():
 	
 if __name__=="__main__":
 	#exportWithmeness_wfactors()
-	rewrite_withmenssCSV()
+	#rewrite_withmenssCSV()
+	resample_withUF()
 	#exportTargets_wfactors()
 	
 	
